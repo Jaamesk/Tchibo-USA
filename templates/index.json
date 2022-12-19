@@ -76,7 +76,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide5.webp",
             "title": "All our coffees are grown on Rainforest Alliance Certified™ Farms. Celebrate our commitment to the environment with special discounts on multi-packs.",
-            "heading_tag": "h6",
+            "heading_tag": "h5",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
