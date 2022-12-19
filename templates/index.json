@@ -269,67 +269,6 @@
         "product_card_text_color": ""
       }
     },
-    "674bec46-0347-48b2-813a-fa0ec32cda39": {
-      "type": "impact-text",
-      "blocks": {
-        "template--15631460925646__674bec46-0347-48b2-813a-fa0ec32cda39-1671461377c82e72e8-0": {
-          "type": "item",
-          "settings": {
-            "title": "55%",
-            "subheading": "Statistik 1",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "db94e7e1-fc02-45e0-b8a7-72bf05f95cec": {
-          "type": "item",
-          "settings": {
-            "title": "79%",
-            "subheading": "Statistik 2",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "e16b7a72-742f-4bc6-9526-21f0b15f7131": {
-          "type": "item",
-          "settings": {
-            "title": "83%",
-            "subheading": "Statistik 3",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__674bec46-0347-48b2-813a-fa0ec32cda39-1671461377c82e72e8-0",
-        "db94e7e1-fc02-45e0-b8a7-72bf05f95cec",
-        "e16b7a72-742f-4bc6-9526-21f0b15f7131"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -390,7 +329,6 @@
     "8947917e-6b6e-4739-b763-fabf1560b46c",
     "f4caa4f2-fc52-48c0-9020-89bdce4a0783",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
-    "674bec46-0347-48b2-813a-fa0ec32cda39",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a"
   ]
 }
