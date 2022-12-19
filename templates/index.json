@@ -7,22 +7,22 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
-            "title": "Exceptional machine, extraordinary deal.",
-            "heading_tag": "h5",
+            "title": "German Engineering meets coffee. Our revolutionary, Bean-to-Brew machine comes with two bags of our Whole Bean Coffee.",
+            "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
+            "desktop_column_span": 3,
             "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "desktop_text_position": "sm:place-self-start sm:text-start",
             "background": "#000000",
             "background_gradient": "",
-            "text_color": "#21292f",
+            "text_color": "#ffffff",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_color": "#21292f",
+            "overlay_opacity": 40
           }
         },
         "item-2": {
@@ -75,7 +75,7 @@
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
+            "desktop_column_span": 4,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
