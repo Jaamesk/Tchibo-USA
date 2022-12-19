@@ -142,25 +142,25 @@
         "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-0": {
           "type": "item",
           "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
+            "horizontal_position": 50,
+            "vertical_position": 37,
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 70,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "LED Touch Panel",
+            "content": "<p>Elegant, intuitive LED panel with touchscreen operation.<\/p>"
           }
         },
         "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
+            "horizontal_position": 42,
+            "vertical_position": 38,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Boost Button",
+            "content": "<p>Boost Button to increase coffee intensity.<\/p>"
           }
         },
         "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-2": {
