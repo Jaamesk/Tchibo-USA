@@ -102,7 +102,7 @@
       ],
       "settings": {
         "full_width": true,
-        "reduce_width": true,
+        "reduce_width": false,
         "desktop_row_height": 290,
         "mobile_row_height": 150,
         "background": "",
