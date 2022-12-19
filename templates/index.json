@@ -148,38 +148,51 @@
             "vertical_position_mobile": 70,
             "icon_width": 32,
             "title": "LED Touch Panel",
-            "content": "<p>Elegant, intuitive LED panel with touchscreen operation.<\/p>"
+            "content": "<p>Elegant, intuitive LED panel with touchscreen operation. Boost Button to increase coffee intensity.<\/p>"
           }
         },
-        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-1": {
+        "b45a5608-7c31-4225-bbc6-66d5ab5c62b2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 42,
-            "vertical_position": 38,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
+            "horizontal_position": 46,
+            "vertical_position": 69,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
             "icon_width": 32,
-            "title": "Boost Button",
-            "content": "<p>Boost Button to increase coffee intensity.<\/p>"
+            "title": "Adjustable Coffee Dispenser",
+            "content": "<p>Adjustable coffee dispenser and removable drip tray for larger mugs.<\/p>"
           }
         },
-        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-2": {
+        "164413cf-7235-4431-b55d-5311badba577": {
           "type": "item",
           "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
+            "horizontal_position": 29,
+            "vertical_position": 51,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Hassle-free Cleaning",
+            "content": "<p>Easy Automatic descaling function. A cleaner machine makes for better tasting coffee. Removable brewing unit for easy cleaning.<\/p>"
+          }
+        },
+        "65297869-7aef-4a39-ad1b-9d58952b3245": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 34,
+            "vertical_position": 34,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "German-engineered Coffee Grinder",
+            "content": "<p>Low-noise stainless steel coffee grinder. Adjustable grinding degree setting. Coffee hopper with aroma protect sealing, adjustable from 5 to 10 ounces.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-0",
-        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-1",
-        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-2"
+        "b45a5608-7c31-4225-bbc6-66d5ab5c62b2",
+        "164413cf-7235-4431-b55d-5311badba577",
+        "65297869-7aef-4a39-ad1b-9d58952b3245"
       ],
       "settings": {
         "full_width": false,
