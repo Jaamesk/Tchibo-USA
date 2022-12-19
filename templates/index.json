@@ -242,6 +242,33 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "f30422d2-c025-465b-9c1d-1940944ceb12": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all-coffee",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Discover our selection of coffee",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "674bec46-0347-48b2-813a-fa0ec32cda39": {
       "type": "impact-text",
       "blocks": {
@@ -303,33 +330,6 @@
         "button_text_color": ""
       }
     },
-    "f30422d2-c025-465b-9c1d-1940944ceb12": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all-coffee",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 6,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Discover our selection of coffee",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -389,8 +389,8 @@
     "media-grid",
     "8947917e-6b6e-4739-b763-fabf1560b46c",
     "f4caa4f2-fc52-48c0-9020-89bdce4a0783",
-    "674bec46-0347-48b2-813a-fa0ec32cda39",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
+    "674bec46-0347-48b2-813a-fa0ec32cda39",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a"
   ]
 }
