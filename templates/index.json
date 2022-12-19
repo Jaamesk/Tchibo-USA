@@ -11,17 +11,10 @@
             "text_color": "",
             "gradient": ""
           }
-        },
-        "5e3f7998-746a-40af-9765-97459ba1328c": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>For over 70 years, the Tchibo Röstmeisters have passionately perfected fresh, aromatic coffees. From growing and harvesting to roasting, blending and packaging, every single step in the process is designed to create fresher coffee in your cup.<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--15631460925646__87599842-b682-4173-b790-94c98fa7d82d-167146151376ac5b56-1",
-        "5e3f7998-746a-40af-9765-97459ba1328c"
+        "template--15631460925646__87599842-b682-4173-b790-94c98fa7d82d-167146151376ac5b56-1"
       ],
       "settings": {
         "full_width": true,
@@ -61,7 +54,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/website_banner_whole_bean_coffee_no_oz1000x500.jpg",
-            "title": "Discover our range of",
+            "title": "Discover our range of Röst Frisch coffees. Ground or Whole Bean.",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/all-coffee",
             "link_text": "Shop Now",
