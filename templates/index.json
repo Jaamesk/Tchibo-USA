@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
             "title": "German Engineering meets coffee. Our revolutionary Bean-to-Brew machine.",
             "heading_tag": "h4",
-            "link_url": "https:\/\/tchibo.us\/products\/the-tchibo",
+            "link_url": "shopify:\/\/products\/the-tchibo",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
