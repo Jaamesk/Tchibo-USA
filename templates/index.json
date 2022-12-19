@@ -52,7 +52,7 @@
           "settings": {
             "video": "shopify:\/\/files\/videos\/TCHIBO_INTRO_1080p_s (2).mp4",
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "show_video_controls": false,
+            "show_video_controls": true,
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
