@@ -33,7 +33,7 @@
     "heading_apparition": "split_fade",
     "product_color_display": "swatch",
     "product_info_alignment": "center",
-    "favicon": "shopify:\/\/shop_images\/tchibo-logo-bean.png",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "sections": {
@@ -82,7 +82,7 @@
         "settings": {
           "enable_sticky": true,
           "hide_on_scroll": false,
-          "logo": "{{shop.brand.logo}}",
+          "logo": "{{ shop.brand.logo }}",
           "logo_max_width": 170,
           "logo_mobile_max_width": 120,
           "menu": "main-menu",
