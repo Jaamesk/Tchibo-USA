@@ -11,10 +11,10 @@
     "icon_stroke_width": 1.5,
     "button_style": "fill",
     "button_hover_effect": "reverse",
-    "background": "#f0f0f0",
-    "text_color": "#2a555a",
-    "header_background": "#ffffff",
-    "header_text_color": "#2a555a",
+    "background": "#ffffff",
+    "text_color": "#21292f",
+    "header_background": "#f8f6f2",
+    "header_text_color": "#21292f",
     "footer_background": "#f7f7f7",
     "footer_text_color": "#2a555a",
     "primary_button_background": "#2a555a",
@@ -26,7 +26,7 @@
     "heading_font": "garamond_n4",
     "heading_font_size": "large",
     "heading_text_transform": "normal",
-    "heading_letter_spacing": -1,
+    "heading_letter_spacing": 0,
     "text_font": "inter_n4",
     "text_font_size_desktop": 15,
     "show_page_transition": true,
@@ -42,22 +42,38 @@
           "message": {
             "type": "message",
             "settings": {
-              "text": "Announce something here",
+              "text": "Coffee best before December 31",
+              "url": ""
+            }
+          },
+          "edd88732-3ea4-42e0-9ff9-b8dcb8ff167f": {
+            "type": "message",
+            "settings": {
+              "text": "FREE SHIPPING $49+",
+              "url": ""
+            }
+          },
+          "4d69ecf0-e7d3-4e8c-bf7d-d4c53d6d9118": {
+            "type": "message",
+            "settings": {
+              "text": "Support Number : 1-888-824-4261",
               "url": ""
             }
           }
         },
         "block_order": [
-          "message"
+          "message",
+          "edd88732-3ea4-42e0-9ff9-b8dcb8ff167f",
+          "4d69ecf0-e7d3-4e8c-bf7d-d4c53d6d9118"
         ],
         "settings": {
           "enable_sticky": false,
           "text_size": "text-xs",
-          "navigation_mode": "scrolling",
+          "navigation_mode": "arrows",
           "scrolling_speed": 10,
-          "background": "#1a1a1a",
+          "background": "#dfddd9",
           "background_gradient": "",
-          "text_color": "#ffffff"
+          "text_color": "#000000"
         }
       },
       "header": {
@@ -66,7 +82,7 @@
           "enable_sticky": true,
           "hide_on_scroll": false,
           "logo": "{{shop.brand.logo}}",
-          "logo_max_width": 170,
+          "logo_max_width": 160,
           "logo_mobile_max_width": 120,
           "menu": "main-menu",
           "sidebar_menu": "",
