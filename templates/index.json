@@ -257,7 +257,7 @@
           "type": "heading",
           "settings": {
             "text": "The only thing better than fresh coffee is a fresh planet.",
-            "heading_tag": "h3"
+            "heading_tag": "h2"
           }
         },
         "template--15631460925646__61fe0726-0c4b-4784-92c6-d9f5fd13e06a-1671454913c5f1032d-2": {
@@ -288,13 +288,13 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "sm",
         "image": "shopify:\/\/shop_images\/tansania_plantage-2-.jpg_master.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_color": "#21292f",
+        "overlay_opacity": 40
       }
     }
   },
