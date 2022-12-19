@@ -92,7 +92,7 @@ LIQUID
             <div class="{{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}">
               <div class="prose">
                 {%- if block.settings.title != blank -%}
-                  <p class="{{ block.settings.heading_tag }}">
+                  <p class="{{ block.settings.heading_tag }}" style="font-family: 'Inter'!important">
                     {% render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient %}
                   </p>
                 {%- endif -%}
