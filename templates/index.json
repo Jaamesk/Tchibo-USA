@@ -216,11 +216,39 @@
         "hot_spot_content_opacity": 90,
         "hot_spot_content_blur_radius": 3
       }
+    },
+    "f30422d2-c025-465b-9c1d-1940944ceb12": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all-coffee",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Discover our selection of coffee",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "media-grid",
     "8947917e-6b6e-4739-b763-fabf1560b46c",
-    "f4caa4f2-fc52-48c0-9020-89bdce4a0783"
+    "f4caa4f2-fc52-48c0-9020-89bdce4a0783",
+    "f30422d2-c025-465b-9c1d-1940944ceb12"
   ]
 }
