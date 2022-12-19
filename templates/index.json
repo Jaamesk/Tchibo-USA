@@ -47,10 +47,13 @@
             "overlay_opacity": 40
           }
         },
-        "29246d34-c6e0-4373-84f6-b15e57736a00": {
-          "type": "image",
+        "e2825557-fbc1-4420-89de-6b4d09fd79da": {
+          "type": "video",
           "settings": {
-            "title": "Promote your products",
+            "video": "shopify:\/\/files\/videos\/TCHIBO_INTRO_1080p_s (2).mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -93,7 +96,7 @@
       "block_order": [
         "item-1",
         "item-2",
-        "29246d34-c6e0-4373-84f6-b15e57736a00",
+        "e2825557-fbc1-4420-89de-6b4d09fd79da",
         "31aafb14-ebde-4c48-a8b0-ba38967a8171"
       ],
       "settings": {
