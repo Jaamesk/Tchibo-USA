@@ -201,7 +201,7 @@
         "content": "<p>A revolutionary, single-serve, Bean-To-Brew coffee & espresso machine.<\/p>",
         "button_text": "Shop Now",
         "button_url": "shopify:\/\/products\/the-tchibo",
-        "desktop_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "place-self-start text-start",
         "image_background": "",
         "image_background_gradient": "",
         "overlay_color": "#21292f",
