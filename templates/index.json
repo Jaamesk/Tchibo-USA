@@ -30,7 +30,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/website_banner_whole_bean_coffee_no_oz1000x500.jpg",
             "title": "The highest quality coffee. From Europe's #1 coffee house.",
-            "heading_tag": "h5",
+            "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/all-coffee",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-center text-center",
@@ -74,8 +74,9 @@
         "31aafb14-ebde-4c48-a8b0-ba38967a8171": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
+            "image": "shopify:\/\/shop_images\/slide5.webp",
+            "title": "Save the planet and your money. All our coffees are grown on Rainforest Alliance Certified™ Farms. Celebrate our commitment to the environment, with special discounts on samplers and multi-packs.",
+            "heading_tag": "h6",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -88,8 +89,8 @@
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_color": "#21292f",
+            "overlay_opacity": 55
           }
         }
       },
