@@ -19,8 +19,8 @@
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
+            "button_background": "#e0bf78",
+            "button_text_color": "#21292f",
             "overlay_color": "#21292f",
             "overlay_opacity": 40
           }
@@ -29,7 +29,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/website_banner_whole_bean_coffee_no_oz1000x500.jpg",
-            "title": "Introducing Röst Frisch Coffee. By Europe's #1 coffee house.",
+            "title": "The highest quality coffee. From Europe's #1 coffee house.",
             "heading_tag": "h5",
             "link_url": "shopify:\/\/collections\/all-coffee",
             "link_text": "Shop Now",
@@ -41,8 +41,8 @@
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
+            "button_background": "#e0bf78",
+            "button_text_color": "#21292f",
             "overlay_color": "#21292f",
             "overlay_opacity": 40
           }
