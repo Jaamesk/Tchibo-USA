@@ -108,9 +108,37 @@
         "background": "",
         "background_gradient": ""
       }
+    },
+    "8947917e-6b6e-4739-b763-fabf1560b46c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "special-offers",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Exclusive German Christmas treats",
+        "content": "<p>Treat yourself to a taste of German Christmas.<\/p>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
-    "media-grid"
+    "media-grid",
+    "8947917e-6b6e-4739-b763-fabf1560b46c"
   ]
 }
