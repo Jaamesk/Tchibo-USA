@@ -47,7 +47,7 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#f5ede5",
         "background_gradient": "",
         "text_color": ""
       }
@@ -79,7 +79,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#f5ede5",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -140,7 +140,7 @@
         "show_counter": true,
         "desktop_image_effect": "reveal",
         "image_position": "end",
-        "background": "#f5ede5",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -174,7 +174,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#f5ede5",
         "background_gradient": "",
         "text_color": ""
       }
@@ -235,7 +235,102 @@
         "show_counter": true,
         "desktop_image_effect": "reveal",
         "image_position": "start",
-        "background": "",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Sealing & Protecting",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-1",
+        "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "92e98fe4-709c-432c-a69e-476ba6851b83": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15632684318926__92e98fe4-709c-432c-a69e-476ba6851b83-1671718585a05270e4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP9_2e61d791-499a-4caf-8d29-25ed5894db99.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Sealed At The Peak Of Flavor",
+            "content": "<p>Our Röstmeisters single roast beans to bring out a palette of over 800 different aromas. Then, at the exact moment when the coffee flavors are most brilliant and intense, our beans are sealed to lock in their exquisite aromas. We engineer our packaging to protect these subtle nuances and vibrancies.<\/p>"
+          }
+        },
+        "template--15632684318926__92e98fe4-709c-432c-a69e-476ba6851b83-1671718585a05270e4-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP11.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "The Patented Protection",
+            "content": "<p>One of the key reasons for Tchibo freshness is our Aroma Protect™ Technology. When we lock in freshness – we lock out oxygen and light. Oxygen, as you know from high school chemistry, corrodes all organic objects. Tchibo removes over 99% of the oxygen surrounding our beans. So, they maintain virtually all of their original roasted flavors and aromas.<\/p>"
+          }
+        },
+        "3f4bd31a-9492-4ebf-9f4e-2035de0e1769": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fbd_12.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Saving Coffee From Itself",
+            "content": "<p>In our sealed coffee packages, a one-way valve moderates the ideal conditions for fresh coffee. Fresh roasted coffee needs to de-gas for up to 2 weeks. The one-way valve actually removes the gas and moisture -- while preventing air from entering. By protecting coffee from oxygen and its aging effects, it stays fresher longer.<\/p>"
+          }
+        },
+        "32148f64-f6a6-42d1-aec6-a97c0c1cecab": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP13.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Keep It Fresh",
+            "content": "<p>In our whole bean bags, the sealed pouch comes with a spout and screw cap. When you open the cap, it cuts into the bag, breaking the seal. (Warning: do not stick your finger into the spout as there are sharp edges to cut into the bag.) The easily-resealable cap locks out oxygen, helping to prolong the coffee’s freshness.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__92e98fe4-709c-432c-a69e-476ba6851b83-1671718585a05270e4-0",
+        "template--15632684318926__92e98fe4-709c-432c-a69e-476ba6851b83-1671718585a05270e4-1",
+        "3f4bd31a-9492-4ebf-9f4e-2035de0e1769",
+        "32148f64-f6a6-42d1-aec6-a97c0c1cecab"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -249,6 +344,8 @@
     "9d2d6494-f289-4a85-84ea-d7dfa2549f9a",
     "4d2968ce-5480-430f-bde4-0f238df0d5b2",
     "49c355a0-3258-486d-9290-8fa5c4b8155e",
-    "e47c45cf-c83f-4c4e-87b7-b4a71d67e193"
+    "e47c45cf-c83f-4c4e-87b7-b4a71d67e193",
+    "23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53",
+    "92e98fe4-709c-432c-a69e-476ba6851b83"
   ]
 }
