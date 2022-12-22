@@ -13,6 +13,12 @@ html {
   line-height: 1.5;
 }
 
+ @font-face {
+font-family: "Interstate";
+src: url("interstate-wgl-regular.woff2") format("woff2"),
+url("interstate-wgl-regular.woff") format("woff");
+}
+
 body {
   --background: var(--background-primary);
   --text-color: var(--text-primary);
@@ -28,11 +34,6 @@ body {
   letter-spacing: 0;
 }
 
- @font-face {
-font-family: "Interstate";
-src: url("interstate-wgl-regular.woff2") format("woff2"),
-url("interstate-wgl-regular.woff") format("woff");
-}
 
 hr {
   height: 0;
