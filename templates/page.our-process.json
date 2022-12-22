@@ -51,10 +51,74 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "4d2968ce-5480-430f-bde4-0f238df0d5b2": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15632684318926__4d2968ce-5480-430f-bde4-0f238df0d5b2-1671718585a05270e4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP1.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Location, Location, Location",
+            "content": "<p>Many coffee companies merely buy beans as a commodity. But, Tchibo is involved from the beginning – at the very source. We have a network of farms and plantations in the finest coffee-growing regions around the globe.<\/p>"
+          }
+        },
+        "template--15632684318926__4d2968ce-5480-430f-bde4-0f238df0d5b2-1671718585a05270e4-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP2.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Picked At The Peak Of Flavor",
+            "content": "<p>Because coffee is a seasonal fruit, we follow the sun back and forth across the equator, selecting only beans at their ideal ripeness.<\/p>"
+          }
+        },
+        "cb5d3456-0ca9-4b86-9f95-c2cd1aaf15bf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP3.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "The Perfect Climate, Altitude and Soil",
+            "content": "<p>Our beans come from altitudes with warm climates, from 60 to 75 F degrees. These ideal conditions have minimal temperature fluctuations, moderate sunlight and a regular rainfall of 60 inches per year. Coffee plants thrive in a nutrient- and humus-rich soil. Volcanic, calcareous and water-permeable soil is optimal for the flavor of our coffee.<\/p>"
+          }
+        },
+        "4f676f2d-f0f3-4729-bf16-f9146c03f12a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP4.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Travelling First Class",
+            "content": "<p>Once the coffee cherry is harvested, we carefully remove the bean from the fruit to ensure quality and flavor. And the journey begins…The green coffee is shipped in dry, temperature-resistant storage to the Tchibo roasteries, where our Röstmeisters craft incomparable coffees with passion and perfection.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__4d2968ce-5480-430f-bde4-0f238df0d5b2-1671718585a05270e4-0",
+        "template--15632684318926__4d2968ce-5480-430f-bde4-0f238df0d5b2-1671718585a05270e4-1",
+        "cb5d3456-0ca9-4b86-9f95-c2cd1aaf15bf",
+        "4f676f2d-f0f3-4729-bf16-f9146c03f12a"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "main",
-    "bacfc330-f03e-425d-8024-044eee6649a1"
+    "bacfc330-f03e-425d-8024-044eee6649a1",
+    "4d2968ce-5480-430f-bde4-0f238df0d5b2"
   ]
 }
