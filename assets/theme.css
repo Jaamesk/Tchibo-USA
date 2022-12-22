@@ -14,7 +14,7 @@ html {
 }
 
  @font-face {
-font-family: "Interstate";
+font-family: Interstate;
 src: url("interstate-wgl-regular.woff2") format("woff2"),
 url("interstate-wgl-regular.woff") format("woff");
 }
