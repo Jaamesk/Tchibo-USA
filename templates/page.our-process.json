@@ -47,16 +47,6 @@
     },
     "c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad": {
       "type": "video",
-      "blocks": {
-        "template--15632684318926__c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad-167171861382076fec-0": {
-          "type": "play",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--15632684318926__c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad-167171861382076fec-0"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
