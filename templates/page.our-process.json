@@ -2,11 +2,77 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "bacfc330-f03e-425d-8024-044eee6649a1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our Process"
+          }
+        },
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Fresher By Design",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>For over 70 years, the Tchibo Röstmeisters have passionately perfected fresh, aromatic coffees. From growing and harvesting to roasting, blending and packaging, every single step in the process is designed to create fresher coffee in your cup.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0",
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1",
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad": {
+      "type": "video",
+      "blocks": {
+        "template--15632684318926__c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad-167171861382076fec-0": {
+          "type": "play",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad-167171861382076fec-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/TCHIBO_FRESHNESS_1080p_s_1893f0ff-1773-449b-b907-b1e126bbef7c.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "bacfc330-f03e-425d-8024-044eee6649a1",
+    "c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad"
   ]
 }
