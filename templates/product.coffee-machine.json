@@ -31,6 +31,12 @@
           "settings": {
           }
         },
+        "29403830-c28e-45d8-a405-17d8aefec65a": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-coffee-selection_100x100.png?v=1667550623\" class=\"pr-icon\">\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-touch_100x100.png?v=1667550631\" class=\"pr-icon\">\n<\/div>\n<div class =\"right-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-slim_100x100.png?v=1667550638\" class=\"pr-icon\">\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\ndisplay: flex;\n}\n\n<\/style>"
+          }
+        },
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0": {
           "type": "quantity_selector",
           "settings": {
@@ -51,12 +57,6 @@
           "settings": {
             "collapse_content": false
           }
-        },
-        "29403830-c28e-45d8-a405-17d8aefec65a": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<\/div>\n<div class=\"middle-column\">\n<\/div>\n<div class =\"right-column\">\n<\/div>\n<\/div>"
-          }
         }
       },
       "block_order": [
@@ -65,10 +65,10 @@
         "price",
         "rating",
         "separator",
+        "29403830-c28e-45d8-a405-17d8aefec65a",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "buy_buttons",
-        "description",
-        "29403830-c28e-45d8-a405-17d8aefec65a"
+        "description"
       ],
       "settings": {
         "full_width": true,
