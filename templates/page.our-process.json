@@ -6,20 +6,6 @@
       "settings": {
       }
     },
-    "c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad": {
-      "type": "video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/TCHIBO_FRESHNESS_1080p_s_1893f0ff-1773-449b-b907-b1e126bbef7c.mp4",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "bacfc330-f03e-425d-8024-044eee6649a1": {
       "type": "rich-text",
       "blocks": {
@@ -62,7 +48,6 @@
   },
   "order": [
     "main",
-    "c3c47ea6-6582-42ca-bcf9-3fd04c7c07ad",
     "bacfc330-f03e-425d-8024-044eee6649a1"
   ]
 }
