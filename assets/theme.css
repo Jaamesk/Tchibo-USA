@@ -15,8 +15,8 @@ html {
 
  @font-face {
 font-family: Interstate;
-src: url("interstate-wgl-regular.woff2") format("woff2"),
-url("interstate-wgl-regular.woff") format("woff");
+src: url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regular.woff2?v=1671708874") format("woff2"),
+url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regular.woff?v=1671708874") format("woff");
 }
 
 body {
