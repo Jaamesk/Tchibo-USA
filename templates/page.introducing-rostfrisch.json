@@ -2,11 +2,158 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "b4a30880-23b8-4d3a-b4e5-126132b8b017": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Introducing Tchibo Röst Frisch",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you. Here now is… Röst Frisch.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-1",
+        "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "26f098cb-7afa-46e9-a3ed-e9e47d94f04a": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15632693690574__26f098cb-7afa-46e9-a3ed-e9e47d94f04a-16717219689a7ca0b9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-lifestyle-1.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15632693690574__26f098cb-7afa-46e9-a3ed-e9e47d94f04a-16717219689a7ca0b9-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-lifestyle-2.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15632693690574__26f098cb-7afa-46e9-a3ed-e9e47d94f04a-16717219689a7ca0b9-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-lifestyle-3.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15632693690574__26f098cb-7afa-46e9-a3ed-e9e47d94f04a-16717219689a7ca0b9-0",
+        "template--15632693690574__26f098cb-7afa-46e9-a3ed-e9e47d94f04a-16717219689a7ca0b9-1",
+        "template--15632693690574__26f098cb-7afa-46e9-a3ed-e9e47d94f04a-16717219689a7ca0b9-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "a40803fa-d148-44d3-837d-866a2d05c358": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all-coffee",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "b4a30880-23b8-4d3a-b4e5-126132b8b017",
+    "26f098cb-7afa-46e9-a3ed-e9e47d94f04a",
+    "a40803fa-d148-44d3-837d-866a2d05c358"
   ]
 }
