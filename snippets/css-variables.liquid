@@ -124,7 +124,7 @@ note that this may have impact on different places.
     --text-font-family: {{ settings.text_font.family }}, {{ settings.text_font.fallback_families }};
     --text-font-weight: {{ settings.text_font.weight }};
     --text-font-style: {{ settings.text_font.style }};
-    --text-letter-spacing: {{ settings.text_font_letter_spacing | divided_by: 100.0 }}em;
+    --text-letter-spacing: {{ settings.text_font_letter_spacing }};
 
     /* Font sizes */
     --text-h0: {% if settings.heading_font_size == 'small' %}2.5rem{% elsif settings.heading_font_size == 'medium' %}2.75rem{% else %}3rem{% endif %};
