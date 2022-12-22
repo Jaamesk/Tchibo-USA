@@ -29,12 +29,19 @@
           "settings": {
             "content": "<p>For over 70 years, the Tchibo Röstmeisters have passionately perfected fresh, aromatic coffees. From growing and harvesting to roasting, blending and packaging, every single step in the process is designed to create fresher coffee in your cup.<\/p>"
           }
+        },
+        "b4141356-353f-4523-90ed-3092516813a8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<video width=\"auto\" controls autoplay>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4aa01a5ad77944a3848f6556c42901eb.mp4\" type=\"video\/mp4\">\n<\/video>"
+          }
         }
       },
       "block_order": [
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0",
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1",
-        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2"
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2",
+        "b4141356-353f-4523-90ed-3092516813a8"
       ],
       "settings": {
         "full_width": true,
