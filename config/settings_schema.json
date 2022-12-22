@@ -441,7 +441,7 @@
         "min": -5,
         "max": 10,
         "step": 0.5,
-        "unit": "%",
+        "unit": "px",
         "id": "heading_letter_spacing",
         "label": "Heading letter spacing",
         "default": 0
