@@ -51,6 +51,12 @@
           "settings": {
             "collapse_content": false
           }
+        },
+        "29403830-c28e-45d8-a405-17d8aefec65a": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<\/div>\n<div class=\"middle-column\">\n<\/div>\n<div class =\"right-column\">\n<\/div>\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -61,7 +67,8 @@
         "separator",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "buy_buttons",
-        "description"
+        "description",
+        "29403830-c28e-45d8-a405-17d8aefec65a"
       ],
       "settings": {
         "full_width": true,
