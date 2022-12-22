@@ -32,8 +32,7 @@ body {
   --text-color: var(--text-primary);
   background: rgb(var(--background));
   color: rgb(var(--text-color));
-  font: var(--text-font-style) 300 var(--text-base) / 1.6;
-  font-family: Interstate;
+  font: var(--text-font-style) 300 var(--text-base) / 1.6 Interstate;
   letter-spacing: var(--text-letter-spacing);
   margin: 0;
   position: relative;
