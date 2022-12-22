@@ -47,6 +47,38 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "9d2d6494-f289-4a85-84ea-d7dfa2549f9a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Sourcing & Harvesting",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-1",
+        "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "#f5ede5",
         "background_gradient": "",
         "text_color": ""
@@ -104,10 +136,105 @@
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "show_counter": true,
         "desktop_image_effect": "reveal",
         "image_position": "end",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "49c355a0-3258-486d-9290-8fa5c4b8155e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Roasting & Blending",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-1",
+        "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e47c45cf-c83f-4c4e-87b7-b4a71d67e193": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15632684318926__e47c45cf-c83f-4c4e-87b7-b4a71d67e193-1671718585a05270e4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP5.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Meet The Röstmeisters",
+            "content": "<p>Nothing affects the taste and individual touch of coffee more than the roasting process. Our legendary Röstmeisters single roast the beans to a perfect finish, allowing their unique character and over 800 aromas to fully and individually develop. This process takes longer, but we believe it’s well worth it.<\/p>"
+          }
+        },
+        "template--15632684318926__e47c45cf-c83f-4c4e-87b7-b4a71d67e193-1671718585a05270e4-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aaaaa.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Timing Is Everything",
+            "content": "<p>When roasting coffee beans, only a few seconds can determine the flavor. Generally, if the roast time is too short, the coffee tastes too fruity and acidic. Too long, and it can taste burnt and bitter. Tchibo Röstmeisters have perfected this process to only create exceptionally delicious coffees.<\/p>"
+          }
+        },
+        "a866222c-0e18-4edf-ae6c-8f1e34ab3b3c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP7.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Taste It With Your Ears",
+            "content": "<p>As the coffee is heated, the Röstmeisters carefully monitor the cracks in the roasting beans. When moisture inside the bean is heated, it expands and cracks its outer shell with an audible “pop.” Known as the “First Crack,” this signals the coffee has developed a light, fruity coffee flavor. When it has cracked a second time, the bean has developed a deeper, stronger flavor..<\/p>"
+          }
+        },
+        "7ba261f1-0de6-4a48-9d39-062bd3c6bfc5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP8.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "A Palette Of Flavors",
+            "content": "<p>Once the beans have been single-roasted, our blenders will taste test each batch. They’ll carefully select the most flavorful beans from which to create the exquisite coffees of Tchibo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__e47c45cf-c83f-4c4e-87b7-b4a71d67e193-1671718585a05270e4-0",
+        "template--15632684318926__e47c45cf-c83f-4c4e-87b7-b4a71d67e193-1671718585a05270e4-1",
+        "a866222c-0e18-4edf-ae6c-8f1e34ab3b3c",
+        "7ba261f1-0de6-4a48-9d39-062bd3c6bfc5"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -119,6 +246,9 @@
   "order": [
     "main",
     "bacfc330-f03e-425d-8024-044eee6649a1",
-    "4d2968ce-5480-430f-bde4-0f238df0d5b2"
+    "9d2d6494-f289-4a85-84ea-d7dfa2549f9a",
+    "4d2968ce-5480-430f-bde4-0f238df0d5b2",
+    "49c355a0-3258-486d-9290-8fa5c4b8155e",
+    "e47c45cf-c83f-4c4e-87b7-b4a71d67e193"
   ]
 }
