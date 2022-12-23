@@ -58,19 +58,21 @@
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-0": {
           "type": "slide",
           "settings": {
-            "navigation_label": "1953",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/history1.jpg",
+            "navigation_label": "1949",
+            "subheading": "1949",
+            "title": "The Crossroads Of Resources & Refinement",
+            "content": "<p>It all begins in the historic port of Hamburg, the global intersection of raw ingredients and European craftsmanship.<\/p>"
           }
         },
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-1": {
           "type": "slide",
           "settings": {
-            "navigation_label": "1960",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/history2.jpg",
+            "navigation_label": "1949",
+            "subheading": "1949",
+            "title": "Founding Fathers",
+            "content": "<p>Two entrepreneurs, Max Herz and his business partner Carl Tchiling Hiryan, formed a small mail order coffee company. The name “Tchibo” is actually a combination of Tchiling and Bohne, which means “bean.”<\/p>"
           }
         },
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-2": {
@@ -91,9 +93,9 @@
       "settings": {
         "full_width": true,
         "impact_text_ratio": 1,
-        "background": "",
+        "background": "#f5ede5",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#423d39",
         "impact_text_color": "",
         "impact_text_gradient": ""
       }
