@@ -88,10 +88,60 @@
         "6f0969b1-a1c3-4e7e-b6aa-84f5cd883b45": {
           "type": "slide",
           "settings": {
-            "navigation_label": "label",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/history4.jpg",
+            "navigation_label": "1953",
+            "subheading": "1953",
+            "title": "You could smell it for miles",
+            "content": "<p>The fresh-roasted aromas were so irresistible, Tchibo started selling coffee right outside the factory door.<\/p>"
+          }
+        },
+        "51ee4a3b-dc16-41c5-b40a-c2c9dcb60db9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/history6.webp",
+            "navigation_label": "1954",
+            "subheading": "1954",
+            "title": "The Power of Nine",
+            "content": "<p>As Tchibo grew, its Röstmeisters and blenders experimented with different innovative recipes and flavor combinations. A particularly popular one was Gold-Mocca, an unprecedented blend using 9 different coffees.<\/p>"
+          }
+        },
+        "7550d85c-a192-4512-b06e-12a58b7a3683": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/history5.jpg",
+            "navigation_label": "1955",
+            "subheading": "1955",
+            "title": "Café Society",
+            "content": "<p>Tchibo opened its first store, inventing the coffee shops of today. Within 3 years there were 77 shops, with another one opening every week. By 1965, there were well over 400.<\/p>"
+          }
+        },
+        "41d9e64a-385a-42cc-946d-d92b1e9dd4fa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/history7.webp",
+            "navigation_label": "1991",
+            "subheading": "1991",
+            "title": "Keep on Tchugging",
+            "content": "<p>As its following grew across Europe, Tchibo quickly became the #1 coffeehouse on the continent. The gourmet coffee brand opened up shops in the grand cities and world capitals, like London, Vienna, Budapest and Prague.<\/p>"
+          }
+        },
+        "be192eec-d3ad-4aea-b773-49791e1ecbea": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/history9.jpg",
+            "navigation_label": "2012",
+            "subheading": "2012",
+            "title": "A Fresher Planet",
+            "content": "<p>With a supply chain covering over 80 countries, Tchibo was an early adopter of eco-friendly practices. Tchibo is awarded for its efforts and commitment to becoming a global leader in sustainability.<\/p>"
+          }
+        },
+        "05179baf-564d-4b6f-934c-ad97de4e4b7d": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "2013",
+            "subheading": "2013",
+            "title": "Spilling The Beans",
+            "content": "<p>Tchibo embraced technology to spread its gospel of freshness. Using the internet, social media, and mobile apps, Tchibo availability and popularity continue to grow across the world.<\/p>"
           }
         }
       },
@@ -99,7 +149,12 @@
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-0",
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-1",
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-2",
-        "6f0969b1-a1c3-4e7e-b6aa-84f5cd883b45"
+        "6f0969b1-a1c3-4e7e-b6aa-84f5cd883b45",
+        "51ee4a3b-dc16-41c5-b40a-c2c9dcb60db9",
+        "7550d85c-a192-4512-b06e-12a58b7a3683",
+        "41d9e64a-385a-42cc-946d-d92b1e9dd4fa",
+        "be192eec-d3ad-4aea-b773-49791e1ecbea",
+        "05179baf-564d-4b6f-934c-ad97de4e4b7d"
       ],
       "settings": {
         "full_width": true,
