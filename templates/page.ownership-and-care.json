@@ -200,6 +200,139 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "959a1ae5-1121-4060-878d-06be7b6cb3bd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-1": {
+          "type": "heading",
+          "settings": {
+            "text": "How To Video",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We’re sure you’re excited to get your machine out of the box and brewing coffee. But first, take a few minutes to watch this simple video to make sure it all goes well.<\/p>"
+          }
+        },
+        "197cdb8b-7994-4bd9-ac27-a70599e9e61c": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4c56ce1ff3ae49938c33fe6be2f46858.mp4\" type=\"video\/mp4\">\n<\/video>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-1",
+        "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-2",
+        "197cdb8b-7994-4bd9-ac27-a70599e9e61c"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7a44d680-c2a0-4f26-be9e-033d2e4d440c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632944005326__7a44d680-c2a0-4f26-be9e-033d2e4d440c-1671793739a4fbc47a-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Parts & Pieces",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "e0c70476-fefc-40dd-b39c-8ae80743dab6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tchibo-parts-alpha.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15632944005326__7a44d680-c2a0-4f26-be9e-033d2e4d440c-1671793739a4fbc47a-1",
+        "e0c70476-fefc-40dd-b39c-8ae80743dab6"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "21d010c2-4b74-40dc-abb5-db1b01e1e0b4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632944005326__21d010c2-4b74-40dc-abb5-db1b01e1e0b4-1671793739a4fbc47a-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Control Panel & Warning Lights",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632944005326__21d010c2-4b74-40dc-abb5-db1b01e1e0b4-1671793739a4fbc47a-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The control buttons are only visbile when the machine is switched on.<\/p>"
+          }
+        },
+        "2bf843cb-cf3e-43d1-ac9d-32dcbec1d8f6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tchibo-button-white.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "3b7acb9e-7118-4e66-9d63-76c7c46fef8c": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The warning lights only light up when the machine requires maintenance.<\/p>"
+          }
+        },
+        "d1fd97e6-28f2-4440-b554-552789d0b02e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tchibo-button-orange.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15632944005326__21d010c2-4b74-40dc-abb5-db1b01e1e0b4-1671793739a4fbc47a-1",
+        "template--15632944005326__21d010c2-4b74-40dc-abb5-db1b01e1e0b4-1671793739a4fbc47a-2",
+        "2bf843cb-cf3e-43d1-ac9d-32dcbec1d8f6",
+        "3b7acb9e-7118-4e66-9d63-76c7c46fef8c",
+        "d1fd97e6-28f2-4440-b554-552789d0b02e"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -207,6 +340,9 @@
     "90e834f2-888e-4d68-ace9-ff5c4c6b9b7c",
     "1cf851d8-036b-4e8a-b8a8-a8723041180d",
     "18f601f3-bf03-43f4-94da-504a7808ef16",
-    "2d53852b-06b0-45a2-a32f-efd6b343b305"
+    "2d53852b-06b0-45a2-a32f-efd6b343b305",
+    "959a1ae5-1121-4060-878d-06be7b6cb3bd",
+    "7a44d680-c2a0-4f26-be9e-033d2e4d440c",
+    "21d010c2-4b74-40dc-abb5-db1b01e1e0b4"
   ]
 }
