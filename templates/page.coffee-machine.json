@@ -105,13 +105,13 @@
         "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-0": {
           "type": "item",
           "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
+            "horizontal_position": 49,
+            "vertical_position": 36,
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 70,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "LED touch panel",
+            "content": "<p>Elegant, intuitive LED panel with touchscreen operation. Boost button to increase coffee intensity.<\/p>"
           }
         },
         "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-1": {
@@ -145,17 +145,17 @@
         "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-2"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
-        "title": "",
-        "content": "",
+        "title": "Discover the Tchibo",
+        "content": "<p>Click the hotspots to learn what makes this coffee machine special.<\/p>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "place-self-start text-start",
         "image_background": "",
         "image_background_gradient": "",
         "overlay_color": "#000000",
-        "overlay_opacity": 0,
+        "overlay_opacity": 30,
         "overlay_text_color": "#ffffff",
         "overlay_button_background": "",
         "overlay_button_text_color": "",
