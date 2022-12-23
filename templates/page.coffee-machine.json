@@ -2,11 +2,96 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "1a613376-3134-41ba-a274-f4739b0bed4f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Introducing the Tchibo"
+          }
+        },
+        "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The revolutionary Bean-To-Brew, single serve coffee machine.",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. What could be fresher than that?<\/p>"
+          }
+        },
+        "2f8ddea6-2ee8-46be-8e21-62b4fa650a0d": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>Write custom Liquid code to include widget or dynamic code.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-0",
+        "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-1",
+        "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-2",
+        "2f8ddea6-2ee8-46be-8e21-62b4fa650a0d"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4b12dacc-054d-4792-a791-b7367cd7d015": {
+      "type": "media-with-text",
+      "blocks": {
+        "71e7307b-9a8d-487d-94ca-1ec499f55708": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/2baaeba40be34956b3cbb781331e600f.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "71e7307b-9a8d-487d-94ca-1ec499f55708"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1a613376-3134-41ba-a274-f4739b0bed4f",
+    "4b12dacc-054d-4792-a791-b7367cd7d015"
   ]
 }
