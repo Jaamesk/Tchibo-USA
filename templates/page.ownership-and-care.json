@@ -72,11 +72,141 @@
         "enable_parallax": true,
         "spacing": "small"
       }
+    },
+    "18f601f3-bf03-43f4-94da-504a7808ef16": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632944005326__18f601f3-bf03-43f4-94da-504a7808ef16-16717924784e3b7d13-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Getting started",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632944005326__18f601f3-bf03-43f4-94da-504a7808ef16-16717924784e3b7d13-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Follow these simple steps to start using your machine.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632944005326__18f601f3-bf03-43f4-94da-504a7808ef16-16717924784e3b7d13-1",
+        "template--15632944005326__18f601f3-bf03-43f4-94da-504a7808ef16-16717924784e3b7d13-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "2d53852b-06b0-45a2-a32f-efd6b343b305": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15632944005326__2d53852b-06b0-45a2-a32f-efd6b343b305-1671792153e85a7816-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_Grafik-VA_0da8280f-b2be-4bed-abfc-ae0fa0537ce1.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Remove all packaging material.",
+            "content": ""
+          }
+        },
+        "template--15632944005326__2d53852b-06b0-45a2-a32f-efd6b343b305-1671792153e85a7816-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_Grafik-VA_1694cb97-8de1-4601-93f1-137fb3561dc7.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Remove water reservoir from machine.",
+            "content": ""
+          }
+        },
+        "2478382a-02d3-487a-9598-c26eb5c3d802": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_Grafik-VA_177e902e-eb3d-4dcf-84a0-0796da24181d.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Fill water reservoir from faucet.",
+            "content": ""
+          }
+        },
+        "3896ca2c-fccc-47d7-a26d-8827e887c6fb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_Grafik-VA_732ebe75-9975-41b6-89db-8d829ae9f399.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Place water reservoir back in machine.",
+            "content": ""
+          }
+        },
+        "26eabd79-be48-44d2-93d7-339cf0954c66": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_Grafik-VA_9dfc1fb1-3d9f-47e8-9395-db92d974c8d9.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Fill beans in bean compartment.",
+            "content": ""
+          }
+        },
+        "f9ebb472-d928-4107-8573-05530106518f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_Grafik-VA_48934109-67fe-42ae-a707-e54c2460f950.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Place cup under coffee spout.",
+            "content": ""
+          }
+        },
+        "58048494-f8b2-4f35-bb1d-48c53a00cbf1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_Grafik-VA_779a60e6-edb8-4da8-8029-856e6de1923f.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Turn machine on. Wait until the automatic rinsing is done and you are ready to choose your drink.",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15632944005326__2d53852b-06b0-45a2-a32f-efd6b343b305-1671792153e85a7816-0",
+        "template--15632944005326__2d53852b-06b0-45a2-a32f-efd6b343b305-1671792153e85a7816-1",
+        "2478382a-02d3-487a-9598-c26eb5c3d802",
+        "3896ca2c-fccc-47d7-a26d-8827e887c6fb",
+        "26eabd79-be48-44d2-93d7-339cf0954c66",
+        "f9ebb472-d928-4107-8573-05530106518f",
+        "58048494-f8b2-4f35-bb1d-48c53a00cbf1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "main",
     "90e834f2-888e-4d68-ace9-ff5c4c6b9b7c",
-    "1cf851d8-036b-4e8a-b8a8-a8723041180d"
+    "1cf851d8-036b-4e8a-b8a8-a8723041180d",
+    "18f601f3-bf03-43f4-94da-504a7808ef16",
+    "2d53852b-06b0-45a2-a32f-efd6b343b305"
   ]
 }
