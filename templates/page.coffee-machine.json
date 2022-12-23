@@ -186,7 +186,8 @@
         "template--15632929390798__880b7c68-4f65-48d4-8cd7-0f903e6d8f99-16717890061c1a029d-0": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/machine-lifestyle-1.jpg",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -207,7 +208,7 @@
         "template--15632929390798__880b7c68-4f65-48d4-8cd7-0f903e6d8f99-16717890061c1a029d-1": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -228,7 +229,8 @@
         "template--15632929390798__880b7c68-4f65-48d4-8cd7-0f903e6d8f99-16717890061c1a029d-2": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify:\/\/shop_images\/machine-lifestyle-3.webp",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
