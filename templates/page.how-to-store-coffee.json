@@ -12,13 +12,13 @@
         "template--15632892100814__99381584-f094-409d-845c-4c7481eeb805-1671781551a348b975-0": {
           "type": "subheading",
           "settings": {
-            "text": "How to store your Coffee"
+            "text": "Tips & Tricks"
           }
         },
         "template--15632892100814__99381584-f094-409d-845c-4c7481eeb805-1671781551a348b975-1": {
           "type": "heading",
           "settings": {
-            "text": "Keep your Coffee fresh and delicious",
+            "text": "How to Store your Coffee",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -44,10 +44,92 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "c2f47896-a90b-4ac2-aaf3-ca48ea9a8c2d": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15632892100814__c2f47896-a90b-4ac2-aaf3-ca48ea9a8c2d-1671781547737d7497-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee_tin_classic_jpg.webp",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Keep your coffee fresh and aromatic",
+            "content": "<p>In general, the following applies to coffee: the fresher, the better. And the warmer the place of storage, the faster the aroma dissipates. Coffee is very sensitive, external influences such as light, heat, oxygen and moisture are poison for the coffee aroma. Therefore, coffee should always be stored in a cool, dark and dry place. If the coffee comes into contact with oxygen or heat during storage, it loses its aromas more quickly, because these come mainly from the oils in the bean, which die more quickly to oxidize even at room temperature. This will make the oils rancid, which can lead to a bad aftertaste. An opaque container that can be sealed airtight is ideal for storage. A tightly sealed coffee can keeps coffee beans or powder fresh for longer and also guarantees the coffee aroma longer than storing in the opened package. Put the coffeein the aroma can with the packaging.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#423d39",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "27d8f175-2fce-428c-91ec-a318b5d29197": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/half_left_89a03080-3a88-4649-b40a-a6e91894c13b.webp",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Storing - whole bean and ground coffee",
+            "content": "<p>Opened packets of ground coffee will stay fresh for about seven days at room temperature. It retains its aroma twice as long in the fridge and three to four times as long in the freezer. If the coffee is stored in the fridge or freezer, it must first be brought to room temperature.<\/p><p>The best way to protect the coffee aroma is to store the coffee as whole beans and grind it right before consumption. The bean encloses and protects the sensitive coffee aromas like a natural aroma vault.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#423d39",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "791b12fe-d891-4e8b-8005-acf431f526bc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/durgol-mood.webp",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Clean and descale your machine regularly for a fresh taste",
+            "content": "<p>Coffee-making equipemnt should always be cleaned carefully with washing-up liquid and a brush or in the dishwasher. After a while, coffee oils are deposited in filters and pots, which can quickly make the coffee taste rancid.<\/p><p>With proper and regular descaling your coffee machine can last a long time and always ensures the best aromatic coffee.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#423d39",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15632892100814__c2f47896-a90b-4ac2-aaf3-ca48ea9a8c2d-1671781547737d7497-0",
+        "27d8f175-2fce-428c-91ec-a318b5d29197",
+        "791b12fe-d891-4e8b-8005-acf431f526bc"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
     }
   },
   "order": [
     "main",
-    "99381584-f094-409d-845c-4c7481eeb805"
+    "99381584-f094-409d-845c-4c7481eeb805",
+    "c2f47896-a90b-4ac2-aaf3-ca48ea9a8c2d"
   ]
 }
