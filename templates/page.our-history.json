@@ -168,10 +168,11 @@
         "b88e8de4-834f-4dea-8100-b9ad3ebba8fd": {
           "type": "slide",
           "settings": {
-            "navigation_label": "label",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/history12.webp",
+            "navigation_label": "2020",
+            "subheading": "2020",
+            "title": "Tchibo Comes To America",
+            "content": "<p>Tchibo Röst Frisch is now available in America, for the most passionate coffee lovers on earth.<\/p>"
           }
         }
       },
@@ -192,7 +193,7 @@
       "settings": {
         "full_width": true,
         "impact_text_ratio": 1,
-        "background": "#f5ede5",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#423d39",
         "impact_text_color": "",
