@@ -36,10 +36,10 @@
           "settings": {
           }
         },
-        "29403830-c28e-45d8-a405-17d8aefec65a": {
-          "type": "liquid",
+        "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
+          "type": "text",
           "settings": {
-            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-coffee-selection_100x100.png?v=1667550623\" class=\"pr-icon\" width=\"70%\">\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-touch_100x100.png?v=1667550631\" class=\"pr-icon\" width=\"70%\">\n<\/div>\n<div class =\"right-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-slim_100x100.png?v=1667550638\" class=\"pr-icon\" width=\"70%\">\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\ndisplay: flex;\njustify-content: space-between;\n}\n\n<\/style>"
+            "text": "<p>A revolutionary, single-serve, Bean-To-Brew coffee & espresso machine. <\/p>"
           }
         },
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0": {
@@ -57,6 +57,12 @@
             "payment_button_text_color": ""
           }
         },
+        "29403830-c28e-45d8-a405-17d8aefec65a": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-coffee-selection_100x100.png?v=1667550623\" class=\"pr-icon\">\n<span>For espresso, regular and large coffees<\/span>\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-touch_100x100.png?v=1667550631\" class=\"pr-icon\">\n<span>Intuitive touchscreen operation<\/span>\n<\/div>\n<div class =\"right-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-slim_100x100.png?v=1667550638\" class=\"pr-icon\">\n<span>Slim and compact design\n<\/span>\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\n\n}\n\n.left-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.middle-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.right-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.pr-icon {\nwidth: 12%;\nmargin-right: 15px;\n}\n\n<\/style>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -71,16 +77,17 @@
         "rating",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "separator",
-        "29403830-c28e-45d8-a405-17d8aefec65a",
+        "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "buy_buttons",
+        "29403830-c28e-45d8-a405-17d8aefec65a",
         "description"
       ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
