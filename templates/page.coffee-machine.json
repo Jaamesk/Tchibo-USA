@@ -117,32 +117,45 @@
         "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
+            "horizontal_position": 46,
+            "vertical_position": 68,
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "For all mug sizes",
+            "content": "<p>Adjustable coffee dispenser and removable drip tray for larger mugs.<\/p>"
           }
         },
         "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
+            "horizontal_position": 36,
+            "vertical_position": 49,
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "Easy cleaning",
+            "content": "<p>Removable brewing unit for easy cleaning. Easy Automatic descaling function. A cleaner machine makes for better tasting coffee.<\/p>"
+          }
+        },
+        "67d09efb-73c0-4c57-b245-262c19d9463d": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 40,
+            "vertical_position": 32,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "German-engineered coffee grinder",
+            "content": "<p>Low-noise, stainless steel coffee grinder with adjustable grinding degree setting.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-0",
         "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-1",
-        "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-2"
+        "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-2",
+        "67d09efb-73c0-4c57-b245-262c19d9463d"
       ],
       "settings": {
         "full_width": false,
@@ -159,9 +172,9 @@
         "overlay_text_color": "#ffffff",
         "overlay_button_background": "",
         "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_background": "#e0bf78",
         "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_background": "#f5ede5",
         "hot_spot_content_text_color": "#000000",
         "hot_spot_content_opacity": 90,
         "hot_spot_content_blur_radius": 3
