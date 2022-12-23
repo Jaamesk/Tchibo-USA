@@ -78,7 +78,17 @@
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-2": {
           "type": "slide",
           "settings": {
-            "navigation_label": "1966",
+            "image": "shopify:\/\/shop_images\/history3.webp",
+            "navigation_label": "1950",
+            "subheading": "1950",
+            "title": "Special Delivery",
+            "content": "<p>As a mail order company, Tchibo was obsessed with freshness from the very beginning – from roasting and blending to sealing and packaging. In fact, Tchibo would offer customers a choice between having their coffee packed in tins or sewn into pouches.<\/p>"
+          }
+        },
+        "6f0969b1-a1c3-4e7e-b6aa-84f5cd883b45": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "label",
             "subheading": "Subheading",
             "title": "Heading",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
@@ -88,7 +98,8 @@
       "block_order": [
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-0",
         "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-1",
-        "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-2"
+        "template--15632907534542__aa121b18-0750-4d23-9267-0ad2b51e7ce6-1671784300e65d62de-2",
+        "6f0969b1-a1c3-4e7e-b6aa-84f5cd883b45"
       ],
       "settings": {
         "full_width": true,
