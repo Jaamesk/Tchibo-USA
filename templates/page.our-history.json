@@ -1,0 +1,351 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "bacfc330-f03e-425d-8024-044eee6649a1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our Process"
+          }
+        },
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Fresher By Design",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>For over 70 years, the Tchibo Röstmeisters have passionately perfected fresh, aromatic coffees. From growing and harvesting to roasting, blending and packaging, every single step in the process is designed to create fresher coffee in your cup.<\/p>"
+          }
+        },
+        "b4141356-353f-4523-90ed-3092516813a8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<video width=\"auto\" controls autoplay>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4aa01a5ad77944a3848f6556c42901eb.mp4\" type=\"video\/mp4\">\n<\/video>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0",
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1",
+        "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2",
+        "b4141356-353f-4523-90ed-3092516813a8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "9d2d6494-f289-4a85-84ea-d7dfa2549f9a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Sourcing & Harvesting",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-1",
+        "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4d2968ce-5480-430f-bde4-0f238df0d5b2": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15632684318926__4d2968ce-5480-430f-bde4-0f238df0d5b2-1671718585a05270e4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP1.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Location, Location, Location",
+            "content": "<p>Many coffee companies merely buy beans as a commodity. But, Tchibo is involved from the beginning – at the very source. We have a network of farms and plantations in the finest coffee-growing regions around the globe.<\/p>"
+          }
+        },
+        "template--15632684318926__4d2968ce-5480-430f-bde4-0f238df0d5b2-1671718585a05270e4-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP2.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Picked At The Peak Of Flavor",
+            "content": "<p>Because coffee is a seasonal fruit, we follow the sun back and forth across the equator, selecting only beans at their ideal ripeness.<\/p>"
+          }
+        },
+        "cb5d3456-0ca9-4b86-9f95-c2cd1aaf15bf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP3.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "The Perfect Climate, Altitude and Soil",
+            "content": "<p>Our beans come from altitudes with warm climates, from 60 to 75 F degrees. These ideal conditions have minimal temperature fluctuations, moderate sunlight and a regular rainfall of 60 inches per year. Coffee plants thrive in a nutrient- and humus-rich soil. Volcanic, calcareous and water-permeable soil is optimal for the flavor of our coffee.<\/p>"
+          }
+        },
+        "4f676f2d-f0f3-4729-bf16-f9146c03f12a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP4.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Travelling First Class",
+            "content": "<p>Once the coffee cherry is harvested, we carefully remove the bean from the fruit to ensure quality and flavor. And the journey begins…The green coffee is shipped in dry, temperature-resistant storage to the Tchibo roasteries, where our Röstmeisters craft incomparable coffees with passion and perfection.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__4d2968ce-5480-430f-bde4-0f238df0d5b2-1671718585a05270e4-0",
+        "template--15632684318926__4d2968ce-5480-430f-bde4-0f238df0d5b2-1671718585a05270e4-1",
+        "cb5d3456-0ca9-4b86-9f95-c2cd1aaf15bf",
+        "4f676f2d-f0f3-4729-bf16-f9146c03f12a"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "49c355a0-3258-486d-9290-8fa5c4b8155e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Roasting & Blending",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-1",
+        "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e47c45cf-c83f-4c4e-87b7-b4a71d67e193": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15632684318926__e47c45cf-c83f-4c4e-87b7-b4a71d67e193-1671718585a05270e4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP5.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Meet The Röstmeisters",
+            "content": "<p>Nothing affects the taste and individual touch of coffee more than the roasting process. Our legendary Röstmeisters single roast the beans to a perfect finish, allowing their unique character and over 800 aromas to fully and individually develop. This process takes longer, but we believe it’s well worth it.<\/p>"
+          }
+        },
+        "template--15632684318926__e47c45cf-c83f-4c4e-87b7-b4a71d67e193-1671718585a05270e4-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aaaaa.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Timing Is Everything",
+            "content": "<p>When roasting coffee beans, only a few seconds can determine the flavor. Generally, if the roast time is too short, the coffee tastes too fruity and acidic. Too long, and it can taste burnt and bitter. Tchibo Röstmeisters have perfected this process to only create exceptionally delicious coffees.<\/p>"
+          }
+        },
+        "a866222c-0e18-4edf-ae6c-8f1e34ab3b3c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP7.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Taste It With Your Ears",
+            "content": "<p>As the coffee is heated, the Röstmeisters carefully monitor the cracks in the roasting beans. When moisture inside the bean is heated, it expands and cracks its outer shell with an audible “pop.” Known as the “First Crack,” this signals the coffee has developed a light, fruity coffee flavor. When it has cracked a second time, the bean has developed a deeper, stronger flavor..<\/p>"
+          }
+        },
+        "7ba261f1-0de6-4a48-9d39-062bd3c6bfc5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP8.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "A Palette Of Flavors",
+            "content": "<p>Once the beans have been single-roasted, our blenders will taste test each batch. They’ll carefully select the most flavorful beans from which to create the exquisite coffees of Tchibo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__e47c45cf-c83f-4c4e-87b7-b4a71d67e193-1671718585a05270e4-0",
+        "template--15632684318926__e47c45cf-c83f-4c4e-87b7-b4a71d67e193-1671718585a05270e4-1",
+        "a866222c-0e18-4edf-ae6c-8f1e34ab3b3c",
+        "7ba261f1-0de6-4a48-9d39-062bd3c6bfc5"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Sealing & Protecting",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-1",
+        "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "92e98fe4-709c-432c-a69e-476ba6851b83": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--15632684318926__92e98fe4-709c-432c-a69e-476ba6851b83-1671718585a05270e4-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP9_2e61d791-499a-4caf-8d29-25ed5894db99.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Sealed At The Peak Of Flavor",
+            "content": "<p>Our Röstmeisters single roast beans to bring out a palette of over 800 different aromas. Then, at the exact moment when the coffee flavors are most brilliant and intense, our beans are sealed to lock in their exquisite aromas. We engineer our packaging to protect these subtle nuances and vibrancies.<\/p>"
+          }
+        },
+        "template--15632684318926__92e98fe4-709c-432c-a69e-476ba6851b83-1671718585a05270e4-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP11.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "The Patented Protection",
+            "content": "<p>One of the key reasons for Tchibo freshness is our Aroma Protect™ Technology. When we lock in freshness – we lock out oxygen and light. Oxygen, as you know from high school chemistry, corrodes all organic objects. Tchibo removes over 99% of the oxygen surrounding our beans. So, they maintain virtually all of their original roasted flavors and aromas.<\/p>"
+          }
+        },
+        "3f4bd31a-9492-4ebf-9f4e-2035de0e1769": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fbd_12.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Saving Coffee From Itself",
+            "content": "<p>In our sealed coffee packages, a one-way valve moderates the ideal conditions for fresh coffee. Fresh roasted coffee needs to de-gas for up to 2 weeks. The one-way valve actually removes the gas and moisture -- while preventing air from entering. By protecting coffee from oxygen and its aging effects, it stays fresher longer.<\/p>"
+          }
+        },
+        "32148f64-f6a6-42d1-aec6-a97c0c1cecab": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP13.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Keep It Fresh",
+            "content": "<p>In our whole bean bags, the sealed pouch comes with a spout and screw cap. When you open the cap, it cuts into the bag, breaking the seal. (Warning: do not stick your finger into the spout as there are sharp edges to cut into the bag.) The easily-resealable cap locks out oxygen, helping to prolong the coffee’s freshness.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632684318926__92e98fe4-709c-432c-a69e-476ba6851b83-1671718585a05270e4-0",
+        "template--15632684318926__92e98fe4-709c-432c-a69e-476ba6851b83-1671718585a05270e4-1",
+        "3f4bd31a-9492-4ebf-9f4e-2035de0e1769",
+        "32148f64-f6a6-42d1-aec6-a97c0c1cecab"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bacfc330-f03e-425d-8024-044eee6649a1",
+    "9d2d6494-f289-4a85-84ea-d7dfa2549f9a",
+    "4d2968ce-5480-430f-bde4-0f238df0d5b2",
+    "49c355a0-3258-486d-9290-8fa5c4b8155e",
+    "e47c45cf-c83f-4c4e-87b7-b4a71d67e193",
+    "23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53",
+    "92e98fe4-709c-432c-a69e-476ba6851b83"
+  ]
+}
