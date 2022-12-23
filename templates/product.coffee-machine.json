@@ -160,8 +160,8 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_background": "#f5ede5",
+        "accordion_text_color": "#423d39"
       }
     },
     "product-recommendations": {
