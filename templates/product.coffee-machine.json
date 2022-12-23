@@ -9,6 +9,12 @@
             "heading_tag": "h2"
           }
         },
+        "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A revolutionary, single-serve, Bean-To-Brew coffee & espresso machine. <\/p>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {
@@ -36,6 +42,17 @@
           "settings": {
           }
         },
+        "24e1f974-bdca-42cd-9b19-dfecfe95b460": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span style=\"color:#C0A468\">Free shipping. Delivered in 1-3 days.<\/span>"
+          }
+        },
+        "df680b90-8c1f-4b29-8b9c-d4affb5864f0": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -46,14 +63,8 @@
             "payment_button_text_color": ""
           }
         },
-        "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A revolutionary, single-serve, Bean-To-Brew coffee & espresso machine. <\/p>"
-          }
-        },
-        "df680b90-8c1f-4b29-8b9c-d4affb5864f0": {
-          "type": "quantity_selector",
+        "ed4d99e6-1e63-49b1-8368-0749661d25ea": {
+          "type": "separator",
           "settings": {
           }
         },
@@ -73,14 +84,16 @@
       },
       "block_order": [
         "title",
+        "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "badges",
         "price",
         "rating",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "separator",
-        "buy_buttons",
-        "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
+        "24e1f974-bdca-42cd-9b19-dfecfe95b460",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
+        "buy_buttons",
+        "ed4d99e6-1e63-49b1-8368-0749661d25ea",
         "29403830-c28e-45d8-a405-17d8aefec65a",
         "description"
       ],
