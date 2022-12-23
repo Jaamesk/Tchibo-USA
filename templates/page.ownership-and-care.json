@@ -2,11 +2,81 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "90e834f2-888e-4d68-ace9-ff5c4c6b9b7c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632944005326__90e834f2-888e-4d68-ace9-ff5c4c6b9b7c-1671792158ab1fce09-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "The Tchibo coffee machine"
+          }
+        },
+        "template--15632944005326__90e834f2-888e-4d68-ace9-ff5c4c6b9b7c-1671792158ab1fce09-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Ownership & Care",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15632944005326__90e834f2-888e-4d68-ace9-ff5c4c6b9b7c-1671792158ab1fce09-0",
+        "template--15632944005326__90e834f2-888e-4d68-ace9-ff5c4c6b9b7c-1671792158ab1fce09-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1cf851d8-036b-4e8a-b8a8-a8723041180d": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15632944005326__1cf851d8-036b-4e8a-b8a8-a8723041180d-16717921546b5fd89b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tchibo-machine-hero.webp",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Congratulations. You are now the lucky owner of The Tchibo, the revolutionary, single-serve machine from Europe’s #1 Coffeehouse. Here are some suggestions to help make your ownership experience even better. And, if you have any issues, please call our customer service number or call <a href=\"tel:+18888244261\">1-888-824-4261.<\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/109547_en_Kaffeevollautomat_USA_v4.pdf?v=1661936578\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/109547_en_Kaffeevollautomat_USA_v4.pdf?v=1661936578\">Download User Manual<\/a><\/p><p><a href=\"https:\/\/tchibo.us\/apps\/warranty\/registrants\/new\" title=\"https:\/\/tchibo.us\/apps\/warranty\/registrants\/new\">Register for Warranty<\/a><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#423d39",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15632944005326__1cf851d8-036b-4e8a-b8a8-a8723041180d-16717921546b5fd89b-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "90e834f2-888e-4d68-ace9-ff5c4c6b9b7c",
+    "1cf851d8-036b-4e8a-b8a8-a8723041180d"
   ]
 }
