@@ -128,8 +128,8 @@
         "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-1": {
           "type": "item",
           "settings": {
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+            "title": "Care & Warranty",
+            "content": "<p>You can find detailed instructions on how to care for your Tchibo machine <a href=\"https:\/\/tchibo.us\/pages\/ownership-and-care\" target=\"_blank\" title=\"https:\/\/tchibo.us\/pages\/ownership-and-care\">here<\/a>.<\/p><p>The Tchibo also comes with a limited one-year warranty. You can read about it <a href=\"https:\/\/tchibo.us\/apps\/warranty\/registrants\/new\">here<\/a>. You can register for the warranty online. You will have to register within 30 days of purchase.<\/p><p><\/p>"
           }
         },
         "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-2": {
@@ -167,12 +167,14 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "recommendations_count": 6,
+        "recommendations_count": 3,
         "products": [
-
+          "cleaning-brush",
+          "durgol-descaler-4-2-fluid-ounces-pack-of-4",
+          "4-pack-gift-box-12-oz-bags"
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
