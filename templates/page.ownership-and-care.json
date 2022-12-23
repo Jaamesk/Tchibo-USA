@@ -190,7 +190,7 @@
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "show_counter": true,
         "desktop_image_effect": "reveal",
         "image_position": "end",
