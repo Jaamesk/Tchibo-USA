@@ -2,11 +2,52 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "99381584-f094-409d-845c-4c7481eeb805": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632892100814__99381584-f094-409d-845c-4c7481eeb805-1671781551a348b975-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "How to store your Coffee"
+          }
+        },
+        "template--15632892100814__99381584-f094-409d-845c-4c7481eeb805-1671781551a348b975-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Keep your Coffee fresh and delicious",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15632892100814__99381584-f094-409d-845c-4c7481eeb805-1671781551a348b975-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Coffee storage plays an important role in ensuring that you can enjoy your coffee without any worries. We give tips on how to store coffee properly. With the proper storage your coffee stays fresh and delicious well past the expiration date.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632892100814__99381584-f094-409d-845c-4c7481eeb805-1671781551a348b975-0",
+        "template--15632892100814__99381584-f094-409d-845c-4c7481eeb805-1671781551a348b975-1",
+        "template--15632892100814__99381584-f094-409d-845c-4c7481eeb805-1671781551a348b975-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "99381584-f094-409d-845c-4c7481eeb805"
   ]
 }
