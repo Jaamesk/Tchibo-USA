@@ -26,6 +26,11 @@
             "show_empty": false
           }
         },
+        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -34,7 +39,7 @@
         "29403830-c28e-45d8-a405-17d8aefec65a": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-coffee-selection_100x100.png?v=1667550623\" class=\"pr-icon\">\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-touch_100x100.png?v=1667550631\" class=\"pr-icon\">\n<\/div>\n<div class =\"right-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-slim_100x100.png?v=1667550638\" class=\"pr-icon\">\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\ndisplay: flex;\n}\n\n<\/style>"
+            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-coffee-selection_100x100.png?v=1667550623\" class=\"pr-icon\" width=\"70%\">\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-touch_100x100.png?v=1667550631\" class=\"pr-icon\" width=\"70%\">\n<\/div>\n<div class =\"right-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-slim_100x100.png?v=1667550638\" class=\"pr-icon\" width=\"70%\">\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\ndisplay: flex;\njustify-content: space-between;\n}\n\n<\/style>"
           }
         },
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0": {
@@ -64,6 +69,7 @@
         "badges",
         "price",
         "rating",
+        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "separator",
         "29403830-c28e-45d8-a405-17d8aefec65a",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
