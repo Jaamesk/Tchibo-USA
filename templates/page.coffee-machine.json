@@ -33,7 +33,7 @@
         "2f8ddea6-2ee8-46be-8e21-62b4fa650a0d": {
           "type": "liquid",
           "settings": {
-            "liquid": "<video width=\"auto\" controls autoplay>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8b0bb4fdd56c436f8a5e2f2f758efb53.mp4\" type=\"video\/mp4\">\n<\/video>"
+            "liquid": "<video style=\"border-radius: 20px\" width=\"auto\" controls autoplay>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8b0bb4fdd56c436f8a5e2f2f758efb53.mp4\" type=\"video\/mp4\">\n<\/video>"
           }
         }
       },
@@ -55,24 +55,23 @@
     "4b12dacc-054d-4792-a791-b7367cd7d015": {
       "type": "media-with-text",
       "blocks": {
-        "71e7307b-9a8d-487d-94ca-1ec499f55708": {
-          "type": "video",
+        "2b82580b-0d9e-4629-bb27-ecad4b06a7b3": {
+          "type": "image",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/2baaeba40be34956b3cbb781331e600f.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "image": "shopify:\/\/shop_images\/Tchibo-coffee-machine-6-ways_1200x1200_ee7e11e8-e9cf-43c0-b328-a2663bb52174.webp",
             "media_width": 50,
             "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "subheading": "Single serve. No waste.",
+            "title": "The Tchibo",
+            "content": "<p>Just pour in your whole beans. And hit “play.” This hi-touch technology brews your single serve coffee to your exact specifications. It’s sleek and streamlined – to fit comfortably on your counter. It is surprisingly affordable. And best of all, there are no plastic cups to end up in a landfill.<\/p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "#f5ede5",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#423d39",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
@@ -80,7 +79,7 @@
         }
       },
       "block_order": [
-        "71e7307b-9a8d-487d-94ca-1ec499f55708"
+        "2b82580b-0d9e-4629-bb27-ecad4b06a7b3"
       ],
       "settings": {
         "full_width": false,
