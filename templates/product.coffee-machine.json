@@ -36,6 +36,16 @@
           "settings": {
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
           "type": "text",
           "settings": {
@@ -47,16 +57,6 @@
           "settings": {
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
         "29403830-c28e-45d8-a405-17d8aefec65a": {
           "type": "liquid",
           "settings": {
@@ -65,6 +65,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false
           }
@@ -77,9 +78,9 @@
         "rating",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "separator",
+        "buy_buttons",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
-        "buy_buttons",
         "29403830-c28e-45d8-a405-17d8aefec65a",
         "description"
       ],
@@ -99,6 +100,55 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "10e8c8f5-b355-4419-a607-76bbbbb1569e": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-0": {
+          "type": "item",
+          "settings": {
+            "title": "Features & Specifications",
+            "content": "<ul><li>The Tchibo super automatic coffee and espresso machine<\/li><li>Bean-To-Brew, Single Serving, Fresh Grinding coffee machine<\/li><li>Fresh coffee cup by cup<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact Size: (W) 7” (H) 12.4” (L) 15.6”<\/li><li>Pre-inspected & tested before shipment in the US<\/li><li>Easy to maintain by regularly using the Durgol Descaler<\/li><\/ul>"
+          }
+        },
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-1": {
+          "type": "item",
+          "settings": {
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-2": {
+          "type": "item",
+          "settings": {
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-0",
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-1",
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Details",
+        "title": "Find out more about the Tchibo",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
     "product-recommendations": {
@@ -128,6 +178,7 @@
   },
   "order": [
     "main",
+    "10e8c8f5-b355-4419-a607-76bbbbb1569e",
     "product-recommendations"
   ]
 }
