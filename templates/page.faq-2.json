@@ -2,11 +2,390 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "bdaf6ff9-2a1d-426c-8a5e-8ba841841a2a": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--15632952393934__bdaf6ff9-2a1d-426c-8a5e-8ba841841a2a-167179415319b52f28-0": {
+          "type": "item",
+          "settings": {
+            "title": "Is Tchibo new?",
+            "content": "<p>No. Founded in 1949, Tchibo has been delighting coffee connoisseurs for over 70 years, becoming the #1 coffeehouse in Europe. It is, however, now new to America.<\/p>"
+          }
+        },
+        "template--15632952393934__bdaf6ff9-2a1d-426c-8a5e-8ba841841a2a-167179415319b52f28-1": {
+          "type": "item",
+          "settings": {
+            "title": "What does “Tchibo” mean?",
+            "content": "<p>The name “Tchibo” is actually an abbreviated combination of co-founder Carl Tchiling Hiryan’s name and “Bohne”, which means “bean.” That’s why the Tchibo logo is a roasting bean.<\/p>"
+          }
+        },
+        "template--15632952393934__bdaf6ff9-2a1d-426c-8a5e-8ba841841a2a-167179415319b52f28-2": {
+          "type": "item",
+          "settings": {
+            "title": "How do you pronounce Tchibo?",
+            "content": "<p>CHEE-bo. The T is silent.<\/p>"
+          }
+        },
+        "aa5d1b3e-d879-4298-8b67-ebede9f4624e": {
+          "type": "item",
+          "settings": {
+            "title": "What does “Röst Frisch” mean?",
+            "content": "<p>\"Röst Frisch \" is a stylized version of \"röstfrisch\" which means \"freshly roasted\" in Europe. Tchibo is passionately committed to fresh coffee. Every single step in our process is dedicated to deliver the freshest coffee experience from bean to cup.<\/p>"
+          }
+        },
+        "20df45bd-75c6-4889-a8dc-7cc76bbf12b6": {
+          "type": "item",
+          "settings": {
+            "title": "Where is Tchibo Röst Frisch coffee sourced from?",
+            "content": "<p>We follow the sun around the world, back and forth across the equator, harvesting only 100% Arabica beans in peak season from the finest coffee-growing regions around the world – such as Brazil, Colombia, Honduras and Guatemala.<\/p>"
+          }
+        },
+        "fcfaed29-f3d0-49e1-bc61-5c2302e1972c": {
+          "type": "item",
+          "settings": {
+            "title": "What makes Tchibo Röst Frisch so special?",
+            "content": "<p>Tchibo Röst Frisch is a sustainable, finely crafted coffee for your home. Every step in our process is dedicated to creating exquisitely fresh, aromatic coffees. With more than 70 years of experience, we carefully roast the beans in the legendary Tchibo tradition to bring out over 800 different aromas. Then, at the exact moment of peak intensity, this flavor and freshness is sealed in and protected by Tchibo Aroma Protect™ to provide the finest taste experience.<\/p>"
+          }
+        },
+        "8f01d576-50f4-4b5d-b98a-430b9816c06e": {
+          "type": "item",
+          "settings": {
+            "title": "What is Tchibo Aroma Protect™?",
+            "content": "<p>TCHIBO AROMA PROTECT™ ensures the freshness and conservation of aromas in your whole bean coffee - by locking freshness in and oxygen and light out. In our sealed coffee packages, a one-way valve moderates the ideal conditions for fresh coffee. Fresh roasted coffee needs to be de-gassed for up to 2 weeks. The one-way valve removes the gas and moisture -- while preventing air from entering. By protecting coffee from oxygen and its aging effects, it stays fresher longer. In our whole bean bags, the sealed pouch comes with a spout and non-metallic packaging sealing cap. When you open the cap, it cuts into the bag, breaking the seal. (Warning: do not stick your finger into the spout as there are sharp edges to cut into the bag.) The easily resealable cap locks out oxygen, helping to prolong the coffee’s freshness and can be re-sealed air-tight again.<\/p>"
+          }
+        },
+        "586d18b7-f009-4853-9883-d74d2b5ce899": {
+          "type": "item",
+          "settings": {
+            "title": "Can’t I get fresh coffee at any diner in America?",
+            "content": "<p>Good question! We’re not talking about fresh-brewed coffee, which is a function of when you made it. We’re talking about fresh flavor – which is a function of how you make it. The legendary Tchibo Röstmeisters are completely committed to freshness – from farm to cup – creating richer, more flavorful and aromatic coffee.<\/p>"
+          }
+        },
+        "a12328b7-0fc3-4a43-b9e0-d801fb9cc796": {
+          "type": "item",
+          "settings": {
+            "title": "How do I open the package?",
+            "content": "<p>Whole Bean bags: The whole bean coffee bags can easily be opened via the TCHIBO AROMA PROTECT cap: Just twist the cap on the side of the bag. No need for cutting!<\/p><p>Ground Coffee bags: Cut the ground coffee bag along the top tab, ideally in one smooth cut.<\/p>"
+          }
+        },
+        "463622c9-71f6-412a-80ce-35b7378da096": {
+          "type": "item",
+          "settings": {
+            "title": "How do I close or seal the package",
+            "content": "<p>Whole Bean bags: Just twist the AROMA PROTECT cap back on to ensure the freshness of your coffee and conservation of aromas.<\/p><p>Ground Coffee bags: Use a sealing clip to re-seal the bag and store in an air-tight container to ensure the freshness of your coffee.<\/p>"
+          }
+        },
+        "34c6c6b4-de11-46d3-9036-64d027d890b0": {
+          "type": "item",
+          "settings": {
+            "title": "How do I open the sealed pouch inside the box?",
+            "content": "<p>We recommend using a sharp pair of scissors and cutting straight across the bag ¾ of an inch from the top. This way you have enough room to roll and seal the bag.<\/p>"
+          }
+        },
+        "82426c8f-20ae-436b-b43e-977f7af9eb4a": {
+          "type": "item",
+          "settings": {
+            "title": "What is the recommended shelf life of Tchibo Röst Frisch?",
+            "content": "<p>The shelf life of coffee is all about keeping oxygen out. Technically, our coffee doesn’t go bad. But if you leave it unsealed, the fresh aromas start to noticeably diminish after 2 weeks.<\/p><p>To ensure the freshest coffee experience possible, you can find the \"best before\" dates to all TCHIBO RÖST FRISCH packages. To keep unopened coffee fresh after you bring it home, store it in a cool, dry place and use before the \"Best before\" date. After opening, use it within two weeks<\/p>"
+          }
+        },
+        "670835a8-dac1-41f0-87e7-20f294d98df5": {
+          "type": "item",
+          "settings": {
+            "title": "What grind should I choose?",
+            "content": "<p>First of all, always store your coffee beans in a closed package under cool conditions. Grind your coffee right before brewing. Use a clean coffee grinder (ideally, a ceramic coffee grinder). The coffee should not become too warm during the grinding process. You should select a medium grinding degree for drip machines or a coarser grinding for French Press preparation. If it is too fine, the coffee can become bitter. Too coarse, and the coffee will taste thin and weak.<\/p>"
+          }
+        },
+        "bf625411-e08e-47ff-b493-14813e2cd7cb": {
+          "type": "item",
+          "settings": {
+            "title": "What are your bags made of?",
+            "content": "<p>Our foil packages are a mix of plastics and aluminum with a strong lightweight laminated film that is used to protect our coffee from light, oxygen and other environmental factors to keep its full freshness and flavor.<\/p><p>The paper folding boxes contain 95% carton material -- non-corrugated paperboard with a great stability to store your inner pouch and its coffee.<\/p><p>Our TCHIBO RÖST FRISCH packages are recyclable in some areas but not all. Please check with your municipal department to find out if our coffee bags can be recycled in your area.<\/p><p>Please dispose of the packaging in an environmentally friendly manner in the designated waste containers.<\/p>"
+          }
+        },
+        "cfc0b113-f91a-461f-92cf-f2ca3480bc76": {
+          "type": "item",
+          "settings": {
+            "title": "Where can I buy Tchibo coffee?",
+            "content": "<p>Right now, only <a href=\"https:\/\/tchibo.us\/collections\/all\">here on our website <\/a>or on Amazon.com. Or look for Tchibo in the hold packaging at fine stores.<\/p>"
+          }
+        },
+        "f11aa257-4975-40eb-a58d-7b5cecfba11c": {
+          "type": "item",
+          "settings": {
+            "title": "Where is the Machine available?",
+            "content": "<p>For now, only <a href=\"https:\/\/tchibo.us\/collections\/shop-coffee-machine\">online here<\/a>. Or, of course, <a href=\"https:\/\/www.amazon.com\/Tchibo-Fully-Automatic-coffee-machine\/dp\/B0914Z8XF5\/ref=sr_1_1_sspa?dchild=1&keywords=Tchibo+Coffee&qid=1619812678&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVjFGMllBUUE4MkxQJmVuY3J5cHRlZElkPUEwNzQ0MDA1MzMyTlpETFFGMTM2VSZlbmNyeXB0ZWRBZElkPUEwNDI4MzMxMjlGRUNGMzUyNzRGNiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=\">Amazon<\/a>.<\/p>"
+          }
+        },
+        "8c773990-ecdf-4fe1-a989-16b91eeb35cf": {
+          "type": "item",
+          "settings": {
+            "title": "Can I return Tchibo coffee? How do I return a product I did not like?",
+            "content": "<p>Please visit our policy page on our website <a href=\"https:\/\/tchibo-coffee-usa.myshopify.com\/policies\/refund-policy\">here<\/a>.<\/p>"
+          }
+        },
+        "3b02a977-c8cb-4d6b-ad94-44c3a9e6c990": {
+          "type": "item",
+          "settings": {
+            "title": "What is your Machine return policy?",
+            "content": "<p>You can check our <a href=\"https:\/\/tchibo-coffee-usa.myshopify.com\/policies\/refund-policy\">return policy here<\/a>. Basically, we recommend that you call out our Customer Service (1-888-824-4261) to determine if your machine is returnable.<\/p>"
+          }
+        },
+        "b62e0ee4-811e-4ab6-acbd-ebd9f38eb601": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship to Hawaii, Alaska or Canada?",
+            "content": "<p>No. Sorry. Not yet.<\/p>"
+          }
+        },
+        "90a05b01-1fb2-471f-b5b3-cb347216f0ea": {
+          "type": "item",
+          "settings": {
+            "title": "Why is the price so low compared to other, similar coffee machines?",
+            "content": "<p>Tchibo wants as many people as possible to enjoy the taste of freshly-prepared coffee. Our new Bean to Brew machine has everything you need for this, including a high-quality stainless-steel grinder. However, we only focus on the necessary features that affect the taste of coffee -– not a lot of unnecessary extras. This allows us to offer you The Tchibo machine at an unbeatable value.<\/p>"
+          }
+        },
+        "ad3629af-87f0-4a4e-a762-4c90b0bb4e59": {
+          "type": "item",
+          "settings": {
+            "title": "How many bars of pressure does the machine use?",
+            "content": "<p>19. That said, the pressure at which the pump pushes water through the system will change depending on how much coffee is in the machine. Or whether you use the boost button. It will also change depending on the grinder setting. It will be less if the grinder is set to a very fine setting as the water has a harder time passing through the grounds.<\/p>"
+          }
+        },
+        "7f3a8e52-42fa-4145-8801-a133d23b9021": {
+          "type": "item",
+          "settings": {
+            "title": "Is the Machine available in different colors?",
+            "content": "<p>No, not yet. For now, The Tchibo is only available in black.<\/p>"
+          }
+        },
+        "e281d7a1-89c4-448f-bba9-bff20a028451": {
+          "type": "item",
+          "settings": {
+            "title": "Does it make Espresso – or just Coffee?",
+            "content": "<p>Both. You can select the size and intensity of your coffee on the LED control panel.<\/p>"
+          }
+        },
+        "c984945d-ed93-4e08-93e0-a17c62800701": {
+          "type": "item",
+          "settings": {
+            "title": "What size are the servings?",
+            "content": "<p>2, 6 and 8 ounce cups. Of course, if you need more, you can immediately make a fresher cup.<\/p>"
+          }
+        },
+        "7eff8057-fdd8-4521-9536-85e979fc74fc": {
+          "type": "item",
+          "settings": {
+            "title": "Where is the machine made?",
+            "content": "<p>Designed in Germany. Built in China.<\/p>"
+          }
+        },
+        "0aeea6c3-7a1f-41fb-a90d-185255663dfe": {
+          "type": "item",
+          "settings": {
+            "title": "Does it come with a milk frother?",
+            "content": "<p>No, sorry. While Tchibo makes many different European coffee machines with different functions – including frothing, this is the only one available in the US at this time.<\/p><p>(Of course, some of the coffee purists here feel that adding milk to exquisite coffee is blasphemous!)<\/p>"
+          }
+        },
+        "4eb893e9-36b0-461e-8402-ce53f9521e80": {
+          "type": "item",
+          "settings": {
+            "title": "Does The Tchibo machine come with a Warranty?",
+            "content": "<p>Yes. A limited one-year warranty. You can read about it <a href=\"https:\/\/tchibo.us\/apps\/warranty\/registrants\/new\">here<\/a>. For all machines purchased on or before August 15th, 2021, you are automatically registered. For machines purchased after this date, you will have to register for the warranty online. You will have register within 30 days of purchase.<\/p>"
+          }
+        },
+        "ec59e4ab-584a-43e7-97e1-fbf815b390e6": {
+          "type": "item",
+          "settings": {
+            "title": "Can I also fill the machine with ground coffee?",
+            "content": "<p>No, only whole coffee beans – this ensures a fresh and aromatic cup of coffee every time.<\/p>"
+          }
+        },
+        "b962a5e3-63b9-4d26-b8a3-1814488dcdff": {
+          "type": "item",
+          "settings": {
+            "title": "Can I fill the machine with two different types of coffee bean?",
+            "content": "<p>No, the Bean to Brew machine has one coffee bean compartment for your favorite coffee.<\/p>"
+          }
+        },
+        "267170a8-7b20-4502-87a2-d9157c5c00fb": {
+          "type": "item",
+          "settings": {
+            "title": "How can I switch between making espresso and regular coffee – there is only one coffee bean compartment?",
+            "content": "<p>It is actually only possible to fill the machine with coffee beans as and when required, so you need to choose one type of coffee bean until you refill the machine: either espresso or regular coffee.<\/p><p>However, it is possible to make a very good espresso with regular coffee beans – and vice versa. Try it out and see what tastes good. If you make both types of coffee often, we recommend that you use strong, dark-roasted, regular coffee beans.<\/p>"
+          }
+        },
+        "1ed6604f-28a4-4f3f-b8ac-7f12df9d76c1": {
+          "type": "item",
+          "settings": {
+            "title": "How often do I need to clean the brewing unit?",
+            "content": "<p>If you use the Bean to Brew machine every day, we recommend cleaning the brewing unit once a week.<\/p>"
+          }
+        },
+        "7781f0fd-46c9-4f81-9384-67423271594e": {
+          "type": "item",
+          "settings": {
+            "title": "How often should I descale the machine?",
+            "content": "<p>Descale your machine as soon as this is indicated on the display. This helps to save energy and increases the service life of your machine. Depending on how often you use your machine, you should do this once a month to a few times a year.<\/p><p>The descaling program consists of two steps: descaling and rinsing. You will find all details on this in the operating instructions and video instructions<\/p><p>Use a standard, liquid, descaling agent suitable for coffee and espresso machines. Other agents may damage materials in the machine and\/or have no effect.<\/p>"
+          }
+        },
+        "dd768509-c887-4b7e-9c6d-bfe1e246166f": {
+          "type": "item",
+          "settings": {
+            "title": "The coffee is not hot enough. What can I do?",
+            "content": "<p>Especially in the case of espresso, the amount of coffee is so minimal compared to the size of the cup that it cools quickly. We recommend preheating your cup before making coffee. To do this, press the hot water button. Around 1.7 US fl. oz. (50 ml) of hot water will be dispensed into the cup. Pour the water away before starting to make a coffee.<\/p>"
+          }
+        },
+        "fbc898df-9751-4d9c-bfb7-a0ef26567540": {
+          "type": "item",
+          "settings": {
+            "title": "The coffee is too weak. What can I do?",
+            "content": "<p>Set the grinding degree to a finer setting and, if necessary, press the Boost button to make the coffee stronger.<\/p><p>Note: You can only adjust the grinder setting when the grinder is operating.<\/p>"
+          }
+        },
+        "03dc57bc-0869-4be0-b4d2-43e1b6f57b1e": {
+          "type": "item",
+          "settings": {
+            "title": "The rinsing cycle starts when the machine is switched on. What can I do?",
+            "content": "<p>The rinsing cycle starts automatically whenever the machine is switched on. You can interrupt the cycle by pressing the water button. However, you cannot deactivate this function.<\/p><p>During the rinsing cycle, coffee residue and leftover water are flushed out of the machine’s pipes, and the coffee spout opening is rinsed. This is crucial, as it ensures that the quality and temperature of your coffee remains consistent every single time.<\/p><p>You can find more information about possible adjustments in the operating instructions under “Adjusting the automatic rinsing cycle”.<\/p>"
+          }
+        },
+        "a85e8a96-2de2-400a-989f-c66d53af075c": {
+          "type": "item",
+          "settings": {
+            "title": "The coffee flows slowly out of the coffee spout. What can I do?",
+            "content": "<p>Adjust the grinder to a coarser setting.<\/p><p>Note: You can only adjust the grinder setting when the grinder is operating.<\/p>"
+          }
+        },
+        "4251fb2b-ec28-400f-b5c0-5f5e587d2082": {
+          "type": "item",
+          "settings": {
+            "title": "The machine takes an unusually long amount of time to heat up, so the coffee or hot water is only being dispensed in small amounts. What can I do?",
+            "content": "<p>The machine needs to be descaled even if the \"Descale\" symbol is not lit up. Proceed as described in the “Descaling” chapter in the operating instructions, or follow the steps in the descaling video.<\/p>"
+          }
+        },
+        "d52e01d4-ca1e-41e1-bfa8-70b5b6edf35e": {
+          "type": "item",
+          "settings": {
+            "title": "Why does my machine automatically switch into standby mode? How can I change the length of time for which the machine remains active?",
+            "content": "<p>The machine automatically switches into standby mode if you do not press any buttons for about 10 minutes. This helps to save energy.<\/p><p>You can increase this length of time to 20 or 30 or 120 minutes. You can find all details regarding this in the operating instructions under “Standby mode”.<\/p>"
+          }
+        },
+        "d29378e6-4f7c-49fc-b653-3f6a0d09059b": {
+          "type": "item",
+          "settings": {
+            "title": "Why does the “Refill beans” symbol not light up even though the coffee bean compartment looks empty?",
+            "content": "<p>The machine detects if the coffee bean compartment is empty based on the energy consumption of the motor for the grinder. Even a small amount of coffee beans is enough to prevent the “Refill beans” symbol from being activated.<\/p><p>If this happens, brew one to two more cups of coffee. The symbol should then appear on the display.<\/p>"
+          }
+        },
+        "dfd99e88-75c8-4f62-a117-6418333d4b41": {
+          "type": "item",
+          "settings": {
+            "title": "A small amount of ground coffee collects next to the brewing unit. Is this normal?",
+            "content": "<p>It is normal for a certain amount of coffee to collect next to the brewing unit – for technical reasons it is not possible to prevent this completely. This may happen in particular if the grinding degree has been set to a coarse setting, or if the Boost button is used, as this means that the brewing unit is filled with as much coffee as possible.<\/p>"
+          }
+        },
+        "e7d8e2fc-31fe-4726-b0e9-4f294a44cddd": {
+          "type": "item",
+          "settings": {
+            "title": "The machine does not notify me when the water tank is empty. What may be causing this?",
+            "content": "<p>The water tank sensor should detect an empty water tank, prevent the machine from running on empty, and activate the corresponding warning symbol. However, leftover water on the outside of the tank may disrupt the sensor. If this happens, we recommend drying the outside of the tank after filling it with water.<\/p><p>The tank should not be filled with water after it has been inserted into the machine.<\/p>"
+          }
+        },
+        "e1486db9-a3c3-43e1-9d6c-3a8f0d94cb04": {
+          "type": "item",
+          "settings": {
+            "title": "I have emptied the coffee grounds container, but the “Empty coffee grounds” symbol is still flashing. What may be causing this?",
+            "content": "<p>The machine does not check the amount of coffee grounds in the coffee grounds container, but counts the number of times coffee is brewed. Because of this, the “Empty coffee grounds” symbol may still light up even if you have emptied the container in-between. Simply empty the container again.<\/p><p>When emptying the container, make sure that you do not reinsert the drawer and coffee grounds container into the machine until the “Empty coffee grounds” symbol starts to flash; only then has the machine registered that the container has been removed.<\/p><p>Emptying the coffee grounds container while the machine is switched off will not be registered.<\/p>"
+          }
+        },
+        "ca9816a7-99e0-4cf1-8190-95a1f539a73e": {
+          "type": "item",
+          "settings": {
+            "title": "The rinsing cycle does not start when the machine is switched on, and the machine cannot be operated, despite all symbols being lit up correctly.",
+            "content": "<p>This can happen if the on\/off button is pressed too gently. This does not happen if the button is pressed firmly. If the machine still cannot be operated, please call 1-888-824-4261<\/p>"
+          }
+        },
+        "015e28d3-7ccb-448c-bad5-cd8209d2bb61": {
+          "type": "item",
+          "settings": {
+            "title": "Is Tchibo Röst Frisch sustainable?",
+            "content": "<p>At Tchibo, we believe the only thing more important than fresh coffee is a fresh planet. As a European company, we have dealt with diminishing resources and the environment for decades. And as a family-owned business, we are personally and culturally committed to sustainability and fairness. We live by a set of core values, economic policies and environmental ethics. That’s why 100% of our coffee now comes from Rainforest Alliance Certified farms.<\/p><p>Sustainable coffee cultivation avoids pesticides or chemical fertilizers to protect the environment. This makes the soils more fertile, the coffee quality better and the farmers healthier. Committed to improving the incomes and living conditions of coffee farmers and their families, we run special training programs in the field called Tchibo Joint Forces!® This program supports farmers directly in the transition to sustainable cultivation. More than 45,000 small farmers in 9 countries have already benefited from our efforts. What’s more, while their parents harvest the coffee, more than 5,500 children have used our care services meals and schooling.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632952393934__bdaf6ff9-2a1d-426c-8a5e-8ba841841a2a-167179415319b52f28-0",
+        "template--15632952393934__bdaf6ff9-2a1d-426c-8a5e-8ba841841a2a-167179415319b52f28-1",
+        "template--15632952393934__bdaf6ff9-2a1d-426c-8a5e-8ba841841a2a-167179415319b52f28-2",
+        "aa5d1b3e-d879-4298-8b67-ebede9f4624e",
+        "20df45bd-75c6-4889-a8dc-7cc76bbf12b6",
+        "fcfaed29-f3d0-49e1-bc61-5c2302e1972c",
+        "8f01d576-50f4-4b5d-b98a-430b9816c06e",
+        "586d18b7-f009-4853-9883-d74d2b5ce899",
+        "a12328b7-0fc3-4a43-b9e0-d801fb9cc796",
+        "463622c9-71f6-412a-80ce-35b7378da096",
+        "34c6c6b4-de11-46d3-9036-64d027d890b0",
+        "82426c8f-20ae-436b-b43e-977f7af9eb4a",
+        "670835a8-dac1-41f0-87e7-20f294d98df5",
+        "bf625411-e08e-47ff-b493-14813e2cd7cb",
+        "cfc0b113-f91a-461f-92cf-f2ca3480bc76",
+        "f11aa257-4975-40eb-a58d-7b5cecfba11c",
+        "8c773990-ecdf-4fe1-a989-16b91eeb35cf",
+        "3b02a977-c8cb-4d6b-ad94-44c3a9e6c990",
+        "b62e0ee4-811e-4ab6-acbd-ebd9f38eb601",
+        "90a05b01-1fb2-471f-b5b3-cb347216f0ea",
+        "ad3629af-87f0-4a4e-a762-4c90b0bb4e59",
+        "7f3a8e52-42fa-4145-8801-a133d23b9021",
+        "e281d7a1-89c4-448f-bba9-bff20a028451",
+        "c984945d-ed93-4e08-93e0-a17c62800701",
+        "7eff8057-fdd8-4521-9536-85e979fc74fc",
+        "0aeea6c3-7a1f-41fb-a90d-185255663dfe",
+        "4eb893e9-36b0-461e-8402-ce53f9521e80",
+        "ec59e4ab-584a-43e7-97e1-fbf815b390e6",
+        "b962a5e3-63b9-4d26-b8a3-1814488dcdff",
+        "267170a8-7b20-4502-87a2-d9157c5c00fb",
+        "1ed6604f-28a4-4f3f-b8ac-7f12df9d76c1",
+        "7781f0fd-46c9-4f81-9384-67423271594e",
+        "dd768509-c887-4b7e-9c6d-bfe1e246166f",
+        "fbc898df-9751-4d9c-bfb7-a0ef26567540",
+        "03dc57bc-0869-4be0-b4d2-43e1b6f57b1e",
+        "a85e8a96-2de2-400a-989f-c66d53af075c",
+        "4251fb2b-ec28-400f-b5c0-5f5e587d2082",
+        "d52e01d4-ca1e-41e1-bfa8-70b5b6edf35e",
+        "d29378e6-4f7c-49fc-b653-3f6a0d09059b",
+        "dfd99e88-75c8-4f62-a117-6418333d4b41",
+        "e7d8e2fc-31fe-4726-b0e9-4f294a44cddd",
+        "e1486db9-a3c3-43e1-9d6c-3a8f0d94cb04",
+        "ca9816a7-99e0-4cf1-8190-95a1f539a73e",
+        "015e28d3-7ccb-448c-bad5-cd8209d2bb61"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "FAQs",
+        "title": "Frequently Asked Questions",
+        "content": "<p>Want to know more about Tchibo, our coffee or our machines? Find the most frequently asked questions answered here.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f5ede5",
+        "accordion_text_color": "#423d39"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "bdaf6ff9-2a1d-426c-8a5e-8ba841841a2a"
   ]
 }
