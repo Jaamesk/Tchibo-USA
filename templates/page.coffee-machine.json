@@ -30,6 +30,17 @@
             "content": "<p>Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. What could be fresher than that?<\/p>"
           }
         },
+        "af84c5ac-6ce4-4bb0-9a98-e5dfff2149b2": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Shop Now",
+            "url": "shopify:\/\/products\/the-tchibo",
+            "background": "",
+            "text_color": ""
+          }
+        },
         "2f8ddea6-2ee8-46be-8e21-62b4fa650a0d": {
           "type": "liquid",
           "settings": {
@@ -41,6 +52,7 @@
         "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-0",
         "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-1",
         "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-2",
+        "af84c5ac-6ce4-4bb0-9a98-e5dfff2149b2",
         "2f8ddea6-2ee8-46be-8e21-62b4fa650a0d"
       ],
       "settings": {
@@ -67,8 +79,8 @@
             "subheading": "Single serve. No waste.",
             "title": "The Tchibo",
             "content": "<p>Just pour in your whole beans. And hit “play.” This hi-touch technology brews your single serve coffee to your exact specifications. It’s sleek and streamlined – to fit comfortably on your counter. It is surprisingly affordable. And best of all, there are no plastic cups to end up in a landfill.<\/p>",
-            "link_text": "",
-            "link_url": "",
+            "link_text": "Shop Now",
+            "link_url": "shopify:\/\/products\/the-tchibo",
             "background": "#f5ede5",
             "background_gradient": "",
             "text_color": "#423d39",
@@ -86,11 +98,80 @@
         "enable_parallax": true,
         "spacing": "small"
       }
+    },
+    "615762f4-1f9a-4d18-bdd3-aa238410b743": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-0",
+        "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-1",
+        "template--15632929390798__615762f4-1f9a-4d18-bdd3-aa238410b743-16717890068c098cce-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
     }
   },
   "order": [
     "main",
     "1a613376-3134-41ba-a274-f4739b0bed4f",
-    "4b12dacc-054d-4792-a791-b7367cd7d015"
+    "4b12dacc-054d-4792-a791-b7367cd7d015",
+    "615762f4-1f9a-4d18-bdd3-aa238410b743"
   ]
 }
