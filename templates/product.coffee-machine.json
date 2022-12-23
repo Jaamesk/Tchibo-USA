@@ -49,19 +49,6 @@
             "liquid": "<span style=\"color:#C0A468\">Free shipping. Delivered in 1-3 days.<\/span>"
           }
         },
-        "22a89051-e093-4dc8-a563-57fc462d3b9a": {
-          "type": "offer",
-          "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "none",
-            "icon_width": 24,
-            "title": "Qualifies for free shipping",
-            "content": "<p>Free and fast delivery to your doorstep.<\/p>",
-            "background": "#f2e0b0",
-            "text_color": "#423d39"
-          }
-        },
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0": {
           "type": "quantity_selector",
           "settings": {
@@ -75,6 +62,19 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "22a89051-e093-4dc8-a563-57fc462d3b9a": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "Qualifies for free shipping",
+            "content": "<p>Free and fast delivery to your doorstep.<\/p>",
+            "background": "#f2e0b0",
+            "text_color": "#423d39"
           }
         },
         "ed4d99e6-1e63-49b1-8368-0749661d25ea": {
@@ -105,9 +105,9 @@
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "separator",
         "24e1f974-bdca-42cd-9b19-dfecfe95b460",
-        "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "buy_buttons",
+        "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
         "29403830-c28e-45d8-a405-17d8aefec65a",
         "description"
