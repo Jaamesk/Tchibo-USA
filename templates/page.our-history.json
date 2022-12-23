@@ -12,13 +12,13 @@
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0": {
           "type": "subheading",
           "settings": {
-            "text": "Our Process"
+            "text": "Our Story"
           }
         },
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1": {
           "type": "heading",
           "settings": {
-            "text": "Fresher By Design",
+            "text": "The History of Tchibo",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -27,13 +27,13 @@
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>For over 70 years, the Tchibo Röstmeisters have passionately perfected fresh, aromatic coffees. From growing and harvesting to roasting, blending and packaging, every single step in the process is designed to create fresher coffee in your cup.<\/p>"
+            "content": "<p>Connoisseurs love to understand the origins of their beloved brands.  Here is the story of Europe's #1 coffee house.<\/p>"
           }
         },
         "b4141356-353f-4523-90ed-3092516813a8": {
           "type": "liquid",
           "settings": {
-            "liquid": "<video width=\"auto\" controls autoplay>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4aa01a5ad77944a3848f6556c42901eb.mp4\" type=\"video\/mp4\">\n<\/video>"
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b7c86d0ff7e3490588d37e8d7b93c7c9.mp4\" type=\"video\/mp4\">\n<\/video>"
           }
         }
       },
