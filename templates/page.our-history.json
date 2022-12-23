@@ -138,10 +138,40 @@
         "05179baf-564d-4b6f-934c-ad97de4e4b7d": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/history8.webp",
             "navigation_label": "2013",
             "subheading": "2013",
             "title": "Spilling The Beans",
             "content": "<p>Tchibo embraced technology to spread its gospel of freshness. Using the internet, social media, and mobile apps, Tchibo availability and popularity continue to grow across the world.<\/p>"
+          }
+        },
+        "87af0816-6101-4f00-aaab-c461fde1d3c2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/history10.webp",
+            "navigation_label": "2016",
+            "subheading": "2016",
+            "title": "German Technology & Timing",
+            "content": "<p>Driven by its commitment to freshness, Tchibo created sleek, one-step coffee machines that streamlined the entire brewing process for greater freshness.<\/p>"
+          }
+        },
+        "fbc7ef7c-73f5-4bf7-bf0c-baa44df6598f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/history11.webp",
+            "navigation_label": "2016",
+            "subheading": "2016",
+            "title": "Locks Freshness In & Oxygen Out",
+            "content": "<p>Tchibo has led the industry in packaging innovations with its patented Aroma Protect Technology – all in the service of fresher coffee.<\/p>"
+          }
+        },
+        "b88e8de4-834f-4dea-8100-b9ad3ebba8fd": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "label",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
@@ -154,7 +184,10 @@
         "7550d85c-a192-4512-b06e-12a58b7a3683",
         "41d9e64a-385a-42cc-946d-d92b1e9dd4fa",
         "be192eec-d3ad-4aea-b773-49791e1ecbea",
-        "05179baf-564d-4b6f-934c-ad97de4e4b7d"
+        "05179baf-564d-4b6f-934c-ad97de4e4b7d",
+        "87af0816-6101-4f00-aaab-c461fde1d3c2",
+        "fbc7ef7c-73f5-4bf7-bf0c-baa44df6598f",
+        "b88e8de4-834f-4dea-8100-b9ad3ebba8fd"
       ],
       "settings": {
         "full_width": true,
