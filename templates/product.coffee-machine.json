@@ -169,9 +169,9 @@
       "settings": {
         "recommendations_count": 3,
         "products": [
-          "cleaning-brush",
           "durgol-descaler-4-2-fluid-ounces-pack-of-4",
-          "4-pack-gift-box-12-oz-bags"
+          "4-pack-gift-box-12-oz-bags",
+          "cleaning-brush"
         ],
         "full_width": true,
         "stack_products": false,
