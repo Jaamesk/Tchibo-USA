@@ -73,132 +73,121 @@
         "spacing": "small"
       }
     },
-    "18f601f3-bf03-43f4-94da-504a7808ef16": {
-      "type": "rich-text",
+    "fb00fd6f-5ea2-41f8-aa35-35b1cd24c3ec": {
+      "type": "multi-column",
       "blocks": {
-        "template--15632944005326__18f601f3-bf03-43f4-94da-504a7808ef16-16717924784e3b7d13-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Getting started",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15632944005326__18f601f3-bf03-43f4-94da-504a7808ef16-16717924784e3b7d13-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Follow these simple steps to start using your machine.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15632944005326__18f601f3-bf03-43f4-94da-504a7808ef16-16717924784e3b7d13-1",
-        "template--15632944005326__18f601f3-bf03-43f4-94da-504a7808ef16-16717924784e3b7d13-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "2d53852b-06b0-45a2-a32f-efd6b343b305": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "template--15632944005326__2d53852b-06b0-45a2-a32f-efd6b343b305-1671792153e85a7816-0": {
+        "template--15632944005326__fb00fd6f-5ea2-41f8-aa35-35b1cd24c3ec-167216921654e6ec6d-0": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_Grafik-VA_0da8280f-b2be-4bed-abfc-ae0fa0537ce1.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Remove all packaging material.",
-            "content": ""
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Remove all packaging material.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "template--15632944005326__2d53852b-06b0-45a2-a32f-efd6b343b305-1671792153e85a7816-1": {
+        "template--15632944005326__fb00fd6f-5ea2-41f8-aa35-35b1cd24c3ec-167216921654e6ec6d-1": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_Grafik-VA_1694cb97-8de1-4601-93f1-137fb3561dc7.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Remove water reservoir from machine.",
-            "content": ""
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Remove water reservoir from machine.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "2478382a-02d3-487a-9598-c26eb5c3d802": {
+        "template--15632944005326__fb00fd6f-5ea2-41f8-aa35-35b1cd24c3ec-167216921654e6ec6d-2": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_Grafik-VA_177e902e-eb3d-4dcf-84a0-0796da24181d.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Fill water reservoir from faucet.",
-            "content": ""
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Fill water reservoir from faucet.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "3896ca2c-fccc-47d7-a26d-8827e887c6fb": {
+        "9bb51233-9f43-48a5-b13d-aca7d30b52c2": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/4_Grafik-VA_732ebe75-9975-41b6-89db-8d829ae9f399.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Place water reservoir back in machine.",
-            "content": ""
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Place water reservoir back in machine.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "26eabd79-be48-44d2-93d7-339cf0954c66": {
+        "b84a4ba3-48ac-429b-8bed-309ee386a8f8": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_Grafik-VA_9dfc1fb1-3d9f-47e8-9395-db92d974c8d9.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Fill beans in bean compartment.",
-            "content": ""
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Fill beans in bean compartment.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "f9ebb472-d928-4107-8573-05530106518f": {
+        "6b477c14-31f3-4e75-a68c-10d634680bfb": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/6_Grafik-VA_48934109-67fe-42ae-a707-e54c2460f950.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Place cup under coffee spout.",
-            "content": ""
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Place cup under coffee spout.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "58048494-f8b2-4f35-bb1d-48c53a00cbf1": {
+        "f78a8e95-691d-4e23-9112-20d5365734d9": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/7_Grafik-VA_779a60e6-edb8-4da8-8029-856e6de1923f.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Turn machine on. Wait until the automatic rinsing is done and you are ready to choose your drink.",
-            "content": ""
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Turn machine on. Wait until the automatic rinsing is done and you are ready to choose your drink.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "template--15632944005326__2d53852b-06b0-45a2-a32f-efd6b343b305-1671792153e85a7816-0",
-        "template--15632944005326__2d53852b-06b0-45a2-a32f-efd6b343b305-1671792153e85a7816-1",
-        "2478382a-02d3-487a-9598-c26eb5c3d802",
-        "3896ca2c-fccc-47d7-a26d-8827e887c6fb",
-        "26eabd79-be48-44d2-93d7-339cf0954c66",
-        "f9ebb472-d928-4107-8573-05530106518f",
-        "58048494-f8b2-4f35-bb1d-48c53a00cbf1"
+        "template--15632944005326__fb00fd6f-5ea2-41f8-aa35-35b1cd24c3ec-167216921654e6ec6d-0",
+        "template--15632944005326__fb00fd6f-5ea2-41f8-aa35-35b1cd24c3ec-167216921654e6ec6d-1",
+        "template--15632944005326__fb00fd6f-5ea2-41f8-aa35-35b1cd24c3ec-167216921654e6ec6d-2",
+        "9bb51233-9f43-48a5-b13d-aca7d30b52c2",
+        "b84a4ba3-48ac-429b-8bed-309ee386a8f8",
+        "6b477c14-31f3-4e75-a68c-10d634680bfb",
+        "f78a8e95-691d-4e23-9112-20d5365734d9"
       ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Getting started",
+        "content": "<p>Follow these simple steps to start using your machine.<\/p>",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "text_color": ""
       }
     },
     "959a1ae5-1121-4060-878d-06be7b6cb3bd": {
@@ -339,8 +328,7 @@
     "main",
     "90e834f2-888e-4d68-ace9-ff5c4c6b9b7c",
     "1cf851d8-036b-4e8a-b8a8-a8723041180d",
-    "18f601f3-bf03-43f4-94da-504a7808ef16",
-    "2d53852b-06b0-45a2-a32f-efd6b343b305",
+    "fb00fd6f-5ea2-41f8-aa35-35b1cd24c3ec",
     "959a1ae5-1121-4060-878d-06be7b6cb3bd",
     "7a44d680-c2a0-4f26-be9e-033d2e4d440c",
     "21d010c2-4b74-40dc-abb5-db1b01e1e0b4"
