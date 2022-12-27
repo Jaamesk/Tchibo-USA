@@ -205,90 +205,11 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
-    },
-    "6e7eedb7-2fc0-4ca3-a161-aace87b67140": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--15632636281038__6e7eedb7-2fc0-4ca3-a161-aace87b67140-1671799710cd303c55-0": {
-          "type": "image",
-          "settings": {
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "8a7b9399-cfca-4098-9ed1-2e553781408c": {
-          "type": "image",
-          "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "d7705a86-2a98-478f-8261-1704ad36a997": {
-          "type": "image",
-          "settings": {
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15632636281038__6e7eedb7-2fc0-4ca3-a161-aace87b67140-1671799710cd303c55-0",
-        "8a7b9399-cfca-4098-9ed1-2e553781408c",
-        "d7705a86-2a98-478f-8261-1704ad36a997"
-      ],
-      "settings": {
-        "full_width": false,
-        "enable_parallax": true,
-        "spacing": "small"
-      }
     }
   },
   "order": [
     "main",
     "10e8c8f5-b355-4419-a607-76bbbbb1569e",
-    "product-recommendations",
-    "6e7eedb7-2fc0-4ca3-a161-aace87b67140"
+    "product-recommendations"
   ]
 }
