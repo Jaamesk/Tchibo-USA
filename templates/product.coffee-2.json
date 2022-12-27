@@ -94,6 +94,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false
           }
@@ -133,6 +134,53 @@
         "input_text_color": ""
       }
     },
+    "be1b4d35-8675-4155-983e-fa4f523c770d": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ClassicBlend_RGB_480x480_2af624b1-ddaa-400b-bb7b-b69da28e42e7.jpg",
+            "column_size": "2",
+            "title": "Tchibo Classic Blend - Medium Roast",
+            "heading_tag": "h4",
+            "content": "<ul><li>Our Röstmeisters single roast these 100% Arabica beans to a bold medium roast with a powerful flavor<\/li><li>It has a satiny finish with rich, lively aromas of red berries and dried fruits<\/li><li>With very light acidity in taste to give a balance body<\/li><li>Blended of Rainforest Alliance Latin American coffees – originate of Brazil, Honduras, Columbia<\/li><li>Intensity level 4 out of 6<\/li><li>Recommended for Drip-Filter coffee, Pour over, French Press, Bean-to-Brew fresh grind coffee preparation<\/li><li>Kosher certified<\/li><\/ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rostmeister_RGB_480x480_2a02e97b-3884-475c-8410-21135b5561fe.jpg",
+            "column_size": "2",
+            "title": "Tchibo Röstmeister - Dark Roast",
+            "heading_tag": "h4",
+            "content": "<ul><li>Our Röstmeisters single roast these 100% Arabica beans to a deep Espresso Style strong roast with intense flavor<\/li><li>Dark Roasted, strong aroma and exquisite bittersweet chocolate flavor<\/li><li>Blended of Rainforest Alliance Latin American coffees – originate of Columbia, Guatemala, Brazil<\/li><li>Intensity level 6 out of 6<\/li><li>Recommended for Espresso Coffees, milk-based coffee specialty beverages<\/li><li>Kosher certified<\/li><\/ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-1",
+        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "Our Tchibo coffees",
+        "title": "Choose your blend",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -160,6 +208,7 @@
   },
   "order": [
     "main",
+    "be1b4d35-8675-4155-983e-fa4f523c770d",
     "product-recommendations"
   ]
 }
