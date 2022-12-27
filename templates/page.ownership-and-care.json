@@ -361,18 +361,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "c483f589-2b6d-4b8e-850e-2b3b6886f7b3": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<section id=\"maintenance\" class=\"page-section w-full my-0 pt-0\" style=\"padding-bottom: 50px;\">\n<div class=\"container-padded text-left mt-200 mb-0 py-200 bg-gold2\">\n<\/div>\n<div class=\"container text-center mt-200 mb-200\" style=\"margin-bottom: 20px;\">\n<div class=\"text-right\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/maintenance-instructions.png?v=11668410390662611736\" style=\"height: 30px;\"><\/div>\n<\/div>\n<div class=\"container text-center mt-200 mb-0\">\n<div class=\"video-popup hidden\"><video class=\"mainVideo\" controls=\"controls\" preload=\"none\" poster=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/tchibo-welcome-poster.jpg?v=390239286915820243\">\n            <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4c56ce1ff3ae49938c33fe6be2f46858.mp4\" type='video\/mp4;codecs=\"avc1.42E01E, mp4a.40.2\"'><\/source><\/video><\/div>\n<div class=\"image-popup hidden\">\n<div class=\"p-25 bg-gold3 mb-050\" style=\"line-height: 0;\"><img alt=\"\" class=\"mainImage w-full\"><\/div>\n<\/div>\n<div class=\"popup-background hidden\"><\/div>\n<div class=\"flex flex-wrap mt-200\">\n<div class=\"maintenance-option video mb-100 pr-100 sm:pr-0\" data-url=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/t\/19\/assets\/Cleaning_the_brewing_unit_1024.mp4?v=141601379658061314531596068814\">\n<div class=\"relative p-25 bg-gold3 mb-050\" style=\"line-height: 0;\">\n<div class=\"hover-label mt-50 text-uppercase \">Cleaning<\/div>\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/tchibo-cleaning-machine.png?v=8044786813522990172\" alt=\"\" class=\"w-full\">\n<\/div>\n<\/div>\n<div class=\"maintenance-option image mb-100 pl-100 sm:pl-0\" data-url=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/water-tank-video.png?v=4300577791995908778\">\n<div class=\"relative p-25 bg-gold3 mb-050\" style=\"line-height: 0;\">\n<div class=\"hover-label mt-50 text-uppercase \">Cleaning Water Tank &amp; Filter<\/div>\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/tchibo-cleaning-tank.png?v=8414497352483202940\" alt=\"\" class=\"w-full\">\n<\/div>\n<\/div>\n<div class=\"maintenance-option image mb-100 pr-100 sm:pr-0\" data-url=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/water-tray-video.png?v=8260048811953522564\">\n<div class=\"relative p-25 bg-gold3 mb-050\" style=\"line-height: 0;\">\n<div class=\"hover-label mt-50 text-uppercase \">Cleaning Tray &amp; Drip Bowl Grid<\/div>\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/tchibo-cleaning-tray.png?v=1014154492420333622\" alt=\"\" class=\"w-full\">\n<\/div>\n<\/div>\n<div class=\"maintenance-option image mb-100 pl-100 sm:pl-0\" data-url=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/rinsing-machine-video.png?v=16436130637341280283\">\n<div class=\"relative p-25 bg-gold3 mb-050\" style=\"line-height: 0;\">\n<div class=\"hover-label mt-50 text-uppercase \">Rinsing the Machine<\/div>\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/tchibo-rinsing-machine.png?v=7187293130949541732\" alt=\"\" class=\"w-full\">\n<\/div>\n<\/div>\n<div class=\"maintenance-option image mb-100 pr-100 sm:pr-0\" data-url=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/clean-grinders-video-4.png?v=1035475617693864647\">\n<div class=\"relative p-25 bg-gold3 mb-050\" style=\"line-height: 0;\">\n<div class=\"hover-label mt-50 text-uppercase \">Keep your grinder clean<\/div>\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/tchibo-cleaning-grinders.png?v=8680260898239443830\" alt=\"\" class=\"w-full\">\n<\/div>\n<\/div>\n<div class=\"maintenance-option video mb-100 pl-100 sm:pl-0\" data-url=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/t\/19\/assets\/Easy_Descaling_1024.mp4?v=172510700306220949231596068716\">\n<div class=\"relative p-25 bg-gold3 mb-050\" style=\"line-height: 0;\">\n<div class=\"hover-label mt-50 text-uppercase \">Descaling<\/div>\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/tchibo-descaling-machine.png?v=2581921937735884733\" alt=\"\" class=\"w-full\">\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -383,7 +371,6 @@
     "959a1ae5-1121-4060-878d-06be7b6cb3bd",
     "7a44d680-c2a0-4f26-be9e-033d2e4d440c",
     "21d010c2-4b74-40dc-abb5-db1b01e1e0b4",
-    "d1c7f15b-d3e0-48ea-9daf-e7da57def231",
-    "c483f589-2b6d-4b8e-850e-2b3b6886f7b3"
+    "d1c7f15b-d3e0-48ea-9daf-e7da57def231"
   ]
 }
