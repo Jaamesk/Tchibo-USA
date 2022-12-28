@@ -107,7 +107,7 @@
           "secondary_menu": "",
           "menu_open_trigger": "hover",
           "opening_from": "bottom",
-          "layout": "logo_left_navigation_center",
+          "layout": "drawer",
           "show_social_media": false,
           "show_locale_selector": true,
           "show_country_selector": true,
@@ -213,8 +213,8 @@
             "type": "newsletter",
             "settings": {
               "image": "{{shop.brand.logo}}",
-              "image_width": 150,
-              "heading_size": "h3",
+              "image_width": 180,
+              "heading_size": "h5",
               "title": "Sign up for new stories and personal offers",
               "content": ""
             }
@@ -239,13 +239,21 @@
               "menu": "footer",
               "show_menu_title": true
             }
+          },
+          "40819427-efc6-45dc-8c2c-030e8b88f5f9": {
+            "type": "text",
+            "settings": {
+              "title": "About our store",
+              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+            }
           }
         },
         "block_order": [
           "newsletter",
           "links",
           "87aa83d8-adf1-460d-ab9c-fa58603bdfa1",
-          "0ba62a29-a0ee-4f81-96b4-56786a34a231"
+          "0ba62a29-a0ee-4f81-96b4-56786a34a231",
+          "40819427-efc6-45dc-8c2c-030e8b88f5f9"
         ],
         "settings": {
           "show_social_media": true,
