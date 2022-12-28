@@ -225,11 +225,27 @@
               "menu": "footer",
               "show_menu_title": true
             }
+          },
+          "87aa83d8-adf1-460d-ab9c-fa58603bdfa1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_menu_title": true
+            }
+          },
+          "0ba62a29-a0ee-4f81-96b4-56786a34a231": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_menu_title": true
+            }
           }
         },
         "block_order": [
           "newsletter",
-          "links"
+          "links",
+          "87aa83d8-adf1-460d-ab9c-fa58603bdfa1",
+          "0ba62a29-a0ee-4f81-96b4-56786a34a231"
         ],
         "settings": {
           "show_social_media": true,
