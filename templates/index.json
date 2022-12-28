@@ -48,7 +48,7 @@
           "type": "heading",
           "settings": {
             "text": "The highest quality coffee. From Europe's #1 coffee house.",
-            "heading_tag": "h2",
+            "heading_tag": "h0",
             "text_color": "",
             "gradient": ""
           }
