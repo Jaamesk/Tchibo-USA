@@ -56,6 +56,7 @@
         "blocks": {
           "message": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "Coffee best before December 31",
               "url": ""
@@ -63,6 +64,7 @@
           },
           "edd88732-3ea4-42e0-9ff9-b8dcb8ff167f": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "FREE SHIPPING $49+",
               "url": ""
@@ -70,6 +72,7 @@
           },
           "4d69ecf0-e7d3-4e8c-bf7d-d4c53d6d9118": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "Support Number : 1-888-824-4261",
               "url": ""
@@ -102,18 +105,18 @@
           "menu": "main-menu",
           "sidebar_menu": "",
           "secondary_menu": "",
-          "menu_open_trigger": "click",
+          "menu_open_trigger": "hover",
           "opening_from": "bottom",
           "layout": "logo_left_navigation_center",
-          "show_social_media": true,
+          "show_social_media": false,
           "show_locale_selector": true,
           "show_country_selector": true,
           "show_country_flag": true,
           "show_country_name": false,
           "transparent_header_text_color": "#ffffff",
-          "reduce_padding": true,
+          "reduce_padding": false,
           "background_opacity": 100,
-          "background_blur_radius": 0
+          "background_blur_radius": 10
         }
       },
       "cart-drawer": {
