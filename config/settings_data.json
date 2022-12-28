@@ -115,7 +115,7 @@
           "show_country_name": false,
           "transparent_header_text_color": "#ffffff",
           "reduce_padding": false,
-          "background_opacity": 50,
+          "background_opacity": 90,
           "background_blur_radius": 10
         }
       },
