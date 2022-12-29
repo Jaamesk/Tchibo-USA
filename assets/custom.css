@@ -6,3 +6,10 @@
 .header__main-nav a{
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 700px){
+  .header__logo-image {
+    margin-top: -3.5rem;
+  }
+}
+
