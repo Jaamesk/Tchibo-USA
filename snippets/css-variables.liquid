@@ -121,10 +121,16 @@ note that this may have impact on different places.
     --heading-font-style: {{ settings.heading_font.style }};
     --heading-text-transform: {{ settings.heading_text_transform }};
     --heading-letter-spacing: {{ settings.heading_letter_spacing }};
-    --text-font-family: {{ settings.text_font.family }}, {{ settings.text_font.fallback_families }};
-    --text-font-weight: {{ settings.text_font.weight }};
-    --text-font-style: {{ settings.text_font.style }};
-    --text-letter-spacing: {{ settings.text_font_letter_spacing }};
+    /**
+    *--nav-font-weight: {{ settings.nav_font.weight }};
+    *--nav-font-style: {{ settings.nav_font.style }};
+    *--nav-text-transform: {{ settings.nav_text_transform }};
+    *--nav-letter-spacing: {{ settings.nav_letter_spacing }};
+    *--text-font-family: {{ settings.text_font.family }}, {{ settings.text_font.fallback_families }};
+    *--text-font-weight: {{ settings.text_font.weight }};
+    *--text-font-style: {{ settings.text_font.style }};
+    *--text-letter-spacing: {{ settings.text_font_letter_spacing }};
+    */
 
     /* Font sizes */
     --text-h0: {% if settings.heading_font_size == 'small' %}2.5rem{% elsif settings.heading_font_size == 'medium' %}2.75rem{% else %}3rem{% endif %};
