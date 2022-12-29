@@ -5,11 +5,9 @@
 */
 
 .header__main-nav a{
-    font-weight:normal;
-  text-transform:uppercase;
-  font-weight:100;
+  font-weight:400;
   color:#21292f;
-  letter-spacing: 0.1em !important;
+  letter-spacing: 0.6px !important;
 }
 
 /*
