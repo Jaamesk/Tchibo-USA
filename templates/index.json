@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "text": "The highest quality coffee. From Europe's #1 coffee house.",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_color": "#423d39",
             "gradient": ""
           }
@@ -20,7 +20,7 @@
         "8697a2d1-3481-444e-8e91-0c2beb1f928f": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Meet Europe’s #1 Coffeehouse. Learn what makes our coffee taste so exceptionally fresh.<\/p>"
           }
         }
       },
@@ -33,7 +33,7 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "start",
-        "background": "#fff",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -156,8 +156,8 @@
         ],
         "full_width": false,
         "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 6,
+        "show_progress_bar": false,
+        "products_count": 4,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "subheading": "",
@@ -262,8 +262,8 @@
         "products": [
 
         ],
-        "full_width": true,
-        "stack_products": true,
+        "full_width": false,
+        "stack_products": false,
         "show_progress_bar": true,
         "products_count": 6,
         "products_per_row_mobile": "1",
