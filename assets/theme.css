@@ -5835,7 +5835,7 @@ split-lines {
   grid-template: var(--header-grid-template);
   align-items: end;
   gap: var(--header-part-gap);
-  padding: 10px max(var(--container-gutter), 50% - var(--container-max-width) / 2) 30px;
+  padding: 15px max(var(--container-gutter), 50% - var(--container-max-width) / 2) 20px;
   color: rgb(var(--text-color));
   background: rgb(var(--background) / var(--header-background-opacity));
   -webkit-backdrop-filter: blur(var(--header-background-blur-radius));
