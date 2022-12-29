@@ -67,7 +67,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/website_banner_whole_bean_coffee_no_oz1000x500.jpg",
-            "title": "Discover our range of Röst Frisch coffees. Ground or Whole Bean.",
+            "title": "Discover our range of Röst Frisch coffees.",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/all-coffee",
             "link_text": "Shop Now",
@@ -165,7 +165,7 @@
         "content": "<p>Treat yourself to a taste of German Christmas.<\/p>",
         "link_url": "",
         "link_text": "View all",
-        "background": "#ffffff",
+        "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
