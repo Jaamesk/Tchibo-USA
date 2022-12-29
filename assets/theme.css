@@ -9760,7 +9760,7 @@ split-lines {
   font-family: Interstate;
   font-weight: 700;
   font-style: var(--heading-font-style);
-  letter-spacing: var(--heading-letter-spacing);
+  letter-spacing: 1.4px;
   text-transform: var(--heading-text-transform);
   overflow-wrap: anywhere;
 }
