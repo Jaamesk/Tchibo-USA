@@ -12,17 +12,6 @@
             "gradient": ""
           }
         },
-        "cd6c87c6-4dfa-4c3c-84a3-b1342deaedd9": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
         "e3ffdbc9-fd8d-4353-a22b-e505c34a3e0e": {
           "type": "divider",
           "settings": {
@@ -37,7 +26,6 @@
       },
       "block_order": [
         "template--15631460925646__87599842-b682-4173-b790-94c98fa7d82d-167146151376ac5b56-1",
-        "cd6c87c6-4dfa-4c3c-84a3-b1342deaedd9",
         "e3ffdbc9-fd8d-4353-a22b-e505c34a3e0e",
         "8697a2d1-3481-444e-8e91-0c2beb1f928f"
       ],

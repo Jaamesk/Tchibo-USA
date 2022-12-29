@@ -48,8 +48,12 @@
     "social_instagram": "https:\/\/www.instagram.com\/tchibocoffee_usa\/",
     "social_youtube": "https:\/\/www.youtube.com\/channel\/UC198yuWWSdsAzPz-2-fiyHg",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
-    "checkout_accent_color": "#f0c417",
-    "checkout_button_color": "#1a1a1a",
+    "checkout_logo_image": "shopify:\/\/shop_images\/tchibo-coffee-maker-logo.png",
+    "checkout_logo_size": "small",
+    "checkout_sidebar_background_color": "#f8f6f2",
+    "checkout_accent_color": "#c0a468",
+    "checkout_button_color": "#c0a468",
+    "checkout_error_color": "#d1383a",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -222,7 +226,7 @@
           "links": {
             "type": "links",
             "settings": {
-              "menu": "footer",
+              "menu": "account",
               "show_menu_title": true
             }
           },
