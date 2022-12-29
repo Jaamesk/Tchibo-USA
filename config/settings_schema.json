@@ -448,6 +448,10 @@
       },
       {
         "type": "header",
+        "content": "Nav text"
+      },
+      {
+        "type": "header",
         "content": "Body text"
       },
       {
