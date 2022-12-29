@@ -9,12 +9,6 @@
             "heading_tag": "h2"
           }
         },
-        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Grind beans for your brewing method. Brew your freshest coffee in your preferred method of preparation.<\/p>"
-          }
-        },
         "badges": {
           "type": "badges",
           "settings": {
@@ -45,6 +39,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
@@ -86,15 +81,8 @@
           "settings": {
           }
         },
-        "c236f393-25ac-4969-a29b-06d1a30e24e4": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/coffee.svg?v=1672174253\" class=\"pr-icon\">\n<span>Whole Bean Coffee<\/span>\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/fully_coffee_machine.svg?v=1672174289\" class=\"pr-icon\">\n<span>For use in single-serve coffee machines<\/span>\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\n\n}\n\n.left-column {\ndisplay: flex;\nalign-items: center;\npadding-bottom: 10px;\n}\n\n.middle-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.right-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.pr-icon {\nwidth: 10%;\nmargin-right: 15px;\n}\n\n<\/style>"
-          }
-        },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "collapse_content": false
           }
@@ -102,7 +90,6 @@
       },
       "block_order": [
         "title",
-        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
         "badges",
         "price",
         "rating",
@@ -113,7 +100,6 @@
         "buy_buttons",
         "13c7f244-2b9d-4cb9-9e10-08daece76034",
         "ff74cd0b-be49-4aae-9232-0db9c732eb44",
-        "c236f393-25ac-4969-a29b-06d1a30e24e4",
         "description"
       ],
       "settings": {
@@ -132,53 +118,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "be1b4d35-8675-4155-983e-fa4f523c770d": {
-      "type": "multi-column",
-      "blocks": {
-        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ClassicBlend_RGB_480x480_2af624b1-ddaa-400b-bb7b-b69da28e42e7.jpg",
-            "column_size": "2",
-            "title": "Tchibo Classic Blend - Medium Roast",
-            "heading_tag": "h4",
-            "content": "<ul><li>Our Röstmeisters single roast these 100% Arabica beans to a bold medium roast with a powerful flavor<\/li><li>It has a satiny finish with rich, lively aromas of red berries and dried fruits<\/li><li>With very light acidity in taste to give a balance body<\/li><li>Blended of Rainforest Alliance Latin American coffees – originate of Brazil, Honduras, Columbia<\/li><li>Intensity level 4 out of 6<\/li><li>Recommended for Drip-Filter coffee, Pour over, French Press, Bean-to-Brew fresh grind coffee preparation<\/li><li>Kosher certified<\/li><\/ul>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rostmeister_RGB_480x480_2a02e97b-3884-475c-8410-21135b5561fe.jpg",
-            "column_size": "2",
-            "title": "Tchibo Röstmeister - Dark Roast",
-            "heading_tag": "h4",
-            "content": "<ul><li>Our Röstmeisters single roast these 100% Arabica beans to a deep Espresso Style strong roast with intense flavor<\/li><li>Dark Roasted, strong aroma and exquisite bittersweet chocolate flavor<\/li><li>Blended of Rainforest Alliance Latin American coffees – originate of Columbia, Guatemala, Brazil<\/li><li>Intensity level 6 out of 6<\/li><li>Recommended for Espresso Coffees, milk-based coffee specialty beverages<\/li><li>Kosher certified<\/li><\/ul>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-1",
-        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "Our Tchibo coffees",
-        "title": "Choose your blend",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "product-recommendations": {
@@ -208,7 +147,6 @@
   },
   "order": [
     "main",
-    "be1b4d35-8675-4155-983e-fa4f523c770d",
     "product-recommendations"
   ]
 }
