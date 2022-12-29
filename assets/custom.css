@@ -4,7 +4,7 @@
 }
 
 .header__main-nav a{
-  text-transform: uppercase;
+  font-weight:500;
 }
 
 @media screen and (min-width: 700px){
