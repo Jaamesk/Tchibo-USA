@@ -9755,7 +9755,7 @@ split-lines {
   font-size: var(--text-lg);
   line-height: 1.6;
 }
-
+/* Edit: Anpassung Font Face Heading */
 .heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6) {
   font-family: Interstate;
   font-weight: 700;
