@@ -81,12 +81,21 @@
               "text": "Support Number : 1-888-824-4261",
               "url": ""
             }
+          },
+          "5bb9bb96-f701-4940-97a5-a8bea036ae28": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "text": "Announce something here",
+              "url": ""
+            }
           }
         },
         "block_order": [
           "message",
           "edd88732-3ea4-42e0-9ff9-b8dcb8ff167f",
-          "4d69ecf0-e7d3-4e8c-bf7d-d4c53d6d9118"
+          "4d69ecf0-e7d3-4e8c-bf7d-d4c53d6d9118",
+          "5bb9bb96-f701-4940-97a5-a8bea036ae28"
         ],
         "settings": {
           "enable_sticky": false,
@@ -100,6 +109,34 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "219e1dfb-66ac-4946-bc9a-901c55ab7236": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "",
+              "layout": "horizontal",
+              "submenu_style": "bold_heading",
+              "image_heading_1": "",
+              "image_link_1": "",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          }
+        },
+        "block_order": [
+          "219e1dfb-66ac-4946-bc9a-901c55ab7236"
+        ],
         "settings": {
           "enable_sticky": true,
           "hide_on_scroll": false,
