@@ -1,5 +1,17 @@
 {
   "sections": {
+    "981c2d98-3477-488d-927c-c3009a0d4eec": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<p> <\/p>",
+        "background": "#c0a468",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -266,6 +278,7 @@
     }
   },
   "order": [
+    "981c2d98-3477-488d-927c-c3009a0d4eec",
     "main",
     "1a613376-3134-41ba-a274-f4739b0bed4f",
     "4b12dacc-054d-4792-a791-b7367cd7d015",
