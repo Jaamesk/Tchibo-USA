@@ -9758,7 +9758,7 @@ split-lines {
 /* Edit: Anpassung Font Face Heading */
 .heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6) {
   font-family: Interstate;
-  font-weight: 700;
+  font-weight: 400;
   font-style: var(--heading-font-style);
   letter-spacing: 1.4px;
   text-transform: var(--heading-text-transform);
