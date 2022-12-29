@@ -257,8 +257,8 @@
               "image": "{{shop.brand.logo}}",
               "image_width": 180,
               "heading_size": "h5",
-              "title": "Sign up for new stories and personal offers",
-              "content": ""
+              "title": "Don't miss out on restocks!",
+              "content": "<p>Be the <strong>first to know<\/strong> when we're back in stock – sign up for updates!<\/p>"
             }
           },
           "links": {
