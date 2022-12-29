@@ -67,6 +67,7 @@
         },
         "22a89051-e093-4dc8-a563-57fc462d3b9a": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
