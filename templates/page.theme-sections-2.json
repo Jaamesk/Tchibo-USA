@@ -2,11 +2,459 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "27c09bc7-80dc-4b89-9142-7915a5d0e3d5": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "full_width": true,
+        "products_count": 6,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Recently viewed products",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "65266c1c-42ff-4575-8c0b-926194c18b21": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "subheading": "",
+        "title": "Reveal text on scroll",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "daac2717-dbb7-4f5d-9cb6-8364e844399d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-0",
+        "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-1",
+        "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "bc07514d-524d-4139-b2e7-c84862762ae6": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "c0b40d0a-1187-426b-b51d-3349d6c94de9": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--15634070864078__c0b40d0a-1187-426b-b51d-3349d6c94de9-1672320762cacf0c4a-0": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 52,
+            "vertical_position": 25
+          }
+        },
+        "template--15634070864078__c0b40d0a-1187-426b-b51d-3349d6c94de9-1672320762cacf0c4a-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 75,
+            "vertical_position": 53
+          }
+        },
+        "template--15634070864078__c0b40d0a-1187-426b-b51d-3349d6c94de9-1672320762cacf0c4a-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 33,
+            "vertical_position": 73
+          }
+        }
+      },
+      "block_order": [
+        "template--15634070864078__c0b40d0a-1187-426b-b51d-3349d6c94de9-1672320762cacf0c4a-0",
+        "template--15634070864078__c0b40d0a-1187-426b-b51d-3349d6c94de9-1672320762cacf0c4a-1",
+        "template--15634070864078__c0b40d0a-1187-426b-b51d-3349d6c94de9-1672320762cacf0c4a-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Shop the look",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
+      }
+    },
+    "da626423-f43e-4511-8a95-047c694b99c3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15634070864078__da626423-f43e-4511-8a95-047c694b99c3-1672320762838caec6-0": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--15634070864078__da626423-f43e-4511-8a95-047c694b99c3-1672320762838caec6-1": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15634070864078__da626423-f43e-4511-8a95-047c694b99c3-1672320762838caec6-0",
+        "template--15634070864078__da626423-f43e-4511-8a95-047c694b99c3-1672320762838caec6-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "b4687b61-64f2-4f05-b31b-8e3b4a9466b6": {
+      "type": "tabs",
+      "blocks": {
+        "template--15634070864078__b4687b61-64f2-4f05-b31b-8e3b4a9466b6-1672320769afad544d-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "page": ""
+          }
+        },
+        "template--15634070864078__b4687b61-64f2-4f05-b31b-8e3b4a9466b6-1672320769afad544d-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "page": ""
+          }
+        },
+        "template--15634070864078__b4687b61-64f2-4f05-b31b-8e3b4a9466b6-1672320769afad544d-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15634070864078__b4687b61-64f2-4f05-b31b-8e3b4a9466b6-1672320769afad544d-0",
+        "template--15634070864078__b4687b61-64f2-4f05-b31b-8e3b4a9466b6-1672320769afad544d-1",
+        "template--15634070864078__b4687b61-64f2-4f05-b31b-8e3b4a9466b6-1672320769afad544d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "Subheading",
+        "title": "Heading",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "2dbe1d8a-ac3f-473c-938a-fc0d5bb22907": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15634070864078__2dbe1d8a-ac3f-473c-938a-fc0d5bb22907-16723207695933ca7e-0": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        },
+        "template--15634070864078__2dbe1d8a-ac3f-473c-938a-fc0d5bb22907-16723207695933ca7e-1": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        },
+        "template--15634070864078__2dbe1d8a-ac3f-473c-938a-fc0d5bb22907-16723207695933ca7e-2": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15634070864078__2dbe1d8a-ac3f-473c-938a-fc0d5bb22907-16723207695933ca7e-0",
+        "template--15634070864078__2dbe1d8a-ac3f-473c-938a-fc0d5bb22907-16723207695933ca7e-1",
+        "template--15634070864078__2dbe1d8a-ac3f-473c-938a-fc0d5bb22907-16723207695933ca7e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "6a5a4393-fab3-4375-8be3-69d82cd4685e": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--15634070864078__6a5a4393-fab3-4375-8be3-69d82cd4685e-16723207695e08b686-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+          }
+        },
+        "template--15634070864078__6a5a4393-fab3-4375-8be3-69d82cd4685e-16723207695e08b686-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "template--15634070864078__6a5a4393-fab3-4375-8be3-69d82cd4685e-16723207695e08b686-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15634070864078__6a5a4393-fab3-4375-8be3-69d82cd4685e-16723207695e08b686-0",
+        "template--15634070864078__6a5a4393-fab3-4375-8be3-69d82cd4685e-16723207695e08b686-1",
+        "template--15634070864078__6a5a4393-fab3-4375-8be3-69d82cd4685e-16723207695e08b686-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "34f19d87-6da3-4d59-8a54-fe49181fd14b": {
+      "type": "timeline",
+      "blocks": {
+        "template--15634070864078__34f19d87-6da3-4d59-8a54-fe49181fd14b-16723207690ccd3077-0": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "1953",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15634070864078__34f19d87-6da3-4d59-8a54-fe49181fd14b-16723207690ccd3077-1": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "1960",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15634070864078__34f19d87-6da3-4d59-8a54-fe49181fd14b-16723207690ccd3077-2": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "1966",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15634070864078__34f19d87-6da3-4d59-8a54-fe49181fd14b-16723207690ccd3077-0",
+        "template--15634070864078__34f19d87-6da3-4d59-8a54-fe49181fd14b-16723207690ccd3077-1",
+        "template--15634070864078__34f19d87-6da3-4d59-8a54-fe49181fd14b-16723207690ccd3077-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "impact_text_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "impact_text_color": "",
+        "impact_text_gradient": ""
+      }
+    },
+    "26a57caa-5a71-4993-9f9d-880674296cc8": {
+      "type": "video",
+      "blocks": {
+        "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-0": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-0",
+        "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "27c09bc7-80dc-4b89-9142-7915a5d0e3d5",
+    "65266c1c-42ff-4575-8c0b-926194c18b21",
+    "daac2717-dbb7-4f5d-9cb6-8364e844399d",
+    "bc07514d-524d-4139-b2e7-c84862762ae6",
+    "c0b40d0a-1187-426b-b51d-3349d6c94de9",
+    "da626423-f43e-4511-8a95-047c694b99c3",
+    "b4687b61-64f2-4f05-b31b-8e3b4a9466b6",
+    "2dbe1d8a-ac3f-473c-938a-fc0d5bb22907",
+    "6a5a4393-fab3-4375-8be3-69d82cd4685e",
+    "34f19d87-6da3-4d59-8a54-fe49181fd14b",
+    "26a57caa-5a71-4993-9f9d-880674296cc8"
   ]
 }
