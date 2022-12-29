@@ -33,7 +33,7 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "start",
-        "background": "",
+        "background": "#fff",
         "background_gradient": "",
         "text_color": ""
       }
