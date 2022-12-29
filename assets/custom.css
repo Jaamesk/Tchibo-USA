@@ -4,7 +4,8 @@
 }
 
 .header__main-nav a{
-  font-weight:500;
+  font-weight:normal;
+  color:#21292f
 }
 
 @media screen and (min-width: 700px){
