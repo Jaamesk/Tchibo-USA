@@ -143,7 +143,7 @@
           "logo": "shopify:\/\/shop_images\/tchibo-coffee-maker-logo.png",
           "logo_max_width": 170,
           "logo_mobile_max_width": 100,
-          "menu": "new-header-menu",
+          "menu": "main-menu",
           "sidebar_menu": "",
           "secondary_menu": "",
           "menu_open_trigger": "hover",
@@ -270,14 +270,14 @@
           "87aa83d8-adf1-460d-ab9c-fa58603bdfa1": {
             "type": "links",
             "settings": {
-              "menu": "footer",
+              "menu": "customer-support",
               "show_menu_title": true
             }
           },
           "0ba62a29-a0ee-4f81-96b4-56786a34a231": {
             "type": "links",
             "settings": {
-              "menu": "footer",
+              "menu": "featured-categories",
               "show_menu_title": true
             }
           },
