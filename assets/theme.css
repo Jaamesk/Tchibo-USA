@@ -5833,8 +5833,10 @@ split-lines {
 
 .header__wrapper {
   grid-template: var(--header-grid-template);
+  /* Edit: Header Items unten am Header */
   align-items: end;
   gap: var(--header-part-gap);
+  /* Edit: Anpassung Header padding*/
   padding: 15px max(var(--container-gutter), 50% - var(--container-max-width) / 2) 20px;
   color: rgb(var(--text-color));
   background: rgb(var(--background) / var(--header-background-opacity));
@@ -5845,6 +5847,7 @@ split-lines {
   display: grid;
 }
 
+/* Edit: Angleichung an Ursprungszustand Padding auf Mobile */
 @media only screen and (max-width: 1149px) {
   .header__wrapper {
     align-items: center;
