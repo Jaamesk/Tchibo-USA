@@ -27,7 +27,7 @@
         "f3c2ceb7-205e-43cb-a409-1de04a511747": {
           "type": "liquid",
           "settings": {
-            "liquid": "<video width=\"auto\" controls autoplay>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4aa01a5ad77944a3848f6556c42901eb.mp4\" type=\"video\/mp4\">\n<\/video>"
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/603c39859d634be7bef9e2970b8e7edf.mp4\" type=\"video\/mp4\">\n<\/video>"
           }
         }
       },
