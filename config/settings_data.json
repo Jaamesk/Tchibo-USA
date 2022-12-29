@@ -272,11 +272,12 @@
             "type": "links",
             "settings": {
               "menu": "footer",
-              "show_menu_title": true
+              "show_menu_title": false
             }
           },
           "0ba62a29-a0ee-4f81-96b4-56786a34a231": {
             "type": "links",
+            "disabled": true,
             "settings": {
               "menu": "footer",
               "show_menu_title": true
