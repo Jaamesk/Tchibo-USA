@@ -27,7 +27,7 @@
         "f3c2ceb7-205e-43cb-a409-1de04a511747": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p>Write custom Liquid code to include widget or dynamic code.<\/p>"
+            "liquid": "<video width=\"auto\" controls autoplay>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4aa01a5ad77944a3848f6556c42901eb.mp4\" type=\"video\/mp4\">\n<\/video>"
           }
         }
       },
