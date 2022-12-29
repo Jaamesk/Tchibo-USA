@@ -2,11 +2,265 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "993ae0b5-52fe-4df7-9323-8d9525c35192": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15634101371086__993ae0b5-52fe-4df7-9323-8d9525c35192-16723253181cb5799b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Sustainability at Tchibo",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15634101371086__993ae0b5-52fe-4df7-9323-8d9525c35192-16723253181cb5799b-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>As a European company, we have dealt with diminishing resources and the environment for decades. That’s why 100% of Tchibo coffee now comes from Rainforest Alliance Certified farms.<\/p>"
+          }
+        },
+        "f3c2ceb7-205e-43cb-a409-1de04a511747": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>Write custom Liquid code to include widget or dynamic code.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15634101371086__993ae0b5-52fe-4df7-9323-8d9525c35192-16723253181cb5799b-1",
+        "template--15634101371086__993ae0b5-52fe-4df7-9323-8d9525c35192-16723253181cb5799b-2",
+        "f3c2ceb7-205e-43cb-a409-1de04a511747"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "2d269131-d992-4f30-8fe4-c2b275f43623": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15634101371086__2d269131-d992-4f30-8fe4-c2b275f43623-16723253181cb5799b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Commitments",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15634101371086__2d269131-d992-4f30-8fe4-c2b275f43623-16723253181cb5799b-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>As a family-owned business, we are personally and culturally committed to sustainability and fairness. We have a deep ethical commitment to people, the planet and tomorrow. We understand sustainability is an on-going process and there is still work to be done. Here are our corporate commitments that drive Tchibo everyday:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15634101371086__2d269131-d992-4f30-8fe4-c2b275f43623-16723253181cb5799b-1",
+        "template--15634101371086__2d269131-d992-4f30-8fe4-c2b275f43623-16723253181cb5799b-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "cbbd579d-d04f-46df-88ce-fbc3669cdeb8": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15634101371086__cbbd579d-d04f-46df-88ce-fbc3669cdeb8-167232531363f82273-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP1_480x480_b20de09c-590c-4457-8f34-e72310164424.webp",
+            "media_width": 35,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Give Back To The Earth… And Earth",
+            "content": "<p>We are committed to soil replenishment. Whatever we take out of the ground, we are committed to replace it.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#c0a468",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15634101371086__cbbd579d-d04f-46df-88ce-fbc3669cdeb8-167232531363f82273-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "ba17c3b5-a4e2-4d85-9afa-8ceee06223ae": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15634101371086__ba17c3b5-a4e2-4d85-9afa-8ceee06223ae-167232531363f82273-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tansania_plantage-2-.jpg_master.jpg",
+            "media_width": 35,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Protect Precious Resources",
+            "content": "<p>From growing to cleaning, it takes a lot of water to grow coffee. And they’re not making any more of it. So, we are committed to conserving and preserving this shared resource.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#c0a468",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15634101371086__ba17c3b5-a4e2-4d85-9afa-8ceee06223ae-167232531363f82273-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "3fe85521-d6d2-4cad-ae16-7d845bd40f83": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15634101371086__3fe85521-d6d2-4cad-ae16-7d845bd40f83-167232531363f82273-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP2.jpg",
+            "media_width": 35,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "No Pesky Pesticides",
+            "content": "<p>We avoid Chemical Fertilizers or Pesticides. This is better for the environment as well as our farmers. It also makes our coffees safer and better tasting.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#c0a468",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15634101371086__3fe85521-d6d2-4cad-ae16-7d845bd40f83-167232531363f82273-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "32373fbb-5e4a-46c2-9af9-f3eece6e9b29": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15634101371086__32373fbb-5e4a-46c2-9af9-f3eece6e9b29-167232531363f82273-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tchibo_HarvestingBeans_1_907801ba-a009-4d9f-953b-3417ee710ae0.webp",
+            "media_width": 35,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Let’s Be Fair",
+            "content": "<p>We support our coffee growing partners around the world. To promote success, we have created the Tchibo Joint Forces program in 9 different countries. This empowerment and education initiative is helping over 45,000 local farmers grow coffee more responsibly, productively and sustainably.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#c0a468",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15634101371086__32373fbb-5e4a-46c2-9af9-f3eece6e9b29-167232531363f82273-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "42d8bd46-668d-4d2c-9a33-a40647acea70": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15634101371086__42d8bd46-668d-4d2c-9a33-a40647acea70-167232531363f82273-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tchibo_Fields_3c65a5ba-e55c-4060-8173-0582c8e2fc86.webp",
+            "media_width": 35,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Dignity & Respect",
+            "content": "<p>With thousands of employees working in fields and roasteries around the world, Tchibo is profoundly committed to workers’ rights and safety. We treat each person with the dignity and respect they deserve. Because who can really enjoy a product if it comes at the expense of someone else?<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#c0a468",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15634101371086__42d8bd46-668d-4d2c-9a33-a40647acea70-167232531363f82273-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "993ae0b5-52fe-4df7-9323-8d9525c35192",
+    "2d269131-d992-4f30-8fe4-c2b275f43623",
+    "cbbd579d-d04f-46df-88ce-fbc3669cdeb8",
+    "ba17c3b5-a4e2-4d85-9afa-8ceee06223ae",
+    "3fe85521-d6d2-4cad-ae16-7d845bd40f83",
+    "32373fbb-5e4a-46c2-9af9-f3eece6e9b29",
+    "42d8bd46-668d-4d2c-9a33-a40647acea70"
   ]
 }
