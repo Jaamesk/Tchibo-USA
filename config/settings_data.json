@@ -346,6 +346,22 @@
           "button_text": "Subscribe",
           "subtext": "Describe what your customers will receive when subscribing to your newsletter."
         }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "full_width": false,
+          "show_icon": false,
+          "title": "Newsletter",
+          "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+          "button_text": "Subscribe",
+          "subtext": "",
+          "background": "",
+          "background_gradient": "",
+          "text_color": "",
+          "button_background": "",
+          "button_text_color": ""
+        }
       }
     },
     "content_for_index": [
