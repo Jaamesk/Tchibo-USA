@@ -27,7 +27,7 @@
         "products_per_page": 50,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 5,
-        "filter_layout": "sidebar",
+        "filter_layout": "drawer",
         "show_sort_by": false,
         "show_filters": false,
         "show_filter_group_name": false,
