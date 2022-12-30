@@ -109,33 +109,6 @@
         "background_gradient": ""
       }
     },
-    "8947917e-6b6e-4739-b763-fabf1560b46c": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "special-offers",
-        "products": [
-
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 4,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "f4caa4f2-fc52-48c0-9020-89bdce4a0783": {
       "type": "hot-spots",
       "blocks": {
@@ -231,7 +204,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Discover our selection of coffee",
+        "title": "Whole Bean Coffee",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -296,13 +269,40 @@
         "overlay_color": "#21292f",
         "overlay_opacity": 50
       }
+    },
+    "8947917e-6b6e-4739-b763-fabf1560b46c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "special-offers",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "media-grid",
-    "8947917e-6b6e-4739-b763-fabf1560b46c",
     "f4caa4f2-fc52-48c0-9020-89bdce4a0783",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
-    "61fe0726-0c4b-4784-92c6-d9f5fd13e06a"
+    "61fe0726-0c4b-4784-92c6-d9f5fd13e06a",
+    "8947917e-6b6e-4739-b763-fabf1560b46c"
   ]
 }
