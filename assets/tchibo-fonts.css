@@ -23,81 +23,110 @@
   }
 
 /* Definitionen Heading Schriften */
-.display-1 {
+.tp-display-1 {
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .6px;
   font-weight: 400;
 }
 
-.display-1-light {
+.tp-display-1-light {
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .6px;
   font-weight: 300;
 }
 
-.display-1-secondary {
+.tp-display-1-secondary {
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-alternate);
   letter-spacing: .8px;
 }
 
-.display-2 {
+.tp-display-2 {
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .7px;
   font-weight: 700;
 }
 
-.display-2-regular {
+.tp-display-2-regular {
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .7px;
   font-weight: 400;
 }
 
-.display-2-secondary {
+.tp-display-2-secondary {
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-alternate);
   letter-spacing: 1.4px;
 }
 
-.display-3 {
+.tp-display-3 {
   font-size: var(--display-3-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .9px;
   font-weight: 700;
 }
 
-.display-3-secondary {
+.tp-display-3-secondary {
   font-size: var(--display-3-fz);
   font-family: var(--tchibo-font-alternate);
   letter-spacing: 1.8px;
 }
 
-.display-4 {
+.tp-display-4 {
   font-size: var(--display-4-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: 1px;
   font-weight: 700;
 }
 
-.display-4-secondary {
+.tp-display-4-secondary {
   font-size: var(--display-4-fz);
   font-family: var(--tchibo-font-alternate);
   letter-spacing: 2.3px;
 }
 
-.display-5 {
+.tp-display-5 {
   font-size: var(--display-5-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: 1.2px;
   font-weight: 700;
 }
 
-.display-5-secondary {
+.tp-display-5-secondary {
   font-size: var(--display-5-fz);
   font-family: var(--tchibo-font-alternate);
   letter-spacing: 3.2px;
+}
+
+/* Definitionen Body Schriften */
+.tp-body {
+  
+}
+
+.tp-body-secondary {
+  
+}
+
+.tp-footnote {
+  
+}
+
+.tp-footnote-secondary {
+  
+}
+
+.tp-handwritten {
+  
+}
+
+.tp-overline {
+  
+}
+
+.tp-overline-secondary {
+  
 }
