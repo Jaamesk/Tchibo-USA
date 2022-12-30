@@ -222,11 +222,11 @@
               "icon": "picto-box",
               "mobile_icon_width": 24,
               "icon_width": 24,
-              "icon_background_type": "none",
-              "icon_background": "",
+              "icon_background_type": "circle",
+              "icon_background": "#ffffff",
               "icon_color": "",
-              "title": "Free shipping",
-              "content": "<p>Free Shipping on US orders over $49.<\/p>"
+              "title": "FREE SHIPPING",
+              "content": "<p>Standard orders over $49 receive<br\/>free ground shipping.<\/p>"
             }
           },
           "customer-support": {
@@ -235,24 +235,24 @@
               "icon": "picto-customer-support",
               "mobile_icon_width": 24,
               "icon_width": 24,
-              "icon_background_type": "none",
-              "icon_background": "",
+              "icon_background_type": "circle",
+              "icon_background": "#ffffff",
               "icon_color": "",
-              "title": "Customer service",
-              "content": "<p>Available from Mon-Fri 8:30 am - 4 pm CST<\/p>"
+              "title": "CUSTOMER SERVICE",
+              "content": "<p>We’re happy to help you between <br\/>8:30 AM and 4:00 PM CST.<\/p>"
             }
           },
           "payment": {
             "type": "item",
             "settings": {
-              "icon": "picto-lock",
+              "icon": "picto-love",
               "mobile_icon_width": 24,
               "icon_width": 24,
-              "icon_background_type": "none",
-              "icon_background": "",
+              "icon_background_type": "circle",
+              "icon_background": "#ffffff",
               "icon_color": "",
-              "title": "Secure payment",
-              "content": "<p>All payments are secure and PCI-compliant.<\/p>"
+              "title": "FOLLOW US",
+              "content": "<p>Sign up for our <a href=\"#footer-newsletter\" title=\"Newsletter\">Newsletter<\/a>! Follow us<br\/>Facebook or Instagram for updates.<\/p>"
             }
           }
         },
