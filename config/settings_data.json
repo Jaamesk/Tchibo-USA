@@ -203,7 +203,7 @@
         "type": "search-drawer",
         "settings": {
           "full_width": false,
-          "show_article_category": false,
+          "show_article_category": true,
           "search_products": true,
           "search_blog_posts": true,
           "search_pages": true,

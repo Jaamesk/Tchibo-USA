@@ -13,28 +13,6 @@ html {
   line-height: 1.5;
 }
 
-/* Edit: Interstate Fonts eingebunden */
- @font-face {
-font-family: Interstate;
-font-weight: 400;
-src: url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regular.woff2?v=1671708874") format("woff2"),
-url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regular.woff?v=1671708874") format("woff");
-}
-
-@font-face {
-  font-family: Interstate;
-  font-weight: 300;
-  src: url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-light.woff2?v=1671709248") format("woff2"),
-       url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-light.woff?v=1671709248") format("woff");
-}
-
-@font-face {
-  font-family: Interstate;
-  font-weight: 700;
-  src: url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-bold.woff2?v=1672322769") format("woff2"),
-       url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-bold.woff?v=1672322769") format("woff");
-}
-
 body {
   --background: var(--background-primary);
   --text-color: var(--text-primary);
