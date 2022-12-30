@@ -13,7 +13,7 @@ html {
   line-height: 1.5;
 }
 
-/* Interstate Fonts eingebunden. Source Dateien für Interstate sind in Settings > Files hochgeladen.*/
+/* Interstate & MarketWeb Fonts eingebunden. Source Dateien für Interstate sind in Settings > Files hochgeladen.*/
  @font-face {
 font-family: Interstate;
 font-weight: 400;
@@ -33,6 +33,13 @@ url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regul
   font-weight: 700;
   src: url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-bold.woff2?v=1672322769") format("woff2"),
        url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-bold.woff?v=1672322769") format("woff");
+}
+
+@font-face {
+  font-family: Handwritten;
+  font-weight: 400;
+  src: url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/MarketWeb.woff2?v=1672409377") format("woff2"),
+       url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/MarketWeb.woff?v=1672409377") format("woff");
 }
 
 body {
