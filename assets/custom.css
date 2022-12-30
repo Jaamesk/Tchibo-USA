@@ -54,6 +54,5 @@
 }
 
 .header__wrapper {
-    padding: 30px max(var(--container-gutter),50% - var(--container-max-width) / 2) 18px;
-
+    padding: 42px max(var(--container-gutter),50% - var(--container-max-width) / 2) 21px
 }
