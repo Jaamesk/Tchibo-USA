@@ -1,0 +1,21 @@
+/* Font Management für das komplette Theme. Ersetzt das Font Management in theme.css und css-variables.liquid */
+
+  :root {
+    
+    /* Definition der Tchibo Schriftarten */ 
+    --tchibo-font-main: Interstate, 'Trebuchet MS';
+    --tchibo-font-alternate: Garamond, Serif;
+
+    /* Schriftgroessen Definition Headings */
+    --display-1-fz: clamp(1.06rem, calc(0.98rem + 0.43vw), 1.25rem);
+    --display-2-fz: clamp(1.28rem, calc(1.14rem + 0.65vw), 1.56rem);
+    --display-3-fz: clamp(1.53rem, calc(1.34rem + 0.96vw), 1.95rem);
+    --display-4-fz: clamp(1.84rem, calc(1.56rem + 1.38vw), 2.44rem);
+    --display-5-fz: clamp(2.20rem, calc(1.82rem + 1.93vw), 3.05rem);
+
+    /* Schriftgroessen Definition Body */
+    --body-fz: clamp(0.88rem, calc(0.82rem + 0.28vw), 1.00rem);
+    --footnote-fz: clamp(0.75rem, calc(0.72rem + 0.14vw), 0.81rem);
+  
+  }
+   
