@@ -104,29 +104,29 @@
 
 /* Definitionen Body Schriften */
 .tp-body {
-  
+  font-size: var(--body-fz);
 }
 
 .tp-body-secondary {
-  
+  font-size: var(--body-fz);
 }
 
 .tp-footnote {
-  
+  font-size: var(--footnote-fz);
 }
 
 .tp-footnote-secondary {
-  
+  font-size: var(--footnote-fz);
 }
 
 .tp-handwritten {
-  
+  font-size: var(--handwritten-fz);
 }
 
 .tp-overline {
-  
+  font-size: var(--overline-fz);
 }
 
 .tp-overline-secondary {
-  
+  font-size: var(--overline-fz);
 }
