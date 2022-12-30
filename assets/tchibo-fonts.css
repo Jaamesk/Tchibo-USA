@@ -22,7 +22,6 @@
   }
 
 /* Definitionen Heading Schriften */
-
 .display-1 {
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-main);
@@ -44,16 +43,19 @@
 .display-2 {
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .7px;
 }
 
 .display-2-regular {
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .7px;
 }
 
 .display-2-secondary {
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-alternate);
+  letter-spacing: 1.4px;
 }
 
 .display-3 {
