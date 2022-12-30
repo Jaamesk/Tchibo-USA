@@ -3,6 +3,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "0892565b-5508-4f1d-a4ea-9420b1a4b912": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -99,6 +104,7 @@
         }
       },
       "block_order": [
+        "0892565b-5508-4f1d-a4ea-9420b1a4b912",
         "title",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "badges",
