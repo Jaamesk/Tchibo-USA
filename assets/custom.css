@@ -28,6 +28,8 @@
 .announcement-bar {
   padding-block-start:0;
   padding-block-end: 0;
+  font-weight:100;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 700px) {
