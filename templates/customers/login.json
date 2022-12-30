@@ -1,1 +1,30 @@
-{"sections":{"main":{"type":"main-customers-login","blocks":{"fields":{"type":"fields","settings":{}}},"block_order":["fields"],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-login",
+      "blocks": {
+        "fields": {
+          "type": "fields",
+          "settings": {
+            "return_to": ""
+          }
+        }
+      },
+      "block_order": [
+        "fields"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/OP4.jpg",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#21292f",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

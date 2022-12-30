@@ -62,6 +62,7 @@
         "blocks": {
           "message": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "Coffee best before December 31",
               "url": ""
