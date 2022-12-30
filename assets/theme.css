@@ -3151,6 +3151,11 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
     --drawer-header-padding: var(--spacing-6);
     height: auto;
     width: 560px;
+    display: block;
+    left: 0!important;
+    bottom: 15%!important;
+    opacity: 1;
+    visibility: visible;
   }
 
   .quick-buy-drawer .variant-picker__option-info, .quick-buy-drawer .block-swatch {
