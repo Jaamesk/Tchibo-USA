@@ -11,7 +11,7 @@
     "icon_stroke_width": 1,
     "button_style": "fill",
     "button_hover_effect": "fade",
-    "background": "#ffffff",
+    "background": "#f9f9f9",
     "text_color": "#423d39",
     "success_color": "#719c6f",
     "error_color": "#ea5153",
