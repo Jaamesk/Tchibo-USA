@@ -40,3 +40,8 @@
 }
 
 
+#announcement-bar .text-base {
+    font-size: var(--text-base);
+    line-height: 1.6;
+  font-weight:100;
+}
