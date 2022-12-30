@@ -62,7 +62,6 @@
         "blocks": {
           "message": {
             "type": "message",
-            "disabled": true,
             "settings": {
               "text": "Coffee best before December 31",
               "url": ""
@@ -101,10 +100,10 @@
         ],
         "settings": {
           "enable_sticky": false,
-          "text_size": "text-xs",
+          "text_size": "text-base",
           "navigation_mode": "arrows",
           "scrolling_speed": 10,
-          "background": "#892b2b",
+          "background": "#c0a468",
           "background_gradient": "",
           "text_color": "#f8f6f2"
         }
