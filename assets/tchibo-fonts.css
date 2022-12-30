@@ -107,11 +107,13 @@
 .tp-body {
   font-size: var(--body-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .3px;
 }
 
 .tp-body-secondary {
   font-size: var(--body-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .3px;
 }
 
 .tp-footnote {
