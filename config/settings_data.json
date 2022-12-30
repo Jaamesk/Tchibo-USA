@@ -352,8 +352,8 @@
         "settings": {
           "full_width": false,
           "show_icon": false,
-          "title": "Newsletter",
-          "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+          "title": "Don't miss out on restocks!",
+          "content": "<p>Be the <strong>first to know<\/strong> when we're back in stock – sign up for updates!<\/p>",
           "button_text": "Subscribe",
           "subtext": "",
           "background": "",
