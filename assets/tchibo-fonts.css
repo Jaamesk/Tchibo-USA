@@ -61,29 +61,35 @@
 .display-3 {
   font-size: var(--display-3-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .9px;
 }
 
 .display-3-secondary {
   font-size: var(--display-3-fz);
   font-family: var(--tchibo-font-alternate);
+  letter-spacing: 1.8px;
 }
 
 .display-4 {
   font-size: var(--display-4-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: 1px;
 }
 
 .display-4-secondary {
   font-size: var(--display-4-fz);
   font-family: var(--tchibo-font-alternate);
+  letter-spacing: 2.3px;
 }
 
 .display-5 {
   font-size: var(--display-5-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: 1.2px;
 }
 
 .display-5-secondary {
   font-size: var(--display-5-fz);
   font-family: var(--tchibo-font-alternate);
+  letter-spacing: 3.2px;
 }
