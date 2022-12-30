@@ -25,48 +25,60 @@
 
 .display-1 {
   font-size: var(--display-1-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .display-1-light {
   font-size: var(--display-1-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .display-1-secondary {
   font-size: var(--display-1-fz);
+  font-family: var(--tchibo-font-alternate);
 }
 
 .display-2 {
   font-size: var(--display-2-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .display-2-regular {
   font-size: var(--display-2-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .display-2-secondary {
   font-size: var(--display-2-fz);
+  font-family: var(--tchibo-font-alternate);
 }
 
 .display-3 {
   font-size: var(--display-3-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .display-3-secondary {
   font-size: var(--display-3-fz);
+  font-family: var(--tchibo-font-alternate);
 }
 
 .display-4 {
   font-size: var(--display-4-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .display-4-secondary {
   font-size: var(--display-4-fz);
+  font-family: var(--tchibo-font-alternate);
 }
 
 .display-5 {
   font-size: var(--display-5-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .display-5-secondary {
   font-size: var(--display-5-fz);
+  font-family: var(--tchibo-font-alternate);
 }
