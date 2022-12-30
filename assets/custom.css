@@ -52,3 +52,8 @@
     font-weight: 100;
     letter-spacing: 0.05ch;
 }
+
+.header__wrapper {
+    padding: 30px max(var(--container-gutter),50% - var(--container-max-width) / 2) 18px;
+
+}
