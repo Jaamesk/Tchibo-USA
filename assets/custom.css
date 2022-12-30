@@ -19,5 +19,7 @@
 */
 
 .subhead {
-  
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #c0a468;
 }
