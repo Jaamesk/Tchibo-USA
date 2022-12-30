@@ -3046,6 +3046,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   }
 }
 
+/* Edit: Produktseite Mobile Add to cart on Scroll */
 .product-quick-add {
   width: 100%;
   z-index: 2;
@@ -3054,7 +3055,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   padding: 1.25rem;
   transition: visibility .15s ease-in, opacity .15s ease-in, transform .15s ease-in;
   position: fixed;
-  bottom: 0;
+  bottom: 10%;
   transform: translateY(10px);
 }
 
