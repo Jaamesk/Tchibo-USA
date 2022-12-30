@@ -9,6 +9,12 @@
     "b4a30880-23b8-4d3a-b4e5-126132b8b017": {
       "type": "rich-text",
       "blocks": {
+        "7e507870-76a8-4688-9887-dd21fbadb10d": {
+          "type": "subheading",
+          "settings": {
+            "text": "COFFEES"
+          }
+        },
         "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-1": {
           "type": "heading",
           "settings": {
@@ -23,16 +29,33 @@
           "settings": {
             "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you. Here now is… Röst Frisch.<\/p>"
           }
+        },
+        "c171a28c-2ef4-441c-ae95-dd856a20e08b": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "2f47a2f6-2963-44a4-927e-abbac1636536": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tchibo-coffee-beans.webp",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
+        "7e507870-76a8-4688-9887-dd21fbadb10d",
         "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-1",
-        "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-2"
+        "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-2",
+        "c171a28c-2ef4-441c-ae95-dd856a20e08b",
+        "2f47a2f6-2963-44a4-927e-abbac1636536"
       ],
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -124,6 +147,7 @@
     },
     "a40803fa-d148-44d3-837d-866a2d05c358": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "all-coffee",
         "products": [
