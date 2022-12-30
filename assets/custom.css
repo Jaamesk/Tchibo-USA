@@ -23,3 +23,18 @@
   text-transform: uppercase;
   color: #c0a468;
 }
+
+
+.announcement-bar {
+  padding-block-start:0;
+  padding-block-end: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .announcement-bar {
+    padding-block-start: var(0);
+    padding-block-end: var(0);
+  }
+}
+
+
