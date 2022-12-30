@@ -26,16 +26,19 @@
 .display-1 {
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .6px;
 }
 
 .display-1-light {
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .6px;
 }
 
 .display-1-secondary {
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-alternate);
+  letter-spacing: .8px;
 }
 
 .display-2 {
