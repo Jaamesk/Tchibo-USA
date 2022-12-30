@@ -54,7 +54,7 @@
       ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "content_width": "large",
         "text_position": "start",
         "background": "#423d39",
         "background_gradient": "",
