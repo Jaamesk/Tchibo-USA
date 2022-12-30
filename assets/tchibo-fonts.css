@@ -27,12 +27,14 @@
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .6px;
+  font-weight: 400;
 }
 
 .display-1-light {
   font-size: var(--display-1-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .6px;
+  font-weight: 300;
 }
 
 .display-1-secondary {
@@ -45,12 +47,14 @@
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .7px;
+  font-weight: 700;
 }
 
 .display-2-regular {
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .7px;
+  font-weight: 400;
 }
 
 .display-2-secondary {
@@ -63,6 +67,7 @@
   font-size: var(--display-3-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: .9px;
+  font-weight: 700;
 }
 
 .display-3-secondary {
@@ -75,6 +80,7 @@
   font-size: var(--display-4-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .display-4-secondary {
@@ -87,6 +93,7 @@
   font-size: var(--display-5-fz);
   font-family: var(--tchibo-font-main);
   letter-spacing: 1.2px;
+  font-weight: 700;
 }
 
 .display-5-secondary {
