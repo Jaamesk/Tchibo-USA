@@ -236,7 +236,7 @@
       ],
       "settings": {
         "full_width": true,
-        "content_size": "medium",
+        "content_size": "fill",
         "subheading": "Subheading",
         "title": "Heading",
         "first_tab_open": false,
