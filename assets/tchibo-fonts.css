@@ -126,7 +126,7 @@
 
 .tp-handwritten {
   font-size: var(--handwritten-fz);
-  font-family:
+  font-family: var(--tchibo-font-handwritten);
 }
 
 .tp-overline {
