@@ -20,4 +20,53 @@
     --overline-fz: clamp(0.63rem, calc(0.57rem + 0.28vw), 0.75rem);
   
   }
-   
+
+/* Definitionen Heading Schriften */
+
+.display-1 {
+  font-size: var(--display-1-fz);
+}
+
+.display-1-light {
+  font-size: var(--display-1-fz);
+}
+
+.display-1-secondary {
+  font-size: var(--display-1-fz);
+}
+
+.display-2 {
+  font-size: var(--display-2-fz);
+}
+
+.display-2-regular {
+  font-size: var(--display-2-fz);
+}
+
+.display-2-secondary {
+  font-size: var(--display-2-fz);
+}
+
+.display-3 {
+  font-size: var(--display-3-fz);
+}
+
+.display-3-secondary {
+  font-size: var(--display-3-fz);
+}
+
+.display-4 {
+  font-size: var(--display-4-fz);
+}
+
+.display-4-secondary {
+  font-size: var(--display-4-fz);
+}
+
+.display-5 {
+  font-size: var(--display-5-fz);
+}
+
+.display-5-secondary {
+  font-size: var(--display-5-fz);
+}
