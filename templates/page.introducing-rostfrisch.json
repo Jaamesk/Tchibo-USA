@@ -183,11 +183,11 @@
         "content": "<p>Be the <strong>first to know <\/strong>when we're back in stock – sign up for updates!<\/p>",
         "button_text": "Subscribe",
         "subtext": "",
-        "background": "#423d39",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#f8f6f2",
-        "button_background": "#f8f6f2",
-        "button_text_color": "#423d39"
+        "text_color": "#423d39",
+        "button_background": "#c0a468",
+        "button_text_color": "#ffffff"
       }
     }
   },
