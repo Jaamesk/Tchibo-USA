@@ -105,18 +105,22 @@
 /* Definitionen Body Schriften */
 .tp-body {
   font-size: var(--body-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .tp-body-secondary {
   font-size: var(--body-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .tp-footnote {
   font-size: var(--footnote-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .tp-footnote-secondary {
   font-size: var(--footnote-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .tp-handwritten {
@@ -125,8 +129,10 @@
 
 .tp-overline {
   font-size: var(--overline-fz);
+  font-family: var(--tchibo-font-main);
 }
 
 .tp-overline-secondary {
   font-size: var(--overline-fz);
+  font-family: var(--tchibo-font-main);
 }
