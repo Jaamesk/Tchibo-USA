@@ -172,12 +172,30 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "7b3e5db5-1434-4c20-87ca-115ee9d619b9": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Tchibo-coffee-machine-6-ways_1200x1200_ee7e11e8-e9cf-43c0-b328-a2663bb52174.webp",
+        "show_icon": false,
+        "title": "Don't miss out on restocks!",
+        "content": "<p>Be the <strong>first to know <\/strong>when we're back in stock – sign up for updates!<\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "#423d39",
+        "background_gradient": "",
+        "text_color": "#f8f6f2",
+        "button_background": "#f8f6f2",
+        "button_text_color": "#423d39"
+      }
     }
   },
   "order": [
     "main",
     "b4a30880-23b8-4d3a-b4e5-126132b8b017",
     "26f098cb-7afa-46e9-a3ed-e9e47d94f04a",
-    "a40803fa-d148-44d3-837d-866a2d05c358"
+    "a40803fa-d148-44d3-837d-866a2d05c358",
+    "7b3e5db5-1434-4c20-87ca-115ee9d619b9"
   ]
 }
