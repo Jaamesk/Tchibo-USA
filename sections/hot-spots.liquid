@@ -78,10 +78,10 @@
         <div class="{{ section.settings.desktop_text_position }} hidden md:block">
           <div class="prose">
             {%- if section.settings.title != blank -%}
-              <h2 class="h2">{{ section.settings.title | escape }}</h2>
+              <h2 class="{{ section.settings.heading_tag }}">{{ section.settings.title | escape }}</h2>
             {%- endif -%}
 
-            {{- section.settings.content -}}
+            <span class="tp-body-nocolor">{{- section.settings.content -}}</span>
 
             {%- if section.settings.button_text != blank -%}
               {%- render 'button', size: 'lg', content: section.settings.button_text, href: section.settings.button_url, background: section.settings.overlay_button_background, text_color: section.settings.overlay_button_text_color -%}
