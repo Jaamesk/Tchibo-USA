@@ -95,6 +95,14 @@ url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regul
   color: var(--color-font-primary);
 }
 
+.tp-display-2-nocolor {
+  font-size: var(--display-2-fz);
+  font-family: var(--tchibo-font-main);
+  letter-spacing: .7px;
+  font-weight: 700;
+  line-height: calc(var(--display-2-fz)*1.4);
+}
+
 .tp-display-2-regular {
   font-size: var(--display-2-fz);
   font-family: var(--tchibo-font-main);
@@ -121,6 +129,14 @@ url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regul
   color: var(--color-font-primary);
 }
 
+.tp-display-3-nocolor {
+  font-size: var(--display-2-fz);
+  font-family: var(--tchibo-font-main);
+  letter-spacing: .7px;
+  font-weight: 700;
+  line-height: calc(var(--display-2-fz)*1.4);
+}
+
 .tp-display-3-secondary {
   font-size: var(--display-3-fz);
   font-family: var(--tchibo-font-alternate);
@@ -138,6 +154,14 @@ url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regul
   color: var(--color-font-primary);
 }
 
+.tp-display-4-nocolor {
+  font-size: var(--display-2-fz);
+  font-family: var(--tchibo-font-main);
+  letter-spacing: .7px;
+  font-weight: 700;
+  line-height: calc(var(--display-2-fz)*1.4);
+}
+
 .tp-display-4-secondary {
   font-size: var(--display-4-fz);
   font-family: var(--tchibo-font-alternate);
@@ -153,6 +177,14 @@ url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regul
   font-weight: 700;
   line-height: calc(var(--display-5-fz)*1.3);
   color: var(--color-font-primary);
+}
+
+.tp-display-5-nocolor {
+  font-size: var(--display-2-fz);
+  font-family: var(--tchibo-font-main);
+  letter-spacing: .7px;
+  font-weight: 700;
+  line-height: calc(var(--display-2-fz)*1.4);
 }
 
 .tp-display-5-secondary {
