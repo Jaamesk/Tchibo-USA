@@ -34,7 +34,7 @@
 
                     {%- if block.settings.content != blank or block.settings.link_text != blank -%}
                       <div class="prose">
-                        {{- block.settings.content -}}
+                        <p class="tp-body">{{- block.settings.content -}}</p>
 
                         {%- if block.settings.link_text != blank -%}
                           <div>
