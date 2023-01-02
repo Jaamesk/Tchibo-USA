@@ -39,7 +39,7 @@ Supported variables
 
     {%- if link_text != blank -%}
       <a href="{{ link_url }}" class="text-with-icon group">
-        <span class="reversed-link">{{- link_text | escape -}}</span>
+        <span class="tp-body">{{- link_text | escape -}}</span>
         <span class="circle-chevron group-hover:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
       </a>
     {%- endif -%}
