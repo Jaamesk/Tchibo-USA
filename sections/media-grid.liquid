@@ -92,7 +92,7 @@ LIQUID
             <div class="{{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}">
               <div class="prose">
                 {%- if block.settings.title != blank -%}
-                  <p class="{{ block.settings.heading_tag }}" style="font-family: 'Interstate'!important;">
+                  <p class="{{ block.settings.heading_tag }}">
                     {% render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient %}
                   </p>
                 {%- endif -%}
@@ -135,34 +135,30 @@ LIQUID
         {
           "type": "select",
           "id": "heading_tag",
-          "label": "Heading size",
+          "label": "Style",
           "options": [
             {
-              "value": "h1",
-              "label": "H1"
+              "value": "tp-display-5-nocolor",
+              "label": "Display 5"
             },
             {
-              "value": "h2",
-              "label": "H2"
+              "value": "tp-display-4-nocolor",
+              "label": "Display 4"
             },
             {
-              "value": "h3",
-              "label": "H3"
+              "value": "tp-display-3-nocolor",
+              "label": "Display 3"
             },
             {
-              "value": "h4",
-              "label": "H4"
+              "value": "tp-display-2-nocolor",
+              "label": "Display 2"
             },
             {
-              "value": "h5",
-              "label": "H5"
-            },
-            {
-              "value": "h6",
-              "label": "H6"
+              "value": "tp-display-1-nocolor",
+              "label": "Display 1"
             }
           ],
-          "default": "h4"
+          "default": "tp-display-5-nocolor"
         },
         {
           "type": "url",

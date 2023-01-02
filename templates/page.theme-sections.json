@@ -875,6 +875,7 @@
         "full_width": true,
         "stack_mobile": true,
         "title": "Logo list",
+        "heading_tag": "tp-display-5",
         "content": "<p>Bliblablub Hallo<\/p>",
         "text_alignment": "start",
         "items_per_row": 5,
@@ -894,7 +895,7 @@
           "type": "image",
           "settings": {
             "title": "Promote your products",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
