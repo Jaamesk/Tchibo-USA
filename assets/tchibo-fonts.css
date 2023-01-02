@@ -184,6 +184,7 @@
 .tp-overline {
   font-size: var(--overline-fz);
   font-family: var(--tchibo-font-main);
+  font-weight: 700;
   letter-spacing: .6px;
   text-transform: uppercase;
   line-height: calc(var(--overline-fz)*1.6);
@@ -193,6 +194,7 @@
 .tp-overline-secondary {
   font-size: var(--overline-fz);
   font-family: var(--tchibo-font-main);
+  font-weight: 700;
   letter-spacing: .6px;
   text-transform: uppercase;
   line-height: calc(var(--overline-fz)*1.6);
