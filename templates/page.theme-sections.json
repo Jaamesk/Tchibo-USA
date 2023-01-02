@@ -189,7 +189,7 @@
         "full_width": true,
         "subheading": "Contact Us",
         "title": "Do you have any question?",
-        "content": "",
+        "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
