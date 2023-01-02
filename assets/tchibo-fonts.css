@@ -1,4 +1,4 @@
-/* Font Management für das komplette Theme. */
+/* Font Management für das komplette Theme. Variablen mit Settings Exposure im Editor sind in der Datei css-variables.liquid angelegt.*/
 
 /* Interstate & MarketWeb Fonts eingebunden. Source Dateien für Interstate sind in Settings > Files hochgeladen.*/
  @font-face {
