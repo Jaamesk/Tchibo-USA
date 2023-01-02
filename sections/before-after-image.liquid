@@ -57,7 +57,7 @@ LIQUID
           {%- endif -%}
 
           {%- if section.settings.before_text != blank -%}
-            <p class="before-after__label before-after__label--left before-after__label--{{ section.settings.before_after_text_position }} h5">
+            <p class="before-after__label before-after__label--left before-after__label--{{ section.settings.before_after_text_position }} .tp-display-1">
               {{- section.settings.before_text | escape -}}
             </p>
           {%- endif -%}
@@ -71,7 +71,7 @@ LIQUID
           {%- endif -%}
 
           {%- if section.settings.after_text != blank -%}
-            <p class="before-after__label before-after__label--right before-after__label--{{ section.settings.before_after_text_position }} h5">
+            <p class="before-after__label before-after__label--right before-after__label--{{ section.settings.before_after_text_position }} .tp-display-1">
               {{- section.settings.after_text | escape -}}
             </p>
           {%- endif -%}
