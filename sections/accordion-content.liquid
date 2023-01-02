@@ -22,7 +22,7 @@
         </h2>
       {%- endif -%}
 
-     {{- section.settings.content -}}
+      {{- section.settings.content -}}
 
       {%- if section.settings.button_text != blank -%}
         {% render 'button', content: section.settings.button_text, href: section.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color %}
@@ -31,7 +31,7 @@
 
     {%- if content != blank -%}
       <div class="section-stack__intro">
-        <div class="{{ section.settings.font_style }} {% if text_position == 'center' %}text-center{% endif %}">
+        <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
           {{- content -}}
         </div>
       </div>
