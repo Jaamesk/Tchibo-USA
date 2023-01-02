@@ -121,9 +121,9 @@
         "template--15633983406286__4dcbee06-5c5a-4fa2-94ec-9e26c8055349-167231087228e92cd7-0": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
+            "collection": "best-sellers",
+            "subheading": "Hello",
+            "title": "Hello",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
