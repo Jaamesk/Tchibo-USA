@@ -29,6 +29,7 @@
   font-family: var(--tchibo-font-main);
   letter-spacing: .6px;
   font-weight: 400;
+  line-height: calc(var(--display-1-fz)*1.4);
 }
 
 .tp-display-1-light {
@@ -36,6 +37,7 @@
   font-family: var(--tchibo-font-main);
   letter-spacing: .6px;
   font-weight: 300;
+  line-height: calc(var(--display-1-fz)*1.4);
 }
 
 .tp-display-1-secondary {
@@ -119,11 +121,13 @@
 .tp-footnote {
   font-size: var(--footnote-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .28px;
 }
 
 .tp-footnote-secondary {
   font-size: var(--footnote-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .28px;
 }
 
 .tp-handwritten {
@@ -134,9 +138,13 @@
 .tp-overline {
   font-size: var(--overline-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .6px;
+  text-transform: uppercase;
 }
 
 .tp-overline-secondary {
   font-size: var(--overline-fz);
   font-family: var(--tchibo-font-main);
+  letter-spacing: .6px;
+  text-transform: uppercase;
 }
