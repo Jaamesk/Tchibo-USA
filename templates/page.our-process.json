@@ -60,7 +60,7 @@
           "type": "heading",
           "settings": {
             "text": "Sourcing & Harvesting",
-            "heading_tag": "h2",
+            "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
           }
