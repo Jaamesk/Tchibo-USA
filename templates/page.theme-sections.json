@@ -262,7 +262,9 @@
       "settings": {
         "full_width": true,
         "subheading": "Hello",
+        "subheading-style": "tp-overline-secondary",
         "title": "FAQ",
+        "heading_tag": "tp-display-5",
         "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
@@ -374,7 +376,9 @@
       "settings": {
         "full_width": true,
         "subheading": "Compare",
+        "subheading-style": "tp-overline-secondary",
         "title": "Product specification",
+        "heading_tag": "tp-display-5",
         "content": "<p>Give your customers useful information about your products and showcase differences between them.<\/p>",
         "button_text": "",
         "button_url": "",
@@ -464,12 +468,13 @@
         "template--15633983406286__743f1c2c-2a50-4303-afeb-11f5e519b1ca-1672320660a55d8df5-0": {
           "type": "vendor",
           "settings": {
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15633983406286__743f1c2c-2a50-4303-afeb-11f5e519b1ca-1672320660a55d8df5-1": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "tp-display-2-regular"
           }
         },
         "template--15633983406286__743f1c2c-2a50-4303-afeb-11f5e519b1ca-1672320660a55d8df5-2": {
