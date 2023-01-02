@@ -12,14 +12,15 @@
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0": {
           "type": "subheading",
           "settings": {
-            "text": "Our Process"
+            "text": "Our Process",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1": {
           "type": "heading",
           "settings": {
             "text": "Fresher By Design",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-5",
             "text_color": "",
             "gradient": ""
           }
