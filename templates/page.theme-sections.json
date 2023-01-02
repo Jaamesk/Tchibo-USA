@@ -41,7 +41,7 @@
         "subheading": "Hello",
         "subheading_style": "tp-overline-secondary",
         "title": "Heading",
-        "heading_style": "tp-display-4",
+        "heading_style": "tp-display-5",
         "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
         "font-style": "tp-body",
         "button_text": "Hello",
@@ -84,7 +84,7 @@
     "d3c30439-3ba2-48c8-bc48-7fc2d50ce5f0": {
       "type": "blog-posts",
       "blocks": {
-        "template--15633983406286__d3c30439-3ba2-48c8-bc48-7fc2d50ce5f0-16723108721092a404-0": {
+        "843bab73-636b-44bd-b4ef-9f7b92510bb2": {
           "type": "blog",
           "settings": {
             "blog": "",
@@ -94,7 +94,7 @@
         }
       },
       "block_order": [
-        "template--15633983406286__d3c30439-3ba2-48c8-bc48-7fc2d50ce5f0-16723108721092a404-0"
+        "843bab73-636b-44bd-b4ef-9f7b92510bb2"
       ],
       "settings": {
         "full_width": true,
