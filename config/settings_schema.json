@@ -281,6 +281,12 @@
         "default": "#64696d"
       },
       {
+        "type": "color",
+        "id": "text_color_accent",
+        "label": "Font Accent",
+        "default": "#c0a468"
+      },
+      {
         "type": "header",
         "content": "Header"
       },
