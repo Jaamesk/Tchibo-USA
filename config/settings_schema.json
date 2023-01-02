@@ -409,7 +409,7 @@
     "settings": [
       {
         "type": "header",
-        "content": "Headings"
+        "content": "Headings \/ DEPRECATED"
       },
       {
         "type": "font_picker",
