@@ -265,7 +265,7 @@
         "settings": {
           "show_section": true,
           "full_width": true,
-          "heading_tag": "h6",
+          "heading_tag": "tp-display-1",
           "text_alignment": "center",
           "icon_spacing": "small",
           "background": "",
@@ -354,6 +354,7 @@
           "full_width": false,
           "show_icon": false,
           "title": "Don't miss out on restocks!",
+          "heading_tag": "tp-display-5",
           "content": "<p>Be the <strong>first to know<\/strong> when we're back in stock – sign up for updates!<\/p>",
           "button_text": "Subscribe",
           "subtext": "",
