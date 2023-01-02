@@ -22,7 +22,7 @@
         </h2>
       {%- endif -%}
 
-      <span>{{- section.settings.content -}}</span>
+      <span class="{{ section.settings.font-style }}">{{- section.settings.content -}}</span>
 
       {%- if section.settings.button_text != blank -%}
         {% render 'button', content: section.settings.button_text, href: section.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color %}
