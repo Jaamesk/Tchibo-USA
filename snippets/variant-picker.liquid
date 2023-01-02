@@ -50,7 +50,7 @@ Supported variables
         <div class="variant-picker__option-info">
           <div class="h-stack gap-2">
             <legend class="tp-body-secondary">{{ option.name }}:</legend>
-            <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
+            <variant-option-value form="{{ form_id }}" for="option{{ option.position }}" class="tp-body">{{ option.selected_value }}</variant-option-value>
           </div>
 
           {%- if hide_size_chart != true and block.settings.size_chart_page != blank and size_label_list contains option_downcase -%}
