@@ -242,12 +242,6 @@
       },
       {
         "type": "color",
-        "id": "text_color",
-        "label": "Body \/ Heading Standard",
-        "default": "#21292f"
-      },
-      {
-        "type": "color",
         "id": "success_color",
         "label": "Success",
         "default": "#00a341"
@@ -263,6 +257,16 @@
         "id": "error_color",
         "label": "Error",
         "default": "#f83a3a"
+      },
+      {
+        "type": "header",
+        "content": "Font Colors"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Body \/ Heading Standard",
+        "default": "#21292f"
       },
       {
         "type": "header",
