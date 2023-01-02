@@ -24,7 +24,7 @@
         <div class="newsletter-drawer__content v-stack gap-4 text-center">
           <div class="v-stack gap-6">
             {%- if section.settings.title != blank -%}
-              <p class="h5">{{- section.settings.title -}}</p>
+              <p class="tp-display-4">{{- section.settings.title -}}</p>
             {%- endif -%}
 
             {%- form 'customer', id: newsletter_id, class: 'form' -%}
@@ -54,7 +54,7 @@
           </div>
 
           {%- if section.settings.subtext != blank -%}
-            <p class="text-xs text-subdued">{{- section.settings.subtext -}}</p>
+            <p class="tp-body-secondary">{{- section.settings.subtext -}}</p>
           {%- endif -%}
         </div>
       </newsletter-popup>
