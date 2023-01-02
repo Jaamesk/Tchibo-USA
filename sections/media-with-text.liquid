@@ -87,7 +87,7 @@ LIQUID
             {%- endif -%}
 
             {%- if block.settings.subheading != blank -%}
-              <p class="bold">{{ block.settings.subheading | escape }}</p>
+              <p class="{{ block.settings.font-style }}">{{ block.settings.subheading | escape }}</p>
             {%- endif -%}
 
             {%- if block.settings.title != blank -%}
@@ -520,6 +520,26 @@ LIQUID
           "type": "text",
           "id": "subheading",
           "label": "Subheading"
+        },
+        {
+          "type": "select",
+          "id": "font-style",
+          "label": "Style",
+          "options": [
+            {
+              "value": "tp-overline-secondary",
+              "label": "Overline Secondary"
+            },
+            {
+              "value": "tp-overline",
+              "label": "Overline"
+            },
+            {
+              "value": "tp-handwritten",
+              "label": "Handwritten"
+            }
+          ],
+          "default": "tp-overline-secondary"
         },
         {
           "type": "text",
