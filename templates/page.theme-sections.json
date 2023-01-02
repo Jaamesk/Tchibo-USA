@@ -188,7 +188,9 @@
       "settings": {
         "full_width": true,
         "subheading": "Contact Us",
+        "subheading-style": "tp-overline-secondary",
         "title": "Do you have any question?",
+        "heading_tag": "tp-display-5",
         "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
@@ -259,7 +261,7 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "",
+        "subheading": "Hello",
         "title": "FAQ",
         "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
         "team_avatar_width": 160,
