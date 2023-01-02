@@ -243,8 +243,8 @@
       {
         "type": "color",
         "id": "text_color",
-        "label": "Text",
-        "default": "#677279"
+        "label": "Body \/ Heading Standard",
+        "default": "#21292f"
       },
       {
         "type": "color",
