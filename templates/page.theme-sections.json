@@ -43,6 +43,7 @@
         "title": "Heading",
         "heading_style": "tp-display-4",
         "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "font-style": "tp-body-secondary",
         "button_text": "Hello",
         "button_url": "",
         "text_position": "start",
