@@ -12,7 +12,7 @@
 
       {%- when 'vendor' -%}
         {%- if product.vendor != blank -%}
-          <div class="product-info__vendor" {{ block.shopify_attributes }}>
+          <div class="{{ block.settings.font-style }}" {{ block.shopify_attributes }}>
             {%- render 'vendor' with product.vendor -%}
           </div>
         {%- endif -%}
