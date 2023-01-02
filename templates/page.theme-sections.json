@@ -614,8 +614,8 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "",
-        "content": "",
+        "title": "Hello",
+        "content": "<p>Hello<\/p>",
         "button_text": "",
         "button_url": "",
         "desktop_text_position": "place-self-start text-start",
