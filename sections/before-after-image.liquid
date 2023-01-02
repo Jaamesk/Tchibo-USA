@@ -31,7 +31,7 @@ LIQUID
       {%- endif -%}
 
       {%- if section.settings.title != blank -%}
-        <h2 class="h2">{{ section.settings.title | escape }}</h2>
+        <h2 class="{{ section.settings.heading_style }}">{{ section.settings.title | escape }}</h2>
       {%- endif -%}
 
       {{- section.settings.content -}}
@@ -131,6 +131,62 @@ LIQUID
       "label": "Heading",
       "default": "Before/after"
     },
+    {
+          "type": "select",
+          "id": "heading_style",
+          "label": "Heading Style",
+          "options": [
+            {
+              "value": "tp-display-5",
+              "label": "Display 5"
+            },
+            {
+              "value": "tp-display-5-secondary",
+              "label": "Display 5 Secondary"
+            },
+            {
+              "value": "tp-display-4",
+              "label": "Display 4"
+            },
+            {
+              "value": "tp-display-4-secondary",
+              "label": "Display 4 Secondary"
+            },
+            {
+              "value": "tp-display-3",
+              "label": "Display 3"
+            },
+            {
+              "value": "tp-display-3-secondary",
+              "label": "Display 3 Secondary"
+            },
+            {
+              "value": "tp-display-2",
+              "label": "Display 2"
+            },
+            {
+              "value": "tp-display-2-regular",
+              "label": "Display 2 Regular"
+            },
+            {
+              "value": "tp-display-2-secondary",
+              "label": "Display 2 Secondary"
+            },
+            {
+              "value": "tp-display-1",
+              "label": "Display 1"
+            },
+            {
+              "value": "tp-display-1-light",
+              "label": "Display 1 Light"
+            },
+            {
+              "value": "tp-display-1-secondary",
+              "label": "Display 1 Secondary"
+            }
+          ],
+          "default": "tp-display-5"
+        },
     {
       "type": "richtext",
       "id": "content",
