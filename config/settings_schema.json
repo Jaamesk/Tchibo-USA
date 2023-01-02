@@ -476,7 +476,7 @@
         "type": "select",
         "id": "base_heading_style",
         "label": "Base Heading Style",
-        "info": "Styles are based on Tchibo pattern library font styles",
+        "info": "Styles are based on Tchibo pattern library font styles. May be overriden by specific styles in specific sections.",
         "options": [
           {
             "value": "tp-display-5",
@@ -528,6 +528,27 @@
           }
         ],
         "default": "tp-display-5"
+      },
+      {
+        "type": "select",
+        "id": "base-subheading-style",
+        "label": "Base Subheading Style",
+        "info": "Styles are based on Tchibo pattern library font styles. May be overriden by specific styles in specific sections.",
+        "options": [
+          {
+            "value": "tp-overline-secondary",
+            "label": "Overline Secondary"
+          },
+          {
+            "value": "tp-overline",
+            "label": "Overline"
+          },
+          {
+            "value": "tp-handwritten",
+            "label": "Handwritten"
+          }
+        ],
+        "default": "tp-overline-secondary"
       },
       {
         "type": "header",
