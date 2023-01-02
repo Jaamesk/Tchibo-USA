@@ -43,7 +43,9 @@
           {%- for block in section.blocks -%}
             {%- if block.settings.title != blank and block.settings.content != blank -%}
               {%- capture accordion_content -%}
-                <div class="prose">{{ block.settings.content }}</div>
+                <div class="prose">
+                  <p class="tp-body">{{ block.settings.content }}</p>
+                </div>
               {%- endcapture -%}
 
               {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
