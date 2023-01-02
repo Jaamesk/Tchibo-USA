@@ -895,7 +895,7 @@
           "type": "image",
           "settings": {
             "title": "Promote your products",
-            "heading_tag": "h5",
+            "heading_tag": "tp-display-4-nocolor",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
