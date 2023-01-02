@@ -721,7 +721,7 @@
           "type": "heading",
           "settings": {
             "text": "Image with text overlay",
-            "heading_tag": "h1"
+            "heading_tag": "tp-display-5-nocolor"
           }
         },
         "template--15633983406286__da6608a4-68fb-4a47-8062-10ce65e18409-1672320660dfb97fbd-2": {
