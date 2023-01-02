@@ -714,7 +714,8 @@
         "template--15633983406286__da6608a4-68fb-4a47-8062-10ce65e18409-1672320660dfb97fbd-0": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Subheading",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15633983406286__da6608a4-68fb-4a47-8062-10ce65e18409-1672320660dfb97fbd-1": {
@@ -757,6 +758,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Heading 1",
+            "heading_tag": "tp-display-5",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
@@ -766,6 +768,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Heading 2",
+            "heading_tag": "tp-display-5",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
@@ -872,7 +875,7 @@
         "full_width": true,
         "stack_mobile": true,
         "title": "Logo list",
-        "content": "",
+        "content": "<p>Bliblablub Hallo<\/p>",
         "text_alignment": "start",
         "items_per_row": 5,
         "background": "",
