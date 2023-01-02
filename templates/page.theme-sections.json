@@ -642,7 +642,7 @@
           "type": "item",
           "settings": {
             "stretch_image": true,
-            "link_text": "",
+            "link_text": "Hi",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
