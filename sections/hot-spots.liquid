@@ -119,10 +119,10 @@
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="h6">{{ block.settings.title | escape }}</p>
+                <p class="tp-display-2">{{ block.settings.title | escape }}</p>
               {%- endif -%}
 
-              {{- block.settings.content -}}
+              <span class="tp-body">{{- block.settings.content -}}</span>
             </div>
           </x-popover>
         </div>
