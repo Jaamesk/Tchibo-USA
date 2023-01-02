@@ -67,21 +67,21 @@ Supported parameters
           {%- if show_date -%}
             <div class="text-with-icon link-faded">
               {%- render 'icon' with 'blog-date' -%}
-              <span class="text-sm">{{- article.published_at | default: 'now' | date: format: 'abbreviated_date' -}}</span>
+              <span class="tp-body-secondary">{{- article.published_at | default: 'now' | date: format: 'abbreviated_date' -}}</span>
             </div>
           {%- endif -%}
 
           {%- if show_author -%}
             <div class="text-with-icon link-faded">
               {%- render 'icon' with 'blog-author' -%}
-              <span class="text-sm">{{- article.author | default: 'John D.' -}}</span>
+              <span class="tp-body-secondary">{{- article.author | default: 'John D.' -}}</span>
             </div>
           {%- endif -%}
 
           {%- if show_comments_count and article.comments_enabled? -%}
             <div class="text-with-icon link-faded">
               {%- render 'icon' with 'blog-comment' -%}
-              <a href="{{ article.url }}#blog-post-comments" class="text-sm">{{ 'blog.comments.count' | t: count: article.comments_count }}</a>
+              <a href="{{ article.url }}#blog-post-comments" class="tp-body-secondary">{{ 'blog.comments.count' | t: count: article.comments_count }}</a>
             </div>
           {%- endif -%}
         </div>
