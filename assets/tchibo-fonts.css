@@ -204,6 +204,14 @@ url("https://cdn.shopify.com/s/files/1/0618/9386/9774/files/interstate-wgl-regul
   color: var(--color-font-primary);
 }
 
+.tp-body-nocolor {
+  font-size: var(--body-fz);
+  font-family: var(--tchibo-font-main);
+  letter-spacing: .3px;
+  line-height: calc(var(--body-fz)*1.5);
+  color: var(--color-font-primary);
+}
+
 .tp-body-inverse {
   font-size: var(--body-fz);
   font-family: var(--tchibo-font-main);
