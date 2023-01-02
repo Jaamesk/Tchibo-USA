@@ -36,6 +36,7 @@
   letter-spacing: .6px;
   font-weight: 400;
   line-height: calc(var(--display-1-fz)*1.4);
+  color: var(--color-font-primary);
 }
 
 .tp-display-1-light {
@@ -44,6 +45,7 @@
   letter-spacing: .6px;
   font-weight: 300;
   line-height: calc(var(--display-1-fz)*1.4);
+  color: var(--color-font-primary);
 }
 
 .tp-display-1-secondary {
@@ -51,6 +53,7 @@
   font-family: var(--tchibo-font-alternate);
   letter-spacing: .8px;
   line-height: calc(var(--display-1-fz)*1.4);
+  color: var(--color-font-primary);
 }
 
 .tp-display-2 {
@@ -59,6 +62,7 @@
   letter-spacing: .7px;
   font-weight: 700;
   line-height: calc(var(--display-2-fz)*1.4);
+  color: var(--color-font-primary);
 }
 
 .tp-display-2-regular {
@@ -67,6 +71,7 @@
   letter-spacing: .7px;
   font-weight: 400;
   line-height: calc(var(--display-2-fz)*1.4);
+  color: var(--color-font-primary);
 }
 
 .tp-display-2-secondary {
@@ -74,6 +79,7 @@
   font-family: var(--tchibo-font-alternate);
   letter-spacing: 1.4px;
   line-height: calc(var(--display-2-fz)*1.4);
+  color: var(--color-font-primary);
 }
 
 .tp-display-3 {
@@ -82,6 +88,7 @@
   letter-spacing: .9px;
   font-weight: 700;
   line-height: calc(var(--display-3-fz)*1.4);
+  color: var(--color-font-primary);
 }
 
 .tp-display-3-secondary {
@@ -89,6 +96,7 @@
   font-family: var(--tchibo-font-alternate);
   letter-spacing: 1.8px;
   line-height: calc(var(--display-3-fz)*1.4);
+  color: var(--color-font-primary);
 }
 
 .tp-display-4 {
@@ -97,6 +105,7 @@
   letter-spacing: 1px;
   font-weight: 700;
   line-height: calc(var(--display-4-fz)*1.3);
+  color: var(--color-font-primary);
 }
 
 .tp-display-4-secondary {
@@ -104,6 +113,7 @@
   font-family: var(--tchibo-font-alternate);
   letter-spacing: 2.3px;
   line-height: calc(var(--display-4-fz)*1.3);
+  color: var(--color-font-primary);
 }
 
 .tp-display-5 {
@@ -112,6 +122,7 @@
   letter-spacing: 1.2px;
   font-weight: 700;
   line-height: calc(var(--display-5-fz)*1.3);
+  color: var(--color-font-primary);
 }
 
 .tp-display-5-secondary {
@@ -119,6 +130,7 @@
   font-family: var(--tchibo-font-alternate);
   letter-spacing: 3.2px;
   line-height: calc(var(--display-5-fz)*1.3);
+  color: var(--color-font-primary);
 }
 
 /* Definitionen Body Schriften */
@@ -127,6 +139,15 @@
   font-family: var(--tchibo-font-main);
   letter-spacing: .3px;
   line-height: calc(var(--body-fz)*1.5);
+  color: var(--color-font-primary);
+}
+
+.tp-body-inverse {
+  font-size: var(--body-fz);
+  font-family: var(--tchibo-font-main);
+  letter-spacing: .3px;
+  line-height: calc(var(--body-fz)*1.5);
+  color: var(--color-font-inverse);
 }
 
 .tp-body-secondary {
@@ -134,6 +155,7 @@
   font-family: var(--tchibo-font-main);
   letter-spacing: .3px;
   line-height: calc(var(--body-fz)*1.5);
+  color: var(--color-font-secondary);
 }
 
 .tp-footnote {
