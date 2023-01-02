@@ -41,7 +41,7 @@
         "subheading": "Hello",
         "subheading_style": "tp-overline-secondary",
         "title": "Heading",
-        "heading_style": "tp-display-4-secondary",
+        "heading_style": "tp-display-4",
         "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
         "button_text": "Hello",
         "button_url": "",
