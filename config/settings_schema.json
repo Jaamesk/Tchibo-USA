@@ -269,6 +269,12 @@
         "default": "#21292f"
       },
       {
+        "type": "color",
+        "id": "text_color_inverse",
+        "label": "Font Primary Inverse",
+        "default": "#fff"
+      },
+      {
         "type": "header",
         "content": "Header"
       },
