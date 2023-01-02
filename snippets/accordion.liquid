@@ -26,10 +26,10 @@ Supported parameters
       {%- if icon -%}
         <div class="text-with-icon">
           {%- render 'icon' with icon -%}
-          <span class="tp-display-2-regular">{{- title | escape -}}</span>
+          <span class="tp-display-1">{{- title | escape -}}</span>
         </div>
       {%- else -%}
-        <span class="tp-display-2-regular">{{- title | escape -}}</span>
+        <span class="tp-display-1">{{- title | escape -}}</span>
       {%- endif -%}
 
       <span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate">{%- render 'icon' with 'chevron-bottom-small' -%}</span>
