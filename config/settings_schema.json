@@ -275,6 +275,12 @@
         "default": "#fff"
       },
       {
+        "type": "color",
+        "id": "text_color_secondary",
+        "label": "Font Secondary",
+        "default": "#64696d"
+      },
+      {
         "type": "header",
         "content": "Header"
       },
