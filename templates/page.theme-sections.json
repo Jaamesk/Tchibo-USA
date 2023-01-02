@@ -62,7 +62,7 @@
       "type": "before-after-image",
       "settings": {
         "full_width": true,
-        "subheading": "",
+        "subheading": "Hello",
         "title": "Before\/after",
         "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
         "expand_image": false,
