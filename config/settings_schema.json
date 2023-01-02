@@ -476,6 +476,7 @@
         "type": "select",
         "id": "base_heading_style",
         "label": "Base Heading Style",
+        "info": "Styles are based on Tchibo pattern library font styles",
         "options": [
           {
             "value": "tp-display-5",
