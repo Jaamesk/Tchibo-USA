@@ -20,12 +20,6 @@
     --footnote-fz: clamp(0.75rem, calc(0.72rem + 0.14vw), 0.81rem);
     --handwritten-fz: clamp(1.13rem, calc(1.07rem + 0.28vw), 1.25rem);
     --overline-fz: clamp(0.63rem, calc(0.57rem + 0.28vw), 0.75rem);
-
-    /* Schriftfarben */
-    --color-font-primary: {{ settings.text_color.rgb }};
-    --color-font-primary-inverse: {{ settings.text_color_inverse.rgb }};
-    --color-font-secondary: {{ settings.text_color_secondary.rgb }};
-    --color-font-accent: {{ settings.text_color_accent.rgb }};
   
   }
 
