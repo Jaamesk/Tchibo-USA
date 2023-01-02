@@ -67,7 +67,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'vendor' -%}
-              <div class="tp-overline-secondary" {{ block.shopify_attributes }}>{{- 'general.on_boarding.product_vendor' | t -}}</div>
+              <div class="{{ block.settings.font-style }}" {{ block.shopify_attributes }}>{{- 'general.on_boarding.product_vendor' | t -}}</div>
 
             {%- when 'title' -%}
               <h2 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ 'general.on_boarding.product_title' | t }}</h2>
@@ -128,7 +128,29 @@
     {
       "type": "vendor",
       "name": "Vendor",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "font-style",
+          "label": "Subheading Style",
+          "options": [
+            {
+              "value": "tp-overline-secondary",
+              "label": "Overline Secondary"
+            },
+            {
+              "value": "tp-overline",
+              "label": "Overline"
+            },
+            {
+              "value": "tp-handwritten",
+              "label": "Handwritten"
+            }
+          ],
+          "default": "tp-overline-secondary"
+        }
+      ]
     },
     {
       "type": "title",
