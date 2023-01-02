@@ -161,7 +161,7 @@ note that this may have impact on different places.
     {%- assign product_primary_badge_brightness = settings.product_primary_badge_background | color_brightness -%}
 
     --accent: {{ settings.primary_button_background.rgb }};
-    --text-primary: {{ settings.text_color.rgb }};
+    --text-primary: {{ settings.text_color.rgb }}; /* Deprecated by tchibo-fonts.css */
     --background-primary: {{ settings.background.rgb }};
     --dialog-background: {{ settings.dialog_background.rgb }};
     --border-color: var(--text-color, var(--text-primary)) / 0.12;
