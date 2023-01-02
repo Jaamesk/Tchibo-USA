@@ -25,6 +25,7 @@
     --color-font-primary: {{ settings.text_color.rgb }};
     --color-font-primary-inverse: {{ settings.text_color_inverse.rgb }};
     --color-font-secondary: {{ settings.text_color_secondary.rgb }};
+    --color-font-accent: {{ settings.text_color_accent.rgb }};
   
   }
 
