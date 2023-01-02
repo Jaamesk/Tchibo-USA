@@ -22,7 +22,7 @@
         </h2>
       {%- endif -%}
 
-      <p>{{- section.settings.content -}}</p>
+      <p class="{{ section.settings.font_style }}">{{- section.settings.content -}}</p>
 
       {%- if section.settings.button_text != blank -%}
         {% render 'button', content: section.settings.button_text, href: section.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color %}
@@ -180,6 +180,26 @@
       "label": "Content",
       "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
     },
+    {
+          "type": "select",
+          "id": "font-style",
+          "label": "Content Style",
+          "options": [
+            {
+              "value": "tp-body",
+              "label": "Body"
+            },
+            {
+              "value": "tp-body-inverse",
+              "label": "Body Inverse"
+            },
+            {
+              "value": "tp-body-secondary",
+              "label": "Body Secondary"
+            }
+          ],
+          "default": "tp-body"
+        },
     {
       "type": "text",
       "id": "button_text",
