@@ -53,7 +53,7 @@ LIQUID
       <div class="section-stack__intro">
         <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
           {%- if section.settings.subheading != blank -%}
-            <p class="bold">{{ section.settings.subheading | escape }}</p>
+            <p class="{{ section.settings.subheading-style }}">{{ section.settings.subheading | escape }}</p>
           {%- endif -%}
 
           {%- if section.settings.title != blank -%}
@@ -254,6 +254,26 @@ LIQUID
       "label": "Subheading",
       "default": "Compare"
     },
+    {
+          "type": "select",
+          "id": "subheading-style",
+          "label": "Style",
+          "options": [
+            {
+              "value": "tp-overline-secondary",
+              "label": "Overline Secondary"
+            },
+            {
+              "value": "tp-overline",
+              "label": "Overline"
+            },
+            {
+              "value": "tp-handwritten",
+              "label": "Handwritten"
+            }
+          ],
+          "default": "tp-overline-secondary"
+        },
     {
       "type": "text",
       "id": "title",
