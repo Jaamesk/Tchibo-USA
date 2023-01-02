@@ -53,7 +53,7 @@
             <h2 class="{{ section.settings.heading_tag }}">{{ section.settings.title | escape }}</h2>
           {%- endif -%}
 
-          {{- section.settings.content -}}
+          <span class="tp-body-nocolor">{{- section.settings.content -}}</span>
 
           {%- if section.settings.button_text != blank -%}
             {%- render 'button', size: 'lg', content: section.settings.button_text, href: section.settings.button_url -%}

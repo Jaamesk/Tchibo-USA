@@ -615,6 +615,7 @@
       "settings": {
         "full_width": true,
         "title": "Hello",
+        "heading_tag": "tp-display-4-nocolor",
         "content": "<p>Hello<\/p>",
         "button_text": "",
         "button_url": "",
