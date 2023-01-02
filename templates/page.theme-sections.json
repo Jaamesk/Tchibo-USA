@@ -1096,7 +1096,9 @@
           "settings": {
             "image_rotation_degrees": -2,
             "subheading": "Hello",
+            "font-style": "tp-overline-secondary",
             "title": "Heading 1",
+            "heading_tag": "tp-display-5",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "button_url": "",
             "button_text": ""
@@ -1107,7 +1109,9 @@
           "settings": {
             "image_rotation_degrees": 1.5,
             "subheading": "",
+            "font-style": "tp-overline-secondary",
             "title": "Heading 2",
+            "heading_tag": "tp-display-5",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "button_url": "",
             "button_text": ""
@@ -1137,7 +1141,7 @@
         "title": "Newsletter",
         "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
         "button_text": "Subscribe",
-        "subtext": "",
+        "subtext": "Hello",
         "background": "",
         "background_gradient": "",
         "text_color": "",
