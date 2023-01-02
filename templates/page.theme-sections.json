@@ -1139,6 +1139,7 @@
         "full_width": true,
         "show_icon": true,
         "title": "Newsletter",
+        "heading_tag": "tp-display-4-secondary",
         "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
         "button_text": "Subscribe",
         "subtext": "Hello",
