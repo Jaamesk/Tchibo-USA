@@ -981,6 +981,30 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Hello",
+            "font-style": "tp-overline-secondary",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "8d48bc67-45e8-4345-8fa6-71672dcb25d1": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Blub",
+            "font-style": "tp-overline",
             "title": "Heading",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "link_text": "",
@@ -995,7 +1019,8 @@
         }
       },
       "block_order": [
-        "template--15633983406286__8b9b98fc-ea34-4197-842f-23b6f83f6da6-167232066139a9382d-0"
+        "template--15633983406286__8b9b98fc-ea34-4197-842f-23b6f83f6da6-167232066139a9382d-0",
+        "8d48bc67-45e8-4345-8fa6-71672dcb25d1"
       ],
       "settings": {
         "full_width": false,
