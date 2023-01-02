@@ -22,7 +22,7 @@
         </h2>
       {%- endif -%}
 
-      {{- section.settings.content -}}
+      <span class="tp-body">{{- section.settings.content -}}</span>
     {%- endcapture -%}
 
     {%- capture subcontent -%}
@@ -38,10 +38,10 @@
 
             {%- if section.settings.support_hours != blank or section.settings.answer_time != blank -%}
               <div class="v-stack">
-                {{- section.settings.support_hours -}}
+                <span class="tp-body">{{- section.settings.support_hours -}}</span>
 
                 {%- if section.settings.answer_time != blank -%}
-                  <span class="text-subdued">{{ section.settings.answer_time }}</span>
+                  <span class="tp-body-secondary">{{ section.settings.answer_time }}</span>
                 {%- endif -%}
               </div>
             {%- endif -%}
