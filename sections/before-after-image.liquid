@@ -34,7 +34,7 @@ LIQUID
         <h2 class="{{ section.settings.heading_style }}">{{ section.settings.title | escape }}</h2>
       {%- endif -%}
 
-      {{- section.settings.content -}}
+      <span class="{{ section.settings.font-style }}">{{- section.settings.content -}}</span>
     {%- endcapture -%}
 
     {%- if content != blank -%}
