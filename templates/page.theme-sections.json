@@ -1095,7 +1095,7 @@
           "type": "item",
           "settings": {
             "image_rotation_degrees": -2,
-            "subheading": "",
+            "subheading": "Hello",
             "title": "Heading 1",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "button_url": "",
