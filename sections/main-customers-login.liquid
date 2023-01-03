@@ -12,7 +12,7 @@ LIQUID
     <div {% render 'surface', class: 'customer-form__box', background_gradient: section.settings.background_gradient, background: section.settings.background, text_color: section.settings.text_color, background_fallback: 'bg-secondary' %}>
       <account-login class="customer-form__box-inner text-center">
         <div id="login" class="v-stack gap-12">
-          <h1 class="h2">
+          <h1 class="tp-display-3">
             {%- assign content = 'customer.login.title' | t -%}
             {%- render 'styled-text', content: content, gradient: section.settings.heading_gradient -%}
           </h1>
