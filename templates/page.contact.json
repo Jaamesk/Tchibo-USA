@@ -24,7 +24,9 @@
       "settings": {
         "full_width": true,
         "subheading": "CONTACT US",
-        "title": "Do you have any question?",
+        "subheading-style": "tp-overline-secondary",
+        "title": "Do you have any questions?",
+        "heading_tag": "tp-display-5",
         "content": "<p>We’d love to hear from you.<br\/>Please fill in the form or call us at <a href=\"tel:8775479799\"> <\/a><a href=\"tel:+1-888-824-4261\" target=\"_blank\">1-888-824-4261 <\/a>to talk.<br\/><br\/><strong>Phone:<\/strong><br\/><a href=\"tel:+1-888-824-4261\" target=\"_blank\">1-888-824-4261<\/a><br\/><br\/><strong>Mail:<\/strong><br\/><a href=\"mailto:info@tchibo.us\" target=\"_blank\">info@tchibo.us<\/a><\/p><p><br\/><strong>Tchibo is represented by<\/strong><br\/>Napco Inc.<br\/>1620 FRONTENAC ROAD, NAPERVILLE, ILLINOIS 60563<\/p>",
         "text_position": "start",
         "contact_form_size": "small",
