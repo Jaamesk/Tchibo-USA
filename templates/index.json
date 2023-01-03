@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
             "title": "German Engineering meets coffee. Our revolutionary Bean-to-Brew machine.",
-            "heading_tag": "h4",
+            "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/products\/the-tchibo",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-center text-center",
@@ -30,7 +30,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/website_banner_whole_bean_coffee_no_oz1000x500.jpg",
             "title": "Discover our range of Röst Frisch coffees.",
-            "heading_tag": "h4",
+            "heading_tag": "tp-display-1-nocolor",
             "link_url": "shopify:\/\/collections\/all-coffee",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-center text-center",
@@ -76,7 +76,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide5.webp",
             "title": "All our coffees are grown on Rainforest Alliance Certified™ Farms.",
-            "heading_tag": "h4",
+            "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/pages\/sustainability",
             "link_text": "Learn more about ethical coffee",
             "mobile_text_position": "place-self-center text-center",
@@ -224,7 +224,8 @@
         "template--15631460925646__61fe0726-0c4b-4784-92c6-d9f5fd13e06a-1671454913c5f1032d-0": {
           "type": "subheading",
           "settings": {
-            "text": "Sustainability at Tchibo"
+            "text": "Sustainability at Tchibo",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15631460925646__61fe0726-0c4b-4784-92c6-d9f5fd13e06a-1671454913c5f1032d-1": {
