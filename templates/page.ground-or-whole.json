@@ -13,14 +13,15 @@
           "type": "subheading",
           "disabled": true,
           "settings": {
-            "text": "Subheading"
+            "text": "Subheading",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15632693952718__c53ba37d-ee33-4182-9cda-a2da2a823a83-1671783029c3bd3e81-1": {
           "type": "heading",
           "settings": {
             "text": "Ground Or Whole Bean?",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
           }
@@ -28,7 +29,8 @@
         "template--15632693952718__c53ba37d-ee33-4182-9cda-a2da2a823a83-1671783029c3bd3e81-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Coffee connoisseurs will never agree on how they prefer their beans. Some want their coffee to be pre-ground. It removes one additional step – and brings you one step closer to our deliciously fresh elixir. Others are obsessed with grinding the beans for themselves. It’s part of their coffee ritual. The fresh grinding releases the coffees oils and aromas right before brewing for the ultimate flavor intensity.<\/p><p>Either way, whole bean or ground, you can be sure that Tchibo Röst Frisch will be exquisitely fresh and aromatic.<\/p>"
+            "content": "<p>Coffee connoisseurs will never agree on how they prefer their beans. Some want their coffee to be pre-ground. It removes one additional step – and brings you one step closer to our deliciously fresh elixir. Others are obsessed with grinding the beans for themselves. It’s part of their coffee ritual. The fresh grinding releases the coffees oils and aromas right before brewing for the ultimate flavor intensity.<\/p><p>Either way, whole bean or ground, you can be sure that Tchibo Röst Frisch will be exquisitely fresh and aromatic.<\/p>",
+            "font-style": "tp-body"
           }
         }
       },
