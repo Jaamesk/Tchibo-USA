@@ -436,7 +436,8 @@
         "57faa3c6-957a-45ec-99c2-e89a0c739019": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Subheading",
+            "font-style": "tp-overline"
           }
         },
         "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-1": {
