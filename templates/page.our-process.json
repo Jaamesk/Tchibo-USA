@@ -32,15 +32,6 @@
             "font-style": "tp-body"
           }
         },
-        "c97bc3d7-cacd-43d6-9e38-0efafc9122d8": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "tp-display-5",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "b4141356-353f-4523-90ed-3092516813a8": {
           "type": "liquid",
           "settings": {
@@ -52,7 +43,6 @@
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0",
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1",
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2",
-        "c97bc3d7-cacd-43d6-9e38-0efafc9122d8",
         "b4141356-353f-4523-90ed-3092516813a8"
       ],
       "settings": {
