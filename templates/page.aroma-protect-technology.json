@@ -69,7 +69,7 @@
             "image": "shopify:\/\/shop_images\/fbd_12.webp",
             "column_size": "2",
             "title": "Ground Coffee Packages",
-            "heading_tag": "h3",
+            "heading_tag": "tp-display-3",
             "content": "<p>Fresh roasted coffee needs to de-gas for up to 2 weeks. The one-way valve actually removes the gas and moisture -- while preventing air from entering.<\/p>",
             "link_url": "shopify:\/\/collections\/ground-coffee",
             "link_text": "Shop Ground Coffee",
