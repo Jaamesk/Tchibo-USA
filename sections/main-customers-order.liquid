@@ -8,7 +8,7 @@
         </a>
 
         <div class="v-stack gap-2">
-          <h1 class="h3">{{ 'customer.order.order_name' | t: name: order.name }}</h1>
+          <h1 class="tp-display-2">{{ 'customer.order.order_name' | t: name: order.name }}</h1>
           <p>{{ order.created_at | date: format: 'date_at_time' }}</p>
         </div>
       </div>
@@ -122,8 +122,8 @@
                     {%- endif -%}
 
                     <div class="h-stack gap-4 justify-between">
-                      <span class="h6">{{ 'customer.order.total' | t }}</span>
-                      <span class="h6">{{ order.total_net_amount | money_with_currency }}</span>
+                      <span class="tp-display-1">{{ 'customer.order.total' | t }}</span>
+                      <span class="tp-display-1">{{ order.total_net_amount | money_with_currency }}</span>
                     </div>
                   </div>
                 </td>
@@ -138,7 +138,7 @@
               <div class="address gap-4 rounded-sm">
                 <div class="text-with-icon">
                   {%- render 'icon' with 'picto-file' -%}
-                  <p class="bold">{{ 'customer.order.billing_address' | t }}</p>
+                  <p class="bold tp-display-1">{{ 'customer.order.billing_address' | t }}</p>
                 </div>
 
                 {{- order.billing_address | format_address -}}
@@ -149,7 +149,7 @@
               <div class="address gap-4 rounded-sm">
                 <div class="text-with-icon">
                   {%- render 'icon' with 'picto-box' -%}
-                  <p class="bold">{{ 'customer.order.shipping_address' | t }}</p>
+                  <p class="bold tp-display-1">{{ 'customer.order.shipping_address' | t }}</p>
                 </div>
 
                 {{- order.shipping_address | format_address -}}
