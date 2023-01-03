@@ -30,7 +30,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/website_banner_whole_bean_coffee_no_oz1000x500.jpg",
             "title": "Discover our range of Röst Frisch coffees.",
-            "heading_tag": "tp-display-1-nocolor",
+            "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/collections\/all-coffee",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-center text-center",
