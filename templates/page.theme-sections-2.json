@@ -53,7 +53,7 @@
           "type": "heading",
           "settings": {
             "text": "Heading",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-5",
             "text_color": "",
             "gradient": ""
           }
