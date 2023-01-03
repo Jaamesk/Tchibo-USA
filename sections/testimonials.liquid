@@ -68,7 +68,7 @@
                     {%- endif -%}
 
                     {%- if block.settings.author != blank -%}
-                      <p class="text-subdued">{{ block.settings.author | escape }}</p>
+                      <p class="tp-body-secondary">{{ block.settings.author | escape }}</p>
                     {%- endif -%}
                   </div>
                 </div>
@@ -77,10 +77,10 @@
               {%- if block.settings.title != blank or block.settings.content != blank -%}
                 <div class="v-stack gap-2 sm:gap-2.5">
                   {%- if block.settings.title != blank -%}
-                    <p class="bold">{{ block.settings.title | escape }}</p>
+                    <p class="tp-display-1">{{ block.settings.title | escape }}</p>
                   {%- endif -%}
 
-                  {{- block.settings.content -}}
+                  <div class="tp-body">{{- block.settings.content -}}</div>
                 </div>
               {%- endif -%}
             </div>
