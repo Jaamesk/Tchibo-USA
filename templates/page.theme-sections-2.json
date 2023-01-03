@@ -364,7 +364,7 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "",
+        "title": "Hello",
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
