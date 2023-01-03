@@ -6,7 +6,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "tp-display-2"
           }
         },
         "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1": {
