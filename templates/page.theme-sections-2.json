@@ -381,7 +381,9 @@
           "settings": {
             "navigation_label": "1953",
             "subheading": "Subheading",
+            "subheading-style": "tp-overline-secondary",
             "title": "Heading",
+            "heading_tag": "tp-display-5",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
@@ -390,7 +392,9 @@
           "settings": {
             "navigation_label": "1960",
             "subheading": "Subheading",
+            "subheading-style": "tp-overline-secondary",
             "title": "Heading",
+            "heading_tag": "tp-display-5",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
@@ -399,7 +403,9 @@
           "settings": {
             "navigation_label": "1966",
             "subheading": "Subheading",
+            "subheading-style": "tp-overline-secondary",
             "title": "Heading",
+            "heading_tag": "tp-display-5",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
@@ -427,17 +433,31 @@
           "settings": {
           }
         },
+        "57faa3c6-957a-45ec-99c2-e89a0c739019": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
         "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-1": {
           "type": "heading",
           "settings": {
             "text": "Video",
             "heading_tag": "h1"
           }
+        },
+        "723b1a2a-68c3-45fd-ab32-ce88d973f2d5": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-0",
-        "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-1"
+        "57faa3c6-957a-45ec-99c2-e89a0c739019",
+        "template--15634070864078__26a57caa-5a71-4993-9f9d-880674296cc8-1672320769f2f3bf61-1",
+        "723b1a2a-68c3-45fd-ab32-ce88d973f2d5"
       ],
       "settings": {
         "full_width": true,
