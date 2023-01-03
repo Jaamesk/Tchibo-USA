@@ -37,15 +37,15 @@
 
             <div class="prose">
               {%- if block.settings.subheading != blank -%}
-                <p class="bold text-base">{{- block.settings.subheading -}}</p>
+                <p class="{{ block.settings.subheading-style }}">{{- block.settings.subheading -}}</p>
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="h2">{{- block.settings.title -}}</p>
+                <p class="{{ block.settings.heading_tag }}">{{- block.settings.title -}}</p>
               {%- endif -%}
 
               {%- if block.settings.content != blank -%}
-                {{- block.settings.content -}}
+                <div class="tp-body">{{- block.settings.content -}}</div>
               {%- endif -%}
             </div>
           </div>
@@ -160,10 +160,86 @@
           "default": "Subheading"
         },
         {
+          "type": "select",
+          "id": "subheading-style",
+          "label": "Subheading Style",
+          "options": [
+            {
+              "value": "tp-overline-secondary",
+              "label": "Overline Secondary"
+            },
+            {
+              "value": "tp-overline",
+              "label": "Overline"
+            },
+            {
+              "value": "tp-handwritten",
+              "label": "Handwritten"
+            }
+          ],
+          "default": "tp-overline-secondary"
+        },
+        {
           "type": "text",
           "id": "title",
           "label": "Heading",
           "default": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Style",
+          "options": [
+            {
+              "value": "tp-display-5",
+              "label": "Display 5"
+            },
+            {
+              "value": "tp-display-5-secondary",
+              "label": "Display 5 Secondary"
+            },
+            {
+              "value": "tp-display-4",
+              "label": "Display 4"
+            },
+            {
+              "value": "tp-display-4-secondary",
+              "label": "Display 4 Secondary"
+            },
+            {
+              "value": "tp-display-3",
+              "label": "Display 3"
+            },
+            {
+              "value": "tp-display-3-secondary",
+              "label": "Display 3 Secondary"
+            },
+            {
+              "value": "tp-display-2",
+              "label": "Display 2"
+            },
+            {
+              "value": "tp-display-2-regular",
+              "label": "Display 2 Regular"
+            },
+            {
+              "value": "tp-display-2-secondary",
+              "label": "Display 2 Secondary"
+            },
+            {
+              "value": "tp-display-1",
+              "label": "Display 1"
+            },
+            {
+              "value": "tp-display-1-light",
+              "label": "Display 1 Light"
+            },
+            {
+              "value": "tp-display-1-secondary",
+              "label": "Display 1 Secondary"
+            }
+          ],
+          "default": "tp-display-5"
         },
         {
           "type": "richtext",
