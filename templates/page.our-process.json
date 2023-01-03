@@ -68,6 +68,7 @@
         },
         "template--15632684318926__9d2d6494-f289-4a85-84ea-d7dfa2549f9a-16717185938a7459e1-2": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "font-style": "tp-body"
@@ -168,6 +169,7 @@
         },
         "template--15632684318926__49c355a0-3258-486d-9290-8fa5c4b8155e-16717185938a7459e1-2": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "font-style": "tp-body"
@@ -261,13 +263,14 @@
           "type": "heading",
           "settings": {
             "text": "Sealing & Protecting",
-            "heading_tag": "h2",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
         },
         "template--15632684318926__23e43cf0-dfe6-4eb4-a08e-2ffc0e0a1c53-16717185938a7459e1-2": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "font-style": "tp-body"
