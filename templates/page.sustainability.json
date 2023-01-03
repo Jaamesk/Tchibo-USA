@@ -13,7 +13,7 @@
           "type": "heading",
           "settings": {
             "text": "Sustainability at Tchibo",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
           }
@@ -21,7 +21,8 @@
         "template--15634101371086__993ae0b5-52fe-4df7-9323-8d9525c35192-16723253181cb5799b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>As a European company, we have dealt with diminishing resources and the environment for decades. That’s why 100% of Tchibo coffee now comes from Rainforest Alliance Certified farms.<\/p>"
+            "content": "<p>As a European company, we have dealt with diminishing resources and the environment for decades. That’s why 100% of Tchibo coffee now comes from Rainforest Alliance Certified farms.<\/p>",
+            "font-style": "tp-body"
           }
         },
         "f3c2ceb7-205e-43cb-a409-1de04a511747": {
@@ -52,7 +53,7 @@
           "type": "heading",
           "settings": {
             "text": "Our Commitments",
-            "heading_tag": "h2",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
@@ -60,7 +61,8 @@
         "template--15634101371086__2d269131-d992-4f30-8fe4-c2b275f43623-16723253181cb5799b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>As a family-owned business, we are personally and culturally committed to sustainability and fairness. We have a deep ethical commitment to people, the planet and tomorrow. We understand sustainability is an on-going process and there is still work to be done. Here are our corporate commitments that drive Tchibo everyday:<\/p>"
+            "content": "<p>As a family-owned business, we are personally and culturally committed to sustainability and fairness. We have a deep ethical commitment to people, the planet and tomorrow. We understand sustainability is an on-going process and there is still work to be done. Here are our corporate commitments that drive Tchibo everyday:<\/p>",
+            "font-style": "tp-body"
           }
         }
       },
@@ -72,7 +74,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#fff",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -90,7 +92,9 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
+            "font-style": "tp-overline-secondary",
             "title": "Give Back To The Earth… And Earth",
+            "heading_tag": "tp-display-3-nocolor",
             "content": "<p>We are committed to soil replenishment. Whatever we take out of the ground, we are committed to replace it.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -125,7 +129,9 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
+            "font-style": "tp-overline-secondary",
             "title": "Protect Precious Resources",
+            "heading_tag": "tp-display-3-nocolor",
             "content": "<p>From growing to cleaning, it takes a lot of water to grow coffee. And they’re not making any more of it. So, we are committed to conserving and preserving this shared resource.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -160,7 +166,9 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
+            "font-style": "tp-overline-secondary",
             "title": "No Pesky Pesticides",
+            "heading_tag": "tp-display-3-nocolor",
             "content": "<p>We avoid Chemical Fertilizers or Pesticides. This is better for the environment as well as our farmers. It also makes our coffees safer and better tasting.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -195,7 +203,9 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
+            "font-style": "tp-overline-secondary",
             "title": "Let’s Be Fair",
+            "heading_tag": "tp-display-3-nocolor",
             "content": "<p>We support our coffee growing partners around the world. To promote success, we have created the Tchibo Joint Forces program in 9 different countries. This empowerment and education initiative is helping over 45,000 local farmers grow coffee more responsibly, productively and sustainably.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -230,7 +240,9 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
+            "font-style": "tp-overline-secondary",
             "title": "Dignity & Respect",
+            "heading_tag": "tp-display-3-nocolor",
             "content": "<p>With thousands of employees working in fields and roasteries around the world, Tchibo is profoundly committed to workers’ rights and safety. We treat each person with the dignity and respect they deserve. Because who can really enjoy a product if it comes at the expense of someone else?<\/p>",
             "link_text": "",
             "link_url": "",
