@@ -200,7 +200,7 @@
           "type": "heading",
           "settings": {
             "text": "How To Video",
-            "heading_tag": "h2",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
@@ -240,7 +240,7 @@
           "type": "heading",
           "settings": {
             "text": "Parts & Pieces",
-            "heading_tag": "h2",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
@@ -275,7 +275,7 @@
           "type": "heading",
           "settings": {
             "text": "Control Panel & Warning Lights",
-            "heading_tag": "h2",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
@@ -343,7 +343,7 @@
           "type": "heading",
           "settings": {
             "text": "Cleaning & Descaling",
-            "heading_tag": "h2",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
