@@ -11,7 +11,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "tp-display-2"
           }
         },
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
@@ -171,8 +171,11 @@
       "settings": {
         "full_width": true,
         "subheading": "Details",
+        "subheading_style": "tp-overline-secondary",
         "title": "Find out more about the Tchibo",
+        "heading_style": "tp-display-5",
         "content": "<p>Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. What could be fresher than that?<\/p><p>Just pour in your whole beans. And hit “play.” This hi-touch technology brews your single serve coffee to your exact specifications. It’s sleek and streamlined – to fit comfortably on your counter. It is surprisingly affordable. And best of all, there are no plastic cups to end up in a landfill.<\/p>",
+        "font-style": "tp-body",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
