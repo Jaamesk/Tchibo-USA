@@ -266,7 +266,7 @@
               {%- if block.settings.title != blank or block.settings.stack_products == false and recommendations.products_count > 1 -%}
                 <div class="h-stack justify-between gap-4">
                   {%- if block.settings.title != blank -%}
-                    <p>{{ block.settings.title | escape }}</p>
+                    <p class="tp-body">{{ block.settings.title | escape }}</p>
                   {%- endif -%}
 
                   {%- if block.settings.stack_products == false and recommendations.products_count > 1 -%}
