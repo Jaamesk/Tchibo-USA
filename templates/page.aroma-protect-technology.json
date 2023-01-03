@@ -12,14 +12,15 @@
         "template--15632693756110__d897339f-7344-460b-9b46-5b1a19b31288-1671722382c68a4080-0": {
           "type": "subheading",
           "settings": {
-            "text": "PATENTED FRESHNES"
+            "text": "PATENTED FRESHNES",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15632693756110__d897339f-7344-460b-9b46-5b1a19b31288-1671722382c68a4080-1": {
           "type": "heading",
           "settings": {
             "text": "Aroma Protect Technology™",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
           }
@@ -27,7 +28,8 @@
         "template--15632693756110__d897339f-7344-460b-9b46-5b1a19b31288-1671722382c68a4080-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>One of the key reasons for Tchibo’s freshness is our patented Aroma Protect Technology™. When we lock in freshness – we lock out oxygen and light. Oxygen, as you know, ages and corrodes all organic objects. Tchibo removes over 99% of the oxygen from our beans. So they maintain virtually all of their original roasted flavors and aromas.<\/p>"
+            "content": "<p>One of the key reasons for Tchibo’s freshness is our patented Aroma Protect Technology™. When we lock in freshness – we lock out oxygen and light. Oxygen, as you know, ages and corrodes all organic objects. Tchibo removes over 99% of the oxygen from our beans. So they maintain virtually all of their original roasted flavors and aromas.<\/p>",
+            "font-style": "tp-body"
           }
         }
       },
@@ -54,7 +56,7 @@
             "image": "shopify:\/\/shop_images\/history11.webp",
             "column_size": "2",
             "title": "Whole Bean Bags",
-            "heading_tag": "h3",
+            "heading_tag": "tp-display-3",
             "content": "<p>Tchibo removes over 99% of the oxygen surrounding our beans. So, they maintain virtually all of their original roasted flavors and aromas.<\/p>",
             "link_url": "shopify:\/\/collections\/whole-bean-coffee",
             "link_text": "Shop Whole Beans",
