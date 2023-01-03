@@ -491,7 +491,8 @@
       },
       {
         "type": "header",
-        "content": "Body text"
+        "content": "Body text",
+        "info": "Body text settings deprecated by Tchibo font system. Settings can be found in tchibo-fonts.css"
       },
       {
         "type": "font_picker",
