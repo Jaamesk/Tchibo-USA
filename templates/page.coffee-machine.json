@@ -24,14 +24,15 @@
         "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-0": {
           "type": "subheading",
           "settings": {
-            "text": "INTRODUCING THE TCHIBO"
+            "text": "INTRODUCING THE TCHIBO",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-1": {
           "type": "heading",
           "settings": {
             "text": "The revolutionary Bean-To-Brew, single serve coffee machine.",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
           }
@@ -39,7 +40,8 @@
         "template--15632929390798__1a613376-3134-41ba-a274-f4739b0bed4f-1671787982d467381d-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. What could be fresher than that?<\/p>"
+            "content": "<p>Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. What could be fresher than that?<\/p>",
+            "font-style": "tp-body"
           }
         },
         "af84c5ac-6ce4-4bb0-9a98-e5dfff2149b2": {
@@ -89,7 +91,9 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Single serve. No waste.",
+            "font-style": "tp-overline-secondary",
             "title": "The Tchibo",
+            "heading_tag": "tp-display-5-nocolor",
             "content": "<p>Just pour in your whole beans. And hit “play.” This hi-touch technology brews your single serve coffee to your exact specifications. It’s sleek and streamlined – to fit comfortably on your counter. It is surprisingly affordable. And best of all, there are no plastic cups to end up in a landfill.<\/p>",
             "link_text": "Shop Now",
             "link_url": "shopify:\/\/products\/the-tchibo",
@@ -173,6 +177,7 @@
         "full_width": false,
         "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
         "title": "Discover the Tchibo",
+        "heading_tag": "tp-display-5-nocolor",
         "content": "<p>Click the hotspots to learn what makes this coffee machine special.<\/p>",
         "button_text": "",
         "button_url": "",
