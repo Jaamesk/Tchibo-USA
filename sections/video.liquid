@@ -79,7 +79,7 @@
 
               {%- when 'richtext' -%}
                 {%- if block.settings.content != blank -%}
-                  <div {{ block.shopify_attributes }}>
+                  <div class="tp-body" {{ block.shopify_attributes }}>
                     {{- block.settings.content -}}
                   </div>
                 {%- endif -%}
