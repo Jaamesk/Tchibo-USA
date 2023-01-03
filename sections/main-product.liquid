@@ -142,7 +142,29 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {
       "type": "vendor",
       "name": "Vendor",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "font-style",
+          "label": "Style",
+          "options": [
+            {
+              "value": "tp-overline-secondary",
+              "label": "Overline Secondary"
+            },
+            {
+              "value": "tp-overline",
+              "label": "Overline"
+            },
+            {
+              "value": "tp-handwritten",
+              "label": "Handwritten"
+            }
+          ],
+          "default": "tp-overline-secondary"
+        }
+      ]
     },
     {
       "type": "title",
