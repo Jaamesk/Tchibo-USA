@@ -47,7 +47,7 @@ LIQUID
                         {%- render 'input', type: 'password', name: 'customer[password]', label: password_label, autocomplete: 'current-password', required: true -%}
 
                         <div class="fieldset-link justify-self-start">
-                          <a href="#recover" class="link text-sm text-subdued">{{ 'customer.login.forgot_password' | t }}</a>
+                          <a href="#recover" class="link tp-body-secondary">{{ 'customer.login.forgot_password' | t }}</a>
                         </div>
                       </div>
 
@@ -55,7 +55,7 @@ LIQUID
                       {%- render 'button', content: submit_label, type: 'submit', size: 'xl', stretch: true, secondary: true, background: section.settings.button_background, text_color: section.settings.button_text_color -%}
 
                       <div>
-                        <a href="{{ routes.account_register_url }}" class="link text-subdued">{{ 'customer.login.sign_up' | t }}</a>
+                        <a href="{{ routes.account_register_url }}" class="link tp-body-secondary">{{ 'customer.login.sign_up' | t }}</a>
                       </div>
                     {%- endform -%}
                   </div>
@@ -91,7 +91,7 @@ LIQUID
             {%- endunless -%}
 
             <div>
-              <a href="#login" class="link text-subdued">{{ 'customer.recover_password.back_to_login' | t }}</a>
+              <a href="#login" class="link tp-body-secondary">{{ 'customer.recover_password.back_to_login' | t }}</a>
             </div>
           {%- endform -%}
         </div>
