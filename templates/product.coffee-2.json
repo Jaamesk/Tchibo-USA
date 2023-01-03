@@ -9,6 +9,16 @@
             "heading_tag": "tp-display-2"
           }
         },
+        "18c55f6f-390b-4710-a881-c15fb856270b": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#e0bf78",
+            "star_size": 16,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews yet"
+          }
+        },
         "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1": {
           "type": "text",
           "settings": {
@@ -24,12 +34,6 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": true
           }
         },
         "payment_terms": {
@@ -102,10 +106,10 @@
       },
       "block_order": [
         "title",
+        "18c55f6f-390b-4710-a881-c15fb856270b",
         "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
         "badges",
         "price",
-        "rating",
         "payment_terms",
         "separator",
         "variant_picker",
