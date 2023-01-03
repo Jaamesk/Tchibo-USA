@@ -365,7 +365,7 @@
       "settings": {
         "full_width": true,
         "title": "Hello",
-        "heading_tag": "h5",
+        "heading_tag": "tp-display-1",
         "text_alignment": "center",
         "icon_spacing": "medium",
         "background": "",
