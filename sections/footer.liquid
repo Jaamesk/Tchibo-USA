@@ -35,7 +35,7 @@
                     {%- endif -%}
 
                     {%- if block.settings.content != blank -%}
-                      <div class="prose tp-body-secondary">
+                      <div class="prose tp-body-nocolor">
                         {{- block.settings.content -}}
                       </div>
                     {%- endif -%}
@@ -46,13 +46,13 @@
                 {%- if block.settings.menu != blank -%}
                   <div class="footer__block footer__block--menu" {{ block.shopify_attributes }}>
                     {%- if block.settings.show_menu_title -%}
-                      <p class="bold">{{ block.settings.menu.title }}</p>
+                      <p class="bold tp-body-nocolor">{{ block.settings.menu.title }}</p>
                     {%- endif -%}
 
                     <ul class="v-stack gap-3" role="list">
                       {%- for link in block.settings.menu.links -%}
                         <li>
-                          <a href="{{ link.url }}" class="inline-block link-faded break-all">{{ link.title }}</a>
+                          <a href="{{ link.url }}" class="tp-body-nocolor inline-block link-faded break-all">{{ link.title }}</a>
                         </li>
                       {%- endfor -%}
                     </ul>
@@ -74,7 +74,7 @@
                     {%- endif -%}
 
                     {%- if block.settings.content != blank -%}
-                      <div class="prose text-subdued">
+                      <div class="prose tp-body-nocolor">
                         {{- block.settings.content -}}
                       </div>
                     {%- endif -%}
@@ -347,26 +347,30 @@
         {
           "type": "select",
           "id": "heading_size",
-          "label": "Title size",
+          "label": "Title Style",
           "options": [
             {
-              "value": "h3",
-              "label": "H3"
+              "value": "tp-display-5-nocolor",
+              "label": "Display 5"
             },
             {
-              "value": "h4",
-              "label": "H4"
+              "value": "tp-display-4-nocolor",
+              "label": "Display 4"
             },
             {
-              "value": "h5",
-              "label": "H5"
+              "value": "tp-display-3-nocolor",
+              "label": "Display 3"
             },
             {
-              "value": "h6",
-              "label": "H6"
+              "value": "tp-display-2-nocolor",
+              "label": "Display 2"
+            },
+            {
+              "value": "tp-display-1-nocolor",
+              "label": "Display 1"
             }
           ],
-          "default": "h3"
+          "default": "tp-display-5-nocolor"
         },
         {
           "type": "text",
