@@ -367,8 +367,11 @@
       "settings": {
         "full_width": true,
         "subheading": "FAQs",
+        "subheading_style": "tp-overline-secondary",
         "title": "Frequently Asked Questions",
+        "heading_style": "tp-display-4",
         "content": "<p>Want to know more about Tchibo, our coffee or our machines? Find the most frequently asked questions answered here.<\/p>",
+        "font-style": "tp-body",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
