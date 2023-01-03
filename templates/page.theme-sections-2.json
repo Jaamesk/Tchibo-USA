@@ -30,7 +30,7 @@
     "65266c1c-42ff-4575-8c0b-926194c18b21": {
       "type": "revealed-image-on-scroll",
       "settings": {
-        "subheading": "",
+        "subheading": "Hello",
         "title": "Reveal text on scroll",
         "background": "",
         "text_color_inside": "#ffffff",
@@ -43,7 +43,8 @@
         "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-0": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Subheading",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-1": {
@@ -58,7 +59,8 @@
         "template--15634070864078__daac2717-dbb7-4f5d-9cb6-8364e844399d-1672320762fe12ab46-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "font-style": "tp-body"
           }
         }
       },
