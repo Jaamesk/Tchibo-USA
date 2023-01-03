@@ -9736,7 +9736,7 @@ split-lines {
   font-size: var(--text-lg);
   line-height: 1.6;
 }
-/* Edit: Anpassung Font Face Heading */
+/* Edit: Ersetzt durch tchibo-fonts.css
 .heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6) {
   font-family: Interstate;
   font-weight: 400;
@@ -9745,11 +9745,12 @@ split-lines {
   text-transform: var(--heading-text-transform);
   overflow-wrap: anywhere;
 }
-
+*/
 [dir="rtl"] :is(.heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6)) {
   letter-spacing: 0;
 }
 
+/* Edit: Ersetzt durch tchibo-fonts.css
 .h0 {
   font-size: var(--text-h0);
   line-height: 1;
@@ -9783,7 +9784,7 @@ split-lines {
 .h6, .prose h6:not(.h0, .h1, .h2, .h3, .h4, .h5, .h6) {
   font-size: var(--text-h6);
   line-height: 1.4;
-}
+}*/
 
 @media screen and (min-width: 700px) {
   .sm\:text-xxs {
