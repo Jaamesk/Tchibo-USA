@@ -31,9 +31,9 @@
       "type": "revealed-image-on-scroll",
       "settings": {
         "subheading": "Hello",
-        "font-style": "tp-body-secondary",
+        "font-style": "tp-overline-secondary",
         "title": "Reveal text on scroll",
-        "heading_tag": "tp-display-5",
+        "heading_tag": "tp-display-5-nocolor",
         "background": "",
         "text_color_inside": "#ffffff",
         "text_color_outside": "#000000"
@@ -85,7 +85,7 @@
       "settings": {
         "full_width": true,
         "text": "Promotion text",
-        "text_size": "large",
+        "text_size": "medium",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 10,
@@ -132,7 +132,7 @@
         "full_width": true,
         "stack_mobile": true,
         "title": "Shop the look",
-        "content": "",
+        "content": "<p>Heleoo hjsfbfzuerhf<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
