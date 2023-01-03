@@ -12,14 +12,15 @@
         "template--15632944005326__90e834f2-888e-4d68-ace9-ff5c4c6b9b7c-1671792158ab1fce09-0": {
           "type": "subheading",
           "settings": {
-            "text": "The Tchibo coffee machine"
+            "text": "The Tchibo coffee machine",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15632944005326__90e834f2-888e-4d68-ace9-ff5c4c6b9b7c-1671792158ab1fce09-1": {
           "type": "heading",
           "settings": {
             "text": "Ownership & Care",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
           }
@@ -51,7 +52,9 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
+            "font-style": "tp-overline-secondary",
             "title": "",
+            "heading_tag": "tp-display-5-nocolor",
             "content": "<p>Congratulations. You are now the lucky owner of The Tchibo, the revolutionary, single-serve machine from Europe’s #1 Coffeehouse. Here are some suggestions to help make your ownership experience even better. And, if you have any issues, please call our customer service number or call <a href=\"tel:+18888244261\">1-888-824-4261.<\/a><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/109547_en_Kaffeevollautomat_USA_v4.pdf?v=1661936578\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/109547_en_Kaffeevollautomat_USA_v4.pdf?v=1661936578\">Download User Manual<\/a><\/p><p><a href=\"https:\/\/tchibo.us\/apps\/warranty\/registrants\/new\" title=\"https:\/\/tchibo.us\/apps\/warranty\/registrants\/new\">Register for Warranty<\/a><\/p>",
             "link_text": "",
             "link_url": "",
@@ -205,7 +208,8 @@
         "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We’re sure you’re excited to get your machine out of the box and brewing coffee. But first, take a few minutes to watch this simple video to make sure it all goes well.<\/p>"
+            "content": "<p>We’re sure you’re excited to get your machine out of the box and brewing coffee. But first, take a few minutes to watch this simple video to make sure it all goes well.<\/p>",
+            "font-style": "tp-body"
           }
         },
         "197cdb8b-7994-4bd9-ac27-a70599e9e61c": {
@@ -279,7 +283,8 @@
         "template--15632944005326__21d010c2-4b74-40dc-abb5-db1b01e1e0b4-1671793739a4fbc47a-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The control buttons are only visbile when the machine is switched on.<\/p>"
+            "content": "<p>The control buttons are only visbile when the machine is switched on.<\/p>",
+            "font-style": "tp-body"
           }
         },
         "2bf843cb-cf3e-43d1-ac9d-32dcbec1d8f6": {
@@ -294,7 +299,8 @@
         "3b7acb9e-7118-4e66-9d63-76c7c46fef8c": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The warning lights only light up when the machine requires maintenance.<\/p>"
+            "content": "<p>The warning lights only light up when the machine requires maintenance.<\/p>",
+            "font-style": "tp-body"
           }
         },
         "d1fd97e6-28f2-4440-b554-552789d0b02e": {
@@ -329,7 +335,8 @@
         "template--15632944005326__d1c7f15b-d3e0-48ea-9daf-e7da57def231-16721706487470ead4-0": {
           "type": "subheading",
           "settings": {
-            "text": "Maintenance"
+            "text": "Maintenance",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15632944005326__d1c7f15b-d3e0-48ea-9daf-e7da57def231-16721706487470ead4-1": {
@@ -344,7 +351,8 @@
         "template--15632944005326__d1c7f15b-d3e0-48ea-9daf-e7da57def231-16721706487470ead4-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>By taking proper care of The Tchibo, your coffee will actually taste better. What’s more, you’ll greatly extend the life of your Machine. For daily use, we recommend cleaning the brewing unit once a week. Descale as soon as it is indicated on the display panel – once a month to a few times a year, depending on how often you use your machine.<\/p>"
+            "content": "<p>By taking proper care of The Tchibo, your coffee will actually taste better. What’s more, you’ll greatly extend the life of your Machine. For daily use, we recommend cleaning the brewing unit once a week. Descale as soon as it is indicated on the display panel – once a month to a few times a year, depending on how often you use your machine.<\/p>",
+            "font-style": "tp-body"
           }
         }
       },
