@@ -12,14 +12,15 @@
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-0": {
           "type": "subheading",
           "settings": {
-            "text": "OUR HISTORY"
+            "text": "OUR HISTORY",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-1": {
           "type": "heading",
           "settings": {
             "text": "The History of Tchibo",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
           }
@@ -27,7 +28,8 @@
         "template--15632684318926__bacfc330-f03e-425d-8024-044eee6649a1-16717185938a7459e1-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Connoisseurs love to understand the origins of their beloved brands.  Here is the story of Europe's #1 coffee house.<\/p>"
+            "content": "<p>Connoisseurs love to understand the origins of their beloved brands.  Here is the story of Europe's #1 coffee house.<\/p>",
+            "font-style": "tp-body"
           }
         },
         "b4141356-353f-4523-90ed-3092516813a8": {
@@ -61,7 +63,9 @@
             "image": "shopify:\/\/shop_images\/history1.jpg",
             "navigation_label": "1949",
             "subheading": "1949",
+            "subheading-style": "tp-overline-secondary",
             "title": "The Crossroads Of Resources & Refinement",
+            "heading_tag": "tp-display-3",
             "content": "<p>It all begins in the historic port of Hamburg, the global intersection of raw ingredients and European craftsmanship.<\/p>"
           }
         },
@@ -71,7 +75,9 @@
             "image": "shopify:\/\/shop_images\/history2.jpg",
             "navigation_label": "1949",
             "subheading": "1949",
+            "subheading-style": "tp-overline-secondary",
             "title": "Founding Fathers",
+            "heading_tag": "tp-display-5",
             "content": "<p>Two entrepreneurs, Max Herz and his business partner Carl Tchiling Hiryan, formed a small mail order coffee company. The name “Tchibo” is actually a combination of Tchiling and Bohne, which means “bean.”<\/p>"
           }
         },
@@ -81,7 +87,9 @@
             "image": "shopify:\/\/shop_images\/history3.webp",
             "navigation_label": "1950",
             "subheading": "1950",
+            "subheading-style": "tp-overline-secondary",
             "title": "Special Delivery",
+            "heading_tag": "tp-display-5",
             "content": "<p>As a mail order company, Tchibo was obsessed with freshness from the very beginning – from roasting and blending to sealing and packaging. In fact, Tchibo would offer customers a choice between having their coffee packed in tins or sewn into pouches.<\/p>"
           }
         },
@@ -91,7 +99,9 @@
             "image": "shopify:\/\/shop_images\/history4.jpg",
             "navigation_label": "1953",
             "subheading": "1953",
+            "subheading-style": "tp-overline-secondary",
             "title": "You could smell it for miles",
+            "heading_tag": "tp-display-5",
             "content": "<p>The fresh-roasted aromas were so irresistible, Tchibo started selling coffee right outside the factory door.<\/p>"
           }
         },
@@ -101,7 +111,9 @@
             "image": "shopify:\/\/shop_images\/history6.webp",
             "navigation_label": "1954",
             "subheading": "1954",
+            "subheading-style": "tp-overline-secondary",
             "title": "The Power of Nine",
+            "heading_tag": "tp-display-5",
             "content": "<p>As Tchibo grew, its Röstmeisters and blenders experimented with different innovative recipes and flavor combinations. A particularly popular one was Gold-Mocca, an unprecedented blend using 9 different coffees.<\/p>"
           }
         },
@@ -111,7 +123,9 @@
             "image": "shopify:\/\/shop_images\/history5.jpg",
             "navigation_label": "1955",
             "subheading": "1955",
+            "subheading-style": "tp-overline-secondary",
             "title": "Café Society",
+            "heading_tag": "tp-display-5",
             "content": "<p>Tchibo opened its first store, inventing the coffee shops of today. Within 3 years there were 77 shops, with another one opening every week. By 1965, there were well over 400.<\/p>"
           }
         },
@@ -121,7 +135,9 @@
             "image": "shopify:\/\/shop_images\/history7.webp",
             "navigation_label": "1991",
             "subheading": "1991",
+            "subheading-style": "tp-overline-secondary",
             "title": "Keep on Tchugging",
+            "heading_tag": "tp-display-5",
             "content": "<p>As its following grew across Europe, Tchibo quickly became the #1 coffeehouse on the continent. The gourmet coffee brand opened up shops in the grand cities and world capitals, like London, Vienna, Budapest and Prague.<\/p>"
           }
         },
@@ -131,7 +147,9 @@
             "image": "shopify:\/\/shop_images\/history9.jpg",
             "navigation_label": "2012",
             "subheading": "2012",
+            "subheading-style": "tp-overline-secondary",
             "title": "A Fresher Planet",
+            "heading_tag": "tp-display-5",
             "content": "<p>With a supply chain covering over 80 countries, Tchibo was an early adopter of eco-friendly practices. Tchibo is awarded for its efforts and commitment to becoming a global leader in sustainability.<\/p>"
           }
         },
@@ -141,7 +159,9 @@
             "image": "shopify:\/\/shop_images\/history8.webp",
             "navigation_label": "2013",
             "subheading": "2013",
+            "subheading-style": "tp-overline-secondary",
             "title": "Spilling The Beans",
+            "heading_tag": "tp-display-5",
             "content": "<p>Tchibo embraced technology to spread its gospel of freshness. Using the internet, social media, and mobile apps, Tchibo availability and popularity continue to grow across the world.<\/p>"
           }
         },
@@ -151,7 +171,9 @@
             "image": "shopify:\/\/shop_images\/history10.webp",
             "navigation_label": "2016",
             "subheading": "2016",
+            "subheading-style": "tp-overline-secondary",
             "title": "German Technology & Timing",
+            "heading_tag": "tp-display-5",
             "content": "<p>Driven by its commitment to freshness, Tchibo created sleek, one-step coffee machines that streamlined the entire brewing process for greater freshness.<\/p>"
           }
         },
@@ -161,7 +183,9 @@
             "image": "shopify:\/\/shop_images\/history11.webp",
             "navigation_label": "2016",
             "subheading": "2016",
+            "subheading-style": "tp-overline-secondary",
             "title": "Locks Freshness In & Oxygen Out",
+            "heading_tag": "tp-display-5",
             "content": "<p>Tchibo has led the industry in packaging innovations with its patented Aroma Protect Technology – all in the service of fresher coffee.<\/p>"
           }
         },
@@ -171,7 +195,9 @@
             "image": "shopify:\/\/shop_images\/history12.webp",
             "navigation_label": "2020",
             "subheading": "2020",
+            "subheading-style": "tp-overline-secondary",
             "title": "Tchibo Comes To America",
+            "heading_tag": "tp-display-5",
             "content": "<p>Tchibo Röst Frisch is now available in America, for the most passionate coffee lovers on earth.<\/p>"
           }
         }
