@@ -12,14 +12,15 @@
         "7e507870-76a8-4688-9887-dd21fbadb10d": {
           "type": "subheading",
           "settings": {
-            "text": "COFFEES"
+            "text": "COFFEES",
+            "font-style": "tp-overline-secondary"
           }
         },
         "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-1": {
           "type": "heading",
           "settings": {
             "text": "Introducing Tchibo Röst Frisch",
-            "heading_tag": "h1",
+            "heading_tag": "tp-display-4",
             "text_color": "#423d39",
             "gradient": ""
           }
@@ -27,7 +28,8 @@
         "template--15632693690574__b4a30880-23b8-4d3a-b4e5-126132b8b017-167172197203d133a3-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you. Here now is… Röst Frisch.<\/p>"
+            "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you. Here now is… Röst Frisch.<\/p>",
+            "font-style": "tp-body"
           }
         },
         "c171a28c-2ef4-441c-ae95-dd856a20e08b": {
