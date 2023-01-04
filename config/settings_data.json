@@ -26,7 +26,7 @@
     "product_card_background": "#f8f6f2",
     "product_card_text_color": "#423d39",
     "product_on_sale_accent": "#ea5153",
-    "product_sold_out_badge_background": "#c0a468",
+    "product_sold_out_badge_background": "#e0bf78",
     "product_primary_badge_background": "#e0bf78",
     "base-subheading-style": "tp-overline-secondary",
     "text_font": "inter_n4",
