@@ -94,7 +94,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' or request.page_type == 'customers/addresses' -%}
       {%- section 'account-banner' -%}
     {%- endif -%}
-
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRXHSKD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <main role="main" id="main" class="anchor">
       {{ content_for_layout }}
 
