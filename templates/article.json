@@ -7,18 +7,10 @@
           "type": "navigation",
           "settings": {
           }
-        },
-        "comments": {
-          "type": "comments",
-          "settings": {
-            "show_gravatar": true,
-            "comments_per_page": 5
-          }
         }
       },
       "block_order": [
-        "navigation",
-        "comments"
+        "navigation"
       ],
       "settings": {
         "allow_transparent_header": false,
