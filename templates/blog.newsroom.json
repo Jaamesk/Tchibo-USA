@@ -47,7 +47,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"columns\">\n<div class=\"news-column\">\n\n<\/div>\n<div class=\"contact-column\">\n<p class=\"tp-display-3\">Contact<\/p>\n<p class=\"tp-body bold\"><\/br>Public Relations<\/p>\n<p class=\"tp-body\">Rosen Group<\/br>Raquel Hochroth<\/br>raquel@rosengrouppr.com<\/br>914.374.1213<\/p>\n<\/div>\n<\/div>",
+        "liquid": "<div class=\"columns\">\n<div class=\"news-column\">\n<p class=\"tp-display-3\">Latest Press Releases & Media Coverage<\/p>\n<\/div>\n<div class=\"contact-column\">\n<p class=\"tp-display-3\">Contact<\/p>\n<p class=\"tp-body bold\"><\/br>Public Relations<\/p>\n<p class=\"tp-body\">Rosen Group<\/br>Raquel Hochroth<\/br>raquel@rosengrouppr.com<\/br>914.374.1213<\/p>\n<\/div>\n<\/div>\n\n<style>\n.columns {\ndisplay: flex;\n}",
         "background": "",
         "background_gradient": "",
         "text_color": ""
