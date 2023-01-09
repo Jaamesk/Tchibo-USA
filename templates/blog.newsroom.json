@@ -123,6 +123,7 @@
     },
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "content": "<p>Get access to our latest news by signing up for our newsletter.<\/p>",
