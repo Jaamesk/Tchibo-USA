@@ -41,6 +41,69 @@
         "text_color": ""
       }
     },
+    "3668b47b-b1cf-44d8-b44b-bc936aa96ca7": {
+      "type": "logo-list",
+      "blocks": {
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-0": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-1": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-2": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-3": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-4": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-0",
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-1",
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-2",
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-3",
+        "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Featured In",
+        "heading_tag": "tp-display-5",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "3ce2140d-6849-474c-8f12-c117f75abc6f": {
       "type": "custom-liquid",
       "settings": {
@@ -78,6 +141,7 @@
   },
   "order": [
     "c4c29c12-bc97-44a5-a374-6a35ee385619",
+    "3668b47b-b1cf-44d8-b44b-bc936aa96ca7",
     "3ce2140d-6849-474c-8f12-c117f75abc6f",
     "main"
   ]
