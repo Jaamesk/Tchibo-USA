@@ -115,7 +115,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"columns-newsroom\">\n<div class=\"news-column\">\n<p class=\"tp-display-3\">Latest Press Releases & Media Coverage<\/p>\n{% for article in blog.articles %}\n<p>{{article.title}}<\/p>\n{%- endfor -%}\n<\/div>\n<div class=\"contact-column\">\n<p class=\"tp-display-3\">Contact<\/p>\n<p class=\"tp-body bold\"><\/br>Public Relations<\/p>\n<p class=\"tp-body\">Rosen Group<\/br>Raquel Hochroth<\/br>raquel@rosengrouppr.com<\/br>914.374.1213<\/p>\n<\/div>\n<\/div>\n\n<style>\n.columns-newsroom {\ndisplay: flex;\njustify-content: space-between;\n}\n.news-column {\npadding-right: 10px;\n}\n<\/style>",
+        "liquid": "<div class=\"columns-newsroom\">\n<div class=\"news-column\">\n<p class=\"tp-display-3\">Latest Press Releases & Media Coverage<\/p>\n{% for article in blog.articles %}\n<p>{{article.title}}<\/p>\n{%- endfor -%}\n<\/div>\n<div class=\"contact-column\">\n<p class=\"tp-display-3\">Contact<\/p>\n<p class=\"tp-body bold\"><\/br>Public Relations<\/p>\n<p class=\"tp-body\">Rosen Group<\/br>Raquel Hochroth<\/br>raquel@rosengrouppr.com<\/br>914.374.1213<\/p>\n<\/div>\n<\/div>\n\n<style>\n.columns-newsroom {\ndisplay: flex;\njustify-content: space-between;\n}\n.news-column {\npadding-right: 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.columns-newsroom {\nflex-direction: column;\n}\n.contact-column {\norder:1;\npadding-bottom: 40px;\n}\n.news-column {\norder: 2;\n}\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
