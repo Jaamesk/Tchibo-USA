@@ -47,35 +47,40 @@
         "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-0": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify:\/\/shop_images\/Forbes_logo_svg.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-1": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify:\/\/shop_images\/1280px-BuzzFeed_svg.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-2": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify:\/\/shop_images\/press-featured-callouts-stir_1.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-3": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify:\/\/shop_images\/press-featured-callouts-tea-coffee.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "template--15637659287758__3668b47b-b1cf-44d8-b44b-bc936aa96ca7-167325188892b05bda-4": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify:\/\/shop_images\/press-featured-callouts-bloomberg.png",
+            "logo_width": 300,
             "link": ""
           }
         }
@@ -95,12 +100,12 @@
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
-        "background": "",
+        "background": "#f9f9f9",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
+        "logo_item_background": "#f9f9f9",
         "logo_item_border": ""
       }
     },
