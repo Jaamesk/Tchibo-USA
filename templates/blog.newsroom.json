@@ -1,5 +1,58 @@
 {
   "sections": {
+    "c4c29c12-bc97-44a5-a374-6a35ee385619": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15637659287758__c4c29c12-bc97-44a5-a374-6a35ee385619-1673251897a599344c-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Tchibo in the Press",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15637659287758__c4c29c12-bc97-44a5-a374-6a35ee385619-1673251897a599344c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Newsroom",
+            "heading_tag": "tp-display-5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15637659287758__c4c29c12-bc97-44a5-a374-6a35ee385619-1673251897a599344c-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Tchibo has created quite an impression here in America. Check out our most recent coverage in the news media.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15637659287758__c4c29c12-bc97-44a5-a374-6a35ee385619-1673251897a599344c-0",
+        "template--15637659287758__c4c29c12-bc97-44a5-a374-6a35ee385619-1673251897a599344c-1",
+        "template--15637659287758__c4c29c12-bc97-44a5-a374-6a35ee385619-1673251897a599344c-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3ce2140d-6849-474c-8f12-c117f75abc6f": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"columns\">\n<div class=\"news-column\">\n\n<\/div>\n<div class=\"contact-column\">\n<p class=\"tp-display-3\">Contact<\/p>\n<p class=\"tp-body bold\"><\/br>Public Relations<\/p>\n<p class=\"tp-body\">Rosen Group<\/br>Raquel Hochroth<\/br>raquel@rosengrouppr.com<\/br>914.374.1213<\/p>\n<\/div>\n<\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -24,6 +77,8 @@
     }
   },
   "order": [
+    "c4c29c12-bc97-44a5-a374-6a35ee385619",
+    "3ce2140d-6849-474c-8f12-c117f75abc6f",
     "main"
   ]
 }
