@@ -12,7 +12,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<div class=\"text-with-image\">\n<div class=\"img-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/vollautomaten_farbrange.jpg?v=1671718854\">\n<\/div>\n<div class=\"text-column\">\n\n<\/div>\n<\/div>",
+        "html": "<div class=\"text-with-image\">\n<div class=\"img-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/vollautomaten_farbrange.jpg?v=1671718854\">\n<\/div>\n<div class=\"text-column\">\n<p class=\"tp-overline-secondary\">The Tchibo Single Serve Coffee Machine<\/p>\n<h1 class=\"tp-display-5\">Upgrade your coffee experience<\/h1>\n<p class=\"tp-body\" style=\"padding-top:15px\">Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. Enjoy the freshest coffee in a heartbeat. No pods necessary.<\/p>\n<\/div>\n<\/div>\n\n<style>\n.text-with-image {\ndisplay:flex;\nalign-items: center;\n}\n.img-column {\nwidth:80%;\n}\n.text-column {\npadding-left:50px;\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
