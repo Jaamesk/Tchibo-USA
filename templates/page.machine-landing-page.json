@@ -36,7 +36,7 @@
         "2914d360-52e8-4a57-a431-aa4fddd675cb": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading",
+            "text": "Unparalelled Taste. German Design.",
             "font-style": "tp-overline-secondary"
           }
         },
@@ -69,6 +69,7 @@
         "template--15638715662542__4295b793-45b1-424a-a766-291ff2e9dbe9-1673438788bb5f1720-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/eyJwYXRoIjoidGNoaWJvXC9hY2NvdW50c1wvNzRcLzQwMDAyODZcL3Byb2plY3RzXC8zOVwvYXNzZXRzXC9mMFwvMTE5MjBcL2MwMmViMzQ0OGI2MGFjZjM2MzkxY2FiNzU3YjgyMDcwLTE2MjM3NjY3MTkuanBnIn0_tchibo_oR2gRBmBN_xB.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -105,6 +106,7 @@
         "template--15638715662542__5cbe74d1-8b2b-46d7-a404-43f3c881b1fe-1673438788bb5f1720-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Tchibo-coffee-machine-6-ways_1200x1200_ee7e11e8-e9cf-43c0-b328-a2663bb52174.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -112,8 +114,8 @@
             "icon_width": 48,
             "subheading": "",
             "font-style": "tp-overline-secondary",
-            "title": "Heading",
-            "heading_tag": "tp-display-3-nocolor",
+            "title": "German-engineered quality.",
+            "heading_tag": "tp-display-2-nocolor",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -141,6 +143,7 @@
         "template--15638715662542__42539cbb-af0d-47e6-8f9d-f510e84e7c45-1673438788bb5f1720-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/tchibo-coffee-beans.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -148,8 +151,8 @@
             "icon_width": 48,
             "subheading": "",
             "font-style": "tp-overline-secondary",
-            "title": "Heading",
-            "heading_tag": "tp-display-3-nocolor",
+            "title": "Sustainable without compromising taste or design.",
+            "heading_tag": "tp-display-2-nocolor",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -170,6 +173,58 @@
         "enable_parallax": true,
         "spacing": "small"
       }
+    },
+    "dc425b8c-03bd-4e48-b4bc-1077e5d41297": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"restock-section\">\n<p class=\"tp-display-2\" style=\"text-align:center;margin-bottom:10px;\">Get notified once we are back in stock.<\/p>\n<p class=\"tp-body\" style=\"text-align:center;margin-bottom:10px;\">Due to high demand, we are currently out of stock. Be the first to know once The Tchibo is available again.<\/p>\n{%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when the Tchibo is available again.' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n<\/div>\n\n<style>\n.restock-section {\nmax-width:800px;\nmargin: 0 auto;\n}\n\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f5771caf-281a-46ca-9367-2f0b63690fa7": {
+      "type": "press",
+      "blocks": {
+        "template--15638715662542__f5771caf-281a-46ca-9367-2f0b63690fa7-1673438792a7ea03d8-0": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Schalk",
+            "content": "Best Cup Of Coffee Ever Made In Our Home",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "f0d0263a-a96e-495c-a9e0-bdebd587e3d4": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Lutz",
+            "content": "We love the little machine. Great coffee.",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--15638715662542__f5771caf-281a-46ca-9367-2f0b63690fa7-1673438792a7ea03d8-0",
+        "f0d0263a-a96e-495c-a9e0-bdebd587e3d4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
@@ -179,6 +234,8 @@
     "81b27038-f2b3-47ff-9f05-f46b6b486f0b",
     "4295b793-45b1-424a-a766-291ff2e9dbe9",
     "5cbe74d1-8b2b-46d7-a404-43f3c881b1fe",
-    "42539cbb-af0d-47e6-8f9d-f510e84e7c45"
+    "42539cbb-af0d-47e6-8f9d-f510e84e7c45",
+    "dc425b8c-03bd-4e48-b4bc-1077e5d41297",
+    "f5771caf-281a-46ca-9367-2f0b63690fa7"
   ]
 }
