@@ -6,6 +6,18 @@
       "settings": {
       }
     },
+    "c1cc090c-5de5-4f63-a100-9607f4e6389c": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"text-with-image\">\n\n<\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "2b459fb1-aae7-47a7-95c9-2a351a335041": {
       "type": "custom-html",
       "settings": {
@@ -21,6 +33,7 @@
   },
   "order": [
     "main",
+    "c1cc090c-5de5-4f63-a100-9607f4e6389c",
     "2b459fb1-aae7-47a7-95c9-2a351a335041"
   ]
 }
