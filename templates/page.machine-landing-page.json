@@ -48,19 +48,11 @@
             "text_color": "",
             "gradient": ""
           }
-        },
-        "template--15638715662542__81b27038-f2b3-47ff-9f05-f46b6b486f0b-16734387929ffe1400-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "font-style": "tp-body"
-          }
         }
       },
       "block_order": [
         "2914d360-52e8-4a57-a431-aa4fddd675cb",
-        "template--15638715662542__81b27038-f2b3-47ff-9f05-f46b6b486f0b-16734387929ffe1400-1",
-        "template--15638715662542__81b27038-f2b3-47ff-9f05-f46b6b486f0b-16734387929ffe1400-2"
+        "template--15638715662542__81b27038-f2b3-47ff-9f05-f46b6b486f0b-16734387929ffe1400-1"
       ],
       "settings": {
         "full_width": true,
@@ -84,8 +76,8 @@
             "icon_width": 48,
             "subheading": "",
             "font-style": "tp-overline-secondary",
-            "title": "Heading",
-            "heading_tag": "tp-display-3-nocolor",
+            "title": "Freshly brewed coffee. At the speed of a pod machine.",
+            "heading_tag": "tp-display-2-nocolor",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "link_text": "",
             "link_url": "",
