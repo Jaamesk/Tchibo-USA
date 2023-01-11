@@ -12,7 +12,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"text-with-image\">\n<div class=\"img-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/vollautomaten_farbrange.jpg?v=1671718854\">\n<\/div>\n<div class=\"text-column\">\n<p class=\"tp-overline-secondary\">The Tchibo Single Serve Coffee Machine<\/p>\n<h1 class=\"tp-display-4\">Upgrade your coffee experience<\/h1>\n<p class=\"tp-body\" style=\"padding-top:15px\">Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. Enjoy the freshest coffee in a heartbeat. No pods necessary.<\/p>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Get notified once we are back in stock.<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:10px\">Due to high demand, we are currently out of stock. Be the first to know once The Tchibo is available again.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when the Tchibo is available again' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n<\/div>\n<\/div>\n\n<style>\n.text-with-image {\ndisplay:flex;\nalign-items: center;\n}\n.img-column {\nwidth:90%\n}\n.text-column {\npadding-left:50px;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image {\nflex-direction:column;\n}\n.img-column {\nwidth:100%;\n}\n.text-column {\npadding-left: 0;\npadding-top: 20px;\n}\n}\n<\/style>",
+        "liquid": "<div class=\"text-with-image\">\n<div class=\"img-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/vollautomaten_farbrange.jpg?v=1671718854\">\n<\/div>\n<div class=\"text-column\">\n<p class=\"tp-overline-secondary\">The Tchibo Single Serve Coffee Machine<\/p>\n<h1 class=\"tp-display-4\">Upgrade your coffee experience<\/h1>\n<p class=\"tp-body\" style=\"padding-top:15px\">Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. Enjoy the freshest coffee in a heartbeat. No pods necessary.<\/p>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Get notified once we are back in stock.<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:10px\">Due to high demand, we are currently out of stock. Be the first to know once The Tchibo is available again.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when the Tchibo is available again.' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n<\/div>\n<\/div>\n\n<style>\n.text-with-image {\ndisplay:flex;\nalign-items: center;\n}\n.img-column {\nwidth:90%\n}\n.text-column {\npadding-left:50px;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image {\nflex-direction:column;\n}\n.img-column {\nwidth:100%;\n}\n.text-column {\npadding-left: 0;\npadding-top: 20px;\n}\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -29,11 +29,164 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "81b27038-f2b3-47ff-9f05-f46b6b486f0b": {
+      "type": "rich-text",
+      "blocks": {
+        "2914d360-52e8-4a57-a431-aa4fddd675cb": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15638715662542__81b27038-f2b3-47ff-9f05-f46b6b486f0b-16734387929ffe1400-1": {
+          "type": "heading",
+          "settings": {
+            "text": "3 Reasons why you should replace your pod machine with The Tchibo",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15638715662542__81b27038-f2b3-47ff-9f05-f46b6b486f0b-16734387929ffe1400-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "2914d360-52e8-4a57-a431-aa4fddd675cb",
+        "template--15638715662542__81b27038-f2b3-47ff-9f05-f46b6b486f0b-16734387929ffe1400-1",
+        "template--15638715662542__81b27038-f2b3-47ff-9f05-f46b6b486f0b-16734387929ffe1400-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4295b793-45b1-424a-a766-291ff2e9dbe9": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15638715662542__4295b793-45b1-424a-a766-291ff2e9dbe9-1673438788bb5f1720-0": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "font-style": "tp-overline-secondary",
+            "title": "Heading",
+            "heading_tag": "tp-display-3-nocolor",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#190a0a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15638715662542__4295b793-45b1-424a-a766-291ff2e9dbe9-1673438788bb5f1720-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "5cbe74d1-8b2b-46d7-a404-43f3c881b1fe": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15638715662542__5cbe74d1-8b2b-46d7-a404-43f3c881b1fe-1673438788bb5f1720-0": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "font-style": "tp-overline-secondary",
+            "title": "Heading",
+            "heading_tag": "tp-display-3-nocolor",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#190a0a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15638715662542__5cbe74d1-8b2b-46d7-a404-43f3c881b1fe-1673438788bb5f1720-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "42539cbb-af0d-47e6-8f9d-f510e84e7c45": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15638715662542__42539cbb-af0d-47e6-8f9d-f510e84e7c45-1673438788bb5f1720-0": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "font-style": "tp-overline-secondary",
+            "title": "Heading",
+            "heading_tag": "tp-display-3-nocolor",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#190a0a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15638715662542__42539cbb-af0d-47e6-8f9d-f510e84e7c45-1673438788bb5f1720-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
     }
   },
   "order": [
     "main",
     "9560be21-6032-4ce0-9bd3-b3acf8666c81",
-    "2b459fb1-aae7-47a7-95c9-2a351a335041"
+    "2b459fb1-aae7-47a7-95c9-2a351a335041",
+    "81b27038-f2b3-47ff-9f05-f46b6b486f0b",
+    "4295b793-45b1-424a-a766-291ff2e9dbe9",
+    "5cbe74d1-8b2b-46d7-a404-43f3c881b1fe",
+    "42539cbb-af0d-47e6-8f9d-f510e84e7c45"
   ]
 }
