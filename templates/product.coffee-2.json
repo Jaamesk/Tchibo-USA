@@ -72,6 +72,12 @@
             "payment_button_text_color": ""
           }
         },
+        "2203bc6d-362e-4c75-951f-caa9dd1e69c7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.available == false %}\n<p class=\"tp-display-2\" style=\"margin-bottom:5px\">Don't miss out on restocks<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:5px\">Be the first to know when <strong>{{product.title}}<\/strong> is back in stock.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'You will be notified when we restock' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_coffee\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n{% endif %}"
+          }
+        },
         "13c7f244-2b9d-4cb9-9e10-08daece76034": {
           "type": "offer",
           "settings": {
@@ -115,6 +121,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "2203bc6d-362e-4c75-951f-caa9dd1e69c7",
         "13c7f244-2b9d-4cb9-9e10-08daece76034",
         "ff74cd0b-be49-4aae-9232-0db9c732eb44",
         "c236f393-25ac-4969-a29b-06d1a30e24e4",
