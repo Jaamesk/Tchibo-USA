@@ -199,7 +199,7 @@
         "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-1": {
           "type": "heading",
           "settings": {
-            "text": "How To Video",
+            "text": "How To Videos",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -208,21 +208,99 @@
         "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We’re sure you’re excited to get your machine out of the box and brewing coffee. But first, take a few minutes to watch this simple video to make sure it all goes well.<\/p>",
+            "content": "<p>We’re sure you’re excited to get your machine out of the box and brewing coffee. But first, take a few minutes to watch these simple videos to make sure it all goes well.<\/p>",
             "font-style": "tp-body"
+          }
+        },
+        "eda5c9ec-da8e-4f0b-8e18-aa35e7c65f10": {
+          "type": "heading",
+          "settings": {
+            "text": "Welcome",
+            "heading_tag": "tp-display-1",
+            "text_color": "",
+            "gradient": ""
           }
         },
         "197cdb8b-7994-4bd9-ac27-a70599e9e61c": {
           "type": "liquid",
           "settings": {
-            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4c56ce1ff3ae49938c33fe6be2f46858.mp4\" type=\"video\/mp4\">\n<\/video>"
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d977813ed5d64afaa87aaad813b9a466.mp4\" type=\"video\/mp4\">\n<\/video>"
+          }
+        },
+        "66d7db0c-e476-4482-8065-15ac8ee34cec": {
+          "type": "heading",
+          "settings": {
+            "text": "Initial Operation",
+            "heading_tag": "tp-display-1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "6d85a6ad-71ba-426d-aa07-1f69c4286bfe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7a5e6fb9b4104f0db0ecb6634d79262d.mp4\" type=\"video\/mp4\">\n<\/video>"
+          }
+        },
+        "005b76d2-bbfd-404d-9687-d44d52815e84": {
+          "type": "heading",
+          "settings": {
+            "text": "Adjusting the grinding degree",
+            "heading_tag": "tp-display-1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "2a1cf4a9-d2e2-4fcf-98a8-1029ec771735": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/938178e6a3ed46c7a61640d707770f37.mp4\" type=\"video\/mp4\">\n<\/video>"
+          }
+        },
+        "f2ca4155-0a27-4602-b28d-07bba24bd559": {
+          "type": "heading",
+          "settings": {
+            "text": "Boost function",
+            "heading_tag": "tp-display-1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "edffb3c8-85a7-4206-9e56-759dd944393b": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/98920f99956145cda187db00863cee4d.mp4\" type=\"video\/mp4\">\n<\/video>"
+          }
+        },
+        "961a4489-7bed-4d60-bf37-ad83addff8ed": {
+          "type": "heading",
+          "settings": {
+            "text": "Customise your cup size",
+            "heading_tag": "tp-display-1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "5337107d-dee2-4bf2-a484-b515ee2ed54a": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/58938c3ece3d48868d1e938474830d70.mp4\" type=\"video\/mp4\">\n<\/video>"
           }
         }
       },
       "block_order": [
         "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-1",
         "template--15632944005326__959a1ae5-1121-4060-878d-06be7b6cb3bd-1671793527fa543dcd-2",
-        "197cdb8b-7994-4bd9-ac27-a70599e9e61c"
+        "eda5c9ec-da8e-4f0b-8e18-aa35e7c65f10",
+        "197cdb8b-7994-4bd9-ac27-a70599e9e61c",
+        "66d7db0c-e476-4482-8065-15ac8ee34cec",
+        "6d85a6ad-71ba-426d-aa07-1f69c4286bfe",
+        "005b76d2-bbfd-404d-9687-d44d52815e84",
+        "2a1cf4a9-d2e2-4fcf-98a8-1029ec771735",
+        "f2ca4155-0a27-4602-b28d-07bba24bd559",
+        "edffb3c8-85a7-4206-9e56-759dd944393b",
+        "961a4489-7bed-4d60-bf37-ad83addff8ed",
+        "5337107d-dee2-4bf2-a484-b515ee2ed54a"
       ],
       "settings": {
         "full_width": true,
