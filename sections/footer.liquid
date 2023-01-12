@@ -184,11 +184,11 @@
       <div class="v-stack gap-4">
         <div class="v-stack gap-2">
           {%- if section.settings.privacy_bar_title != blank -%}
-            <p class="bold">{{ section.settings.privacy_bar_title | escape }}</p>
+            <p class="bold tp-display-1">{{ section.settings.privacy_bar_title | escape }}</p>
           {%- endif -%}
 
           {%- if section.settings.privacy_bar_content != blank -%}
-            <div class="prose text-xs">
+            <div class="prose tp-body">
               {{- section.settings.privacy_bar_content -}}
             </div>
           {%- endif -%}
