@@ -341,7 +341,7 @@
           "show_locale_selector": false,
           "show_privacy_bar": true,
           "privacy_bar_title": "Cookie policy",
-          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+          "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our <a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">Privacy Policy<\/a> for more information.<\/p>"
         }
       },
       "newsletter-popup": {
