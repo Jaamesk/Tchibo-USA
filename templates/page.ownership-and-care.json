@@ -447,6 +447,158 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "0b0037b6-4395-4b9a-8a5b-84c6d49b112e": {
+      "type": "media-grid",
+      "blocks": {
+        "982e5d56-1c63-4ab3-b147-ade42c8e5fa5": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Cleaning_the_brewing_unit_1024_0d715408-792c-4400-997f-6511f986ea05.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "45ef0ef2-5a85-485d-93f6-b208c1d44eac": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "tp-display-5-nocolor",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "a117f8ac-f38c-4621-ae36-1024065ec6f1": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "tp-display-5-nocolor",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "dc154a46-8a3b-4546-aadf-fbc2fbf92b8e": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "tp-display-5-nocolor",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "24d22985-a416-4e73-b3b4-8e481f66d055": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "tp-display-5-nocolor",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "f0a6cd54-454b-423a-88be-92270fdc5909": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "982e5d56-1c63-4ab3-b147-ade42c8e5fa5",
+        "45ef0ef2-5a85-485d-93f6-b208c1d44eac",
+        "a117f8ac-f38c-4621-ae36-1024065ec6f1",
+        "dc154a46-8a3b-4546-aadf-fbc2fbf92b8e",
+        "24d22985-a416-4e73-b3b4-8e481f66d055",
+        "f0a6cd54-454b-423a-88be-92270fdc5909"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
@@ -457,6 +609,7 @@
     "959a1ae5-1121-4060-878d-06be7b6cb3bd",
     "7a44d680-c2a0-4f26-be9e-033d2e4d440c",
     "21d010c2-4b74-40dc-abb5-db1b01e1e0b4",
-    "d1c7f15b-d3e0-48ea-9daf-e7da57def231"
+    "d1c7f15b-d3e0-48ea-9daf-e7da57def231",
+    "0b0037b6-4395-4b9a-8a5b-84c6d49b112e"
   ]
 }
