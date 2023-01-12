@@ -429,7 +429,7 @@
         "template--15632944005326__d1c7f15b-d3e0-48ea-9daf-e7da57def231-16721706487470ead4-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>By taking proper care of The Tchibo, your coffee will actually taste better. What’s more, you’ll greatly extend the life of your Machine. For daily use, we recommend cleaning the brewing unit once a week. Descale as soon as it is indicated on the display panel – once a month to a few times a year, depending on how often you use your machine.<\/p>",
+            "content": "<p>By taking proper care of The Tchibo, your coffee will actually taste better. What’s more, you’ll greatly extend the life of your Machine. <strong>For daily use, we recommend cleaning the brewing unit once a week. Descale as soon as it is indicated on the display panel<\/strong> – once a month to a few times a year, depending on how often you use your machine.<\/p>",
             "font-style": "tp-body"
           }
         }
