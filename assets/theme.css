@@ -3224,10 +3224,9 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   margin-block-start: var(--spacing-3);
 }
 
-/*
 .prose * + .button {
   margin-block-start: var(--spacing-6) !important;
-} */
+}
 
 .prose * + span:not(:empty) {
   display: inline-block;
@@ -3280,9 +3279,9 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
     margin-block-start: var(--spacing-4);
   }
 
- /* .prose * + .button {
+ .prose * + .button {
     margin-block-start: var(--spacing-8) !important;
-  } */
+  }
 
   .prose .h0 + .button {
     margin-block-start: var(--spacing-10) !important;
