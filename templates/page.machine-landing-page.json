@@ -6,6 +6,70 @@
       "settings": {
       }
     },
+    "232ac41e-adf7-4c13-bb16-ab6cdb4ab79b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15638715662542__232ac41e-adf7-4c13-bb16-ab6cdb4ab79b-1673614359cddd2244-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "The Tchibo Single Serve Coffee Machine",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15638715662542__232ac41e-adf7-4c13-bb16-ab6cdb4ab79b-1673614359cddd2244-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Upgrade your coffee experience",
+            "heading_tag": "tp-display-4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15638715662542__232ac41e-adf7-4c13-bb16-ab6cdb4ab79b-1673614359cddd2244-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. Enjoy the freshest coffee in a heartbeat. No pods necessary.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "4b0fe1f6-0ae3-45b0-9307-fff3920cffa3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"news-sign\">\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Get notified once we are back in stock.<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:10px\">Due to high demand, we are currently out of stock. Be the first to know once The Tchibo is available again.<\/p>{%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when the Tchibo is available again.' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n<\/div>\n\n<style>\n.news-sign {\nwidth:100%;\n}\n<\/style>"
+          }
+        },
+        "2292dab0-78e3-4030-91c2-1fcb38250e53": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "81d25122-b829-4b3d-9374-4749dcf2ac2e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Tchibo_Coffee_Machine_308.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15638715662542__232ac41e-adf7-4c13-bb16-ab6cdb4ab79b-1673614359cddd2244-0",
+        "template--15638715662542__232ac41e-adf7-4c13-bb16-ab6cdb4ab79b-1673614359cddd2244-1",
+        "template--15638715662542__232ac41e-adf7-4c13-bb16-ab6cdb4ab79b-1673614359cddd2244-2",
+        "4b0fe1f6-0ae3-45b0-9307-fff3920cffa3",
+        "2292dab0-78e3-4030-91c2-1fcb38250e53",
+        "81d25122-b829-4b3d-9374-4749dcf2ac2e"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "9560be21-6032-4ce0-9bd3-b3acf8666c81": {
       "type": "custom-liquid",
       "settings": {
@@ -229,6 +293,7 @@
   },
   "order": [
     "main",
+    "232ac41e-adf7-4c13-bb16-ab6cdb4ab79b",
     "9560be21-6032-4ce0-9bd3-b3acf8666c81",
     "2b459fb1-aae7-47a7-95c9-2a351a335041",
     "81b27038-f2b3-47ff-9f05-f46b6b486f0b",
