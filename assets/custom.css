@@ -5,7 +5,7 @@
 */
 
 .header__main-nav a{
-  font-weight:400;
+  /* font-weight:400; */
   color:#21292f;
   letter-spacing: 0.6px !important;
 }
