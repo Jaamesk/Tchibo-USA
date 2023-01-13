@@ -272,14 +272,14 @@
         "template--15631460925646__61fe0726-0c4b-4784-92c6-d9f5fd13e06a-1671454913c5f1032d-1": {
           "type": "heading",
           "settings": {
-            "text": "The only thing better than fresh coffee is a fresh planet.",
+            "text": "The only thing better than fresh coffee is a fresh planet",
             "heading_tag": "tp-display-4-nocolor"
           }
         },
         "template--15631460925646__61fe0726-0c4b-4784-92c6-d9f5fd13e06a-1671454913c5f1032d-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>For over a decade, we’ve been committed to becoming global leaders in sustainability. That’s why 100% of our coffee is from Rainforest Alliance certified farms.<\/p>"
+            "content": "<p>For <strong>over a decade<\/strong>, we’ve been committed to becoming <strong>global leaders<\/strong> in sustainability. <br\/>That’s why 100% of our coffee is from <strong>Rainforest Alliance Certified™<\/strong> Farms.<\/p>"
           }
         },
         "d29a03b2-7c3e-4e63-8214-8199cbbffccd": {
