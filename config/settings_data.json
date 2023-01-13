@@ -236,7 +236,7 @@
               "icon_background": "#ffffff",
               "icon_color": "",
               "title": "FREE SHIPPING",
-              "content": "<p>Standard orders over $49 receive<br\/>free ground shipping.<\/p>"
+              "content": "<p>All orders over $49 receive<br\/>free ground shipping<\/p>"
             }
           },
           "customer-support": {
@@ -249,7 +249,7 @@
               "icon_background": "#ffffff",
               "icon_color": "",
               "title": "CUSTOMER SERVICE",
-              "content": "<p>Mo.-Fri. 8:30 AM and 4:00 PM CST.<br\/>1-888-824-4261<\/p>"
+              "content": "<p>Monday - Friday 8:30 AM to 4:00 PM CST <br\/>1-888-824-4261<\/p>"
             }
           },
           "payment": {
