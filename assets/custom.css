@@ -65,6 +65,10 @@
 text-transform: uppercase;
 }
 
+.legal-link {
+  padding-left:5px;
+}
+
 .legal-link:hover {
   color:#fff;
 }
