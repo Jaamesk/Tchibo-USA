@@ -3,12 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "930594ad-b46a-4357-981f-bf8b25e1b9c4": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{{ product.selected_or_first_available_variant.id }}"
-          }
-        },
         "0892565b-5508-4f1d-a4ea-9420b1a4b912": {
           "type": "vendor",
           "settings": {
@@ -121,7 +115,6 @@
         }
       },
       "block_order": [
-        "930594ad-b46a-4357-981f-bf8b25e1b9c4",
         "0892565b-5508-4f1d-a4ea-9420b1a4b912",
         "title",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
