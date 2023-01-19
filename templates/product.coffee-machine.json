@@ -205,7 +205,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "recommendations_count": 3,
+        "recommendations_count": 5,
         "products": [
           "durgol-descaler-4-2-fluid-ounces-pack-of-4",
           "black-yeti-20-oz",
