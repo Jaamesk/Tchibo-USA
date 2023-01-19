@@ -185,7 +185,7 @@
         "subheading": "Details",
         "subheading_style": "tp-overline-secondary",
         "title": "Find out more about the Tchibo",
-        "heading_style": "tp-display-5",
+        "heading_style": "tp-display-3",
         "content": "<p>Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. What could be fresher than that?<\/p><p>Just pour in your whole beans. And hit “play.” This hi-touch technology brews your single serve coffee to your exact specifications. It’s sleek and streamlined – to fit comfortably on your counter. It is surprisingly affordable. And best of all, there are no plastic cups to end up in a landfill.<\/p>",
         "font-style": "tp-body",
         "button_text": "",
@@ -208,8 +208,13 @@
         "recommendations_count": 3,
         "products": [
           "durgol-descaler-4-2-fluid-ounces-pack-of-4",
-          "4-pack-gift-box-12-oz-bags",
-          "cleaning-brush"
+          "black-yeti-20-oz",
+          "blue-yeti-20-oz",
+          "bean-hopper-extension",
+          "black-tchibo-yeti-20oz",
+          "blue-tchibo-yeti-20oz",
+          "64oz-coffee-mug-black",
+          "64oz-coffee-mugs"
         ],
         "full_width": true,
         "stack_products": false,
@@ -217,7 +222,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
         "subheading": "Other customers also bought",
-        "title": "What to get with your new coffee machine",
+        "title": "",
         "content": "",
         "background": "",
         "background_gradient": "",
