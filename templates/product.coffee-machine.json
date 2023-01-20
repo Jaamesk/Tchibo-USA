@@ -116,7 +116,7 @@
         "bf76ffaa-7adf-4295-8794-8bf7e0642573": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n.spr-badge[data-rating=\"0.0\"] {\n    visibility:hidden; display: none;\n\n}\n<\/style>"
+            "liquid": "<style>\n.rating__stars[aria-label=\"0 out of 5 stars\"], .rating__stars[aria-label=\"0 out of 5 stars\"] + .rating__caption {display: none;}\n<\/style>"
           }
         }
       },
