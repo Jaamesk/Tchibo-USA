@@ -112,12 +112,6 @@
           "settings": {
             "collapse_content": false
           }
-        },
-        "bf76ffaa-7adf-4295-8794-8bf7e0642573": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n.rating__stars[aria-label=\"0 out of 5 stars\"], .rating__stars[aria-label=\"0 out of 5 stars\"] + .rating__caption {display: none;}\n<\/style>"
-          }
         }
       },
       "block_order": [
@@ -136,8 +130,7 @@
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
         "29403830-c28e-45d8-a405-17d8aefec65a",
-        "description",
-        "bf76ffaa-7adf-4295-8794-8bf7e0642573"
+        "description"
       ],
       "settings": {
         "full_width": true,
