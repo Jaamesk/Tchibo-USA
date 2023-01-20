@@ -73,4 +73,4 @@ text-transform: uppercase;
   color:#fff;
 }
 
-.rating__stars[aria-label="0 out of 5 stars"], .rating__stars[aria-label="0 out of 5 stars"] + .rating__caption {display: none;}
+.spr-stars[aria-label="0 out of 5 stars"], .spr-stars[aria-label="0 out of 5 stars"] + .spr-stars {display: none;}
