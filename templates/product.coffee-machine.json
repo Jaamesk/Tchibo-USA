@@ -233,6 +233,51 @@
         "product_card_text_color": ""
       }
     },
+    "d49023be-babc-4112-a2f6-3ffae5b85475": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "html": "<div id=\"getreview\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1399e51d-b8b4-4a41-a3e7-87ba82b16e84": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Product Reviews",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-1": {
+          "type": "heading",
+          "settings": {
+            "text": "See what our happy customers say",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-0",
+        "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "167275105287410376": {
       "type": "apps",
       "blocks": {
@@ -264,6 +309,8 @@
     "main",
     "10e8c8f5-b355-4419-a607-76bbbbb1569e",
     "product-recommendations",
+    "d49023be-babc-4112-a2f6-3ffae5b85475",
+    "1399e51d-b8b4-4a41-a3e7-87ba82b16e84",
     "167275105287410376"
   ]
 }
