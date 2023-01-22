@@ -34,7 +34,7 @@
         "price": {
           "type": "price",
           "settings": {
-            "show_taxes_notice": true
+            "show_taxes_notice": false
           }
         },
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
