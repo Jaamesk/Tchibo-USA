@@ -65,6 +65,12 @@
           "settings": {
           }
         },
+        "f91bf872-6346-4ab1-af7a-83ccef9dd188": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.available == false %}\n<p class=\"tp-display-2\" style=\"margin-bottom:5px\">Don't miss out on restocks<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:5px\">Be the first to know when <strong>{{product.title}}<\/strong> is back in stock.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when we restock' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n{% endif %}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -73,12 +79,6 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
-          }
-        },
-        "f91bf872-6346-4ab1-af7a-83ccef9dd188": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% if product.available == false %}\n<p class=\"tp-display-2\" style=\"margin-bottom:5px\">Don't miss out on restocks<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:5px\">Be the first to know when <strong>{{product.title}}<\/strong> is back in stock.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when we restock' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n{% endif %}"
           }
         },
         "22a89051-e093-4dc8-a563-57fc462d3b9a": {
@@ -125,8 +125,8 @@
         "separator",
         "24e1f974-bdca-42cd-9b19-dfecfe95b460",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
-        "buy_buttons",
         "f91bf872-6346-4ab1-af7a-83ccef9dd188",
+        "buy_buttons",
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
         "29403830-c28e-45d8-a405-17d8aefec65a",
