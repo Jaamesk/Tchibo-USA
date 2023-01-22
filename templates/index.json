@@ -232,6 +232,34 @@
         "hot_spot_content_blur_radius": 3
       }
     },
+    "87dd6f90-4510-478e-a9ee-7500266a1db6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "the-tchibo-refurbished",
+          "the-tchibo"
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "f30422d2-c025-465b-9c1d-1940944ceb12": {
       "type": "featured-collection",
       "settings": {
@@ -381,6 +409,7 @@
     "media-grid",
     "5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c",
     "f4caa4f2-fc52-48c0-9020-89bdce4a0783",
+    "87dd6f90-4510-478e-a9ee-7500266a1db6",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a",
     "8947917e-6b6e-4739-b763-fabf1560b46c",
