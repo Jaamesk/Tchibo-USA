@@ -43,6 +43,21 @@
           "settings": {
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -58,21 +73,6 @@
             "selector_mode": "block",
             "color_mode": "color",
             "size_chart_page": ""
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
           }
         },
         "13c7f244-2b9d-4cb9-9e10-08daece76034": {
@@ -103,10 +103,10 @@
         "rating",
         "payment_terms",
         "separator",
-        "description",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
+        "variant_picker",
         "13c7f244-2b9d-4cb9-9e10-08daece76034",
         "ff74cd0b-be49-4aae-9232-0db9c732eb44"
       ],
