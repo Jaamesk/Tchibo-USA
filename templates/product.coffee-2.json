@@ -9,15 +9,10 @@
             "heading_tag": "tp-display-2"
           }
         },
-        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1": {
-          "type": "text",
+        "a0fec0b2-b10d-4acf-9272-250e294b3f80": {
+          "type": "liquid",
           "settings": {
-            "text": "<p>Grind beans for your brewing method. Brew your freshest coffee in your preferred method of preparation.<\/p>"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {
+            "liquid": "<p class=\"tp-body bold\" style=\"margin-top:0px;margin-bottom:0px\">{{ product.metafields.coffe_attributes.taste }}<\/p>"
           }
         },
         "18c55f6f-390b-4710-a881-c15fb856270b": {
@@ -30,10 +25,27 @@
             "stars_text_empty": "No reviews yet"
           }
         },
+        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grind beans for your brewing method. Brew your freshest coffee in your preferred method of preparation.<\/p>"
+          }
+        },
+        "c236f393-25ac-4969-a29b-06d1a30e24e4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"attribute-line\">\n<p class=\"tp-body bold attribute-title\">Type:<\/p>\n<p class=\"tp-body\">{{ product.metafields.coffee_attributes.type }}<\/p>\n<\/div>\n<div class=\"attribute-line\">\n<p class=\"tp-body bold attribute-title\">Intensity:<\/p>\n<div class=\"bohnen-icons\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 2 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 3 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 4 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 5 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 6 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<\/div>\n<\/div>\n<div class=\"attribute-line\">\n<p class=\"tp-body bold attribute-title\">Roast:<\/p>\n<div class=\"bohnen-icons\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.roast.value >= 2 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.roast.value >= 3 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.roast.value >= 4 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.roast.value >= 5 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.roast.value >= 6 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<\/div>\n<\/div>\n\n<style>\n.attribute-line {\ndisplay: flex;\nmargin-bottom:10px;\nalign-items: center;\n}\n.attribute-title {\nmargin-right: 5px;\n}\n.bohnen-icons {\ndisplay:flex;\n}\n.bohne {\nmargin: 0 2px;\n}\n<\/style>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
           }
         },
         "payment_terms": {
@@ -96,12 +108,6 @@
           "settings": {
           }
         },
-        "c236f393-25ac-4969-a29b-06d1a30e24e4": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/coffee.svg?v=1672174253\" class=\"pr-icon\">\n<span class=\"tp-body\">Whole Bean Coffee<\/span>\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/fully_coffee_machine.svg?v=1672174289\" class=\"pr-icon\">\n<span class=\"tp-body\">For use in single-serve coffee machines<\/span>\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\n\n}\n\n.left-column {\ndisplay: flex;\nalign-items: center;\npadding-bottom: 10px;\n}\n\n.middle-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.right-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.pr-icon {\nwidth: 10%;\nmargin-right: 15px;\n}\n\n<\/style>"
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -112,10 +118,12 @@
       },
       "block_order": [
         "title",
-        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
-        "badges",
+        "a0fec0b2-b10d-4acf-9272-250e294b3f80",
         "18c55f6f-390b-4710-a881-c15fb856270b",
+        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
+        "c236f393-25ac-4969-a29b-06d1a30e24e4",
         "price",
+        "badges",
         "payment_terms",
         "separator",
         "variant_picker",
@@ -124,14 +132,13 @@
         "2203bc6d-362e-4c75-951f-caa9dd1e69c7",
         "13c7f244-2b9d-4cb9-9e10-08daece76034",
         "ff74cd0b-be49-4aae-9232-0db9c732eb44",
-        "c236f393-25ac-4969-a29b-06d1a30e24e4",
         "description"
       ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
-        "desktop_media_width": 45,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_width": 40,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
