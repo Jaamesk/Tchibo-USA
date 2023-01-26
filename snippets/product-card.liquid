@@ -220,8 +220,13 @@ Supported variables
                   {%- endif -%}
                 </fieldset>
               {%- endcase -%}
+          </div>
 
-            {% if product.metafields.coffee_attributes.type != blank %}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    {% if product.metafields.coffee_attributes.type != blank %}
 <div class="attribute-line">
 <p class="tp-body bold attribute-title">Type:</p>
 <p class="tp-body">{{ product.metafields.coffee_attributes.type }}</p>
@@ -270,12 +275,5 @@ display:flex;
 margin: 0 2px;
 }
 </style>
-            
-          </div>
-
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
   </div>
 </product-card>
