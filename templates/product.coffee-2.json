@@ -12,7 +12,7 @@
         "a0fec0b2-b10d-4acf-9272-250e294b3f80": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p class=\"tp-body bold\" style=\"margin-top:0px;margin-bottom:0px\">{{ product.metafields.coffe_attributes.taste }}<\/p>"
+            "liquid": "{% if product.metafields.coffe_attributes.taste != blank %}\n<p class=\"tp-body bold\" style=\"margin-top:0px;margin-bottom:0px\">{{ product.metafields.coffe_attributes.taste }}<\/p>\n{% endif %}"
           }
         },
         "18c55f6f-390b-4710-a881-c15fb856270b": {
