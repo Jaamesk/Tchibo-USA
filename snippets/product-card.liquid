@@ -220,6 +220,57 @@ Supported variables
                   {%- endif -%}
                 </fieldset>
               {%- endcase -%}
+
+            {% if product.metafields.coffee_attributes.type != blank %}
+<div class="attribute-line">
+<p class="tp-body bold attribute-title">Type:</p>
+<p class="tp-body">{{ product.metafields.coffee_attributes.type }}</p>
+</div>
+{% endif %}
+{% if product.metafields.coffee_attributes.intensity != blank %}
+<div class="attribute-line">
+<p class="tp-body bold attribute-title">Intensity:</p>
+<div class="bohnen-icons">
+<img src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.intensity.value >= 2 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.intensity.value >= 3 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.intensity.value >= 4 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.intensity.value >= 5 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.intensity.value >= 6 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+</div>
+</div>
+{% endif %}
+{% if product.metafields.coffee_attributes.roast != blank %}
+<div class="attribute-line">
+<p class="tp-body bold attribute-title">Roast:</p>
+<div class="bohnen-icons">
+<img src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.roast.value >= 2 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.roast.value >= 3 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.roast.value >= 4 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.roast.value >= 5 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+<img {% if product.metafields.coffee_attributes.roast.value >= 6 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="15px" class="bohne">
+</div>
+</div>
+{% endif %}
+
+<style>
+.attribute-line {
+display: flex;
+margin-bottom:10px;
+align-items: center;
+}
+.attribute-title {
+margin-right: 5px;
+}
+.bohnen-icons {
+display:flex;
+}
+.bohne {
+margin: 0 2px;
+}
+</style>
+            
           </div>
 
           {%- break -%}
