@@ -226,12 +226,6 @@ Supported variables
         {%- endif -%}
       {%- endfor -%}
     {%- endif -%}
-    {% if product.metafields.coffee_attributes.type != blank %}
-<div class="attribute-line">
-<p class="tp-body bold attribute-title" style="font-size:14px!important;">Type:</p>
-<p class="tp-body" style="font-size:14px!important;">{{ product.metafields.coffee_attributes.type }}</p>
-</div>
-{% endif %}
 {% if product.metafields.coffee_attributes.intensity != blank %}
 <div class="attribute-line">
 <p class="tp-body bold attribute-title" style="font-size:14px!important;">Intensity:</p>
