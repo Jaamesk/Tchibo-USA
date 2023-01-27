@@ -2735,6 +2735,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   --product-card-quick-buy-inset: var(--spacing-2);
   border-radius: var(--rounded-sm);
   grid-template-columns: minmax(0, 1fr);
+  padding: 10px;
   align-content: start;
   display: grid;
   position: relative;
