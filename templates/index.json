@@ -237,9 +237,9 @@
       "settings": {
         "collection": "",
         "products": [
-          "the-tchibo-refurbished",
           "the-tchibo",
-          "durgol-descaler-4-2-fluid-ounces-pack-of-4"
+          "the-tchibo-refurbished",
+          "durgol-descaler-4-2-fluid-ounces-pack-of-2"
         ],
         "full_width": false,
         "stack_products": true,
@@ -251,7 +251,7 @@
         "title": "",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
