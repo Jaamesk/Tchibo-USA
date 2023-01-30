@@ -5,7 +5,7 @@
       "settings": {
         "allow_transparent_header": false,
         "content": "<p>Get access to our latest news by signing up for our newsletter.<\/p>",
-        "show_newsletter_form": false,
+        "show_newsletter_form": true,
         "show_tags": true,
         "banner_background": "",
         "banner_text_color": "",
