@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {
             "font-style": "tp-overline-secondary"
           }
@@ -111,7 +112,7 @@
         "enable_video_looping": false,
         "enable_image_zoom": false,
         "max_image_zoom_level": 1,
-        "background": "#ffffff",
+        "background": "#fff",
         "background_gradient": "",
         "text_color": "",
         "input_background": "#ffffff",
@@ -120,6 +121,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": [
