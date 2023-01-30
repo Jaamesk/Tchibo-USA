@@ -365,14 +365,14 @@
       "static-newsletter": {
         "type": "static-newsletter",
         "settings": {
-          "full_width": false,
+          "full_width": true,
           "show_icon": false,
           "title": "We’re restocking! Want to know more?",
           "heading_tag": "tp-display-4",
           "content": "<p>Be the <strong>first to know<\/strong> when your favorites are back in stock – sign up for updates!<\/p>",
           "button_text": "SIGN ME UP",
           "subtext": "",
-          "background": "rgba(0,0,0,0)",
+          "background": "#fff",
           "background_gradient": "",
           "text_color": "",
           "button_background": "",
