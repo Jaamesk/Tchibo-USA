@@ -1,0 +1,249 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "tp-display-2"
+          }
+        },
+        "18c55f6f-390b-4710-a881-c15fb856270b": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#e0bf78",
+            "star_size": 16,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews yet"
+          }
+        },
+        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.coffee_attributes.taste_product_page | metafield_tag }}<\/p>"
+          }
+        },
+        "a0fec0b2-b10d-4acf-9272-250e294b3f80": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.coffee_attributes.roast != blank %}\n<p class=\"tp-body bold\" style=\"margin-top:0px;margin-bottom:0px\">{{ product.metafields.coffee_attributes.roast }}<\/p>\n{% endif %}"
+          }
+        },
+        "c236f393-25ac-4969-a29b-06d1a30e24e4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.coffee_attributes.intensity != blank %}\n<div class=\"attribute-line\">\n<p class=\"tp-body bold attribute-title\">Intensity:<\/p>\n<div class=\"bohnen-icons\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 2 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 3 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 4 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 5 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 6 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<\/div>\n<\/div>\n{% endif %}\n\n<style>\n.attribute-line {\ndisplay: flex;\nmargin-bottom:10px;\nalign-items: center;\n}\n.attribute-title {\nmargin-right: 5px;\n}\n.bohnen-icons {\ndisplay:flex;\n}\n.bohne {\nmargin: 0 2px;\n}\n<\/style>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "2203bc6d-362e-4c75-951f-caa9dd1e69c7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.available == false %}\n<p class=\"tp-display-2\" style=\"margin-bottom:5px\">Don't miss out on restocks<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:5px\">Be the first to know when <strong>{{product.title}}<\/strong> is back in stock.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when we restock' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_coffee\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n{% endif %}"
+          }
+        },
+        "13c7f244-2b9d-4cb9-9e10-08daece76034": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "Free Shipping on orders above $49",
+            "content": "<p>All orders above $49 qualify for free and fast US shipping.<\/p>",
+            "background": "#f2e0b0",
+            "text_color": "#423d39"
+          }
+        },
+        "ff74cd0b-be49-4aae-9232-0db9c732eb44": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "37866abc-190f-406b-8029-0f23ebea827f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.coffee_attributes.short_description | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "18c55f6f-390b-4710-a881-c15fb856270b",
+        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
+        "a0fec0b2-b10d-4acf-9272-250e294b3f80",
+        "c236f393-25ac-4969-a29b-06d1a30e24e4",
+        "price",
+        "badges",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "2203bc6d-362e-4c75-951f-caa9dd1e69c7",
+        "13c7f244-2b9d-4cb9-9e10-08daece76034",
+        "ff74cd0b-be49-4aae-9232-0db9c732eb44",
+        "37866abc-190f-406b-8029-0f23ebea827f"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 45,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "4dd1ffa8-071b-42c6-893b-5856c95e2e85": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15645188358350__4dd1ffa8-071b-42c6-893b-5856c95e2e85-16750686185cd632a0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee_barista_Edition.png",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Tchibo Aroma Protect™",
+            "font-style": "tp-overline-secondary",
+            "title": "Sealed for Freshness",
+            "heading_tag": "tp-display-5-nocolor",
+            "content": "<p>One of the key reasons for Tchibo’s freshness is our patented Aroma Protect Technology™. When we lock in freshness – we lock out oxygen and light. Oxygen, as you know, ages and corrodes all organic objects. Tchibo removes over 99% of the oxygen from our beans. So they maintain virtually all of their original roasted flavors and aromas.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f9f9f9",
+            "background_gradient": "",
+            "text_color": "#21292f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15645188358350__4dd1ffa8-071b-42c6-893b-5856c95e2e85-16750686185cd632a0-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "167275082992fb5773": {
+      "type": "apps",
+      "blocks": {
+        "ed0a33be-2aa1-4183-8107-e7ffbe3f087e": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ed0a33be-2aa1-4183-8107-e7ffbe3f087e"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#e0bf78",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4dd1ffa8-071b-42c6-893b-5856c95e2e85",
+    "167275082992fb5773",
+    "product-recommendations"
+  ]
+}
