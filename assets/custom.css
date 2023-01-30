@@ -61,6 +61,12 @@
   align-items:baseline;
 }
 
+@media only screen and (max-width:1149px) {
+.header__wrapper {
+  padding: var(--header-padding-block) max(var(--container-gutter),50% - var(--container-max-width) / 2);
+}
+}
+
 .button, .btn {
 text-transform: uppercase;
 }
