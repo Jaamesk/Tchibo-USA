@@ -121,7 +121,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
