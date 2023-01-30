@@ -152,76 +152,41 @@
         "input_text_color": ""
       }
     },
-    "be1b4d35-8675-4155-983e-fa4f523c770d": {
-      "type": "multi-column",
-      "disabled": true,
+    "4dd1ffa8-071b-42c6-893b-5856c95e2e85": {
+      "type": "media-with-text",
       "blocks": {
-        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-1": {
-          "type": "item",
+        "template--15645188358350__4dd1ffa8-071b-42c6-893b-5856c95e2e85-16750686185cd632a0-0": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ClassicBlend_RGB_480x480_2af624b1-ddaa-400b-bb7b-b69da28e42e7.jpg",
-            "column_size": "2",
-            "title": "Tchibo Classic Blend - Medium Roast",
-            "heading_tag": "tp-display-2",
-            "content": "<ul><li>Our Röstmeisters single roast these 100% Arabica beans to a bold medium roast with a powerful flavor<\/li><li>It has a satiny finish with rich, lively aromas of red berries and dried fruits<\/li><li>With very light acidity in taste to give a balance body<\/li><li>Blended of Rainforest Alliance Latin American coffees – originate of Brazil, Honduras, Columbia<\/li><li>Intensity level 4 out of 6<\/li><li>Recommended for Drip-Filter coffee, Pour over, French Press, Bean-to-Brew fresh grind coffee preparation<\/li><li>Kosher certified<\/li><\/ul>",
-            "link_url": "",
+            "image": "shopify:\/\/shop_images\/whole-bean-bag.webp",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Tchibo Aroma Protect™",
+            "font-style": "tp-overline-secondary",
+            "title": "Sealed for Freshness",
+            "heading_tag": "tp-display-5-nocolor",
+            "content": "<p>One of the key reasons for Tchibo’s freshness is our patented Aroma Protect Technology™. When we lock in freshness – we lock out oxygen and light. Oxygen, as you know, ages and corrodes all organic objects. Tchibo removes over 99% of the oxygen from our beans. So they maintain virtually all of their original roasted flavors and aromas.<\/p>",
             "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rostmeister_RGB_480x480_2a02e97b-3884-475c-8410-21135b5561fe.jpg",
-            "column_size": "2",
-            "title": "Tchibo Röstmeister - Dark Roast",
-            "heading_tag": "tp-display-2",
-            "content": "<ul><li>Our Röstmeisters single roast these 100% Arabica beans to a deep Espresso Style strong roast with intense flavor<\/li><li>Dark Roasted, strong aroma and exquisite bittersweet chocolate flavor<\/li><li>Blended of Rainforest Alliance Latin American coffees – originate of Columbia, Guatemala, Brazil<\/li><li>Intensity level 6 out of 6<\/li><li>Recommended for Espresso Coffees, milk-based coffee specialty beverages<\/li><li>Kosher certified<\/li><\/ul>",
             "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "background": "#f9f9f9",
+            "background_gradient": "",
+            "text_color": "#21292f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-1",
-        "template--15633652023502__be1b4d35-8675-4155-983e-fa4f523c770d-167217459031a0f648-2"
+        "template--15645188358350__4dd1ffa8-071b-42c6-893b-5856c95e2e85-16750686185cd632a0-0"
       ],
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "Our Tchibo coffees",
-        "title": "Choose your blend",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
       }
     },
     "167275082992fb5773": {
@@ -249,12 +214,36 @@
         "review_button_background": "#e0bf78",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "be1b4d35-8675-4155-983e-fa4f523c770d",
-    "product-recommendations",
-    "167275082992fb5773"
+    "4dd1ffa8-071b-42c6-893b-5856c95e2e85",
+    "167275082992fb5773",
+    "product-recommendations"
   ]
 }
