@@ -167,8 +167,32 @@
             "subheading": "Tchibo Aroma Protect™",
             "font-style": "tp-overline-secondary",
             "title": "Sealed for Freshness",
-            "heading_tag": "tp-display-5-nocolor",
+            "heading_tag": "tp-display-4-nocolor",
             "content": "<p>One of the key reasons for Tchibo’s freshness is our patented Aroma Protect Technology™. When we lock in freshness – we lock out oxygen and light. Oxygen, as you know, ages and corrodes all organic objects. Tchibo removes over 99% of the oxygen from our beans. So they maintain virtually all of their original roasted flavors and aromas.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f9f9f9",
+            "background_gradient": "",
+            "text_color": "#21292f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "c23b97db-8514-4b1b-9979-91cc68a98a9d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OP1_480x480_b20de09c-590c-4457-8f34-e72310164424.webp",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "SUSTAINABILITY AT TCHIBO",
+            "font-style": "tp-overline-secondary",
+            "title": "This coffee is Fair Trade Certified™",
+            "heading_tag": "tp-display-4-nocolor",
+            "content": "<p>This coffee is Fair Trade Certified™. With every sip of Fair Trade Certified™ coffee, you're a part of a bigger mission to improve the living and working conditions of farmers in coffee-producing countries now, and for future generations to come.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#f9f9f9",
@@ -181,7 +205,8 @@
         }
       },
       "block_order": [
-        "template--15645188358350__4dd1ffa8-071b-42c6-893b-5856c95e2e85-16750686185cd632a0-0"
+        "template--15645188358350__4dd1ffa8-071b-42c6-893b-5856c95e2e85-16750686185cd632a0-0",
+        "c23b97db-8514-4b1b-9979-91cc68a98a9d"
       ],
       "settings": {
         "full_width": false,
