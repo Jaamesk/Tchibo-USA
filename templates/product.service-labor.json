@@ -124,9 +124,7 @@
       "disabled": true,
       "settings": {
         "recommendations_count": 6,
-        "products": [
-
-        ],
+        "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
