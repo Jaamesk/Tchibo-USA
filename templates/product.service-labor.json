@@ -122,7 +122,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "recommendations_count": 6,
+        "recommendations_count": 10,
         "products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
         "full_width": true,
         "stack_products": false,
