@@ -1,6 +1,5 @@
 {{ 'section-faq.css' | asset_url | stylesheet_tag }}
-<div>
-
+<div class="section">
     <div class="flex-col-lg-row">
         {%- if section.settings.title != blank -%}
             <h1 class="h2">{{ section.settings.title | escape }}</h1>
