@@ -26,10 +26,42 @@
             "question": "How to descale my machine?",
             "answer": "<ul><li>1. Turn on machine<\/li><li>2. Fill water tank with descaling solution and water all the way to the max line<\/li><li>3. Put your water tank back into your machine and start the descale (power & espresso button together)<\/li><li>3. Place a 32oz pitcher under the spout and click the blinking espresso button <br\/>Water should start to run in intervals<\/li><li>4. Once the machine has filled the 32oz, remove tank and pitcher (do not wait for refill water sign)<\/li><li>5. Empty the pitcher and place it back under spout<br\/>Empty tank out, rinse and fill with clean water, place back into machine<\/li><li>6. The machine should automatically start rinsing <\/li><li>7. It will rinse out 24oz in two intervals<\/li><li>8. It will rinse 12oz, stop for 60 seconds, and rinse the remaining 12oz <\/li><li>9. When finished it will enter rest mode<\/li><li>10. Turn machine back on and it should be ready to brew!<\/li><\/ul>"
           }
+        },
+        "705a40f1-2524-4131-adec-09a516c98577": {
+          "type": "faq_item",
+          "settings": {
+            "question": "My machine is stuck in descale mode; no water is coming out.",
+            "answer": "<p>Power off for 4 hours then turn on again and the machine will start disposing water again starts rinse cycle and finishes descale cycle.<\/p>"
+          }
+        },
+        "d19118a1-378d-44ce-839e-628da40cfa04": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How to do a Factory Reset",
+            "answer": "<p>Power on machine and wait for control panel lights to come on<br\/>Hold down the power button and boost button together for approx. 5 seconds or until you hear your machine beep twice<br\/>Power it off and wait 60 seconds<br\/>Power machine back on and it should be ready to brew- run a cup of coffee<\/p>"
+          }
+        },
+        "305ee84e-f10d-4961-943e-b29523d5e87c": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How to place brewing unit into machine",
+            "answer": "<p>Turn on your machine<br\/>Remove the brewing unit door <br\/>Press the sensor on the top left corner of door opening with a key or paperclip at the same time you will click the black button in the middle of the white gear on your machine, (where the brewing unit attaches)<br\/>Hold both together until the gear turns into its correct position<br\/>Place brewing unit back into machine <br\/>Close brewing unit door and machine should be ready to brew<\/p>"
+          }
+        },
+        "a5d72468-1c42-4a1a-8077-f49b45e4632a": {
+          "type": "faq_item",
+          "settings": {
+            "question": "My brewing unit is stuck in 45 angle",
+            "answer": "<p>Do a factory reset<\/p>"
+          }
         }
       },
       "block_order": [
-        "83861a5f-ad82-4dd9-9ce3-4db5ac95d9ca"
+        "83861a5f-ad82-4dd9-9ce3-4db5ac95d9ca",
+        "705a40f1-2524-4131-adec-09a516c98577",
+        "d19118a1-378d-44ce-839e-628da40cfa04",
+        "305ee84e-f10d-4961-943e-b29523d5e87c",
+        "a5d72468-1c42-4a1a-8077-f49b45e4632a"
       ],
       "settings": {
         "title": "The Tchibo Machine"
