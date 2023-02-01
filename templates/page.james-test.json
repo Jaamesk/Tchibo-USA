@@ -9,7 +9,8 @@
     "04afc207-7666-4d57-8021-70bcf946f706": {
       "type": "section-faq",
       "settings": {
-        "title": "Service",
+        "title": "Service & Help",
+        "header-body": "<p>Many faults, error patterns or anomalies can be quickly and easily remedied by yourself. In most cases, you can then use your coffee machine again directly and do not have to send it to our repair centre. Here you will find tips on the quickest and best solution.<\/p>",
         "use_search": true,
         "button_link": "",
         "button_text": "",
