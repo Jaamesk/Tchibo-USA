@@ -1,8 +1,8 @@
 <div {% render 'section-properties' %}>
-<button class="accordion accordion-group">{{ section.settings.title }}</button>
+<button class="accordion-faq accordion-group">{{ section.settings.title }}</button>
     <div class="panel">
         {%- for item in section.blocks -%}
-            <button class="accordion accordion-single">{{ item.settings.question }}</button>
+            <button class="accordion-faq accordion-single">{{ item.settings.question }}</button>
             <div class="panel">{{ item.settings.answer }}</div>
         {%- endfor -%}
     </div>
