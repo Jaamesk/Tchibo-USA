@@ -1,12 +1,45 @@
+<div {% render 'section-properties' %}>
+<button class="accordion accordion-group">{{ section.settings.title }}</button>
+    <div class="panel">
+        {%- for item in section.blocks -%}
+            <button class="accordion accordion-single">{{ item.settings.question }}</button>
+            <div class="panel">{{ item.settings.answer }}</div>
+        {%- endfor -%}
+    </div>
+</div>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+    "name": "FAQ Kategorie",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Kategorientitel"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "faq_item",
+            "name": "Frage/Antwort",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "question",
+                    "label": "Frage"
+                },
+                {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "Antwort"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "FAQ Kategorie"
+        }
+    ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
