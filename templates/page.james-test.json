@@ -23,8 +23,8 @@
         "83861a5f-ad82-4dd9-9ce3-4db5ac95d9ca": {
           "type": "faq_item",
           "settings": {
-            "question": "Test",
-            "answer": "<p>Hallo<\/p>"
+            "question": "How to descale my machine?",
+            "answer": "<p>Turn on machine<br\/>Fill water tank with descaling solution and water all the way to the max line<br\/>Put your water tank back into your machine and start the descale (power & espresso button together)<br\/>Place a 32oz pitcher under the spout and click the blinking espresso button <br\/>Water should start to run in intervals <br\/>Once the machine has filled the 32oz, remove tank and pitcher (do not wait for refill water sign)<br\/>Empty the pitcher and place it back under spout<br\/>Empty tank out, rinse and fill with clean water, place back into machine<br\/>The machine should automatically start rinsing <br\/>It will rinse out 24oz in two intervals<br\/>- It will rinse 12oz, stop for 60 seconds, and rinse the remaining 12oz <br\/>When finished it will enter rest mode<br\/>Turn machine back on and it should be ready to brew!<\/p>"
           }
         }
       },
@@ -32,7 +32,7 @@
         "83861a5f-ad82-4dd9-9ce3-4db5ac95d9ca"
       ],
       "settings": {
-        "title": "Hilfe"
+        "title": "The Tchibo Machine"
       }
     }
   },
