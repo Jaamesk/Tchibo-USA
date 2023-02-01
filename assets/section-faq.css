@@ -106,6 +106,7 @@
 }
 .panel {
     background-color: white;
+    padding: 0 5px;
     display: none;
     overflow: hidden;
 }
