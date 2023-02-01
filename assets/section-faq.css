@@ -65,7 +65,7 @@
 .search-bar {
     width: 100%;
 }
-.accordion-faq {
+.accordion {
     font-family: var(--font-body-family);
     background-color: #eee;
     color: #444;
@@ -82,10 +82,10 @@
     font-weight: bold;
     font-size: 20px;
 }
-.accordion-faq.active {
+.accordion.active {
     background-color: #ccc;
 }
-.accordion-faq::after {
+.accordion::after {
     content: '\02795';
     font-size: 13px;
     color: #777;
@@ -96,7 +96,7 @@
     font-size: 15px;
     margin-top: 3px;
 }
-.accordion-faq.active::after {
+.accordion.active::after {
     content: '\2796';
 }
 .panel {
