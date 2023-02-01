@@ -3,7 +3,7 @@
     <div class="panel">
         {%- for item in section.blocks -%}
             <button class="accordion accordion-single">{{ item.settings.question }}</button>
-            <div class="panel">{{ item.settings.answer }}</div>
+            <div class="panel sub-panel">{{ item.settings.answer }}</div>
         {%- endfor -%}
     </div>
 </div>
