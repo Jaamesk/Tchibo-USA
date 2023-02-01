@@ -20,8 +20,9 @@
     --section-stack-spacing-inline: var(--section-inner-spacing-inline, 0px);
     padding-inline-start: max(var(--calculated-section-spacing-inline),50% - var(--container-max-width) / 2);
     padding-inline-end: max(var(--calculated-section-spacing-inline),50% - var(--container-max-width) / 2);
+    padding-bottom: 20px;  
 }
-}
+
 
 .search__input.field__input {
     padding-right: 5rem;
