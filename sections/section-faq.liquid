@@ -32,7 +32,7 @@
 </div>
 {% javascript %}
     window.onload = () => {
-        const accordions = document.querySelectorAll('.accordion');
+        const accordions = document.querySelectorAll('.accordion-faq');
         accordions.forEach(item => {
             item.addEventListener('click', () => {
                 item.classList.toggle('active');
@@ -46,7 +46,7 @@
         })
 
         const searchBar = document.getElementById('page-search');
-        let searchItems = document.querySelectorAll('.accordion');
+        let searchItems = document.querySelectorAll('.accordion-faq');
         if (searchItems && searchBar) {
             const closeAll = () => {
                 searchItems.forEach(item => {
