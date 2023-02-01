@@ -16,12 +16,12 @@
     -webkit-appearance: none;
     appearance: none;
     background-color: transparent;
-    border: 0.1rem solid transparent;
+    border: 0.1rem solid black;
     border-radius: 0;
     color: rgb(var(--color-foreground));
     width: 100%;
     box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground),.55);
-    height: 4.5rem;
+    height: 2.5rem;
     box-sizing: border-box;
     transition: box-shadow var(--duration-short) ease;
 }
