@@ -110,7 +110,7 @@
     overflow: hidden;
 }
 .sub-panel {
-  padding: 0 5px;
+  padding: 0 20px;
 }
 .accordion-single ~ .panel {
     margin-top: 10px;
