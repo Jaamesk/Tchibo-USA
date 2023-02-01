@@ -7,6 +7,7 @@
         {%- if section.settings.button_link != blank and section.settings.button_text != blank -%}
             <a href="{{ section.settings.button_link }}" class="button{% if section.settings.button_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ section.settings.button_text }}</a>
         {%- endif -%}
+        <span>{{ section.settings.header-body }}</span>
     </div>
     
     {%- if section.settings.use_search -%}
