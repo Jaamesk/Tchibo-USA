@@ -1,12 +1,126 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+{{ 'section-faq.css' | asset_url | stylesheet_tag }}
+<div {% render 'section-properties' %}>
 
-{% stylesheet %}
-{% endstylesheet %}
+    <div class="flex-col-lg-row">
+        {%- if section.settings.title != blank -%}
+            <h1 class="h2">{{ section.settings.title | escape }}</h1>
+        {%- endif -%}
+        {%- if section.settings.button_link != blank and section.settings.button_text != blank -%}
+            <a href="{{ section.settings.button_link }}" class="button{% if section.settings.button_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ section.settings.button_text }}</a>
+        {%- endif -%}
+    </div>
 
+    
+    {%- if section.settings.use_search -%}
+    <div class="search-bar">
+        <div class="field">
+            <input class="search__input field__input"
+            id="page-search"
+            type="search"
+            value=""
+            placeholder="{{ 'general.search.search' | t }}"
+            >
+            <label class="field__label" for="Search-In-Modal-1">{{ 'general.search.search' | t }}</label>
+            <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+                <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
+                    <use href="#icon-search">
+                </svg>
+            </button>
+        </div>
+    </div>
+    <br>
+    {%- endif -%}
+</div>
 {% javascript %}
+    window.onload = () => {
+        const accordions = document.querySelectorAll('.accordion');
+        accordions.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+                let panel = item.nextElementSibling;
+                if (panel.style.display == 'block') {
+                    panel.style.display = 'none';
+                } else {
+                    panel.style.display = 'block';
+                }
+            })
+        })
+
+        const searchBar = document.getElementById('page-search');
+        let searchItems = document.querySelectorAll('.accordion');
+        if (searchItems && searchBar) {
+            const closeAll = () => {
+                searchItems.forEach(item => {
+                    item.nextElementSibling.style.display = "none";
+                    item.classList.remove('active');
+                })
+            }
+        
+            const hideMismatch = (input) => {
+                if (input.length > 0) {
+                    let filter = input.toUpperCase();
+                    searchItems.forEach(item => {
+                        let itemContent = item.textContent;
+                        if (itemContent.toUpperCase().indexOf(filter) > -1) {
+                            // Wenn Parent-Accordion besteht
+                            if (item.classList.contains('accordion-single')) {
+                                item.closest('.panel').style.display = 'block';
+                                item.closest('.panel').classList.add('active');
+                            }
+                            item.nextElementSibling.style.display = "block";
+                            item.classList.add('active');
+                        } else {
+                            item.classList.remove('active');
+                            item.nextElementSibling.style.display = "none";
+                        }
+                    })
+                } else {
+                    closeAll();
+                }
+            }
+
+            searchBar.addEventListener('input', function() {
+                hideMismatch(searchBar.value);
+            })
+        }
+    }
 {% endjavascript %}
+{% schema %}
+{
+    "name": "FAQ Start",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Überschrift"
+        },
+        {
+            "type": "checkbox",
+            "id": "use_search",
+            "label": "Suchleiste anzeigen",
+            "default": true
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button-Link"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Beschriftung"
+        },
+        {
+            "type": "checkbox",
+            "id": "button_secondary",
+            "label": "Sekundären Button-Stil verwenden?"
+        }
+    ],
+    "presets": [
+        {
+            "name": "FAQ"
+        }
+    ]
+}
+{% endschema %}
