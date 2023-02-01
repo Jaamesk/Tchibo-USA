@@ -4,6 +4,10 @@
     display: flex;
 }
 
+.header-text {
+  padding-bottom:10px;
+}
+
 .search__input.field__input {
     padding-right: 5rem;
 }

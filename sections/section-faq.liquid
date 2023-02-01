@@ -8,8 +8,8 @@
             <a href="{{ section.settings.button_link }}" class="button{% if section.settings.button_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ section.settings.button_text }}</a>
         {%- endif -%}
     </div>
-    <div>
-        <span>{{ section.settings.header-body }}</span>
+    <div class="header-text">
+        <span class="tp-body">{{ section.settings.header-body }}</span>
         </div>
     {%- if section.settings.use_search -%}
     <div class="search-bar">
