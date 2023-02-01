@@ -27,13 +27,11 @@
     transition: box-shadow var(--duration-short) ease;
 }
 .caption-large, .customer .field input, .customer select, .field__input, .form__label, .select__select {
-    font-size: 1.3rem;
     line-height: calc(1 + .5 / var(--font-body-scale));
     letter-spacing: .04rem;
 }
 
 .field__label, .customer .field label {
-    font-size: 1.6rem;
     left: 1.5rem;
     top: 1rem;
     margin-bottom: 0;
