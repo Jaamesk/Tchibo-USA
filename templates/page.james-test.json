@@ -66,11 +66,38 @@
       "settings": {
         "title": "The Tchibo Machine"
       }
+    },
+    "ac219c43-99dd-4aaf-884f-ef6588f9e68a": {
+      "type": "section-faq-item",
+      "blocks": {
+        "888d9efe-acea-46f0-a040-09474cbc80ae": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What does Röst Frisch mean?",
+            "answer": "<p>\"Röst Frisch\" is a stylized version of \"röstfrisch\" which means \"freshly roasted\" in Europe. Tchibo is passionately committed to fresh coffee. Every single step in our process is dedicated to deliver the freshest coffee experience from bean to cup.<\/p>"
+          }
+        },
+        "c6a8a282-feb7-4cac-b027-9d9429ef1a9b": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where is Tchibo coffee sourced from?",
+            "answer": "<p>We follow the sun around the world, back and forth across the equator, harvesting only 100% Arabica beans in peak season from the finest coffee-growing regions around the world – such as Brazil, Colombia, Honduras and Guatemala.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "888d9efe-acea-46f0-a040-09474cbc80ae",
+        "c6a8a282-feb7-4cac-b027-9d9429ef1a9b"
+      ],
+      "settings": {
+        "title": "Coffee"
+      }
     }
   },
   "order": [
     "main",
     "04afc207-7666-4d57-8021-70bcf946f706",
-    "27b35e80-36fc-434c-8a73-c044efa7c02d"
+    "27b35e80-36fc-434c-8a73-c044efa7c02d",
+    "ac219c43-99dd-4aaf-884f-ef6588f9e68a"
   ]
 }
