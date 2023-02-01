@@ -109,6 +109,9 @@
     display: none;
     overflow: hidden;
 }
+.sub-panel {
+  padding: 0 5px;
+}
 .accordion-single ~ .panel {
     margin-top: 10px;
     margin-bottom: 10px;
