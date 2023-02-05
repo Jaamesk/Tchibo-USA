@@ -20,13 +20,6 @@
     "3f2d8d9b-94de-4562-8aea-0b2b897d009c": {
       "type": "section-faq-item",
       "blocks": {
-        "3507af62-4536-4d4a-b6ab-01e1880280e2": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Do you charge for Shipping?",
-            "answer": "<p>Shipping on all domestic orders above $50 is free. For orders under $5, we charge standard UPS and USPS shipping rates. <\/p><p>You can calculate your shipping costs using the shipping estimator on our cart page. <\/p>"
-          }
-        },
         "f740d946-03f5-4bf3-bfd3-3f3393c7d524": {
           "type": "faq_item",
           "settings": {
@@ -64,7 +57,6 @@
         }
       },
       "block_order": [
-        "3507af62-4536-4d4a-b6ab-01e1880280e2",
         "f740d946-03f5-4bf3-bfd3-3f3393c7d524",
         "2ef687e3-4121-4bff-b750-f86d5006878d",
         "e8cb96fc-49d6-43f5-995c-c2e91c034099",
@@ -77,8 +69,44 @@
     },
     "ba017ae5-d658-430f-9558-dbe77caef390": {
       "type": "section-faq-item",
+      "blocks": {
+        "19a7f246-2537-4e86-a60f-edb7e0a5bded": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you charge for Shipping?",
+            "answer": "<p>Shipping on all domestic orders above $50 is free. For orders under $5, we charge standard UPS and USPS shipping rates. <\/p><p>You can calculate your shipping costs using the shipping estimator on our cart page.<\/p>"
+          }
+        },
+        "863e332c-7fea-42bf-a80e-a9c7423f8ed6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Which carriers do you ship with?",
+            "answer": "<p>All Tchibo orders are shipped with either UPS or the USPS, depending on the shipping option you choose at checkout.<\/p>"
+          }
+        },
+        "73950ee8-daa1-49ac-b66c-91e23b73b481": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you Ship to Canada, Hawaii or Alaska?",
+            "answer": "<p>Not yet, sorry. We ship to all US states except for Hawaii and Alaska.<\/p>"
+          }
+        },
+        "fe119535-8f58-48c9-bb46-7a2be33fb78a": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I change my billing \/ shipping address?",
+            "answer": "<p>Yes, you can change the standard billing or shipping address on file for your account at any time. Just log in to your account and edit the addresses in the account portal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "19a7f246-2537-4e86-a60f-edb7e0a5bded",
+        "863e332c-7fea-42bf-a80e-a9c7423f8ed6",
+        "73950ee8-daa1-49ac-b66c-91e23b73b481",
+        "fe119535-8f58-48c9-bb46-7a2be33fb78a"
+      ],
       "settings": {
-        "title": ""
+        "title": "Delivery"
       }
     }
   },
