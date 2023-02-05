@@ -116,6 +116,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
       {%- if request.page_type != 'password' -%}
         {% if request.page_type == product or request.page_type == index  %}
+          <span>{{ request.page_type }}</span>
         {%- section 'static-newsletter' -%}
         {%- section 'static-text-with-icons' -%}
           {% endif %}
