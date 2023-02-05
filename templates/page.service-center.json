@@ -17,104 +17,152 @@
         "button_secondary": false
       }
     },
-    "3f2d8d9b-94de-4562-8aea-0b2b897d009c": {
+    "f92ea182-5697-4678-aa5f-bbcfc6d07328": {
       "type": "section-faq-item",
       "blocks": {
-        "f740d946-03f5-4bf3-bfd3-3f3393c7d524": {
+        "7f26bf8b-00a7-4411-8d81-ea84636c3095": {
           "type": "faq_item",
           "settings": {
-            "question": "How do I change or cancel my order?",
-            "answer": "<p>You can change or cancel your order on your customer account page. Log in using the account button at the top of the page.<\/p>"
+            "question": "Is Tchibo new?",
+            "answer": "<p>No. Founded in 1949, Tchibo has been delighting coffee connoisseurs for over 70 years, becoming the #1 coffeehouse in Europe. It is, however, now new to America.<\/p>"
           }
         },
-        "2ef687e3-4121-4bff-b750-f86d5006878d": {
+        "26239193-8bb0-4255-bd67-90cb3d6e8648": {
           "type": "faq_item",
           "settings": {
-            "question": "How can I get spare parts for my coffee machine?",
-            "answer": "<p>We offer several spare parts for purchase in our store. Check our Machine Parts collection or use the search to find the spare part you need.<\/p>"
+            "question": "What does \"Tchibo\" mean?",
+            "answer": "<p>The name “Tchibo” is actually an abbreviated combination of co-founder Carl Tchiling Hiryan’s name and “Bohne”, which means “bean.” That’s why the Tchibo logo is a roasting bean.<\/p>"
           }
         },
-        "e8cb96fc-49d6-43f5-995c-c2e91c034099": {
+        "321af58a-6d14-47be-93eb-bf7514b7ad32": {
           "type": "faq_item",
           "settings": {
-            "question": "How can I track my order?",
-            "answer": "<p>You can view your order status on your account page. Log in using the account icon at the top of the page or use the 'Track Orders' button in the site footer.<\/p>"
+            "question": "How do you pronounce Tchibo?",
+            "answer": "<p>CHEE-bo. The T is silent.<\/p>"
           }
         },
-        "04ffe74b-d50b-43c7-985d-3ed2863ead2b": {
+        "93ab19ff-d5dd-4309-9e2d-585b01f8846e": {
           "type": "faq_item",
           "settings": {
-            "question": "Which payment options do you offer?",
-            "answer": "<p>You can checkout with all major credit cards. Additionally, you can check out using Paypal or Amazon Pay.<\/p>"
-          }
-        },
-        "352174b3-8353-477f-b1fe-ac9c5899fb60": {
-          "type": "faq_item",
-          "settings": {
-            "question": "Will I get an order confirmation?",
-            "answer": "<p>Yes, you will receive a confirmation of your order via email as soon as your purchase is completed.<\/p>"
+            "question": "What does \"Röst Frisch\" mean?",
+            "answer": "<p>\"Röst Frisch \" is a stylized version of \"röstfrisch\" which means \"freshly roasted\" in Europe. Tchibo is passionately committed to fresh coffee. Every single step in our process is dedicated to deliver the freshest coffee experience from bean to cup.<\/p>"
           }
         }
       },
       "block_order": [
-        "f740d946-03f5-4bf3-bfd3-3f3393c7d524",
-        "2ef687e3-4121-4bff-b750-f86d5006878d",
-        "e8cb96fc-49d6-43f5-995c-c2e91c034099",
-        "04ffe74b-d50b-43c7-985d-3ed2863ead2b",
-        "352174b3-8353-477f-b1fe-ac9c5899fb60"
+        "7f26bf8b-00a7-4411-8d81-ea84636c3095",
+        "26239193-8bb0-4255-bd67-90cb3d6e8648",
+        "321af58a-6d14-47be-93eb-bf7514b7ad32",
+        "93ab19ff-d5dd-4309-9e2d-585b01f8846e"
       ],
       "settings": {
-        "title": "Purchases & Orders"
+        "title": "About Tchibo"
       }
     },
-    "ba017ae5-d658-430f-9558-dbe77caef390": {
+    "c0d76a0a-7080-44c0-ba0e-46e1e55ab7ed": {
       "type": "section-faq-item",
       "blocks": {
-        "19a7f246-2537-4e86-a60f-edb7e0a5bded": {
+        "48b7460d-ca51-4a6d-b327-957eb76767c3": {
           "type": "faq_item",
           "settings": {
-            "question": "Do you charge for Shipping?",
-            "answer": "<p>Shipping on all domestic orders above $50 is free. For orders under $5, we charge standard UPS and USPS shipping rates. <\/p><p>You can calculate your shipping costs using the shipping estimator on our cart page.<\/p>"
+            "question": "Where is Tchibo Röst Frisch coffee sourced from?",
+            "answer": "<p>We follow the sun around the world, back and forth across the equator, harvesting only 100% Arabica beans in peak season from the finest coffee-growing regions around the world – such as Brazil, Colombia, Honduras and Guatemala.<\/p>"
           }
         },
-        "863e332c-7fea-42bf-a80e-a9c7423f8ed6": {
+        "65159cbb-aadb-42bc-950a-d6cef0145f5d": {
           "type": "faq_item",
           "settings": {
-            "question": "Which carriers do you ship with?",
-            "answer": "<p>All Tchibo orders are shipped with either UPS or the USPS, depending on the shipping option you choose at checkout.<\/p>"
+            "question": "What makes Tchibo Röst Frisch so special?",
+            "answer": "<p>Tchibo Röst Frisch is a sustainable, finely crafted coffee for your home. Every step in our process is dedicated to creating exquisitely fresh, aromatic coffees. With more than 70 years of experience, we carefully roast the beans in the legendary Tchibo tradition to bring out over 800 different aromas. Then, at the exact moment of peak intensity, this flavor and freshness is sealed in and protected by Tchibo Aroma Protect™ to provide the finest taste experience.<\/p>"
           }
         },
-        "73950ee8-daa1-49ac-b66c-91e23b73b481": {
+        "d47ae3ca-b5d7-4bd4-a23b-1d76de70346f": {
           "type": "faq_item",
           "settings": {
-            "question": "Do you Ship to Canada, Hawaii or Alaska?",
-            "answer": "<p>Not yet, sorry. We ship to all US states except for Hawaii and Alaska.<\/p>"
+            "question": "What is Tchibo Aroma Protect™?",
+            "answer": "<p>TCHIBO AROMA PROTECT™ ensures the freshness and conservation of aromas in your whole bean coffee - by locking freshness in and oxygen and light out. In our sealed coffee packages, a one-way valve moderates the ideal conditions for fresh coffee. Fresh roasted coffee needs to be de-gassed for up to 2 weeks. The one-way valve removes the gas and moisture -- while preventing air from entering. By protecting coffee from oxygen and its aging effects, it stays fresher longer. In our whole bean bags, the sealed pouch comes with a spout and non-metallic packaging sealing cap. When you open the cap, it cuts into the bag, breaking the seal. (Warning: do not stick your finger into the spout as there are sharp edges to cut into the bag.) The easily resealable cap locks out oxygen, helping to prolong the coffee’s freshness and can be re-sealed air-tight again.<\/p>"
           }
         },
-        "fe119535-8f58-48c9-bb46-7a2be33fb78a": {
+        "fb65c472-b62e-4cdd-9d72-3489bc009287": {
           "type": "faq_item",
           "settings": {
-            "question": "Can I change my billing \/ shipping address?",
-            "answer": "<p>Yes, you can change the standard billing or shipping address on file for your account at any time. Just log in to your account and edit the addresses in the account portal.<\/p>"
+            "question": "Can't I get fresh coffee at any diner in America?",
+            "answer": "<p>Good question! We’re not talking about fresh-brewed coffee, which is a function of when you made it. We’re talking about fresh flavor – which is a function of how you make it. The legendary Tchibo Röstmeisters are completely committed to freshness – from farm to cup – creating richer, more flavorful and aromatic coffee.<\/p>"
           }
         },
-        "a3fb3807-7e98-49ca-ab95-6c641106c1b4": {
+        "d8308761-da1e-42af-ac0f-d6ed8671c2a3": {
           "type": "faq_item",
           "settings": {
-            "question": "Can I return my order?",
-            "answer": "<p>We have a 30-days return\/refund window for products that are defective or damaged. In order to qualify for a refund (full or partial) the product must be shipped back. Once the product has been received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.<\/p><p>Find more information here:<\/p><p><a href=\"https:\/\/tchibo.us\/policies\/refund-policy\" title=\"https:\/\/tchibo.us\/policies\/refund-policy\">https:\/\/tchibo.us\/policies\/refund-policy<\/a><\/p>"
+            "question": "How do I open the package?",
+            "answer": "<p>Whole Bean bags: The whole bean coffee bags can easily be opened via the TCHIBO AROMA PROTECT cap: Just twist the cap on the side of the bag. No need for cutting!<\/p><p>Ground Coffee bags: Cut the ground coffee bag along the top tab, ideally in one smooth cut.<\/p>"
+          }
+        },
+        "5f3a516c-3a01-457c-b6c9-32986c74fb67": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I close or seal the package?",
+            "answer": "<p>Whole Bean bags: Just twist the AROMA PROTECT cap back on to ensure the freshness of your coffee and conservation of aromas.<\/p><p>Ground Coffee bags: Use a sealing clip to re-seal the bag and store in an air-tight container to ensure the freshness of your coffee.<\/p>"
+          }
+        },
+        "74ef016b-d7e4-4b1f-b396-f2c20816a1ca": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I open the sealed pouch inside the box?",
+            "answer": "<p>We recommend using a sharp pair of scissors and cutting straight across the bag ¾ of an inch from the top. This way you have enough room to roll and seal the bag.<\/p>"
+          }
+        },
+        "9e295519-3d6f-4942-8ec0-7391e5ca3479": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is the recommended shelf life of Tchibo Röst Frisch?",
+            "answer": "<p>The shelf life of coffee is all about keeping oxygen out. Technically, our coffee doesn’t go bad. But if you leave it unsealed, the fresh aromas start to noticeably diminish after 2 weeks.<\/p><p>To ensure the freshest coffee experience possible, you can find the \"best before\" dates to all TCHIBO RÖST FRISCH packages. To keep unopened coffee fresh after you bring it home, store it in a cool, dry place and use before the \"Best before\" date. After opening, use it within two weeks.<\/p>"
+          }
+        },
+        "2539f12c-8c69-47e7-ac64-92bc1f31a177": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What grind should I choose?",
+            "answer": "<p>First of all, always store your coffee beans in a closed package under cool conditions. Grind your coffee right before brewing. Use a clean coffee grinder (ideally, a ceramic coffee grinder). The coffee should not become too warm during the grinding process. You should select a medium grinding degree for drip machines or a coarser grinding for French Press preparation. If it is too fine, the coffee can become bitter. Too coarse, and the coffee will taste thin and weak.<\/p>"
+          }
+        },
+        "5bee9579-6d6c-4ef6-8fba-033169f65d67": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What are the bags made of?",
+            "answer": "<p>Our foil packages are a mix of plastics and aluminum with a strong lightweight laminated film that is used to protect our coffee from light, oxygen and other environmental factors to keep its full freshness and flavor.<\/p><p>The paper folding boxes contain 95% carton material -- non-corrugated paperboard with a great stability to store your inner pouch and its coffee.<\/p><p>Our TCHIBO RÖST FRISCH packages are recyclable in some areas but not all. Please check with your municipal department to find out if our coffee bags can be recycled in your area.<\/p><p>Please dispose of the packaging in an environmentally friendly manner in the designated waste containers.<\/p>"
+          }
+        },
+        "f0da56b8-7fa3-4216-8e59-fca52138e911": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where can I buy Tchibo coffee?",
+            "answer": "<p>Right now, only here on our website or on Amazon.com. Or look for Tchibo in the hold packaging at fine stores.<\/p>"
+          }
+        },
+        "ab178b58-7336-48f5-9004-0e830f321c74": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is Tchibo Röst Frisch sustainable?",
+            "answer": "<p>At Tchibo, we believe the only thing more important than fresh coffee is a fresh planet. As a European company, we have dealt with diminishing resources and the environment for decades. And as a family-owned business, we are personally and culturally committed to sustainability and fairness. We live by a set of core values, economic policies and environmental ethics. That’s why 100% of our coffee now comes from Rainforest Alliance Certified farms.<\/p><p>Sustainable coffee cultivation avoids pesticides or chemical fertilizers to protect the environment. This makes the soils more fertile, the coffee quality better and the farmers healthier. Committed to improving the incomes and living conditions of coffee farmers and their families, we run special training programs in the field called Tchibo Joint Forces!® This program supports farmers directly in the transition to sustainable cultivation. More than 45,000 small farmers in 9 countries have already benefited from our efforts. What’s more, while their parents harvest the coffee, more than 5,500 children have used our care services meals and schooling.<\/p>"
           }
         }
       },
       "block_order": [
-        "19a7f246-2537-4e86-a60f-edb7e0a5bded",
-        "863e332c-7fea-42bf-a80e-a9c7423f8ed6",
-        "73950ee8-daa1-49ac-b66c-91e23b73b481",
-        "fe119535-8f58-48c9-bb46-7a2be33fb78a",
-        "a3fb3807-7e98-49ca-ab95-6c641106c1b4"
+        "48b7460d-ca51-4a6d-b327-957eb76767c3",
+        "65159cbb-aadb-42bc-950a-d6cef0145f5d",
+        "d47ae3ca-b5d7-4bd4-a23b-1d76de70346f",
+        "fb65c472-b62e-4cdd-9d72-3489bc009287",
+        "d8308761-da1e-42af-ac0f-d6ed8671c2a3",
+        "5f3a516c-3a01-457c-b6c9-32986c74fb67",
+        "74ef016b-d7e4-4b1f-b396-f2c20816a1ca",
+        "9e295519-3d6f-4942-8ec0-7391e5ca3479",
+        "2539f12c-8c69-47e7-ac64-92bc1f31a177",
+        "5bee9579-6d6c-4ef6-8fba-033169f65d67",
+        "f0da56b8-7fa3-4216-8e59-fca52138e911",
+        "ab178b58-7336-48f5-9004-0e830f321c74"
       ],
       "settings": {
-        "title": "Delivery & Returns"
+        "title": "Tchibo Coffee"
       }
     },
     "26ee4c9d-e8bb-420e-8a3a-3c9b0aa418c3": {
@@ -275,6 +323,55 @@
             "question": "The coffee flows slowly out of the spout. What can I do?",
             "answer": "<p>Adjust the grinder to a coarser setting.<\/p><p>Note: You can only adjust the grinder setting when the grinder is operating.<\/p>"
           }
+        },
+        "b2d52c8c-4937-464c-aeee-4ac7197e3e6c": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The machine takes an unusually long amount of time to heat up, so the coffee or hot water is only being dispensed in small amounts. What can I do?",
+            "answer": "<p>The machine needs to be descaled even if the \"Descale\" symbol is not lit up. Proceed as described in the “Descaling” chapter in the operating instructions, or follow the steps in the descaling video.<\/p>"
+          }
+        },
+        "5b0b5d57-adc4-4116-9e2c-b228293d9175": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Why does my machine automatically switch into standby mode? How can I change the length of time for which the machine remains active?",
+            "answer": "<p>The machine automatically switches into standby mode if you do not press any buttons for about 10 minutes. This helps to save energy.<\/p><p>You can increase this length of time to 20 or 30 or 120 minutes. You can find all details regarding this in the operating instructions under “Standby mode”.<\/p>"
+          }
+        },
+        "cf64dae0-97b5-4486-b42c-53e2f07d8475": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Why does the “Refill beans” symbol not light up even though the coffee bean compartment looks empty?",
+            "answer": "<p>The machine detects if the coffee bean compartment is empty based on the energy consumption of the motor for the grinder. Even a small amount of coffee beans is enough to prevent the “Refill beans” symbol from being activated.<\/p><p>If this happens, brew one to two more cups of coffee. The symbol should then appear on the display.<\/p>"
+          }
+        },
+        "1f973562-2cce-43da-866e-32f79e5fb4d1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "A small amount of ground coffee collects next to the brewing unit. Is this normal?",
+            "answer": "<p>It is normal for a certain amount of coffee to collect next to the brewing unit – for technical reasons it is not possible to prevent this completely. This may happen in particular if the grinding degree has been set to a coarse setting, or if the Boost button is used, as this means that the brewing unit is filled with as much coffee as possible.<\/p>"
+          }
+        },
+        "b5dca430-7b40-4ada-8bf9-836d76d4a916": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The machine does not notify me when the water tank is empty. What may be causing this?",
+            "answer": "<p>The water tank sensor should detect an empty water tank, prevent the machine from running on empty, and activate the corresponding warning symbol. However, leftover water on the outside of the tank may disrupt the sensor. If this happens, we recommend drying the outside of the tank after filling it with water.<\/p><p>The tank should not be filled with water after it has been inserted into the machine.<\/p>"
+          }
+        },
+        "8c4830bc-92de-4799-a1b8-c637dcf65a1c": {
+          "type": "faq_item",
+          "settings": {
+            "question": "I have emptied the coffee grounds container, but the “Empty coffee grounds” symbol is still flashing. What may be causing this?",
+            "answer": "<p>The machine does not check the amount of coffee grounds in the coffee grounds container, but counts the number of times coffee is brewed. Because of this, the “Empty coffee grounds” symbol may still light up even if you have emptied the container in-between. Simply empty the container again.<\/p><p>When emptying the container, make sure that you do not reinsert the drawer and coffee grounds container into the machine until the “Empty coffee grounds” symbol starts to flash; only then has the machine registered that the container has been removed.<\/p><p>Emptying the coffee grounds container while the machine is switched off will not be registered.<\/p>"
+          }
+        },
+        "dfbbf4b2-ff1a-4797-8da2-56665747a378": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The rinsing cycle does not start when the machine is switched on, and the machine cannot be operated, despite all symbols being lit up correctly.",
+            "answer": "<p>This can happen if the on\/off button is pressed too gently. This does not happen if the button is pressed firmly. If the machine still cannot be operated, please call 1-888-824-4261<\/p><p>Is Tchibo Röst Frisch sustainable?<\/p>"
+          }
         }
       },
       "block_order": [
@@ -283,19 +380,128 @@
         "d1a46599-d7a8-4187-a66f-142d1434fd7c",
         "914013dd-9ab9-4510-96d5-501f62b8bc7c",
         "cd6474e8-186d-4559-b400-bb84a307e2df",
-        "844d1204-fbb4-4253-9c55-b88769ce7d9f"
+        "844d1204-fbb4-4253-9c55-b88769ce7d9f",
+        "b2d52c8c-4937-464c-aeee-4ac7197e3e6c",
+        "5b0b5d57-adc4-4116-9e2c-b228293d9175",
+        "cf64dae0-97b5-4486-b42c-53e2f07d8475",
+        "1f973562-2cce-43da-866e-32f79e5fb4d1",
+        "b5dca430-7b40-4ada-8bf9-836d76d4a916",
+        "8c4830bc-92de-4799-a1b8-c637dcf65a1c",
+        "dfbbf4b2-ff1a-4797-8da2-56665747a378"
       ],
       "settings": {
         "title": "Maintenance & Repair"
+      }
+    },
+    "3f2d8d9b-94de-4562-8aea-0b2b897d009c": {
+      "type": "section-faq-item",
+      "blocks": {
+        "f740d946-03f5-4bf3-bfd3-3f3393c7d524": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I change or cancel my order?",
+            "answer": "<p>You can change or cancel your order on your customer account page. Log in using the account button at the top of the page.<\/p>"
+          }
+        },
+        "2ef687e3-4121-4bff-b750-f86d5006878d": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I get spare parts for my coffee machine?",
+            "answer": "<p>We offer several spare parts for purchase in our store. Check our Machine Parts collection or use the search to find the spare part you need.<\/p>"
+          }
+        },
+        "e8cb96fc-49d6-43f5-995c-c2e91c034099": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I track my order?",
+            "answer": "<p>You can view your order status on your account page. Log in using the account icon at the top of the page or use the 'Track Orders' button in the site footer.<\/p>"
+          }
+        },
+        "04ffe74b-d50b-43c7-985d-3ed2863ead2b": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Which payment options do you offer?",
+            "answer": "<p>You can checkout with all major credit cards. Additionally, you can check out using Paypal or Amazon Pay.<\/p>"
+          }
+        },
+        "352174b3-8353-477f-b1fe-ac9c5899fb60": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will I get an order confirmation?",
+            "answer": "<p>Yes, you will receive a confirmation of your order via email as soon as your purchase is completed.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f740d946-03f5-4bf3-bfd3-3f3393c7d524",
+        "2ef687e3-4121-4bff-b750-f86d5006878d",
+        "e8cb96fc-49d6-43f5-995c-c2e91c034099",
+        "04ffe74b-d50b-43c7-985d-3ed2863ead2b",
+        "352174b3-8353-477f-b1fe-ac9c5899fb60"
+      ],
+      "settings": {
+        "title": "Purchases & Orders"
+      }
+    },
+    "ba017ae5-d658-430f-9558-dbe77caef390": {
+      "type": "section-faq-item",
+      "blocks": {
+        "19a7f246-2537-4e86-a60f-edb7e0a5bded": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you charge for Shipping?",
+            "answer": "<p>Shipping on all domestic orders above $50 is free. For orders under $5, we charge standard UPS and USPS shipping rates. <\/p><p>You can calculate your shipping costs using the shipping estimator on our cart page.<\/p>"
+          }
+        },
+        "863e332c-7fea-42bf-a80e-a9c7423f8ed6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Which carriers do you ship with?",
+            "answer": "<p>All Tchibo orders are shipped with either UPS or the USPS, depending on the shipping option you choose at checkout.<\/p>"
+          }
+        },
+        "73950ee8-daa1-49ac-b66c-91e23b73b481": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you Ship to Canada, Hawaii or Alaska?",
+            "answer": "<p>Not yet, sorry. We ship to all US states except for Hawaii and Alaska.<\/p>"
+          }
+        },
+        "fe119535-8f58-48c9-bb46-7a2be33fb78a": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I change my billing \/ shipping address?",
+            "answer": "<p>Yes, you can change the standard billing or shipping address on file for your account at any time. Just log in to your account and edit the addresses in the account portal.<\/p>"
+          }
+        },
+        "a3fb3807-7e98-49ca-ab95-6c641106c1b4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I return my order?",
+            "answer": "<p>We have a 30-days return\/refund window for products that are defective or damaged. In order to qualify for a refund (full or partial) the product must be shipped back. Once the product has been received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.<\/p><p>Find more information here:<\/p><p><a href=\"https:\/\/tchibo.us\/policies\/refund-policy\" title=\"https:\/\/tchibo.us\/policies\/refund-policy\">https:\/\/tchibo.us\/policies\/refund-policy<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "19a7f246-2537-4e86-a60f-edb7e0a5bded",
+        "863e332c-7fea-42bf-a80e-a9c7423f8ed6",
+        "73950ee8-daa1-49ac-b66c-91e23b73b481",
+        "fe119535-8f58-48c9-bb46-7a2be33fb78a",
+        "a3fb3807-7e98-49ca-ab95-6c641106c1b4"
+      ],
+      "settings": {
+        "title": "Delivery & Returns"
       }
     }
   },
   "order": [
     "main",
     "e819fac7-094d-4105-83b0-d148377c5e49",
-    "3f2d8d9b-94de-4562-8aea-0b2b897d009c",
-    "ba017ae5-d658-430f-9558-dbe77caef390",
+    "f92ea182-5697-4678-aa5f-bbcfc6d07328",
+    "c0d76a0a-7080-44c0-ba0e-46e1e55ab7ed",
     "26ee4c9d-e8bb-420e-8a3a-3c9b0aa418c3",
-    "9f0d4a36-214a-422f-af99-7c14188af21c"
+    "9f0d4a36-214a-422f-af99-7c14188af21c",
+    "3f2d8d9b-94de-4562-8aea-0b2b897d009c",
+    "ba017ae5-d658-430f-9558-dbe77caef390"
   ]
 }
