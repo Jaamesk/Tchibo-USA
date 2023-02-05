@@ -545,6 +545,39 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "abc88fea-9e9d-477d-98be-93b9f3d101ae": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15648661995726__abc88fea-9e9d-477d-98be-93b9f3d101ae-1675611232afa2ef97-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Contact our support team",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15648661995726__abc88fea-9e9d-477d-98be-93b9f3d101ae-1675611232afa2ef97-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you still need help after searching our database, call us at <a href=\"tel:+1-888-824-4261\" target=\"_blank\">1-888-824-4261<\/a> between 08:30 AM - 4:00 PM CST or write an email to <a href=\"mailto:info@tchibo.us\" target=\"_blank\">info@tchibo.us<\/a>.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15648661995726__abc88fea-9e9d-477d-98be-93b9f3d101ae-1675611232afa2ef97-1",
+        "template--15648661995726__abc88fea-9e9d-477d-98be-93b9f3d101ae-1675611232afa2ef97-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -556,6 +589,7 @@
     "9f0d4a36-214a-422f-af99-7c14188af21c",
     "3f2d8d9b-94de-4562-8aea-0b2b897d009c",
     "ba017ae5-d658-430f-9558-dbe77caef390",
-    "33336c9a-7cef-4b3f-bc94-7fd7faf137c0"
+    "33336c9a-7cef-4b3f-bc94-7fd7faf137c0",
+    "abc88fea-9e9d-477d-98be-93b9f3d101ae"
   ]
 }
