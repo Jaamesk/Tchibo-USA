@@ -10,7 +10,7 @@
       "type": "section-faq",
       "settings": {
         "title": "Service & Help",
-        "header-body": "",
+        "header-body": "<p>Do you have questions about our machine or coffees? Or do you need help with your order? We are happy to assist you as best we can. Type your question or keyword in the box below to search our help database. If you can't find your question or you still need help, use the live chat or the contact methods below to get in touch with our customer service team.<\/p>",
         "use_search": true,
         "button_link": "",
         "button_text": "",
