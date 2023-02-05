@@ -30,14 +30,14 @@
         "2ef687e3-4121-4bff-b750-f86d5006878d": {
           "type": "faq_item",
           "settings": {
-            "question": "How can I get spare parts for my coffee machine",
+            "question": "How can I get spare parts for my coffee machine?",
             "answer": "<p>We offer several spare parts for purchase in our store. Check our Machine Parts collection or use the search to find the spare part you need.<\/p>"
           }
         },
         "e8cb96fc-49d6-43f5-995c-c2e91c034099": {
           "type": "faq_item",
           "settings": {
-            "question": "How can I track my order",
+            "question": "How can I track my order?",
             "answer": "<p>You can view your order status on your account page. Log in using the account icon at the top of the page or use the 'Track Orders' button in the site footer.<\/p>"
           }
         },
@@ -97,16 +97,196 @@
             "question": "Can I change my billing \/ shipping address?",
             "answer": "<p>Yes, you can change the standard billing or shipping address on file for your account at any time. Just log in to your account and edit the addresses in the account portal.<\/p>"
           }
+        },
+        "a3fb3807-7e98-49ca-ab95-6c641106c1b4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I return my order?",
+            "answer": "<p>We have a 30-days return\/refund window for products that are defective or damaged. In order to qualify for a refund (full or partial) the product must be shipped back. Once the product has been received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.<\/p><p>Find more information here:<\/p><p><a href=\"https:\/\/tchibo.us\/policies\/refund-policy\" title=\"https:\/\/tchibo.us\/policies\/refund-policy\">https:\/\/tchibo.us\/policies\/refund-policy<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "19a7f246-2537-4e86-a60f-edb7e0a5bded",
         "863e332c-7fea-42bf-a80e-a9c7423f8ed6",
         "73950ee8-daa1-49ac-b66c-91e23b73b481",
-        "fe119535-8f58-48c9-bb46-7a2be33fb78a"
+        "fe119535-8f58-48c9-bb46-7a2be33fb78a",
+        "a3fb3807-7e98-49ca-ab95-6c641106c1b4"
       ],
       "settings": {
-        "title": "Delivery"
+        "title": "Delivery & Returns"
+      }
+    },
+    "26ee4c9d-e8bb-420e-8a3a-3c9b0aa418c3": {
+      "type": "section-faq-item",
+      "blocks": {
+        "019e4604-c5d1-418c-a77d-9c1130406f0a": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where can I buy The Tchibo coffee machine?",
+            "answer": "<p>For now, only <a href=\"https:\/\/tchibo.us\/collections\/shop-coffee-machine\">online here<\/a>. Or, of course, <a href=\"https:\/\/www.amazon.com\/Tchibo-Fully-Automatic-coffee-machine\/dp\/B0914Z8XF5\/ref=sr_1_1_sspa?dchild=1&keywords=Tchibo+Coffee&qid=1619812678&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVjFGMllBUUE4MkxQJmVuY3J5cHRlZElkPUEwNzQ0MDA1MzMyTlpETFFGMTM2VSZlbmNyeXB0ZWRBZElkPUEwNDI4MzMxMjlGRUNGMzUyNzRGNiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=\">Amazon<\/a>.<\/p>"
+          }
+        },
+        "817730a1-048a-4d7f-a2cd-e48502cab32c": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your Machine return policy?",
+            "answer": "<p>You can check our <a href=\"https:\/\/tchibo-coffee-usa.myshopify.com\/policies\/refund-policy\">return policy here<\/a>. We recommend that you call out our Customer Service (1-888-824-4261) to determine if your machine is returnable.<\/p>"
+          }
+        },
+        "7d15d346-4311-448b-87b7-464a7e3519eb": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Why is the price so low compared to other, similar coffee machines?",
+            "answer": "<p>Tchibo wants as many people as possible to enjoy the taste of freshly-prepared coffee. Our new Bean to Brew machine has everything you need for this, including a high-quality stainless-steel grinder. However, we only focus on the necessary features that affect the taste of coffee -– not a lot of unnecessary extras. This allows us to offer you The Tchibo machine at an unbeatable value.<\/p>"
+          }
+        },
+        "a6cbfce2-7e32-4664-ad6c-aa88798ba898": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How many bars of pressure does the machine use?",
+            "answer": "<p>19. That said, the pressure at which the pump pushes water through the system will change depending on how much coffee is in the machine. Or whether you use the boost button. It will also change depending on the grinder setting. It will be less if the grinder is set to a very fine setting as the water has a harder time passing through the grounds.<\/p>"
+          }
+        },
+        "6c5f9159-ceb9-402e-a5a8-af7aac1eb626": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is the Machine available in different colors?",
+            "answer": "<p>No, not yet. For now, The Tchibo is only available in black.<\/p>"
+          }
+        },
+        "78333a7b-0802-4f2c-a95f-bf87c0bca4d9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does it make Espresso - or just Coffee?",
+            "answer": "<p>Both. You can select the size and intensity of your coffee on the LED control panel.<\/p>"
+          }
+        },
+        "4bc67bb2-43f2-4856-a3bc-09e13d029435": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What size are the servings?",
+            "answer": "<p>2, 6 and 8 ounce cups. Of course, if you need more, you can immediately make a fresher cup.<\/p>"
+          }
+        },
+        "73c81fb0-790f-40e6-bfa3-b784f166fa91": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where is the machine made?",
+            "answer": "<p>Designed in Germany. Built in China.<\/p>"
+          }
+        },
+        "98a8fbcb-b308-4444-bf4c-bb959722f824": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does it come with a milk frother?",
+            "answer": "<p>No, sorry. While Tchibo makes many different European coffee machines with different functions – including frothing, this is the only one available in the US at this time.<\/p><p>(Of course, some of the coffee purists here feel that adding milk to exquisite coffee is blasphemous!)<\/p>"
+          }
+        },
+        "757d4781-3c69-4bfc-b2bf-fb088b7c6418": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does The Tchibo machine come with a warranty?",
+            "answer": "<p>Yes. A limited one-year warranty. You can read about it <a href=\"https:\/\/tchibo.us\/apps\/warranty\/registrants\/new\">here<\/a>. For all machines purchased on or before August 15th, 2021, you are automatically registered. For machines purchased after this date, you will have to register for the warranty online. You will have register within 30 days of purchase.<\/p>"
+          }
+        },
+        "e68f3fef-4496-4a8f-87c5-c7300e171d3b": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I also fill the machine with ground coffee?",
+            "answer": "<p>No, only whole coffee beans – this ensures a fresh and aromatic cup of coffee every time.<\/p>"
+          }
+        },
+        "f776869c-e8f8-4347-a3c4-a8f0711972eb": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I fill the machine with two different types of coffee bean?",
+            "answer": "<p>No, the Bean to Brew machine has one coffee bean compartment for your favorite coffee.<\/p>"
+          }
+        },
+        "6a672804-872a-4595-862b-c42a1a6ab220": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I swith between making espresso and regular coffee - there is only one coffee bean compartment?",
+            "answer": "<p>It is actually only possible to fill the machine with coffee beans as and when required, so you need to choose one type of coffee bean until you refill the machine: either espresso or regular coffee.<\/p><p>However, it is possible to make a very good espresso with regular coffee beans – and vice versa. Try it out and see what tastes good. If you make both types of coffee often, we recommend that you use strong, dark-roasted, regular coffee beans.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "019e4604-c5d1-418c-a77d-9c1130406f0a",
+        "817730a1-048a-4d7f-a2cd-e48502cab32c",
+        "7d15d346-4311-448b-87b7-464a7e3519eb",
+        "a6cbfce2-7e32-4664-ad6c-aa88798ba898",
+        "6c5f9159-ceb9-402e-a5a8-af7aac1eb626",
+        "78333a7b-0802-4f2c-a95f-bf87c0bca4d9",
+        "4bc67bb2-43f2-4856-a3bc-09e13d029435",
+        "73c81fb0-790f-40e6-bfa3-b784f166fa91",
+        "98a8fbcb-b308-4444-bf4c-bb959722f824",
+        "757d4781-3c69-4bfc-b2bf-fb088b7c6418",
+        "e68f3fef-4496-4a8f-87c5-c7300e171d3b",
+        "f776869c-e8f8-4347-a3c4-a8f0711972eb",
+        "6a672804-872a-4595-862b-c42a1a6ab220"
+      ],
+      "settings": {
+        "title": "Coffee Machine"
+      }
+    },
+    "9f0d4a36-214a-422f-af99-7c14188af21c": {
+      "type": "section-faq-item",
+      "blocks": {
+        "96868c89-8189-47e1-9382-3ef93b5b856e": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How often do I need to clean the brewing unit?",
+            "answer": "<p>If you use the Bean to Brew machine every day, we recommend cleaning the brewing unit once a week.<\/p>"
+          }
+        },
+        "7fba2131-4cdf-4569-a913-6b3465ede865": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How often should I descale the machine?",
+            "answer": "<p>Descale your machine as soon as this is indicated on the display. This helps to save energy and increases the service life of your machine. Depending on how often you use your machine, you should do this once a month to a few times a year.<\/p><p>The descaling program consists of two steps: descaling and rinsing. You will find all details on this in the operating instructions and video instructions<\/p><p>Use a standard, liquid, descaling agent suitable for coffee and espresso machines. Other agents may damage materials in the machine and\/or have no effect.<\/p>"
+          }
+        },
+        "d1a46599-d7a8-4187-a66f-142d1434fd7c": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The coffee is not hot enough. What can I do?",
+            "answer": "<p>Especially in the case of espresso, the amount of coffee is so minimal compared to the size of the cup that it cools quickly. We recommend preheating your cup before making coffee. To do this, press the hot water button. Around 1.7 US fl. oz. (50 ml) of hot water will be dispensed into the cup. Pour the water away before starting to make a coffee.<\/p>"
+          }
+        },
+        "914013dd-9ab9-4510-96d5-501f62b8bc7c": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The coffee is too weak. What can I do?",
+            "answer": "<p>Set the grinding degree to a finer setting and, if necessary, press the Boost button to make the coffee stronger.<\/p><p>Note: You can only adjust the grinder setting when the grinder is operating.<\/p>"
+          }
+        },
+        "cd6474e8-186d-4559-b400-bb84a307e2df": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The rinsing cycle starts when the machine is switched on. What can I do?",
+            "answer": "<p>The rinsing cycle starts automatically whenever the machine is switched on. You can interrupt the cycle by pressing the water button. However, you cannot deactivate this function.<\/p><p>During the rinsing cycle, coffee residue and leftover water are flushed out of the machine’s pipes, and the coffee spout opening is rinsed. This is crucial, as it ensures that the quality and temperature of your coffee remains consistent every single time.<\/p><p>You can find more information about possible adjustments in the operating instructions under “Adjusting the automatic rinsing cycle”.<\/p>"
+          }
+        },
+        "844d1204-fbb4-4253-9c55-b88769ce7d9f": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The coffee flows slowly out of the spout. What can I do?",
+            "answer": "<p>Adjust the grinder to a coarser setting.<\/p><p>Note: You can only adjust the grinder setting when the grinder is operating.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "96868c89-8189-47e1-9382-3ef93b5b856e",
+        "7fba2131-4cdf-4569-a913-6b3465ede865",
+        "d1a46599-d7a8-4187-a66f-142d1434fd7c",
+        "914013dd-9ab9-4510-96d5-501f62b8bc7c",
+        "cd6474e8-186d-4559-b400-bb84a307e2df",
+        "844d1204-fbb4-4253-9c55-b88769ce7d9f"
+      ],
+      "settings": {
+        "title": "Maintenance & Repair"
       }
     }
   },
@@ -114,6 +294,8 @@
     "main",
     "e819fac7-094d-4105-83b0-d148377c5e49",
     "3f2d8d9b-94de-4562-8aea-0b2b897d009c",
-    "ba017ae5-d658-430f-9558-dbe77caef390"
+    "ba017ae5-d658-430f-9558-dbe77caef390",
+    "26ee4c9d-e8bb-420e-8a3a-3c9b0aa418c3",
+    "9f0d4a36-214a-422f-af99-7c14188af21c"
   ]
 }
