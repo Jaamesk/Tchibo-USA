@@ -2,11 +2,83 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "e819fac7-094d-4105-83b0-d148377c5e49": {
+      "type": "section-faq",
+      "settings": {
+        "title": "Service & Help",
+        "header-body": "",
+        "use_search": true,
+        "button_link": "",
+        "button_text": "",
+        "button_secondary": false
+      }
+    },
+    "3f2d8d9b-94de-4562-8aea-0b2b897d009c": {
+      "type": "section-faq-item",
+      "blocks": {
+        "3507af62-4536-4d4a-b6ab-01e1880280e2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you charge for Shipping?",
+            "answer": "<p>Shipping on all domestic orders above $50 is free. For orders under $5, we charge standard UPS and USPS shipping rates. <\/p><p>You can calculate your shipping costs using the shipping estimator on our cart page. <\/p>"
+          }
+        },
+        "f740d946-03f5-4bf3-bfd3-3f3393c7d524": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I change or cancel my order?",
+            "answer": "<p>You can change or cancel your order on your customer account page. Log in using the account button at the top of the page.<\/p>"
+          }
+        },
+        "2ef687e3-4121-4bff-b750-f86d5006878d": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I get spare parts for my coffee machine",
+            "answer": "<p>We offer several spare parts for purchase in our store. Check our Machine Parts collection or use the search to find the spare part you need.<\/p>"
+          }
+        },
+        "e8cb96fc-49d6-43f5-995c-c2e91c034099": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I track my order",
+            "answer": "<p>You can view your order status on your account page. Log in using the account icon at the top of the page or use the 'Track Orders' button in the site footer.<\/p>"
+          }
+        },
+        "485c9565-f0fb-407e-a155-ab1d70acbe7f": {
+          "type": "faq_item",
+          "settings": {
+            "question": "",
+            "answer": ""
+          }
+        },
+        "04ffe74b-d50b-43c7-985d-3ed2863ead2b": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Which payment options do you offer?",
+            "answer": "<p>You can checkout with all major credit cards. Additionally, you can check out using Paypal or Amazon Pay.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3507af62-4536-4d4a-b6ab-01e1880280e2",
+        "f740d946-03f5-4bf3-bfd3-3f3393c7d524",
+        "2ef687e3-4121-4bff-b750-f86d5006878d",
+        "e8cb96fc-49d6-43f5-995c-c2e91c034099",
+        "485c9565-f0fb-407e-a155-ab1d70acbe7f",
+        "04ffe74b-d50b-43c7-985d-3ed2863ead2b"
+      ],
+      "settings": {
+        "title": "Purchases & Orders"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "e819fac7-094d-4105-83b0-d148377c5e49",
+    "3f2d8d9b-94de-4562-8aea-0b2b897d009c"
   ]
 }
