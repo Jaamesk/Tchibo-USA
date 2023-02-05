@@ -492,6 +492,59 @@
       "settings": {
         "title": "Delivery & Returns"
       }
+    },
+    "33336c9a-7cef-4b3f-bc94-7fd7faf137c0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Your customer account",
+            "font-style": "tp-handwritten"
+          }
+        },
+        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Order tracking, addresses, etc.",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Information about the delivery status of your order, invoices as well as your personal data is available in your online customer account.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "2d82db57-ad07-4c73-9ba0-5125b8cf345e": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Log in here",
+            "url": "https:\/\/tchibo.us\/account\/login",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-0",
+        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-1",
+        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-2",
+        "2d82db57-ad07-4c73-9ba0-5125b8cf345e"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -502,6 +555,7 @@
     "26ee4c9d-e8bb-420e-8a3a-3c9b0aa418c3",
     "9f0d4a36-214a-422f-af99-7c14188af21c",
     "3f2d8d9b-94de-4562-8aea-0b2b897d009c",
-    "ba017ae5-d658-430f-9558-dbe77caef390"
+    "ba017ae5-d658-430f-9558-dbe77caef390",
+    "33336c9a-7cef-4b3f-bc94-7fd7faf137c0"
   ]
 }
