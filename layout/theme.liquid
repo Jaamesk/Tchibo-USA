@@ -115,8 +115,10 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       {{ content_for_layout }}
 
       {%- if request.page_type != 'password' -%}
+        {% if template == product or index  %}
         {%- section 'static-newsletter' -%}
         {%- section 'static-text-with-icons' -%}
+          {% endif %}
       {%- endif -%}
     </main>
 
