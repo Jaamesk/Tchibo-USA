@@ -2,7 +2,7 @@
 <div class="section">
     <div class="flex-col-lg-row">
         {%- if section.settings.title != blank -%}
-            <h1 class="tp-display-5">{{ section.settings.title | escape }}</h1>
+            <h1 class="tp-display-3">{{ section.settings.title | escape }}</h1>
         {%- endif -%}
         {%- if section.settings.button_link != blank and section.settings.button_text != blank -%}
             <a href="{{ section.settings.button_link }}" class="button{% if section.settings.button_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ section.settings.button_text }}</a>
@@ -18,7 +18,7 @@
             id="page-search"
             type="search"
             value=""
-            placeholder="Enter Question/Keyword here"
+            placeholder="Enter your Question/Keyword here"
             >
         </div>
     </div>
