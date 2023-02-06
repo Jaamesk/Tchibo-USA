@@ -159,9 +159,6 @@
     }
 }
 @media screen and (min-width: 1000px) {
-    .search-bar {
-        max-width: 500px;
-    }
     .flex-col-lg-row {
         flex-direction: row;
         align-items: center;
