@@ -6,11 +6,68 @@
       "settings": {
       }
     },
+    "d774f4a3-e303-47bd-8f05-4fe411fc313c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15648661995726__d774f4a3-e303-47bd-8f05-4fe411fc313c-16756890764b4d5d75-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Customer Support & Help Database",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15648661995726__d774f4a3-e303-47bd-8f05-4fe411fc313c-16756890764b4d5d75-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Service & Help",
+            "heading_tag": "tp-display-5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15648661995726__d774f4a3-e303-47bd-8f05-4fe411fc313c-16756890764b4d5d75-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do you have questions about our machine or coffees? Or do you need help with your order? We are happy to assist you as best we can. Type your question or keyword in the box below to search our help database. If you can't find your question or you still need help, use the live chat or the contact methods below to get in touch with our customer service team.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "58afd734-f3c8-4265-951f-b962b64aa5b8": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "333f63ce-4c63-4fdf-9bdd-00e38d71da9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/usa-callcenter-guy.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15648661995726__d774f4a3-e303-47bd-8f05-4fe411fc313c-16756890764b4d5d75-0",
+        "template--15648661995726__d774f4a3-e303-47bd-8f05-4fe411fc313c-16756890764b4d5d75-1",
+        "template--15648661995726__d774f4a3-e303-47bd-8f05-4fe411fc313c-16756890764b4d5d75-2",
+        "58afd734-f3c8-4265-951f-b962b64aa5b8",
+        "333f63ce-4c63-4fdf-9bdd-00e38d71da9b"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "e819fac7-094d-4105-83b0-d148377c5e49": {
       "type": "section-faq",
       "settings": {
-        "title": "Service & Help",
-        "header-body": "<p>Do you have questions about our machine or coffees? Or do you need help with your order? We are happy to assist you as best we can. Type your question or keyword in the box below to search our help database. If you can't find your question or you still need help, use the live chat or the contact methods below to get in touch with our customer service team.<\/p>",
+        "title": "",
+        "header-body": "",
         "use_search": true,
         "button_link": "",
         "button_text": "",
@@ -541,6 +598,7 @@
   },
   "order": [
     "main",
+    "d774f4a3-e303-47bd-8f05-4fe411fc313c",
     "e819fac7-094d-4105-83b0-d148377c5e49",
     "f92ea182-5697-4678-aa5f-bbcfc6d07328",
     "c0d76a0a-7080-44c0-ba0e-46e1e55ab7ed",
