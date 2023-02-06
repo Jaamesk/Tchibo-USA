@@ -493,87 +493,46 @@
         "title": "Delivery & Returns"
       }
     },
-    "33336c9a-7cef-4b3f-bc94-7fd7faf137c0": {
-      "type": "rich-text",
+    "8cd72eac-6998-4522-9de4-e05288f2715f": {
+      "type": "multi-column",
       "blocks": {
-        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-0": {
-          "type": "subheading",
+        "template--15648661995726__8cd72eac-6998-4522-9de4-e05288f2715f-167568882841568da1-1": {
+          "type": "item",
           "settings": {
-            "text": "Your customer account",
-            "font-style": "tp-handwritten"
-          }
-        },
-        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Order tracking, addresses, etc.",
+            "column_size": "2",
+            "title": "Contact our support team",
             "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Information about the delivery status of your order, invoices as well as your personal data is available in your online customer account.<\/p>",
-            "font-style": "tp-body"
-          }
-        },
-        "2d82db57-ad07-4c73-9ba0-5125b8cf345e": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Log in here",
-            "url": "https:\/\/tchibo.us\/account\/login",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-0",
-        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-1",
-        "template--15648661995726__33336c9a-7cef-4b3f-bc94-7fd7faf137c0-1675611232afa2ef97-2",
-        "2d82db57-ad07-4c73-9ba0-5125b8cf345e"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "abc88fea-9e9d-477d-98be-93b9f3d101ae": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15648661995726__abc88fea-9e9d-477d-98be-93b9f3d101ae-1675611232afa2ef97-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Contact our support team",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15648661995726__abc88fea-9e9d-477d-98be-93b9f3d101ae-1675611232afa2ef97-2": {
-          "type": "richtext",
-          "settings": {
             "content": "<p>If you still need help after searching our database, call us at <a href=\"tel:+1-888-824-4261\" target=\"_blank\">1-888-824-4261<\/a> between 08:30 AM - 4:00 PM CST or write an email to <a href=\"mailto:info@tchibo.us\" target=\"_blank\">info@tchibo.us<\/a>.<\/p>",
-            "font-style": "tp-body"
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15648661995726__8cd72eac-6998-4522-9de4-e05288f2715f-167568882841568da1-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Order tracking, addresses, etc.",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Information about the delivery status of your order, invoices as well as your personal data is available in your online customer account.<\/p>",
+            "link_url": "https:\/\/tchibo.us\/account\/login",
+            "link_text": "Log in here",
+            "link_style": "button"
           }
         }
       },
       "block_order": [
-        "template--15648661995726__abc88fea-9e9d-477d-98be-93b9f3d101ae-1675611232afa2ef97-1",
-        "template--15648661995726__abc88fea-9e9d-477d-98be-93b9f3d101ae-1675611232afa2ef97-2"
+        "template--15648661995726__8cd72eac-6998-4522-9de4-e05288f2715f-167568882841568da1-1",
+        "template--15648661995726__8cd72eac-6998-4522-9de4-e05288f2715f-167568882841568da1-2"
       ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
+        "stack_on_mobile": true,
+        "gap": "large",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -589,7 +548,6 @@
     "9f0d4a36-214a-422f-af99-7c14188af21c",
     "3f2d8d9b-94de-4562-8aea-0b2b897d009c",
     "ba017ae5-d658-430f-9558-dbe77caef390",
-    "33336c9a-7cef-4b3f-bc94-7fd7faf137c0",
-    "abc88fea-9e9d-477d-98be-93b9f3d101ae"
+    "8cd72eac-6998-4522-9de4-e05288f2715f"
   ]
 }
