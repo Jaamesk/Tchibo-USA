@@ -7812,6 +7812,7 @@ split-lines {
 .rich-text .prose, .split-rich-text .prose {
   align-items: start;
   display: grid;
+  align-content: center;
 }
 
 .rich-text .image-icon {
