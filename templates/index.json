@@ -82,18 +82,6 @@
         "background_gradient": ""
       }
     },
-    "747c48b0-3d9e-4a1d-bae2-d5d41f608538": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p class=\"tp-display-3\" style=\"text-align:center;padding:15px 0;\">As mentioned in<\/p>\n<div class=\"press-mentions\">\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/1280px-BuzzFeed_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-stir_2_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-bloomberg_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-tea-coffee_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Forbes_logo_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<\/div>\n\n<style>\n.press-mentions {\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\npadding: 30px 20px;\n}\n.mention {\npadding: 0 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.press-mentions {\n}\n.mention {\npadding: 0 5px;\n}\n}\n<\/style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "5f003099-ae5f-4c2a-a026-326fff501455": {
       "type": "rich-text",
       "blocks": {
@@ -219,134 +207,50 @@
       ],
       "settings": {
         "full_width": true,
-        "reduce_width": true,
+        "reduce_width": false,
         "desktop_row_height": 350,
         "mobile_row_height": 150,
         "background": "#f9f9f9",
         "background_gradient": ""
       }
     },
-    "5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15631460925646__5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c-1673602262ba83b691-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "COFFEE MACHINE",
-            "font-style": "tp-overline-secondary"
-          }
-        },
-        "template--15631460925646__5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c-1673602262ba83b691-1": {
-          "type": "heading",
-          "settings": {
-            "text": "The Tchibo",
-            "heading_tag": "tp-display-4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15631460925646__5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c-1673602262ba83b691-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Meet the <strong>German-engineered machine <\/strong>that grinds AND brews your <strong>coffee <\/strong>and <strong>espresso <\/strong>in one seamless step.<\/p>",
-            "font-style": "tp-body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c-1673602262ba83b691-0",
-        "template--15631460925646__5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c-1673602262ba83b691-1",
-        "template--15631460925646__5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c-1673602262ba83b691-2"
-      ],
+    "747c48b0-3d9e-4a1d-bae2-d5d41f608538": {
+      "type": "custom-liquid",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p class=\"tp-display-3\" style=\"text-align:center;padding:15px 0;\">As mentioned in<\/p>\n<div class=\"press-mentions\">\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/1280px-BuzzFeed_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-stir_2_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-bloomberg_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-tea-coffee_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Forbes_logo_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<\/div>\n\n<style>\n.press-mentions {\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\npadding: 30px 20px;\n}\n.mention {\npadding: 0 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.press-mentions {\n}\n.mention {\npadding: 0 5px;\n}\n}\n<\/style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "f4caa4f2-fc52-48c0-9020-89bdce4a0783": {
-      "type": "hot-spots",
-      "blocks": {
-        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-0": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 50,
-            "vertical_position": 37,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "LED Touch Panel",
-            "content": "<p>Elegant, intuitive LED panel with touchscreen operation. Boost Button to increase coffee intensity.<\/p>"
-          }
-        },
-        "b45a5608-7c31-4225-bbc6-66d5ab5c62b2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 46,
-            "vertical_position": 69,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Adjustable Coffee Dispenser",
-            "content": "<p>Adjustable coffee dispenser and removable drip tray for larger mugs.<\/p>"
-          }
-        },
-        "164413cf-7235-4431-b55d-5311badba577": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 37,
-            "vertical_position": 51,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Hassle-free Cleaning",
-            "content": "<p>Easy Automatic descaling function. A cleaner machine makes for better tasting coffee. Removable brewing unit for easy cleaning.<\/p>"
-          }
-        },
-        "65297869-7aef-4a39-ad1b-9d58952b3245": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 34,
-            "vertical_position": 34,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "German-engineered Coffee Grinder",
-            "content": "<p>Low-noise stainless steel coffee grinder. Adjustable grinding degree setting. Coffee hopper with aroma protect sealing, adjustable from 5 to 10 ounces.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-0",
-        "b45a5608-7c31-4225-bbc6-66d5ab5c62b2",
-        "164413cf-7235-4431-b55d-5311badba577",
-        "65297869-7aef-4a39-ad1b-9d58952b3245"
-      ],
+    "f30422d2-c025-465b-9c1d-1940944ceb12": {
+      "type": "featured-collection",
       "settings": {
+        "collection": "all-coffee",
+        "products": [
+
+        ],
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
-        "title": "Upgrade your coffee experience with The Tchibo",
-        "heading_tag": "tp-display-3-nocolor",
-        "content": "<p>Our iconic single-serve coffee machine with a European twist<\/p>",
-        "button_text": "SHOP NOW",
-        "button_url": "shopify:\/\/products\/the-tchibo",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "#f5ede5",
-        "image_background_gradient": "",
-        "overlay_color": "#21292f",
-        "overlay_opacity": 30,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "#e0bf78",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#e0bf78",
-        "hot_spot_dot_text_color": "#21292f",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#21292f",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Our Coffees",
+        "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you.<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "87dd6f90-4510-478e-a9ee-7500266a1db6": {
@@ -370,33 +274,6 @@
         "link_url": "",
         "link_text": "",
         "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "f30422d2-c025-465b-9c1d-1940944ceb12": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all-coffee",
-        "products": [
-
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 3,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -486,19 +363,101 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "f4caa4f2-fc52-48c0-9020-89bdce4a0783": {
+      "type": "hot-spots",
+      "disabled": true,
+      "blocks": {
+        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 50,
+            "vertical_position": 37,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "LED Touch Panel",
+            "content": "<p>Elegant, intuitive LED panel with touchscreen operation. Boost Button to increase coffee intensity.<\/p>"
+          }
+        },
+        "b45a5608-7c31-4225-bbc6-66d5ab5c62b2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 46,
+            "vertical_position": 69,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Adjustable Coffee Dispenser",
+            "content": "<p>Adjustable coffee dispenser and removable drip tray for larger mugs.<\/p>"
+          }
+        },
+        "164413cf-7235-4431-b55d-5311badba577": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 37,
+            "vertical_position": 51,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Hassle-free Cleaning",
+            "content": "<p>Easy Automatic descaling function. A cleaner machine makes for better tasting coffee. Removable brewing unit for easy cleaning.<\/p>"
+          }
+        },
+        "65297869-7aef-4a39-ad1b-9d58952b3245": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 34,
+            "vertical_position": 34,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "German-engineered Coffee Grinder",
+            "content": "<p>Low-noise stainless steel coffee grinder. Adjustable grinding degree setting. Coffee hopper with aroma protect sealing, adjustable from 5 to 10 ounces.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-0",
+        "b45a5608-7c31-4225-bbc6-66d5ab5c62b2",
+        "164413cf-7235-4431-b55d-5311badba577",
+        "65297869-7aef-4a39-ad1b-9d58952b3245"
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
+        "title": "Upgrade your coffee experience with The Tchibo",
+        "heading_tag": "tp-display-3-nocolor",
+        "content": "<p>Our iconic single-serve coffee machine with a European twist<\/p>",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify:\/\/products\/the-tchibo",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "#f5ede5",
+        "image_background_gradient": "",
+        "overlay_color": "#21292f",
+        "overlay_opacity": 30,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "#e0bf78",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#e0bf78",
+        "hot_spot_dot_text_color": "#21292f",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#21292f",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
     }
   },
   "order": [
     "09cf7279-2edd-4f61-8e2d-301d0125a91c",
     "5ad88e36-4abe-4076-ac82-e02542d95eff",
-    "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
-    "5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c",
-    "f4caa4f2-fc52-48c0-9020-89bdce4a0783",
-    "87dd6f90-4510-478e-a9ee-7500266a1db6",
+    "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
+    "87dd6f90-4510-478e-a9ee-7500266a1db6",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a",
-    "8947917e-6b6e-4739-b763-fabf1560b46c"
+    "8947917e-6b6e-4739-b763-fabf1560b46c",
+    "f4caa4f2-fc52-48c0-9020-89bdce4a0783"
   ]
 }
