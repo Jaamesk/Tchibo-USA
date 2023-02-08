@@ -1,5 +1,30 @@
 {
   "sections": {
+    "5f003099-ae5f-4c2a-a026-326fff501455": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15631460925646__5f003099-ae5f-4c2a-a026-326fff501455-1675881375ab53f17c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Freshest Coffee. From Europe's #1 Coffee House.",
+            "heading_tag": "tp-display-4",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__5f003099-ae5f-4c2a-a026-326fff501455-1675881375ab53f17c-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#f9f9f9",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "09cf7279-2edd-4f61-8e2d-301d0125a91c": {
       "type": "slideshow",
       "blocks": {
@@ -80,31 +105,6 @@
         "cycle_speed": 6,
         "background": "#f9f9f9",
         "background_gradient": ""
-      }
-    },
-    "5f003099-ae5f-4c2a-a026-326fff501455": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15631460925646__5f003099-ae5f-4c2a-a026-326fff501455-1675881375ab53f17c-1": {
-          "type": "heading",
-          "settings": {
-            "text": "The Freshest Coffee. From Europe's #1 Coffee House.",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__5f003099-ae5f-4c2a-a026-326fff501455-1675881375ab53f17c-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "center",
-        "background": "#f9f9f9",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "media-grid": {
@@ -214,18 +214,6 @@
         "background_gradient": ""
       }
     },
-    "747c48b0-3d9e-4a1d-bae2-d5d41f608538": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p class=\"tp-display-3\" style=\"text-align:center;padding:15px 0;\">As mentioned in<\/p>\n<div class=\"press-mentions\">\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/1280px-BuzzFeed_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-stir_2_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-bloomberg_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-tea-coffee_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Forbes_logo_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<\/div>\n\n<style>\n.press-mentions {\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\npadding: 30px 20px;\n}\n.mention {\npadding: 0 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.press-mentions {\n}\n.mention {\npadding: 0 5px;\n}\n}\n<\/style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "f30422d2-c025-465b-9c1d-1940944ceb12": {
       "type": "featured-collection",
       "settings": {
@@ -280,6 +268,18 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "747c48b0-3d9e-4a1d-bae2-d5d41f608538": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p class=\"tp-display-3\" style=\"text-align:center;padding:15px 0;\">As mentioned in<\/p>\n<div class=\"press-mentions\">\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/1280px-BuzzFeed_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-stir_2_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-bloomberg_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-tea-coffee_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Forbes_logo_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<\/div>\n\n<style>\n.press-mentions {\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\npadding: 30px 20px;\n}\n.mention {\npadding: 0 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.press-mentions {\n}\n.mention {\npadding: 0 5px;\n}\n}\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a": {
@@ -449,13 +449,13 @@
     }
   },
   "order": [
+    "5f003099-ae5f-4c2a-a026-326fff501455",
     "09cf7279-2edd-4f61-8e2d-301d0125a91c",
     "5ad88e36-4abe-4076-ac82-e02542d95eff",
-    "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
-    "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
+    "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a",
     "8947917e-6b6e-4739-b763-fabf1560b46c",
     "f4caa4f2-fc52-48c0-9020-89bdce4a0783"
