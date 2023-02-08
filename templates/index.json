@@ -1,19 +1,138 @@
 {
   "sections": {
+    "09cf7279-2edd-4f61-8e2d-301d0125a91c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15631460925646__09cf7279-2edd-4f61-8e2d-301d0125a91c-1675881535d0a41907-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vollautomaten_farbrange.jpg",
+            "content_max_width": 600,
+            "mobile_text_position": "place-self-start text-start",
+            "desktop_text_position": "sm:place-self-start sm:text-start",
+            "subheading": "Our iconic single-serve coffee machine",
+            "subheading-style": "tp-overline-secondary",
+            "title": "Upgrade your coffee experience with the Tchibo",
+            "heading_tag": "tp-display-4-nocolor",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/shop-coffee-machine",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__09cf7279-2edd-4f61-8e2d-301d0125a91c-1675881535d0a41907-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f9f9f9",
+        "background_gradient": ""
+      }
+    },
+    "5ad88e36-4abe-4076-ac82-e02542d95eff": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15631460925646__5ad88e36-4abe-4076-ac82-e02542d95eff-1675881535d0a41907-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee_barista_Edition.png",
+            "content_max_width": 600,
+            "mobile_text_position": "place-self-start text-start",
+            "desktop_text_position": "sm:place-self-start sm:text-start",
+            "subheading": "Fresh Sustainable coffee",
+            "subheading-style": "tp-overline-secondary",
+            "title": "Discover our best-selling Barista Coffees",
+            "heading_tag": "tp-display-4-nocolor",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__5ad88e36-4abe-4076-ac82-e02542d95eff-1675881535d0a41907-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f9f9f9",
+        "background_gradient": ""
+      }
+    },
+    "747c48b0-3d9e-4a1d-bae2-d5d41f608538": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p class=\"tp-display-3\" style=\"text-align:center;padding:15px 0;\">As mentioned in<\/p>\n<div class=\"press-mentions\">\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/1280px-BuzzFeed_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-stir_2_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-bloomberg_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-tea-coffee_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Forbes_logo_1.png?v=1673439033\" width=\"120px\" height=\"auto\">\n<\/div>\n<\/div>\n\n<style>\n.press-mentions {\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\npadding: 30px 20px;\n}\n.mention {\npadding: 0 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.press-mentions {\n}\n.mention {\npadding: 0 5px;\n}\n}\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5f003099-ae5f-4c2a-a026-326fff501455": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15631460925646__5f003099-ae5f-4c2a-a026-326fff501455-1675881375ab53f17c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Freshest Coffee. From Europe's #1 Coffee House.",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__5f003099-ae5f-4c2a-a026-326fff501455-1675881375ab53f17c-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#f9f9f9",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Tchibo_Coffee_Machine_308.png",
-            "title": "Bean-to-brew coffee machine",
+            "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
+            "title": "Bean-to-Brew Coffee Machine",
             "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/products\/the-tchibo",
-            "link_text": "Shop Now",
-            "mobile_text_position": "place-self-center text-center",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 2,
-            "desktop_row_span": 2,
+            "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
             "background_gradient": "",
@@ -22,20 +141,20 @@
             "button_background": "#e0bf78",
             "button_text_color": "#21292f",
             "overlay_color": "#21292f",
-            "overlay_opacity": 15
+            "overlay_opacity": 25
           }
         },
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/website_banner_whole_bean_coffee_no_oz1000x500.jpg",
-            "title": "Discover our range of Röst Frisch coffees",
-            "heading_tag": "tp-display-1-nocolor",
+            "image": "shopify:\/\/shop_images\/coffee_barista_Edition.png",
+            "title": "Whole Bean Coffee",
+            "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/collections\/all-coffee",
-            "link_text": "Shop Now",
+            "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 2,
-            "desktop_row_span": 2,
+            "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
             "background_gradient": "",
@@ -44,21 +163,21 @@
             "button_background": "#e0bf78",
             "button_text_color": "#21292f",
             "overlay_color": "#21292f",
-            "overlay_opacity": 40
+            "overlay_opacity": 25
           }
         },
         "31aafb14-ebde-4c48-a8b0-ba38967a8171": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide5.webp",
-            "title": "100% of our coffees are grown on Rainforest Alliance Certified™ Farms",
+            "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VMS-_19_024_praesentationsbild-png.png",
+            "title": "Ground Coffee",
             "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/pages\/sustainability",
-            "link_text": "LEARN MORE ABOUT ETHICAL COFFEE",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 4,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
@@ -66,21 +185,44 @@
             "button_background": "#e0bf78",
             "button_text_color": "#21292f",
             "overlay_color": "#21292f",
-            "overlay_opacity": 55
+            "overlay_opacity": 25
+          }
+        },
+        "7b356d41-5783-4808-83dd-c0cbf69ae87e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/descaler.jpg",
+            "title": "Descaler",
+            "heading_tag": "tp-display-2-nocolor",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
           }
         }
       },
       "block_order": [
         "item-1",
         "item-2",
-        "31aafb14-ebde-4c48-a8b0-ba38967a8171"
+        "31aafb14-ebde-4c48-a8b0-ba38967a8171",
+        "7b356d41-5783-4808-83dd-c0cbf69ae87e"
       ],
       "settings": {
         "full_width": true,
-        "reduce_width": false,
+        "reduce_width": true,
         "desktop_row_height": 350,
         "mobile_row_height": 150,
-        "background": "",
+        "background": "#f9f9f9",
         "background_gradient": ""
       }
     },
@@ -319,6 +461,7 @@
     },
     "8947917e-6b6e-4739-b763-fabf1560b46c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "special-offers",
         "products": [
@@ -346,6 +489,10 @@
     }
   },
   "order": [
+    "09cf7279-2edd-4f61-8e2d-301d0125a91c",
+    "5ad88e36-4abe-4076-ac82-e02542d95eff",
+    "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
+    "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
     "5e1deebb-f17e-4c6b-a1d1-eac3ee956a8c",
     "f4caa4f2-fc52-48c0-9020-89bdce4a0783",
