@@ -6,8 +6,8 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
-            "title": "German engineering meets coffee. Introducing our bean-to-brew machine.",
+            "image": "shopify:\/\/shop_images\/The_Tchibo_Coffee_Machine_308.png",
+            "title": "Bean-to-brew coffee machine",
             "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/products\/the-tchibo",
             "link_text": "Shop Now",
@@ -22,7 +22,7 @@
             "button_background": "#e0bf78",
             "button_text_color": "#21292f",
             "overlay_color": "#21292f",
-            "overlay_opacity": 40
+            "overlay_opacity": 15
           }
         },
         "item-2": {
@@ -33,9 +33,9 @@
             "heading_tag": "tp-display-1-nocolor",
             "link_url": "shopify:\/\/collections\/all-coffee",
             "link_text": "Shop Now",
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 2,
-            "desktop_row_span": 1,
+            "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
             "background_gradient": "",
@@ -45,30 +45,6 @@
             "button_text_color": "#21292f",
             "overlay_color": "#21292f",
             "overlay_opacity": 40
-          }
-        },
-        "e2825557-fbc1-4420-89de-6b4d09fd79da": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/TchiboIntro.mp4",
-            "external_video_url": "",
-            "show_video_controls": true,
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
           }
         },
         "31aafb14-ebde-4c48-a8b0-ba38967a8171": {
@@ -97,13 +73,12 @@
       "block_order": [
         "item-1",
         "item-2",
-        "e2825557-fbc1-4420-89de-6b4d09fd79da",
         "31aafb14-ebde-4c48-a8b0-ba38967a8171"
       ],
       "settings": {
         "full_width": true,
         "reduce_width": false,
-        "desktop_row_height": 290,
+        "desktop_row_height": 350,
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
