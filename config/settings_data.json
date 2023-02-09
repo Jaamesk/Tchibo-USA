@@ -129,13 +129,15 @@
           "219e1dfb-66ac-4946-bc9a-901c55ab7236": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
-              "image_link_1": "",
+              "menu_item": "COFFEE",
+              "layout": "horizontal_center",
+              "submenu_style": "bold_text",
+              "image_1": "shopify:\/\/shop_images\/Rost_Frisch_Colombia_Origin___Mood_2.png",
+              "image_heading_1": "Ground Coffees",
+              "image_link_1": "shopify:\/\/collections\/ground-coffee",
               "image_text_color_1": "#ffffff",
-              "image_heading_2": "",
+              "image_2": "shopify:\/\/shop_images\/Classic_Blend___Mood_4.png",
+              "image_heading_2": "Whole Bean",
               "image_link_2": "",
               "image_text_color_2": "#ffffff",
               "image_heading_3": "",
@@ -146,7 +148,7 @@
               "product_card_text_color": "",
               "promo_content_layout": "grid",
               "stretch_promo": false,
-              "drawer_link_image": "hide"
+              "drawer_link_image": "show"
             }
           },
           "424da406-5852-4886-bd5d-a058a48011c4": {
@@ -372,7 +374,7 @@
           "content": "<p>Be the <strong>first to know<\/strong> when your favorites are back in stock – sign up for updates!<\/p>",
           "button_text": "SIGN ME UP",
           "subtext": "",
-          "background": "#fff",
+          "background": "#ffffff",
           "background_gradient": "",
           "text_color": "",
           "button_background": "",
