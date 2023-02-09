@@ -154,10 +154,11 @@
           "424da406-5852-4886-bd5d-a058a48011c4": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "",
-              "layout": "horizontal",
-              "submenu_style": "bold_heading",
-              "image_heading_1": "",
+              "menu_item": "MACHINE",
+              "layout": "horizontal_center",
+              "submenu_style": "bold_text",
+              "image_1": "shopify:\/\/shop_images\/The_Tchibo___3.png",
+              "image_heading_1": "Bean-to-Brew Espresso & Coffee Machine",
               "image_link_1": "",
               "image_text_color_1": "#ffffff",
               "image_heading_2": "",
