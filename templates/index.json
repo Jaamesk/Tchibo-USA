@@ -30,19 +30,20 @@
         "f996a600-f7d7-4ec1-ac96-1a0b01eff133": {
           "type": "image",
           "settings": {
-            "media_width": 50,
+            "image": "shopify:\/\/shop_images\/Rost_Frisch_Colombia_Origin___Mood_5.png",
+            "media_width": 45,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
-            "subheading": "",
+            "subheading": "Fresh Sustainable Coffee",
             "font-style": "tp-overline-secondary",
-            "title": "Heading",
-            "heading_tag": "tp-display-5-nocolor",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#f9f9f9",
+            "title": "Discover our best-selling Barista Coffees",
+            "heading_tag": "tp-display-4-nocolor",
+            "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you.<\/p>",
+            "link_text": "Discover our Coffees",
+            "link_url": "shopify:\/\/collections\/all-coffee",
+            "background": "#f5ede5",
             "background_gradient": "",
             "text_color": "#21292f",
             "text_gradient": "",
@@ -59,88 +60,6 @@
         "full_width": true,
         "enable_parallax": true,
         "spacing": "small"
-      }
-    },
-    "09cf7279-2edd-4f61-8e2d-301d0125a91c": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15631460925646__09cf7279-2edd-4f61-8e2d-301d0125a91c-1675881535d0a41907-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vollautomaten_farbrange.jpg",
-            "content_max_width": 600,
-            "mobile_text_position": "place-self-start text-start",
-            "desktop_text_position": "sm:place-self-start sm:text-start",
-            "subheading": "Our iconic single-serve coffee machine",
-            "subheading-style": "tp-overline-secondary",
-            "title": "Upgrade your coffee experience with the Tchibo",
-            "heading_tag": "tp-display-4-nocolor",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/shop-coffee-machine",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__09cf7279-2edd-4f61-8e2d-301d0125a91c-1675881535d0a41907-0"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "image_size": "lg",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f9f9f9",
-        "background_gradient": ""
-      }
-    },
-    "5ad88e36-4abe-4076-ac82-e02542d95eff": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15631460925646__5ad88e36-4abe-4076-ac82-e02542d95eff-1675881535d0a41907-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MRK_AdobeStock_307057359.jpeg_praesentationsbild-png.png",
-            "content_max_width": 600,
-            "mobile_text_position": "place-self-start text-start",
-            "desktop_text_position": "sm:place-self-start sm:text-start",
-            "subheading": "Fresh Sustainable coffee",
-            "subheading-style": "tp-overline-secondary",
-            "title": "Discover our best-selling Barista Coffees",
-            "heading_tag": "tp-display-4-nocolor",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/all-coffee",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__5ad88e36-4abe-4076-ac82-e02542d95eff-1675881535d0a41907-0"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "image_size": "md",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f9f9f9",
-        "background_gradient": ""
       }
     },
     "5f003099-ae5f-4c2a-a026-326fff501455": {
@@ -512,8 +431,6 @@
   },
   "order": [
     "0f22a51e-1b6a-4739-9a28-2211588d89ff",
-    "09cf7279-2edd-4f61-8e2d-301d0125a91c",
-    "5ad88e36-4abe-4076-ac82-e02542d95eff",
     "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
