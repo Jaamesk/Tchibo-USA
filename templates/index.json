@@ -248,16 +248,17 @@
         "products": [
           "the-tchibo",
           "the-tchibo-refurbished",
-          "durgol-descaler-4-2-fluid-ounces-pack-of-2"
+          "french-press-36-oz-mirror-finish",
+          "french-press-17-oz-mirror-finish"
         ],
         "full_width": false,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "",
+        "title": "Coffee Makers",
         "content": "",
         "link_url": "",
         "link_text": "",
