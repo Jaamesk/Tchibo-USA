@@ -1,5 +1,66 @@
 {
   "sections": {
+    "0f22a51e-1b6a-4739-9a28-2211588d89ff": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15631460925646__0f22a51e-1b6a-4739-9a28-2211588d89ff-16759425297f688004-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Tchibo___3.png",
+            "media_width": 45,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Our iconic single-serve coffee machine",
+            "font-style": "tp-overline-secondary",
+            "title": "Upgrade your coffee experience",
+            "heading_tag": "tp-display-4-nocolor",
+            "content": "<p>Meet the <strong>German-engineered machine <\/strong>that grinds AND brews your <strong>coffee<\/strong> and<strong> espresso<\/strong> in one seamless step. What could be fresher than that?<\/p>",
+            "link_text": "Discover The Tchibo",
+            "link_url": "shopify:\/\/products\/the-tchibo",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#21292f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "f996a600-f7d7-4ec1-ac96-1a0b01eff133": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "font-style": "tp-overline-secondary",
+            "title": "Heading",
+            "heading_tag": "tp-display-5-nocolor",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f9f9f9",
+            "background_gradient": "",
+            "text_color": "#21292f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__0f22a51e-1b6a-4739-9a28-2211588d89ff-16759425297f688004-0",
+        "f996a600-f7d7-4ec1-ac96-1a0b01eff133"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
     "09cf7279-2edd-4f61-8e2d-301d0125a91c": {
       "type": "slideshow",
       "blocks": {
@@ -72,7 +133,7 @@
       ],
       "settings": {
         "full_width": false,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "md",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
@@ -450,6 +511,7 @@
     }
   },
   "order": [
+    "0f22a51e-1b6a-4739-9a28-2211588d89ff",
     "09cf7279-2edd-4f61-8e2d-301d0125a91c",
     "5ad88e36-4abe-4076-ac82-e02542d95eff",
     "5f003099-ae5f-4c2a-a026-326fff501455",
