@@ -62,6 +62,63 @@
         "spacing": "small"
       }
     },
+    "f30422d2-c025-465b-9c1d-1940944ceb12": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all-coffee",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 8,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Our Coffees",
+        "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you.<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "87dd6f90-4510-478e-a9ee-7500266a1db6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "the-tchibo",
+          "the-tchibo-refurbished",
+          "french-press-36-oz-mirror-finish",
+          "french-press-17-oz-mirror-finish"
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Coffee Makers",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "5f003099-ae5f-4c2a-a026-326fff501455": {
       "type": "rich-text",
       "blocks": {
@@ -192,63 +249,6 @@
         "mobile_row_height": 150,
         "background": "#f9f9f9",
         "background_gradient": ""
-      }
-    },
-    "f30422d2-c025-465b-9c1d-1940944ceb12": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all-coffee",
-        "products": [
-
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 8,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Our Coffees",
-        "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you.<\/p>",
-        "link_url": "",
-        "link_text": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "87dd6f90-4510-478e-a9ee-7500266a1db6": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "the-tchibo",
-          "the-tchibo-refurbished",
-          "french-press-36-oz-mirror-finish",
-          "french-press-17-oz-mirror-finish"
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Coffee Makers",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538": {
@@ -431,10 +431,10 @@
   },
   "order": [
     "0f22a51e-1b6a-4739-9a28-2211588d89ff",
-    "5f003099-ae5f-4c2a-a026-326fff501455",
-    "media-grid",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
+    "5f003099-ae5f-4c2a-a026-326fff501455",
+    "media-grid",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a",
     "8947917e-6b6e-4739-b763-fabf1560b46c",
