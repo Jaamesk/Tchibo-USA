@@ -68,10 +68,16 @@
         "blocks": {
           "message": {
             "type": "message",
-            "disabled": true,
             "settings": {
-              "text": "Coffee best before December 31",
-              "url": ""
+              "text": "Now in Stock: 3 New Whole Bean Coffees",
+              "url": "shopify:\/\/collections\/whole-bean-coffee"
+            }
+          },
+          "75c12c6c-655c-46a1-baa3-831c609bf032": {
+            "type": "message",
+            "settings": {
+              "text": "Discover the roast that’s right for you",
+              "url": "shopify:\/\/collections\/whole-bean-coffee"
             }
           },
           "edd88732-3ea4-42e0-9ff9-b8dcb8ff167f": {
@@ -97,21 +103,14 @@
               "text": "Announce something here",
               "url": ""
             }
-          },
-          "75c12c6c-655c-46a1-baa3-831c609bf032": {
-            "type": "message",
-            "settings": {
-              "text": "",
-              "url": ""
-            }
           }
         },
         "block_order": [
           "message",
+          "75c12c6c-655c-46a1-baa3-831c609bf032",
           "edd88732-3ea4-42e0-9ff9-b8dcb8ff167f",
           "4d69ecf0-e7d3-4e8c-bf7d-d4c53d6d9118",
-          "5bb9bb96-f701-4940-97a5-a8bea036ae28",
-          "75c12c6c-655c-46a1-baa3-831c609bf032"
+          "5bb9bb96-f701-4940-97a5-a8bea036ae28"
         ],
         "settings": {
           "enable_sticky": false,
