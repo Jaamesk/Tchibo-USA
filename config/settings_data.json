@@ -114,9 +114,9 @@
         ],
         "settings": {
           "enable_sticky": false,
-          "text_size": "text-base",
-          "navigation_mode": "arrows",
-          "scrolling_speed": 10,
+          "text_size": "text-xs",
+          "navigation_mode": "scrolling",
+          "scrolling_speed": 15,
           "background": "#c0a468",
           "background_gradient": "",
           "text_color": "#f8f6f2"
