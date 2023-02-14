@@ -203,7 +203,6 @@
                     {%- endfor -%}
                       {%- for variant in product.variants -%}
                         {%- render 'variant-card', product: variant, parent_product: product, stacked: true, show_badges: true -%}
-                        <p>Title: {{ product.title }} </p>
                       {%- endfor -%}
                   {%- endfor -%}
                 </product-list>
