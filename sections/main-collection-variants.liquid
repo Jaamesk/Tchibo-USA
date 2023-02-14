@@ -201,8 +201,9 @@
                         </a>
                       </div>
                     {%- endfor -%}
-
-                    {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
+                      {%- for variant in product.variants -%}
+                        {%- render 'variant-card', product: variant, stacked: true, show_badges: true -%}
+                      {%- endfor -%}
                   {%- endfor -%}
                 </product-list>
               </reveal-items>
