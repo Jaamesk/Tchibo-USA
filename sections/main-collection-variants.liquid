@@ -202,7 +202,7 @@
                       </div>
                     {%- endfor -%}
                       {%- for variant in product.variants -%}
-                        {%- render 'variant-card', product: variant, stacked: true, show_badges: true -%}
+                        {%- render 'variant-card', product: variant, parent_product: product, stacked: true, show_badges: true -%}
                       {%- endfor -%}
                   {%- endfor -%}
                 </product-list>
