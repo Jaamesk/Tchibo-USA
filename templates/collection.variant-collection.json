@@ -22,7 +22,7 @@
       }
     },
     "main": {
-      "type": "main-collection",
+      "type": "main-collection-variants",
       "settings": {
         "products_per_page": 50,
         "products_per_row_mobile": "1",
