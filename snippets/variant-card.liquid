@@ -147,8 +147,8 @@ Supported variables
     <div class="v-stack gap-0.5 w-full {% if text_alignment == 'center' %}justify-items-center{% endif %}">
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
-          <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
-          {% if product.metafields.coffe_attributes.taste != blank %}
+          <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ product.title }} | {{ parent_product.title }}</a></span>
+          {% if parent_product.metafields.coffe_attributes.taste != blank %}
           <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffe_attributes.taste }}</p>
           {% endif %}
           {%- if text_alignment != 'center' -%}
@@ -157,7 +157,7 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+        <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ product.title }} | {{ parent_product.title }}</a></span>
           {% if parent_product.metafields.coffe_attributes.taste != blank %}
           <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ product.metafields.coffe_attributes.taste }}</p>
           {% endif %}
