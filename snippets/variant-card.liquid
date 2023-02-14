@@ -147,7 +147,8 @@ Supported variables
     <div class="v-stack gap-0.5 w-full {% if text_alignment == 'center' %}justify-items-center{% endif %}">
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
-          <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ product.title }} | {{ parent_product.title }}</a></span>
+          <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ parent_product.title }}</a></span>
+          <p class="tp-body-secondary"><a href="{{ product.url }}">{{ product.title }}</a></p>
           {% if parent_product.metafields.coffe_attributes.taste != blank %}
           <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffe_attributes.taste }}</p>
           {% endif %}
@@ -157,9 +158,10 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ product.title }} | {{ parent_product.title }}</a></span>
+        <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ parent_product.title }}</a></span>
+        <p class="tp-body-secondary"><a href="{{ product.url }}">{{ product.title }}</a></p>
           {% if parent_product.metafields.coffe_attributes.taste != blank %}
-          <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ product.metafields.coffe_attributes.taste }}</p>
+          <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffe_attributes.taste }}</p>
           {% endif %}
       {%- endif -%}
 
@@ -168,16 +170,16 @@ Supported variables
 <p class="tp-body bold attribute-title" style="font-size:14px!important;">Intensity:</p>
 <div class="bohnen-icons">
 <img src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" width="13px" class="bohne">
-<img {% if product.metafields.coffee_attributes.intensity.value >= 2 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
-<img {% if product.metafields.coffee_attributes.intensity.value >= 3 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
-<img {% if product.metafields.coffee_attributes.intensity.value >= 4 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
-<img {% if product.metafields.coffee_attributes.intensity.value >= 5 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
-<img {% if product.metafields.coffee_attributes.intensity.value >= 6 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
+<img {% if parent_product.metafields.coffee_attributes.intensity.value >= 2 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
+<img {% if parent_product.metafields.coffee_attributes.intensity.value >= 3 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
+<img {% if parent_product.metafields.coffee_attributes.intensity.value >= 4 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
+<img {% if parent_product.metafields.coffee_attributes.intensity.value >= 5 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
+<img {% if parent_product.metafields.coffee_attributes.intensity.value >= 6 %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_high.svg?v=1674723060" {% else  %} src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/intensity_low.svg?v=1674723060" {% endif %} width="13px" class="bohne">
 </div>
 </div>
 {% endif %}
 {% if parent_product.metafields.coffee_attributes.roast != blank %}
-          <p class="tp-body bold" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ product.metafields.coffee_attributes.roast }}</p>
+          <p class="tp-body bold" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffee_attributes.roast }}</p>
           {% endif %}
           
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
