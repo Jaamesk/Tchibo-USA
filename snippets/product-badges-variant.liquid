@@ -18,7 +18,7 @@ Supported variables
 {%- endcomment -%}
 
 {%- assign badge_types = types | default: 'custom, sold_out, discount' | split: ',' -%}
-{%- assign variant = product.selected_or_first_available_variant -%}
+{%- assign variant = product -%}
 
 {%- capture badges -%}
   {%- for badge_type in badge_types -%}
