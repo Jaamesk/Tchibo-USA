@@ -55,7 +55,7 @@ Supported variables
   {%- endcomment -%}
 
   {%- if show_badges and product.image != 0 -%}
-    {%- render 'product-badges', product: product, parent_product: parent_product, class: 'product-card__badge-list' -%}
+    {%- render 'product-badges-variant', product: product, parent_product: parent_product, class: 'product-card__badge-list' -%}
   {%- endif -%}
 
   {%- comment -%}
