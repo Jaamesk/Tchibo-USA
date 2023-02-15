@@ -78,6 +78,7 @@
         },
         "4c5a5b34-f290-4fdd-a0f2-e38e805e79bf": {
           "type": "associated_products",
+          "disabled": true,
           "settings": {
             "title": "Get two packs of coffee for free with your refurbished machine",
             "stack_products": true,
