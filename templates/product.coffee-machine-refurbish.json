@@ -124,6 +124,13 @@
           "settings": {
             "collapse_content": false
           }
+        },
+        "b34699c4-8db1-435c-87ce-a38be85c98c1": {
+          "type": "bundle",
+          "settings": {
+            "product1": "barista-espresso-whole-beans",
+            "product2": ""
+          }
         }
       },
       "block_order": [
@@ -143,7 +150,8 @@
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
         "29403830-c28e-45d8-a405-17d8aefec65a",
-        "description"
+        "description",
+        "b34699c4-8db1-435c-87ce-a38be85c98c1"
       ],
       "settings": {
         "full_width": true,
