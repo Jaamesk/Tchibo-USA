@@ -46,13 +46,13 @@ Supported variables
     {%- if show_add_to_cart -%}
       <div class="horizontal-product__cta">
         {%- if product.available -%}
-          {%- capture unique_id -%}{{ section.id }}-{{ block.id }}-{{ product.id }}{%- endcapture -%}
+          {%- capture unique_id -%}{{ section.id }}-{{ block.id }}-{{ parent_product.id }}{%- endcapture -%}
           {%- capture button_content -%}{{ 'product.general.add_to_cart_short' | t }}{%- endcapture -%}
             {%- capture product_form_id -%}complementary-product-{{ unique_id }}{%- endcapture -%}
 
-            {%- form 'product', product, id: product_form_id, is: 'product-form' -%}
+            {%- form 'product', parent_product, id: product_form_id, is: 'product-form' -%}
               <input type="hidden" name="quantity" value="1">
-              <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+              <input type="hidden" name="id" value="{{ parent_product.selected_or_first_available_variant.id }}">
               {%- render 'button', content: button_content, type: 'submit', size: 'sm', subdued: true -%}
             {%- endform -%}
         {%- else -%}
