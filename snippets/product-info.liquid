@@ -258,6 +258,7 @@
         {%- endif -%}
 
       {%- when 'bundle' -%}
+      {{ block.settings.product1.title }}
       {%- render 'horizontal-product', product: block.settings.product1, show_add_to_cart: true -%}
       {%- render 'horizontal-product', product: block.settings.product2, show_add_to_cart: true -%}
 
