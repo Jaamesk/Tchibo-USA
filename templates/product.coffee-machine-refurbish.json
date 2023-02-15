@@ -76,6 +76,16 @@
             "payment_button_text_color": ""
           }
         },
+        "4c5a5b34-f290-4fdd-a0f2-e38e805e79bf": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Get two packs of coffee for free with your refurbished machine",
+            "stack_products": true,
+            "products_count": 2,
+            "background": "",
+            "text_color": ""
+          }
+        },
         "f91bf872-6346-4ab1-af7a-83ccef9dd188": {
           "type": "liquid",
           "settings": {
@@ -127,6 +137,7 @@
         "24e1f974-bdca-42cd-9b19-dfecfe95b460",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "buy_buttons",
+        "4c5a5b34-f290-4fdd-a0f2-e38e805e79bf",
         "f91bf872-6346-4ab1-af7a-83ccef9dd188",
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
