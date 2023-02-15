@@ -258,12 +258,12 @@
         {%- endif -%}
 
       {%- when 'bundle' -%}
-      {% if block.settings.product1 != blank %}
+      {%- if block.settings.product1 != blank -%}
       {%- render 'horizontal-product', product: block.settings.product1.first_available_variant, show_add_to_cart: true -%}
-      {% endif %}
-      {% if block.settings.product2 != blank %}
+      {%- endif -%}
+      {%- if block.settings.product2 != blank -%}
       {%- render 'horizontal-product', product: block.settings.product2.first_available_variant, show_add_to_cart: true -%}
-      {% endif %}
+      {%- endif -%}
         
       {%- when 'associated_products' -%}
         <product-recommendations class="block" product="{{ product.id }}" limit="{{ block.settings.products_count }}" intent="complementary" {{ block.shopify_attributes }}>
