@@ -258,10 +258,15 @@
         {%- endif -%}
 
       {%- when 'bundle' -%}
+      {% if block.settings.product1 != blank %}
       {{ block.settings.product1.title }}
+      <p>Hello</p>
       {%- render 'horizontal-product', product: block.settings.product1, show_add_to_cart: true -%}
+      {% endif %}
+      {% if block.settings.product2 != blank %}
       {%- render 'horizontal-product', product: block.settings.product2, show_add_to_cart: true -%}
-
+      {% endif %}
+        
       {%- when 'associated_products' -%}
         <product-recommendations class="block" product="{{ product.id }}" limit="{{ block.settings.products_count }}" intent="complementary" {{ block.shopify_attributes }}>
           {%- if recommendations.performed and recommendations.products_count > 0 -%}
