@@ -258,8 +258,8 @@
         {%- endif -%}
 
       {%- when 'bundle' -%}
-      {%- render 'horizontal-product', product: block.settings.product1.first_available_variant, show_add_to_cart: true -%}
-      {%- render 'horizontal-product', product: block.settings.product2.first_available_variant, show_add_to_cart: true -%}
+      {%- render 'horizontal-product', product: block.settings.product1, show_add_to_cart: true -%}
+      {%- render 'horizontal-product', product: block.settings.product2, show_add_to_cart: true -%}
 
       {%- when 'associated_products' -%}
         <product-recommendations class="block" product="{{ product.id }}" limit="{{ block.settings.products_count }}" intent="complementary" {{ block.shopify_attributes }}>
