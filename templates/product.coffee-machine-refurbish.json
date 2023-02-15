@@ -78,7 +78,6 @@
         },
         "b34699c4-8db1-435c-87ce-a38be85c98c1": {
           "type": "bundle",
-          "disabled": true,
           "settings": {
             "product1": "barista-espresso-whole-beans",
             "product2": "milano-style-espresso-whole-beans"
