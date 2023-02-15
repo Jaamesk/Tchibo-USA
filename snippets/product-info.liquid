@@ -258,8 +258,8 @@
         {%- endif -%}
 
       {%- when 'bundle' -%}
-      <p class="tp-display-1">{{ block.settings.bundle_heading }}</p>
-      <p class="tp-body-secondary">Add both products to automatically apply the discount</p>
+      <p class="tp-display-1" style="margin:0px!important">{{ block.settings.bundle_heading }}</p>
+      <p class="tp-body-secondary" style="margin:0px!important">Add both products to automatically apply the discount</p>
       {%- if block.settings.product1 != blank -%}
       {%- render 'horizontal-product-bundle', product: block.settings.product1.first_available_variant, parent_product: block.settings.product1, show_add_to_cart: true -%}
       {%- endif -%}
