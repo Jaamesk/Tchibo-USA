@@ -33,14 +33,6 @@ Supported variables
           <span>{{ product.title }}</span>
         </a>
       {%- endif -%}
-
-      <p class="text-sm text-subdued">
-        {%- if settings.currency_code_enabled -%}
-          {{- product.price | money_with_currency -}}
-        {%- else -%}
-          {{- product.price | money -}}
-        {%- endif -%}
-      </p>
     </div>
 
     {%- if show_add_to_cart -%}
