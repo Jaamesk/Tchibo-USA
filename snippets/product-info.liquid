@@ -280,6 +280,7 @@
 
               {%- capture horizontal_products -%}
                 {%- for associated_product in recommendations.products -%}
+                  {{ associated_product }}
                   {%- render 'horizontal-product', product: associated_product, show_add_to_cart: true, background: block.settings.background, text_color: block.settings.text_color -%}
                 {%- endfor -%}
               {%- endcapture -%}
