@@ -99,4 +99,10 @@ text-transform: uppercase;
   .offer-banner {
     flex-direction: column-reverse;
   }
+  #offer-img {
+    width: auto;
+  }
+  #offer-text {
+    margin: 0;
+  }
 }
