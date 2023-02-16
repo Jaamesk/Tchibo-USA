@@ -71,21 +71,22 @@
             BUNDLE OFFER BANNER
             {%- endcomment -%}
             {% assign showBanner = false %}
-            {% for item in cart.items %}
-              {% if item.product_id == 7048251179214 %}
-                {% assign showBanner = true %}
-              {% endif %}
-               {%- comment -%}
-                PRODUCT 1
-              {%- endcomment -%}
-            {% endfor %}
-            {% if showBanner == true %}
+            {% assign cartItemIds = cart.items | map: "id" %}
+            {% assign hasFreeItems = false %}
+            {% if cartItemIds contains 41762866921678 and cartItemIds contains 41765470175438 %}
+              {% assign hasFreeItems = true %}
+            {% endif %}
+            {% if cartItemIds contains 7048251179214 %}
+              {% assign showBanner = true %}
+            {% endif %}
+            
+            {% if showBanner == true and hasFreeItems == false %}
               <div class="offer-banner">
                 <img id="offer-img" src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/Refurbished-Banner-Cart.png?v=1676559745">
                 <div id="offer-text">
                 <p class="tp-display-1"><span style="color:#EA5153">Before you check out:</span> Claim your TWO free whole bean coffees.</p>
                 <p class="tp-body-secondary">Your order qualifies you to claim an exclusive gift. Get two of our most iconic coffees for free with your refurbished machine</p>
-                <button id="addFreeBtn">Claim Now!</button>
+                <button id="addFreeBtn" class="button button--l button--secondary">Claim Now</button>
                 </div>
               </div>
               <noscript id="cartItems">
@@ -127,7 +128,6 @@
                   }
 
                   document.getElementById('addFreeBtn').addEventListener('click', () => {
-                      console.log('clicked')
                     addFreeProducts()
                   })
                 })
