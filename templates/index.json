@@ -1,12 +1,82 @@
 {
   "sections": {
+    "6f5a2534-05c3-49b1-88d6-71134b8a221c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "LIMITED TIME OFFER",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Get free Coffee with every purchase of a Refurbished Machine",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Meet the <strong>German-engineered machine <\/strong>that grinds AND brews your <strong>coffee<\/strong> and<strong> espresso<\/strong> in one seamless step. What could be fresher than that?<\/p><p><strong>And for a limited time only: Get two free packs of fresh, whole bean coffee with your purchase.<\/strong><\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "443fab52-e42c-4b99-a28b-4d3706f49b58": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Claim your free coffee",
+            "url": "shopify:\/\/products\/the-tchibo-refurbished",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "4c4bad42-d643-4a10-8a54-9c0238eb7b37": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "f855c339-86e7-482d-b726-96d267af1e4c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Refurbished-Banner-Cart.png",
+            "width_mode": "full_width",
+            "max_width": 700,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-0",
+        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-1",
+        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-2",
+        "443fab52-e42c-4b99-a28b-4d3706f49b58",
+        "4c4bad42-d643-4a10-8a54-9c0238eb7b37",
+        "f855c339-86e7-482d-b726-96d267af1e4c"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "0f22a51e-1b6a-4739-9a28-2211588d89ff": {
       "type": "media-with-text",
       "blocks": {
         "template--15631460925646__0f22a51e-1b6a-4739-9a28-2211588d89ff-16759425297f688004-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Moodwholebean_4_76809ed9-b250-4207-b1b2-01fe823eebe6.jpg",
+            "image": "shopify:\/\/shop_images\/Refurbished-Banner-Cart.png",
             "media_width": 45,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -430,6 +500,7 @@
     }
   },
   "order": [
+    "6f5a2534-05c3-49b1-88d6-71134b8a221c",
     "0f22a51e-1b6a-4739-9a28-2211588d89ff",
     "f30422d2-c025-465b-9c1d-1940944ceb12",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
