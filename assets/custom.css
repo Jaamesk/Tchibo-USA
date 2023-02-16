@@ -104,5 +104,6 @@ text-transform: uppercase;
   }
   #offer-text {
     margin: 0;
+    padding-bottom: 20px;
   }
 }
