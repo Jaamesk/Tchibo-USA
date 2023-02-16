@@ -92,6 +92,9 @@
               <noscript id="cartItems">
                 {{ cart.items | json }}
               </noscript>
+              <noscript>
+                {{ cartItemIds | json }}
+              </noscript>
               <script>
                 document.addEventListener('DOMContentLoaded', () => {
                   const cartItems = JSON.parse(document.getElementById('cartItems').innerText);
