@@ -70,17 +70,61 @@
             {%- comment -%}
             BUNDLE OFFER BANNER
             {%- endcomment -%}
+            {% assign showBanner = false %}
             {% for item in cart.items %}
-            {% if item.product_id == 7048251179214 %}
-            <div class="offer-banner">
-              <img id="offer-img" src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/Refurbished-Banner-Cart.png?v=1676559745">
-              <div id="offer-text">
-              <p class="tp-display-1"><span style="color:#EA5153">Before you check out:</span> Claim your TWO free whole bean coffees.</p>
-              <p class="tp-body-secondary">Your order qualifies you to claim an exclusive gift. Get two of our most iconic coffees for free with your refurbished machine</p>
-              </div>
-            </div>
-            {% endif %}
+              {% if item.product_id == 7048251179214 %}
+                {% assign showBanner = true %}
+              {% endif %}
+               {%- comment -%}
+                PRODUCT 1
+              {%- endcomment -%}
             {% endfor %}
+            {% if showBanner == true %}
+              <div class="offer-banner">
+                <img id="offer-img" src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/Refurbished-Banner-Cart.png?v=1676559745">
+                <div id="offer-text">
+                <p class="tp-display-1"><span style="color:#EA5153">Before you check out:</span> Claim your TWO free whole bean coffees.</p>
+                <p class="tp-body-secondary">Your order qualifies you to claim an exclusive gift. Get two of our most iconic coffees for free with your refurbished machine</p>
+                <button onClick="">Claim Now!</button>
+                </div>
+              </div>
+              <noscript id="cartItems">
+                {{ cart.items | json }}
+              </noscript>
+              <script>
+                document.addEventListener('DOMContentLoaded', () => 
+                  const cartItems = document.getElementById('cartItems').innerText;
+                  console.log(cartItems)
+                  addFreeProducts() {
+                      let prodcutOne = {
+                              'id': 41762866921678, 
+                              'quantity': 1,
+                            };
+                      let prodcutTwo = {
+                              'id': 41765470175438, 
+                              'quantity': 1,
+                            };
+                      let data = {
+                          'items': [];
+                        };
+    
+                    data.items.push()
+                
+                        fetch(window.Shopify.routes.root + 'cart/add.js', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(data)
+                        }).then(response => {
+                            return response.json();
+                        }).catch((error) => {
+                            console.error('Error:', error);
+                        });
+                  }
+                })
+              </script>  
+            {% endif %}
             {%- comment -%}
             ----------------------------------------------------------------------------------------------------------------
             SHIPPING ESTIMATOR
