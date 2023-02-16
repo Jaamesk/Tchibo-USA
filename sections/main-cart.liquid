@@ -89,12 +89,12 @@
                 <button id="addFreeBtn" style="margin-top: 6px;" class="button button--l button--secondary">Claim Now</button>
                 </div>
               </div>
-              <noscript>
+              <noscript id="cartItemIds">
                 {{ cartItemIds | json }}
               </noscript>
               <script>
                 document.addEventListener('DOMContentLoaded', () => {
-                  const cartItemIds = JSON.parse(document.getElementById('cartItems').innerText);
+                  const cartItemIds = JSON.parse(document.getElementById('cartItemIds').innerText);
                   function addFreeProducts() {
                       const productIds = [41762866921678, 41765470175438]
                       
