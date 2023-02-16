@@ -92,7 +92,7 @@
                 {{ cart.items | json }}
               </noscript>
               <script>
-                document.addEventListener('DOMContentLoaded', () => 
+                document.addEventListener('DOMContentLoaded', () => {
                   const cartItems = document.getElementById('cartItems').innerText;
                   console.log(cartItems)
                   addFreeProducts() {
