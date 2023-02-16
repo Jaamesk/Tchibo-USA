@@ -73,10 +73,10 @@
             {% assign showBanner = false %}
             {% assign cartItemIds = cart.items | map: "product_id" %}
             {% assign hasFreeItems = false %}
-            {% if cartItemIds contains '41762866921678' and cartItemIds contains '41765470175438' %}
+            {% if cartItemIds contains 41762866921678 and cartItemIds contains 41765470175438 %}
               {% assign hasFreeItems = true %}
             {% endif %}
-            {% if cartItemIds contains '7048251179214' %}
+            {% if cartItemIds contains 7048251179214 %}
               {% assign showBanner = true %}
             {% endif %}
             <noscript>
