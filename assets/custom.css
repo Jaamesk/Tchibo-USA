@@ -86,3 +86,7 @@ text-transform: uppercase;
   display: flex;
   align-items: center;
 }
+
+.offer-text {
+margin-left:20px;
+}
