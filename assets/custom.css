@@ -81,6 +81,10 @@ text-transform: uppercase;
 
 .spr-stars[aria-label="0 out of 5 stars"], .spr-stars[aria-label="0 out of 5 stars"] + .spr-stars {display: none;}
 
+.offer-text {
+  margin-left: 20px;
+}
+
 .offer-banner {
   margin: 20px 0;
   display: flex;
@@ -89,8 +93,4 @@ text-transform: uppercase;
 
 #offer-img {
   width: 350px;
-}
-
-.offer-text {
-  margin-left:20px;
 }
