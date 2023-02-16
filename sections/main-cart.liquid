@@ -94,33 +94,36 @@
               <script>
                 document.addEventListener('DOMContentLoaded', () => {
                   const cartItems = document.getElementById('cartItems').innerText;
-                  console.log(cartItems)
+                  const cartItemIds = cartItems.map(x => x.id);
                   function addFreeProducts() {
-                      let prodcutOne = {
-                              'id': 41762866921678, 
-                              'quantity': 1,
-                            };
-                      let prodcutTwo = {
-                              'id': 41765470175438, 
-                              'quantity': 1,
-                            };
+                      const productIds = [41762866921678, 41765470175438]
+                      
                       let data = {
                           'items': []
                         };
-    
-                    data.items.push()
-                
-                        fetch(window.Shopify.routes.root + 'cart/add.js', {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json'
-                            },
-                            body: JSON.stringify(data)
-                        }).then(response => {
-                            return response.json();
-                        }).catch((error) => {
-                            console.error('Error:', error);
-                        });
+                    productIds.forEach((productId) => {
+                        if (cartItemIds.indexOf(productId) == -1) {
+                          data.items.push({
+                              'id': productId, 
+                              'quantity': 1
+                          })
+                        }
+                    })
+
+                    if (data.items.length > 0 ) {
+              
+                      fetch(window.Shopify.routes.root + 'cart/add.js', {
+                          method: 'POST',
+                          headers: {
+                              'Content-Type': 'application/json'
+                          },
+                          body: JSON.stringify(data)
+                      }).then(response => {
+                          window.reload()
+                      }).catch((error) => {
+                          console.error('Error:', error);
+                      });
+                    }
                   }
 
                   document.getElementById('addFreeBtn').addEventListener('click', addFreeProducts)
