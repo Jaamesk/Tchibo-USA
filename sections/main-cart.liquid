@@ -71,7 +71,7 @@
             BUNDLE OFFER BANNER
             {%- endcomment -%}
             {% assign showBanner = false %}
-            {% assign cartItemIds = cart.items | map: "id" %}
+            {% assign cartItemIds = cart.items | map: "product_id" %}
             {% assign hasFreeItems = false %}
             {% if cartItemIds contains '41762866921678' and cartItemIds contains '41765470175438' %}
               {% assign hasFreeItems = true %}
