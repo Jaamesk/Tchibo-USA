@@ -87,6 +87,10 @@ text-transform: uppercase;
   align-items: center;
 }
 
+#offer-img {
+  width: 350px;
+}
+
 .offer-text {
 margin-left:20px;
 }
