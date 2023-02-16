@@ -6,6 +6,18 @@
       "settings": {
       }
     },
+    "9aed2457-5f90-4605-a48e-3843f455f972": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{% for item in cart.items %}\n{{item.id}}\n{% endfor %}",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "27c09bc7-80dc-4b89-9142-7915a5d0e3d5": {
       "type": "recently-viewed-products",
       "settings": {
@@ -474,6 +486,7 @@
   },
   "order": [
     "main",
+    "9aed2457-5f90-4605-a48e-3843f455f972",
     "27c09bc7-80dc-4b89-9142-7915a5d0e3d5",
     "65266c1c-42ff-4575-8c0b-926194c18b21",
     "daac2717-dbb7-4f5d-9cb6-8364e844399d",
