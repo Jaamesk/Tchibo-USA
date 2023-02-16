@@ -79,7 +79,9 @@
             {% if cartItemIds contains '7048251179214' %}
               {% assign showBanner = true %}
             {% endif %}
-            
+            <noscript>
+                {{ cartItemIds | json }}
+              </noscript>
             {% if showBanner == true and hasFreeItems == false %}
               <div class="offer-banner">
                 <img id="offer-img" src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/Refurbished-Banner-Cart.png?v=1676559745">
@@ -92,9 +94,7 @@
               <noscript id="cartItems">
                 {{ cart.items | json }}
               </noscript>
-              <noscript>
-                {{ cartItemIds | json }}
-              </noscript>
+              
               <script>
                 document.addEventListener('DOMContentLoaded', () => {
                   const cartItems = JSON.parse(document.getElementById('cartItems').innerText);
