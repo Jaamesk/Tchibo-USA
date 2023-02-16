@@ -119,7 +119,7 @@
                           },
                           body: JSON.stringify(data)
                       }).then(response => {
-                          window.reload()
+                          window.location.reload()
                       }).catch((error) => {
                           console.error('Error:', error);
                       });
