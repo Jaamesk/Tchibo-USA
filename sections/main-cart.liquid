@@ -79,9 +79,7 @@
             {% if cartItemIds contains 41339538669774 %}
               {% assign showBanner = true %}
             {% endif %}
-            <noscript>
-                {{ cartItemIds | json }}
-              </noscript>
+            
             {% if showBanner == true and hasFreeItems == false %}
               <div class="offer-banner">
                 <img id="offer-img" src="https://cdn.shopify.com/s/files/1/0618/9386/9774/files/Refurbished-Banner-Cart.png?v=1676559745">
@@ -91,11 +89,12 @@
                 <button id="addFreeBtn" style="margin-top: 6px;" class="button button--l button--secondary">Claim Now</button>
                 </div>
               </div>
-              
+              <noscript>
+                {{ cartItemIds | json }}
+              </noscript>
               <script>
                 document.addEventListener('DOMContentLoaded', () => {
-                  const cartItems = JSON.parse(document.getElementById('cartItems').innerText);
-                  const cartItemIds = cartItems.map(x => x.id);
+                  const cartItemIds = JSON.parse(document.getElementById('cartItems').innerText);
                   function addFreeProducts() {
                       const productIds = [41762866921678, 41765470175438]
                       
