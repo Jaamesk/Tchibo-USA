@@ -126,7 +126,10 @@
                     }
                   }
 
-                  document.getElementById('addFreeBtn').addEventListener('click', addFreeProducts())
+                  document.getElementById('addFreeBtn').addEventListener('click', () => {
+                      console.log('clicked')
+                    addFreeProducts()
+                  })
                 })
               </script>  
             {% endif %}
