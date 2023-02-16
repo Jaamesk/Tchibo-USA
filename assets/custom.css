@@ -80,3 +80,7 @@ text-transform: uppercase;
 }
 
 .spr-stars[aria-label="0 out of 5 stars"], .spr-stars[aria-label="0 out of 5 stars"] + .spr-stars {display: none;}
+
+.offer-banner {
+  margin: 20px 0;
+}
