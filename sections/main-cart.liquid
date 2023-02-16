@@ -93,7 +93,7 @@
               </noscript>
               <script>
                 document.addEventListener('DOMContentLoaded', () => {
-                  const cartItems = document.getElementById('cartItems').innerText;
+                  const cartItems = JSON.parse(document.getElementById('cartItems').innerText);
                   const cartItemIds = cartItems.map(x => x.id);
                   function addFreeProducts() {
                       const productIds = [41762866921678, 41765470175438]
