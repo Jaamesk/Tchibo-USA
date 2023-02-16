@@ -197,7 +197,7 @@
                       },
                       body: JSON.stringify(data)
                   }).then(response => {
-                      window.location.reload()
+                      return response.json();
                   }).catch((error) => {
                       console.error('Error:', error);
                   });
