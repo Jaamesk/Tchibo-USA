@@ -147,6 +147,9 @@ Supported variables
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
           <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+          {% if product.metafields.coffee_attributes.roast != blank %}
+          <p class="tp-body bold" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ product.metafields.coffee_attributes.roast }}</p>
+          {% endif %}
           {% if product.metafields.coffe_attributes.taste != blank %}
           <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ product.metafields.coffe_attributes.taste }}</p>
           {% endif %}
@@ -157,6 +160,9 @@ Supported variables
         </div>
       {%- else -%}
         <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+      {% if product.metafields.coffee_attributes.roast != blank %}
+          <p class="tp-body bold" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ product.metafields.coffee_attributes.roast }}</p>
+          {% endif %}
           {% if product.metafields.coffe_attributes.taste != blank %}
           <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ product.metafields.coffe_attributes.taste }}</p>
           {% endif %}
@@ -175,9 +181,6 @@ Supported variables
 </div>
 </div>
 {% endif %}
-{% if product.metafields.coffee_attributes.roast != blank %}
-          <p class="tp-body bold" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ product.metafields.coffee_attributes.roast }}</p>
-          {% endif %}
           
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
