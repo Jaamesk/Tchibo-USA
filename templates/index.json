@@ -132,17 +132,17 @@
         "spacing": "small"
       }
     },
-    "f30422d2-c025-465b-9c1d-1940944ceb12": {
-      "type": "featured-collection",
+    "64245853-03f6-4ffd-940c-d16a32e1a211": {
+      "type": "featured-collection-variants",
       "settings": {
         "collection": "all-coffee",
         "products": [
 
         ],
-        "full_width": false,
+        "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
-        "products_count": 8,
+        "products_count": 6,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "subheading": "",
@@ -150,7 +150,7 @@
         "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you.<\/p>",
         "link_url": "",
         "link_text": "",
-        "background": "rgba(0,0,0,0)",
+        "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -502,7 +502,7 @@
   "order": [
     "6f5a2534-05c3-49b1-88d6-71134b8a221c",
     "0f22a51e-1b6a-4739-9a28-2211588d89ff",
-    "f30422d2-c025-465b-9c1d-1940944ceb12",
+    "64245853-03f6-4ffd-940c-d16a32e1a211",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
     "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
