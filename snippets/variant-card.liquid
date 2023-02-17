@@ -148,6 +148,9 @@ Supported variables
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
           <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ parent_product.title }}</a></span>
+          {% if parent_product.metafields.coffee_attributes.roast != blank %}
+          <p class="tp-body bold" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffee_attributes.roast }}</p>
+          {% endif %}
           <p class="tp-body-secondary"><a href="{{ product.url }}">{{ product.title }}</a></p>
           {% if parent_product.metafields.coffe_attributes.taste != blank %}
           <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffe_attributes.taste }}</p>
@@ -159,6 +162,9 @@ Supported variables
         </div>
       {%- else -%}
         <span class="tp-body"><a href="{{ product.url }}" class="bold">{{ parent_product.title }}</a></span>
+      {% if parent_product.metafields.coffee_attributes.roast != blank %}
+          <p class="tp-body bold" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffee_attributes.roast }}</p>
+          {% endif %}
         <p class="tp-body-secondary"><a href="{{ product.url }}">{{ product.title }}</a></p>
           {% if parent_product.metafields.coffe_attributes.taste != blank %}
           <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffe_attributes.taste }}</p>
@@ -178,9 +184,6 @@ Supported variables
 </div>
 </div>
 {% endif %}
-{% if parent_product.metafields.coffee_attributes.roast != blank %}
-          <p class="tp-body bold" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffee_attributes.roast }}</p>
-          {% endif %}
           
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
