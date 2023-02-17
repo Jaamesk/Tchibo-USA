@@ -47,7 +47,7 @@
 
             {%- for product in products limit: section.settings.products_count -%}
               {%- for variant in product.variants -%}
-              {%- render 'variant-card', product: variant, product_variant: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+              {%- render 'product-card', product: variant, parent_product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
                 {% endfor %}
             {%- else -%}
               {%- for i in (1..section.settings.products_count) -%}
