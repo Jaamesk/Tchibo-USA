@@ -25,6 +25,12 @@
             "text": "<p>{{ product.metafields.coffee_attributes.taste_product_page | metafield_tag }}<\/p>"
           }
         },
+        "5609a5b2-22df-450b-b140-bc90f2e6aeba": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The coffee beans for this coffee are sourced from South America. The coffee is produced in Europe.<\/p>"
+          }
+        },
         "a0fec0b2-b10d-4acf-9272-250e294b3f80": {
           "type": "liquid",
           "settings": {
@@ -120,6 +126,7 @@
         "title",
         "18c55f6f-390b-4710-a881-c15fb856270b",
         "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
+        "5609a5b2-22df-450b-b140-bc90f2e6aeba",
         "a0fec0b2-b10d-4acf-9272-250e294b3f80",
         "c236f393-25ac-4969-a29b-06d1a30e24e4",
         "price",
