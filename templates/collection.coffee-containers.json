@@ -24,32 +24,18 @@
     "f7795e05-f8ac-4cb5-8058-ac344f69d285": {
       "type": "rich-text",
       "blocks": {
-        "79b3cca6-caba-4fe4-9a56-0fb915a3e5bb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/eyJwYXRoIjoidGNoaWJvXC9hY2NvdW50c1wvNzRcLzQwMDAyODZcL3Byb2plY3RzXC8zOVwvYXNzZXRzXC9mMFwvMTE5MjBcL2MwMmViMzQ0OGI2MGFjZjM2MzkxY2FiNzU3YjgyMDcwLTE2MjM3NjY3MTkuanBnIn0_tchibo_oR2gRBmBN_xB.jpg",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "40ce312e-d151-4899-a986-fe5d2c07739e": {
-          "type": "divider",
-          "settings": {
-          }
-        },
         "template--15660566020302__f7795e05-f8ac-4cb5-8058-ac344f69d285-1677740049d871af3b-0": {
           "type": "subheading",
           "settings": {
-            "text": "New: Exclusive Offer",
+            "text": "Meet Airscape: Premium coffee storage canisters",
             "font-style": "tp-overline-secondary"
           }
         },
         "template--15660566020302__f7795e05-f8ac-4cb5-8058-ac344f69d285-1677740049d871af3b-1": {
           "type": "heading",
           "settings": {
-            "text": "Save on select 17.6 oz bags of coffee",
-            "heading_tag": "tp-display-2",
+            "text": "Keep your coffee fresh for the best taste",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
@@ -57,14 +43,12 @@
         "template--15660566020302__f7795e05-f8ac-4cb5-8058-ac344f69d285-1677740049d871af3b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Not sure if you prefer the nutty, intense taste of the Barista Espresso or the dark chocolate and orange notes of the Barista Milano Style? It’s now easier than ever to choose your brew, with a <strong>limited offer on both 17.6 oz bags.<br\/><br\/><\/strong>Shop them now to try 100% of the European coffeehouse flavor, for <em>less.<\/em><\/p>",
+            "content": "<p>An innovative design that pushes oxygen out and locks freshness in.<\/p><p>The Airscape 64oz coffee container has Röstmeister-approved technology that keeps coffee fresher for longer. Consider this a modern “must-have” for every home brewer.<\/p>",
             "font-style": "tp-body"
           }
         }
       },
       "block_order": [
-        "79b3cca6-caba-4fe4-9a56-0fb915a3e5bb",
-        "40ce312e-d151-4899-a986-fe5d2c07739e",
         "template--15660566020302__f7795e05-f8ac-4cb5-8058-ac344f69d285-1677740049d871af3b-0",
         "template--15660566020302__f7795e05-f8ac-4cb5-8058-ac344f69d285-1677740049d871af3b-1",
         "template--15660566020302__f7795e05-f8ac-4cb5-8058-ac344f69d285-1677740049d871af3b-2"
@@ -72,7 +56,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
