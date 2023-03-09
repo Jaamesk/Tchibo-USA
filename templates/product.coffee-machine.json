@@ -207,22 +207,17 @@
       "settings": {
         "recommendations_count": 5,
         "products": [
-          "durgol-descaler-4-2-fluid-ounces-pack-of-4",
-          "black-yeti-20-oz",
-          "blue-yeti-20-oz",
-          "bean-hopper-extension",
-          "black-tchibo-yeti-20oz",
-          "blue-tchibo-yeti-20oz",
-          "airscape-64oz-coffee-container-matte-black",
-          "airscape-64oz-coffee-container-blushed-steel"
+          "barista-espresso-whole-beans",
+          "milano-style-espresso-whole-beans",
+          "caffe-crema-intense-espresso-whole-beans"
         ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
-        "subheading": "Other customers also bought",
-        "title": "",
+        "subheading": "",
+        "title": "Choose a coffee for your new machine",
         "content": "",
         "background": "",
         "background_gradient": "",
