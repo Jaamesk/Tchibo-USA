@@ -132,6 +132,23 @@
         "spacing": "small"
       }
     },
+    "79ce4c26-d69c-4231-9a1b-489b339c68c5": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "show_icon": false,
+        "title": "Never miss an offer",
+        "heading_tag": "tp-display-4",
+        "content": "<p>Be the <strong>first to know<\/strong> about our product releases and promotions<\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "64245853-03f6-4ffd-940c-d16a32e1a211": {
       "type": "featured-collection-variants",
       "settings": {
@@ -502,6 +519,7 @@
   "order": [
     "6f5a2534-05c3-49b1-88d6-71134b8a221c",
     "0f22a51e-1b6a-4739-9a28-2211588d89ff",
+    "79ce4c26-d69c-4231-9a1b-489b339c68c5",
     "64245853-03f6-4ffd-940c-d16a32e1a211",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
     "5f003099-ae5f-4c2a-a026-326fff501455",

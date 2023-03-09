@@ -298,8 +298,8 @@
               "image": "{{shop.brand.logo}}",
               "image_width": 180,
               "heading_size": "tp-display-1-nocolor",
-              "title": "We’re restocking! Want to know more?",
-              "content": "<p>Be the <strong>first to know<\/strong> when your favorites<br\/>are back in stock – sign up for updates!<\/p>"
+              "title": "Never miss an offer",
+              "content": "<p>Be the <strong>first to know<\/strong> about our product releases and promotions<\/p>"
             }
           },
           "links": {
