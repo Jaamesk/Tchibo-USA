@@ -3,12 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "0892565b-5508-4f1d-a4ea-9420b1a4b912": {
-          "type": "vendor",
-          "settings": {
-            "font-style": "tp-overline-secondary"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -51,7 +45,7 @@
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
           "type": "text",
           "settings": {
-            "text": "<p>A revolutionary, single-serve, Bean-To-Brew coffee & espresso machine. <\/p><p><\/p><p><\/p><ul><li>Fully automatic coffee and espresso machine<\/li><li>Bean-To-Brew, Single Serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact Size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>"
+            "text": "<ul><li>Fully automatic coffee and espresso machine<\/li><li>Bean-To-Brew, Single Serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact Size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>"
           }
         },
         "separator": {
@@ -121,7 +115,6 @@
         }
       },
       "block_order": [
-        "0892565b-5508-4f1d-a4ea-9420b1a4b912",
         "title",
         "3276b1b6-a036-4b2c-af1b-f4c6df4658db",
         "41b16fd1-38c5-4f24-83ae-09a109dd1296",
