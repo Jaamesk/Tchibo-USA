@@ -15,6 +15,12 @@
             "heading_tag": "tp-display-2"
           }
         },
+        "3276b1b6-a036-4b2c-af1b-f4c6df4658db": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span class=\"tp-display-1\">{{product.metafields.coffe_attributes.taste}}<\/span>"
+          }
+        },
         "41b16fd1-38c5-4f24-83ae-09a109dd1296": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -117,6 +123,7 @@
       "block_order": [
         "0892565b-5508-4f1d-a4ea-9420b1a4b912",
         "title",
+        "3276b1b6-a036-4b2c-af1b-f4c6df4658db",
         "41b16fd1-38c5-4f24-83ae-09a109dd1296",
         "badges",
         "price",
