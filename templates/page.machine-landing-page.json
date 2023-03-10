@@ -8,6 +8,9 @@
     },
     "9560be21-6032-4ce0-9bd3-b3acf8666c81": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
