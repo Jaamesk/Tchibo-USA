@@ -9,23 +9,37 @@
     "5d0a04ec-8d5f-4f08-8d88-75ac89260c9a": {
       "type": "newsletter",
       "settings": {
-        "full_width": true,
-        "show_icon": true,
-        "title": "Newsletter",
-        "heading_tag": "tp-display-5",
-        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
-        "button_text": "Subscribe",
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/The_Tchibo___3.png",
+        "show_icon": false,
+        "title": "NEW coffee machines - back and ready to brew!",
+        "heading_tag": "tp-display-3",
+        "content": "<p><strong>Plus 10% off for coffee lovers. <\/strong>Secure your exclusive 10% discount on the new Tchibo machine by entering your email below.<\/p>",
+        "button_text": "Get discount",
         "subtext": "",
-        "background": "",
+        "background": "#f9f9f9",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "c655aaf0-c43d-4805-b4c8-d1f4a4495fa8": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p class=\"tp-display-3\" style=\"text-align:center;padding:15px 0;\">As mentioned in<\/p>\n<div class=\"press-mentions\">\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/1280px-BuzzFeed_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-stir_2_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-bloomberg_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-tea-coffee_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Forbes_logo_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<\/div>\n\n<style>\n.press-mentions {\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\npadding: 30px 20px;\n}\n.mention {\npadding: 0 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.press-mentions {\n}\n.mention {\npadding: 0 5px;\n}\n}\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "5d0a04ec-8d5f-4f08-8d88-75ac89260c9a"
+    "5d0a04ec-8d5f-4f08-8d88-75ac89260c9a",
+    "c655aaf0-c43d-4805-b4c8-d1f4a4495fa8"
   ]
 }
