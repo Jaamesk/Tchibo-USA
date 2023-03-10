@@ -1,7 +1,20 @@
 {
   "sections": {
+    "5741f30c-7503-45bb-ab0c-99c6b50354d6": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"text-with-image\">\n<div class=\"text-column\">\n<p class=\"tp-overline-secondary\">The Tchibo Single Serve Coffee Machine<\/p>\n<h1 class=\"tp-display-4\">NEW coffee machines - back and ready to brew!<\/h1>\n<p class=\"tp-body\" style=\"padding-top:15px\">The wait is over.\nThe Tchibo, our bestselling automatic coffee & espresso machine is back in stock and ready to ship all over the USA to perk up your next cup.\n<\/p>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Plus 10% off for coffee lovers<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:10px\">For a limited time, save 10% on The Tchibo when you sign up for our newsletter.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm your newsletter subscription. Then you will reveive your 10% discount.' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Get Discount', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n<\/div>\n<div class=\"img-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/The_Tchibo_Coffee_Machine_308.png?v=1673448815\">\n<\/div>\n<\/div>\n\n<style>\n.text-with-image {\ndisplay:flex;\nalign-items: center;\n}\n.img-column {\npadding-left:100px;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image {\nflex-direction:column;\n}\n.img-column {\nwidth:100%;\n}\n.img-column {\npadding-left: 0;\npadding-top: 20px;\n}\n}\n<\/style>",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "6f5a2534-05c3-49b1-88d6-71134b8a221c": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-0": {
           "type": "subheading",
@@ -130,23 +143,6 @@
         "full_width": true,
         "enable_parallax": true,
         "spacing": "small"
-      }
-    },
-    "79ce4c26-d69c-4231-9a1b-489b339c68c5": {
-      "type": "newsletter",
-      "settings": {
-        "full_width": true,
-        "show_icon": false,
-        "title": "Never miss an offer!",
-        "heading_tag": "tp-display-4",
-        "content": "<p>Be the <strong>first to know<\/strong> about our product releases and promotions<\/p>",
-        "button_text": "Subscribe",
-        "subtext": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "64245853-03f6-4ffd-940c-d16a32e1a211": {
@@ -517,9 +513,9 @@
     }
   },
   "order": [
+    "5741f30c-7503-45bb-ab0c-99c6b50354d6",
     "6f5a2534-05c3-49b1-88d6-71134b8a221c",
     "0f22a51e-1b6a-4739-9a28-2211588d89ff",
-    "79ce4c26-d69c-4231-9a1b-489b339c68c5",
     "64245853-03f6-4ffd-940c-d16a32e1a211",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
     "5f003099-ae5f-4c2a-a026-326fff501455",
