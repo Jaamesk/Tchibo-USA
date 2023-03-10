@@ -45,7 +45,7 @@
         "f855c339-86e7-482d-b726-96d267af1e4c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Refurbished-Banner-Cart.png",
+            "image": "shopify:\/\/shop_images\/Refurbished-Banner-Cart_reduced.png",
             "width_mode": "full_width",
             "max_width": 700,
             "mobile_max_width": 400
@@ -100,7 +100,7 @@
         "f996a600-f7d7-4ec1-ac96-1a0b01eff133": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rost_Frisch_Colombia_Origin___Mood_5.png",
+            "image": "shopify:\/\/shop_images\/Rost_Frisch_Colombia_Origin___Mood_5_1.png",
             "media_width": 45,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -237,7 +237,7 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
+            "image": "shopify:\/\/shop_images\/The_Tchibo_Coffee_Machine_308_1.png",
             "title": "Bean-to-Brew Coffee Machine",
             "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/products\/the-tchibo",
@@ -259,7 +259,7 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coffee_barista_Edition.png",
+            "image": "shopify:\/\/shop_images\/coffee_barista_Edition_1.png",
             "title": "Whole Bean Coffee",
             "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/collections\/whole-bean-coffee",
@@ -281,7 +281,7 @@
         "31aafb14-ebde-4c48-a8b0-ba38967a8171": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VMS-_19_024_praesentationsbild-png.png",
+            "image": "shopify:\/\/shop_images\/ground_coffee_mix_1.png",
             "title": "Ground Coffee",
             "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/collections\/ground-coffee",
@@ -303,7 +303,7 @@
         "7b356d41-5783-4808-83dd-c0cbf69ae87e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/descaler.jpg",
+            "image": "shopify:\/\/shop_images\/descaler_1.png",
             "title": "Descaler",
             "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/products\/durgol-descaler-4-2-fluid-ounces-pack-of-2",
