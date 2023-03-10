@@ -93,6 +93,31 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "6d54eedf-7ac0-4cb2-b01d-4744e4279c9b": {
+      "type": "rich-text",
+      "blocks": {
+        "7f85f5a0-59ef-4fb3-b458-356d21704406": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Tchibo_Coffee_Machine_308.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "7f85f5a0-59ef-4fb3-b458-356d21704406"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -100,6 +125,7 @@
     "5d0a04ec-8d5f-4f08-8d88-75ac89260c9a",
     "c655aaf0-c43d-4805-b4c8-d1f4a4495fa8",
     "e77c5060-eb69-40c5-a486-c97e2749b08d",
-    "143b2429-231f-4ba3-a4c9-9f54d8b16917"
+    "143b2429-231f-4ba3-a4c9-9f54d8b16917",
+    "6d54eedf-7ac0-4cb2-b01d-4744e4279c9b"
   ]
 }
