@@ -35,11 +35,71 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "e77c5060-eb69-40c5-a486-c97e2749b08d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15663648112846__e77c5060-eb69-40c5-a486-c97e2749b08d-1678445886bacc869e-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our revolutionary bean-to-brew coffee & espresso machine",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15663648112846__e77c5060-eb69-40c5-a486-c97e2749b08d-1678445886bacc869e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Back in stock: The Tchibo",
+            "heading_tag": "tp-display-5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15663648112846__e77c5060-eb69-40c5-a486-c97e2749b08d-1678445886bacc869e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Calling all coffee lovers! <\/p><p>The wait is over. <\/p><p>The Tchibo, our bestselling automatic coffee & espresso machine is back in stock and ready to ship all over the USA to perk up your next cup.<\/p><p>For a limited time, <strong>save 10%<\/strong> on The Tchibo when you sign up for our newsletter.<\/p><p>As European coffee lover Sandra said, “it’s the best coffee maker I have ever used.”<\/p><p>Our advice? Grab your new favorite coffee machine before it’s gone<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15663648112846__e77c5060-eb69-40c5-a486-c97e2749b08d-1678445886bacc869e-0",
+        "template--15663648112846__e77c5060-eb69-40c5-a486-c97e2749b08d-1678445886bacc869e-1",
+        "template--15663648112846__e77c5060-eb69-40c5-a486-c97e2749b08d-1678445886bacc869e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "143b2429-231f-4ba3-a4c9-9f54d8b16917": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": false,
+        "show_icon": false,
+        "title": "",
+        "heading_tag": "tp-display-5",
+        "content": "",
+        "button_text": "Get Discount",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "5d0a04ec-8d5f-4f08-8d88-75ac89260c9a",
-    "c655aaf0-c43d-4805-b4c8-d1f4a4495fa8"
+    "c655aaf0-c43d-4805-b4c8-d1f4a4495fa8",
+    "e77c5060-eb69-40c5-a486-c97e2749b08d",
+    "143b2429-231f-4ba3-a4c9-9f54d8b16917"
   ]
 }
