@@ -339,6 +339,9 @@
           "0ba62a29-a0ee-4f81-96b4-56786a34a231",
           "40819427-efc6-45dc-8c2c-030e8b88f5f9"
         ],
+        "custom_css": [
+          ".input {background-color:#00000000}"
+        ],
         "settings": {
           "show_social_media": true,
           "show_payment_icons": false,
