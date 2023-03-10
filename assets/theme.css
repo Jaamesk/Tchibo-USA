@@ -1620,7 +1620,7 @@ scroll-carousel {
   appearance: none;
   height: var(--input-height);
   border-radius: var(--rounded-input);
-  background: rgb(var(--input-background, transparent));
+  background: white;
   color: rgb(var(--input-text-color, var(--text-color)));
   text-align: start;
   border-width: 1px;
