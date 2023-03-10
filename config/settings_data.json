@@ -82,10 +82,9 @@
           },
           "edd88732-3ea4-42e0-9ff9-b8dcb8ff167f": {
             "type": "message",
-            "disabled": true,
             "settings": {
-              "text": "FREE SHIPPING $49+",
-              "url": ""
+              "text": "Limited Offer: Save 10% on The Tchibo when you sign up for our newsletter",
+              "url": "shopify:\/\/pages\/the-tchibo-newsletter-signup"
             }
           },
           "4d69ecf0-e7d3-4e8c-bf7d-d4c53d6d9118": {
@@ -340,7 +339,7 @@
           "40819427-efc6-45dc-8c2c-030e8b88f5f9"
         ],
         "custom_css": [
-          ".input {background-color:#00000000}"
+          ".input {background-color: #00000000;}"
         ],
         "settings": {
           "show_social_media": true,
