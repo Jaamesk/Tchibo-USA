@@ -195,7 +195,9 @@ Supported variables
           {% if parent_product.metafields.coffe_attributes.taste != blank %}
           <p class="tp-body" style="margin-top:0px;margin-bottom:0px;font-size:14px!important;">{{ parent_product.metafields.coffe_attributes.taste }}</p>
           {% endif %}
+        {%- if product.title != blank -%}
         <p class="tp-body-secondary"><a href="{{ product.url }}">{{ product.title }}</a></p>
+        {%- endif -%}
       {%- endif -%}
           
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
