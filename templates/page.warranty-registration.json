@@ -38,10 +38,23 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "75548293-412b-4b04-9c70-aee20181dd66": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p style=\"text-align: center\">Write or copy\/paste Liquid code<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "d16e15fb-c323-4587-8222-5887394387d2"
+    "d16e15fb-c323-4587-8222-5887394387d2",
+    "75548293-412b-4b04-9c70-aee20181dd66"
   ]
 }
