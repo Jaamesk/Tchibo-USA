@@ -67,6 +67,9 @@
               </tbody>
             </table>
 
+            {%- for block in section.blocks -%}
+                {%- case block.type -%}
+                  {% when 'bundle-offer-banner' %}
             {%- comment -%}
             BUNDLE OFFER BANNER
             {%- endcomment -%}
@@ -132,6 +135,8 @@
                 })
               </script>  
             {% endif %}
+                {% endcase %}
+              {% endfor %}
             {%- comment -%}
             ----------------------------------------------------------------------------------------------------------------
             SHIPPING ESTIMATOR
@@ -262,6 +267,10 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "bundle-offer-banner",
+      "name": "Bundle Offer Banner"
     },
     {
       "type": "totals",
