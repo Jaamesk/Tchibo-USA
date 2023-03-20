@@ -42,10 +42,92 @@
     "75548293-412b-4b04-9c70-aee20181dd66": {
       "type": "custom-liquid",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<p class=\"tp-display-3\" style=\"text-align: center; padding-bottom: 10px\">Fill out this form to activate the warranty<\/p>   \n {%- form 'customer', id: 'warranty-registration', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = \"Thank you for your registration. We've got you covered for the limited 1 year warranty now.\" -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"Warranty Registrant\">\n        <input type=\"hidden\" name=\"contact[note][Date Submitted]\" value=\"{{ 'now' | date: '%m-%d-%Y ' }}\">\n\n        <div class=\"fieldset\">\n            <div class=\"form-columns\">\n            <div class=\"c-3\">\n          {%- render 'input', name: 'contact[first_name]', label: \"First name\", type: 'text', required: true -%}\n          <\/div>\n          <div class=\"c-3\">\n          {%- render 'input', name: 'contact[last_name]', label: \"Last name\", type: 'text', required: true -%}\n          <\/div>\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          <div class=\"c-3\">\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          <\/div>\n            <\/div>\n          {%- render 'input', name: 'contact[note][Warranty Address line 1]', label: 'Address line 1', type: 'text', required: true -%}\n          {%- render 'input', name: 'contact[note][Warranty Address line 2]', label: 'Address line 2', type: 'text', required: true -%}\n          <div class=\"form-columns\">\n          <div class=\"c-3\">\n          {%- render 'input', name: 'contact[note][Warranty ZIP Code]', label: 'ZIP Code', type: 'text', required: true -%}\n          <\/div>\n          <div class=\"c-3\">\n          {%- render 'input', name: 'contact[note][Warranty City]', label: 'City', type: 'text', required: true -%}\n          <\/div>\n          <div class=\"c-3\">\n          {%- render 'input', name: 'contact[note][Warranty State]', label: 'State', type: 'text', required: true -%}\n          <\/div>\n          <\/div>\n          <div class=\"form-columns\">\n          <div class=\"c-2\">\n          {%- render 'input', name: 'contact[note][Order Number]', label: 'Order number #', type: 'text', required: true -%}\n          <\/div>\n          <div class=\"c-2\">\n          {%- render 'input', name: 'contact[note][Serial Number]', label: 'Serial number #', type: 'text', required: true -%}\n          <\/div>\n          <\/div>\n          <div class=\"form-columns\">\n          <div class=\"c-2\">\n          {%- render 'input', name: 'contact[note][Purchase date]', label: 'Purchase date (MM.DD.YYYY)', type: 'text', required: true -%}\n          <\/div>\n          <div class=\"c-2\">\n          {%- render 'select', name: 'contact[note][Purchase location]', label: 'Where did you purchase The Tchibo?', options: '<option value=\"Amazon\">Amazon<\/option>\n  <option value=\"Tchibo online store\">Tchibo online store<\/option>', required: true -%}\n        <\/div>\n          <\/div>\n        <\/div>\n        {%- render 'button', type: 'submit', content: 'Submit Warranty Registration', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n      {%- endif -%}\n    {%- endform -%}\n\n    <style>\n\n        .form-columns {\n            display: flex;\n            justify-content: space-between;\n        }\n\n        .c-3 {\n            width:33%;\n        }\n\n        .c-2 {\n            width:49%;\n        }\n\n        @media only screen and (max-width: 767px) {\n            .form-columns {\n                display: block;\n            }\n\n            .c-3 {\n                width: 100%;\n                padding-top: 5px;\n            }\n\n            .c-2 {\n                width: 100%;\n                padding-top: 5px;\n            }\n        }\n\n    <\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d711a1bc-d54d-4234-9323-2793506ad5b6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15668433191118__d711a1bc-d54d-4234-9323-2793506ad5b6-167932113232957b08-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Limited Warranty for The Tchibo Bean-to-Brew Coffee Machines",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15668433191118__d711a1bc-d54d-4234-9323-2793506ad5b6-167932113232957b08-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Napco, Inc. (“Napco”) as of September 2022 is reseller of Tchibo products and grants the following limited warranty (the “Warranty”) for The Tchibo US Bean-to-Brew Coffee Machine (the “Tchibo Coffee Machine”).​<\/p><p>Napco warrants that for a period of one year from the date of purchase (the “Warranty Period”), the Tchibo Coffee Machine will be free from material and manufacturing defects. Napco will repair or replace, at Napco’s option, any Tchibo Coffee Machine having any such material or manufacturing defects within the Warranty Period free of charge, subject to the following terms:<\/p><p>(1) Proof of purchase from Napco or one of their authorized retailers is required to exercise the Warranty. Proof of purchase is demonstrated by registering your Tchibo Coffee Machine using our product registration tool at <a href=\"https:\/\/www.tchibo.us\/\">www.tchibo.us<\/a>.<\/p><p>(2) The Warranty is valid within the continental United States only.<\/p><p>(3) Authorization to return any Tchibo Coffee Machine for repair or replacement must be obtained from customer service (1-888-824-4261) which will provide instructions for sending your Tchibo Coffee Machine for Warranty repair or replacement if necessary.<\/p><p>(4) Damage caused by any of the following is not covered by and will void the Warranty:<\/p><p>a. Accident, abuse, negligence, misuse.<\/p><p>b. Improper operation or failure to follow instructions contained in our manual which is accessible <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0409\/4666\/3577\/files\/Manual_fully_automatic_machine_USA.pdf?v=16423908315125652376\">here<\/a>.<\/p><p>c. Any service or alteration performed by an unauthorized person.<\/p><p>d. Damage caused by neglecting and omitting maintenance, cleaning and descaling.<\/p><p>e. Damage caused by use of instant coffee, ground coffee or any other ingredients not allowed in this product.<\/p><p>f. Damage caused by failing to properly secure your Tchibo Coffee Machine when sending in for service.<\/p><p>(5) Wear and tear from normal use and consumables are not covered by this warranty.<\/p><p>(6) Warranty limitations are inapplicable where prohibited by law. ​<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15668433191118__d711a1bc-d54d-4234-9323-2793506ad5b6-167932113232957b08-1",
+        "template--15668433191118__d711a1bc-d54d-4234-9323-2793506ad5b6-167932113232957b08-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1768f83b-2c1b-42bf-8286-7ea4cf431546": {
+      "type": "rich-text",
+      "blocks": {
+        "184b4878-878f-458e-8b4f-2bf776caae74": {
+          "type": "heading",
+          "settings": {
+            "text": "How to find your Serial Number:",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "cb21ec79-9177-461d-a358-b34ef267c2e1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ol><li>First, remove the water tank from the machine.<\/li><li>Then, gently turn your machine on its side to see its bottom.<\/li><li>There will be a white bar code sticker in the middle of the machine.<\/li><li>The number below the bar code is your Serial Number.<\/li><\/ol>",
+            "font-style": "tp-body"
+          }
+        },
+        "e2310193-6b16-4be9-bac4-0a06c6ce166e": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "630c14a6-20bc-474c-89b9-870adf1ba4fb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/machine-warranty-photo.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "184b4878-878f-458e-8b4f-2bf776caae74",
+        "cb21ec79-9177-461d-a358-b34ef267c2e1",
+        "e2310193-6b16-4be9-bac4-0a06c6ce166e",
+        "630c14a6-20bc-474c-89b9-870adf1ba4fb"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -55,6 +137,8 @@
   "order": [
     "main",
     "d16e15fb-c323-4587-8222-5887394387d2",
-    "75548293-412b-4b04-9c70-aee20181dd66"
+    "75548293-412b-4b04-9c70-aee20181dd66",
+    "d711a1bc-d54d-4234-9323-2793506ad5b6",
+    "1768f83b-2c1b-42bf-8286-7ea4cf431546"
   ]
 }
