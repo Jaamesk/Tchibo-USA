@@ -64,16 +64,15 @@
             "payment_button_text_color": ""
           }
         },
+        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
         "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7": {
           "type": "liquid",
           "settings": {
             "liquid": "<p class=\"tp-display-1\">\"It's like having a coffee shop in my kitchen\"<\/p><p class=\"tp-body\">- A happy The Tchibo customer<\/p>"
-          }
-        },
-        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
-          "type": "payment_terms",
-          "disabled": true,
-          "settings": {
           }
         },
         "22a89051-e093-4dc8-a563-57fc462d3b9a": {
@@ -120,8 +119,8 @@
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "f91bf872-6346-4ab1-af7a-83ccef9dd188",
         "buy_buttons",
-        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
+        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
         "29403830-c28e-45d8-a405-17d8aefec65a",
@@ -287,6 +286,7 @@
     },
     "1399e51d-b8b4-4a41-a3e7-87ba82b16e84": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-0": {
           "type": "subheading",
@@ -320,6 +320,7 @@
     },
     "167275105287410376": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "f68ffd82-458b-4f73-baac-8c322ba722a7": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
