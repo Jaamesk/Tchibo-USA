@@ -36,28 +36,21 @@
             "show_taxes_notice": false
           }
         },
+        "008912c5-9fb4-477b-8390-0b3779560d26": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.coffee_attributes.taste_product_page | metafield_tag }}<\/p>"
+          }
+        },
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
           "type": "text",
           "settings": {
             "text": "<ul><li>Fully automatic coffee and espresso machine<\/li><li>Bean-To-Brew, Single Serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact Size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>"
           }
         },
-        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<p class=\"tp-display-1\">\"It's like having a coffee shop in my kitchen\"<\/p><p class=\"tp-body\">- A happy The Tchibo customer<\/p>"
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {
-          }
-        },
-        "24e1f974-bdca-42cd-9b19-dfecfe95b460": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<span style=\"color:#C0A468\">Free shipping. Delivered in 1-3 days.<\/span>"
           }
         },
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0": {
@@ -79,6 +72,12 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-1\">\"It's like having a coffee shop in my kitchen\"<\/p><p class=\"tp-body\">- A happy The Tchibo customer<\/p>"
           }
         },
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
@@ -126,13 +125,13 @@
         "41b16fd1-38c5-4f24-83ae-09a109dd1296",
         "badges",
         "price",
+        "008912c5-9fb4-477b-8390-0b3779560d26",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
-        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
         "separator",
-        "24e1f974-bdca-42cd-9b19-dfecfe95b460",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "f91bf872-6346-4ab1-af7a-83ccef9dd188",
         "buy_buttons",
+        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
