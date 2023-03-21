@@ -15,14 +15,10 @@
             "liquid": "<span class=\"tp-display-1\">{{product.metafields.coffe_attributes.taste}}<\/span>"
           }
         },
-        "41b16fd1-38c5-4f24-83ae-09a109dd1296": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+        "008912c5-9fb4-477b-8390-0b3779560d26": {
+          "type": "text",
           "settings": {
-            "stars_fill_color": "#e0bf78",
-            "star_size": 16,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews yet"
+            "text": "<p>{{ product.metafields.coffee_attributes.taste_product_page | metafield_tag }}<\/p>"
           }
         },
         "badges": {
@@ -34,12 +30,6 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "008912c5-9fb4-477b-8390-0b3779560d26": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.coffee_attributes.taste_product_page | metafield_tag }}<\/p>"
           }
         },
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
@@ -122,10 +112,9 @@
       "block_order": [
         "title",
         "3276b1b6-a036-4b2c-af1b-f4c6df4658db",
-        "41b16fd1-38c5-4f24-83ae-09a109dd1296",
+        "008912c5-9fb4-477b-8390-0b3779560d26",
         "badges",
         "price",
-        "008912c5-9fb4-477b-8390-0b3779560d26",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "separator",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
