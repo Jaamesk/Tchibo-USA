@@ -250,53 +250,6 @@
         "text_color": ""
       }
     },
-    "3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7": {
-      "type": "multi-column",
-      "blocks": {
-        "template--15669443920078__3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7-1679393998f5c95584-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BaristaEspressoBeans_17.6oz_302108ee-0f4c-440e-8057-7625c3f8a9b3.png",
-            "column_size": "2",
-            "title": "Barista Espresso Beans",
-            "heading_tag": "tp-display-2",
-            "content": "<p>If you like the taste of classic European espresso, you'll love this nutty, intense roast with hints of bittersweet chocolate.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15669443920078__3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7-1679393998f5c95584-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shop-one-500-milano_a74af890-8a7c-478a-a758-b29413710cd1.png",
-            "column_size": "2",
-            "title": "Milano Style Espresso Beans",
-            "heading_tag": "tp-display-2",
-            "content": "<p>Subtle hints of dark chocolate and orange give this medium roast espresso the classic taste of northern Italy.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--15669443920078__3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7-1679393998f5c95584-1",
-        "template--15669443920078__3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7-1679393998f5c95584-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "stack_on_mobile": true,
-        "gap": "small",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "4db969ec-2afb-488e-a3ae-92b6c3ac49a8": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -334,7 +287,7 @@
         "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "images_layout": "stacked",
         "collage_images_alignment": "middle",
         "background": "#f9f9f9",
@@ -408,7 +361,6 @@
     "main",
     "10e8c8f5-b355-4419-a607-76bbbbb1569e",
     "5fc121f7-165a-4cd2-a97b-eb5e4399bbff",
-    "3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7",
     "4db969ec-2afb-488e-a3ae-92b6c3ac49a8",
     "1399e51d-b8b4-4a41-a3e7-87ba82b16e84",
     "167275105287410376"
