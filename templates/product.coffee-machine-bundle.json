@@ -209,7 +209,7 @@
         "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-1": {
           "type": "heading",
           "settings": {
-            "text": "Enjoy two packs of coffee with your new The Tchibo machine",
+            "text": "Enjoy 2 Whole Bean Coffees (17.6 oz. each) with your new The Tchibo machine",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -230,7 +230,7 @@
       ],
       "settings": {
         "full_width": true,
-        "content_width": "large",
+        "content_width": "medium",
         "text_position": "center",
         "background": "",
         "background_gradient": "",
