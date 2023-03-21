@@ -177,6 +177,7 @@
       "settings": {
         "collection": "",
         "products": [
+          "the-tchibo-bundle",
           "the-tchibo",
           "the-tchibo-refurbished",
           "french-press-36-oz-mirror-finish",
@@ -427,89 +428,6 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
-    },
-    "f4caa4f2-fc52-48c0-9020-89bdce4a0783": {
-      "type": "hot-spots",
-      "disabled": true,
-      "blocks": {
-        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-0": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 50,
-            "vertical_position": 37,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "LED Touch Panel",
-            "content": "<p>Elegant, intuitive LED panel with touchscreen operation. Boost Button to increase coffee intensity.<\/p>"
-          }
-        },
-        "b45a5608-7c31-4225-bbc6-66d5ab5c62b2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 46,
-            "vertical_position": 69,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Adjustable Coffee Dispenser",
-            "content": "<p>Adjustable coffee dispenser and removable drip tray for larger mugs.<\/p>"
-          }
-        },
-        "164413cf-7235-4431-b55d-5311badba577": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 37,
-            "vertical_position": 51,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Hassle-free Cleaning",
-            "content": "<p>Easy Automatic descaling function. A cleaner machine makes for better tasting coffee. Removable brewing unit for easy cleaning.<\/p>"
-          }
-        },
-        "65297869-7aef-4a39-ad1b-9d58952b3245": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 34,
-            "vertical_position": 34,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "German-engineered Coffee Grinder",
-            "content": "<p>Low-noise stainless steel coffee grinder. Adjustable grinding degree setting. Coffee hopper with aroma protect sealing, adjustable from 5 to 10 ounces.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__f4caa4f2-fc52-48c0-9020-89bdce4a0783-16714549133d3edf01-0",
-        "b45a5608-7c31-4225-bbc6-66d5ab5c62b2",
-        "164413cf-7235-4431-b55d-5311badba577",
-        "65297869-7aef-4a39-ad1b-9d58952b3245"
-      ],
-      "settings": {
-        "full_width": false,
-        "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_16_132_praesentationsbild-png.png",
-        "title": "Upgrade your coffee experience with The Tchibo",
-        "heading_tag": "tp-display-3-nocolor",
-        "content": "<p>Our iconic single-serve coffee machine with a European twist<\/p>",
-        "button_text": "SHOP NOW",
-        "button_url": "shopify:\/\/products\/the-tchibo",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "#f5ede5",
-        "image_background_gradient": "",
-        "overlay_color": "#21292f",
-        "overlay_opacity": 30,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "#e0bf78",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#e0bf78",
-        "hot_spot_dot_text_color": "#21292f",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#21292f",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
     }
   },
   "order": [
@@ -522,7 +440,6 @@
     "media-grid",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a",
-    "8947917e-6b6e-4739-b763-fabf1560b46c",
-    "f4caa4f2-fc52-48c0-9020-89bdce4a0783"
+    "8947917e-6b6e-4739-b763-fabf1560b46c"
   ]
 }
