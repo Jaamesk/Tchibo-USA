@@ -209,39 +209,89 @@
         "accordion_text_color": "#423d39"
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "5fc121f7-165a-4cd2-a97b-eb5e4399bbff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Included in this bundle",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Enjoy two packs of coffee with your new The Tchibo machine",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "c19ff7f8-31cc-4182-b29e-beecb411f76a": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The coffee beans for these coffees are sourced from South America. The coffee is produced in Europe.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-0",
+        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-1",
+        "c19ff7f8-31cc-4182-b29e-beecb411f76a"
+      ],
       "settings": {
-        "recommendations_count": 5,
-        "products": [
-          "barista-espresso-whole-beans",
-          "milano-style-espresso-whole-beans",
-          "caffe-crema-intense-espresso-whole-beans"
-        ],
         "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Choose a coffee for your new machine",
-        "content": "",
+        "content_width": "large",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "text_color": ""
       }
     },
-    "d49023be-babc-4112-a2f6-3ffae5b85475": {
-      "type": "custom-html",
+    "3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15669443920078__3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7-1679393998f5c95584-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BaristaEspressoBeans_17.6oz_302108ee-0f4c-440e-8057-7625c3f8a9b3.png",
+            "column_size": "2",
+            "title": "Barista Espresso Beans",
+            "heading_tag": "tp-display-2",
+            "content": "<p>If you like the taste of classic European espresso, you'll love this nutty, intense roast with hints of bittersweet chocolate.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15669443920078__3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7-1679393998f5c95584-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-one-500-milano_a74af890-8a7c-478a-a758-b29413710cd1.png",
+            "column_size": "2",
+            "title": "Milano Style Espresso Beans",
+            "heading_tag": "tp-display-2",
+            "content": "<p>Subtle hints of dark chocolate and orange give this medium roast espresso the classic taste of northern Italy.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15669443920078__3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7-1679393998f5c95584-1",
+        "template--15669443920078__3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7-1679393998f5c95584-2"
+      ],
       "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "html": "<div id=\"getreview\"><\/div>",
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -310,8 +360,8 @@
   "order": [
     "main",
     "10e8c8f5-b355-4419-a607-76bbbbb1569e",
-    "product-recommendations",
-    "d49023be-babc-4112-a2f6-3ffae5b85475",
+    "5fc121f7-165a-4cd2-a97b-eb5e4399bbff",
+    "3d25b8ba-5305-45d3-8d5a-ccafdcf3b9b7",
     "1399e51d-b8b4-4a41-a3e7-87ba82b16e84",
     "167275105287410376"
   ]
