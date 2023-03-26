@@ -313,7 +313,14 @@
           "type": "faq_item",
           "settings": {
             "question": "How can I swith between making espresso and regular coffee - there is only one coffee bean compartment?",
-            "answer": "<p>It is actually only possible to fill the machine with coffee beans as and when required, so you need to choose one type of coffee bean until you refill the machine: either espresso or regular coffee.<\/p><p>However, it is possible to make a very good espresso with regular coffee beans – and vice versa. Try it out and see what tastes good. If you make both types of coffee often, we recommend that you use strong, dark-roasted, regular coffee beans.<\/p>"
+            "answer": "<p>It is actually only possible to fill the machine with coffee beans as and when required, so you need to choose one type of coffee bean until you refill the machine: either espresso or regular coffee.<\/p><p>However, it is possible to make a very good espresso with regular coffee beans – and vice versa. Try it out and see what tastes good. If you make both types of coffee often, we recommend that you use strong, dark-roasted, regular coffee beans, make sure its dry arabica beans to avoid malfunction of machine.<\/p>"
+          }
+        },
+        "b6080a89-cef2-4b1b-bbeb-4f49b8ef0425": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What coffee beans are recommended for my espresso machine?",
+            "answer": "<p>1.- Dry arabica beans are recommended. Tchibo has a variety of beans that suits your machine and for best function.<\/p><p>2.- Avoid oily, sugar-coated, caramelized beans, by using these beans you can cause malfunction of the machine and void warranty period.<\/p>"
           }
         }
       },
@@ -330,7 +337,8 @@
         "757d4781-3c69-4bfc-b2bf-fb088b7c6418",
         "e68f3fef-4496-4a8f-87c5-c7300e171d3b",
         "f776869c-e8f8-4347-a3c4-a8f0711972eb",
-        "6a672804-872a-4595-862b-c42a1a6ab220"
+        "6a672804-872a-4595-862b-c42a1a6ab220",
+        "b6080a89-cef2-4b1b-bbeb-4f49b8ef0425"
       ],
       "settings": {
         "title": "Coffee Machine"
@@ -429,6 +437,48 @@
             "question": "The rinsing cycle does not start when the machine is switched on, and the machine cannot be operated, despite all symbols being lit up correctly.",
             "answer": "<p>This can happen if the on\/off button is pressed too gently. This does not happen if the button is pressed firmly. If the machine still cannot be operated, please call 1-888-824-4261<\/p><p>Is Tchibo Röst Frisch sustainable?<\/p>"
           }
+        },
+        "5ed955da-0ccc-4147-a9c9-434b64713397": {
+          "type": "faq_item",
+          "settings": {
+            "question": "No water is coming out of my machine",
+            "answer": "<p>Hold down the power button and boost button together for approx. 5 seconds or until you hear your machine beep twice<br\/>Power it off <br\/>Take out water tank, rinse with hot water<br\/>Dry the water tank opening and make sure it is clear of water & condensation<br\/>Take out brewing unit (side panel) rinse with hot water and dry<br\/>Power on and put water tank and brewing unit back in<br\/>Machine should be ready to brew- run hot water to check <br\/>If hot water is released go ahead and run a cup of coffee<\/p>"
+          }
+        },
+        "3b251c33-c833-42de-9e11-2b14324ec5f2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "My brewing unit is stuck in 45° angle",
+            "answer": "<p>1.-Power on machine and wait for control panel lights to come on<br\/>2.-Hold down the power button and boost button together for approx. 5 seconds or until you hear your machine beep twice<br\/>3.-Power it off and wait 60 seconds<br\/>4.-Power machine back on and it should be ready to brew- run a cup of coffee<\/p>"
+          }
+        },
+        "0ace6eb0-9fd0-4156-b1fe-f6278c41c425": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Recommended cleaning routine for my machine",
+            "answer": "<p>1.- Brewing unit: Once a week rinse under hot water and pat dry.<\/p><p>2.- Brewing unit compartment: Once a week brush all remains inside with supplying brush provided with machine.<\/p><p>3.-Grounds bin and water tray: The machine will notify you when to take out the bin, wash with warm water and pat dry with clean cloth.<\/p><p>4.- Water tank: Rinse water tank daily under warm water and wash the tank with soap once a week, pat dry before placing in machine.<\/p><p>5.- Water tank filter: The filter in the water tank can be removed to remove any limescale or similar deposits that can clog the machine.<\/p><p>6.-Machine casing: Once a week with clean cloth<\/p><p>7.-For long period on non-use please clean your machine fully and empty any grounds remaining to avoid accumulation of any mold.<\/p>"
+          }
+        },
+        "75faa10a-da1e-422f-b6dd-52fb987ae98c": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The empty coffee beans light does not turn off even if it's full of beans",
+            "answer": "<p>1.-Please check that the coffee beans that you are using are dry arabica beans and not oily, sugar-coated, caramelized beans, this causes the grinder and sensors to malfunction.<\/p><p>2.-Change the beans to dry and clean the beans compartment and it should work again.<\/p>"
+          }
+        },
+        "39280d98-3c98-4e83-a6c8-1d14a4c13c66": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The machine grinder does not pull the coffee beans",
+            "answer": "<p>1.-Please check that the coffee beans that you are using are dry arabica beans and not oily, sugar-coated, caramelized beans, this causes the grinder and sensors to malfunction.<\/p><p>2.-Change the beans to dry and clean the beans compartment and it should work again.<\/p>"
+          }
+        },
+        "adf4eb90-a019-4859-bb72-b766a76d0c6e": {
+          "type": "faq_item",
+          "settings": {
+            "question": "The grounds bin light won’t turn off and the bin is empty",
+            "answer": "<p>1.-Turn on your machine, remove your grounds bin, and leave out for about 15 seconds, place back in and the light should turn off<\/p>"
+          }
         }
       },
       "block_order": [
@@ -444,7 +494,13 @@
         "1f973562-2cce-43da-866e-32f79e5fb4d1",
         "b5dca430-7b40-4ada-8bf9-836d76d4a916",
         "8c4830bc-92de-4799-a1b8-c637dcf65a1c",
-        "dfbbf4b2-ff1a-4797-8da2-56665747a378"
+        "dfbbf4b2-ff1a-4797-8da2-56665747a378",
+        "5ed955da-0ccc-4147-a9c9-434b64713397",
+        "3b251c33-c833-42de-9e11-2b14324ec5f2",
+        "0ace6eb0-9fd0-4156-b1fe-f6278c41c425",
+        "75faa10a-da1e-422f-b6dd-52fb987ae98c",
+        "39280d98-3c98-4e83-a6c8-1d14a4c13c66",
+        "adf4eb90-a019-4859-bb72-b766a76d0c6e"
       ],
       "settings": {
         "title": "Maintenance & Repair"
