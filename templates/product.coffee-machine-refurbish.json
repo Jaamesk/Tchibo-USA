@@ -37,12 +37,6 @@
             "show_taxes_notice": false
           }
         },
-        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
-          "type": "payment_terms",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
           "type": "text",
           "settings": {
@@ -74,6 +68,11 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
+          "type": "payment_terms",
+          "settings": {
           }
         },
         "4c5a5b34-f290-4fdd-a0f2-e38e805e79bf": {
@@ -132,12 +131,12 @@
         "41b16fd1-38c5-4f24-83ae-09a109dd1296",
         "badges",
         "price",
-        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "separator",
         "24e1f974-bdca-42cd-9b19-dfecfe95b460",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "buy_buttons",
+        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "4c5a5b34-f290-4fdd-a0f2-e38e805e79bf",
         "f91bf872-6346-4ab1-af7a-83ccef9dd188",
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
