@@ -83,7 +83,6 @@
         },
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
           "type": "payment_terms",
-          "disabled": true,
           "settings": {
           }
         },
