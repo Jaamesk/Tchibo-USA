@@ -1,5 +1,43 @@
 {
   "sections": {
+    "64eb14c2-b458-4317-9b68-a4bc77076acc": {
+      "type": "media-with-text",
+      "blocks": {
+        "b2831afa-b78d-465d-9d03-f0a4e12c443c": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/2baaeba40be34956b3cbb781331e600f.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "What could be fresher than that?",
+            "font-style": "tp-overline-secondary",
+            "title": "The Tchibo",
+            "heading_tag": "tp-display-5-nocolor",
+            "content": "<p>Meet the machine that grinds AND brews your coffee in one seamless step.<\/p>",
+            "link_text": "Discover now",
+            "link_url": "shopify:\/\/products\/the-tchibo",
+            "background": "#f5ede5",
+            "background_gradient": "",
+            "text_color": "#21292f",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "b2831afa-b78d-465d-9d03-f0a4e12c443c"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_parallax": true,
+        "spacing": "none"
+      }
+    },
     "5741f30c-7503-45bb-ab0c-99c6b50354d6": {
       "type": "custom-liquid",
       "settings": {
@@ -431,6 +469,7 @@
     }
   },
   "order": [
+    "64eb14c2-b458-4317-9b68-a4bc77076acc",
     "5741f30c-7503-45bb-ab0c-99c6b50354d6",
     "6f5a2534-05c3-49b1-88d6-71134b8a221c",
     "0f22a51e-1b6a-4739-9a28-2211588d89ff",
