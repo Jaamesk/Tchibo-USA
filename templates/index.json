@@ -38,6 +38,33 @@
         "spacing": "none"
       }
     },
+    "3172f82d-2ce2-4905-9304-a98127b134b4": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bestseller",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Shop our best sellers",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "5741f30c-7503-45bb-ab0c-99c6b50354d6": {
       "type": "custom-liquid",
       "settings": {
@@ -147,35 +174,10 @@
             "button_background": "",
             "button_text_color": ""
           }
-        },
-        "f996a600-f7d7-4ec1-ac96-1a0b01eff133": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rost_Frisch_Colombia_Origin___Mood_5_1.png",
-            "media_width": 45,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "Fresh Sustainable Coffee",
-            "font-style": "tp-overline-secondary",
-            "title": "Discover our best-selling Barista Coffees",
-            "heading_tag": "tp-display-3-nocolor",
-            "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you.<\/p>",
-            "link_text": "Discover our Coffees",
-            "link_url": "shopify:\/\/collections\/all-coffee",
-            "background": "#f5ede5",
-            "background_gradient": "",
-            "text_color": "#21292f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
         }
       },
       "block_order": [
-        "template--15631460925646__0f22a51e-1b6a-4739-9a28-2211588d89ff-16759425297f688004-0",
-        "f996a600-f7d7-4ec1-ac96-1a0b01eff133"
+        "template--15631460925646__0f22a51e-1b6a-4739-9a28-2211588d89ff-16759425297f688004-0"
       ],
       "settings": {
         "full_width": true,
@@ -438,38 +440,11 @@
         "overlay_color": "#21292f",
         "overlay_opacity": 50
       }
-    },
-    "8947917e-6b6e-4739-b763-fabf1560b46c": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "special-offers",
-        "products": [
-
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 4,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "View All",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
     "64eb14c2-b458-4317-9b68-a4bc77076acc",
+    "3172f82d-2ce2-4905-9304-a98127b134b4",
     "5741f30c-7503-45bb-ab0c-99c6b50354d6",
     "6f5a2534-05c3-49b1-88d6-71134b8a221c",
     "0f22a51e-1b6a-4739-9a28-2211588d89ff",
@@ -478,7 +453,6 @@
     "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
-    "61fe0726-0c4b-4784-92c6-d9f5fd13e06a",
-    "8947917e-6b6e-4739-b763-fabf1560b46c"
+    "61fe0726-0c4b-4784-92c6-d9f5fd13e06a"
   ]
 }
