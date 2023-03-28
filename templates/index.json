@@ -147,44 +147,6 @@
         "text_color": ""
       }
     },
-    "0f22a51e-1b6a-4739-9a28-2211588d89ff": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--15631460925646__0f22a51e-1b6a-4739-9a28-2211588d89ff-16759425297f688004-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Refurbished-Banner-Cart.png",
-            "media_width": 45,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "LIMITED TIME OFFER",
-            "font-style": "tp-overline-secondary",
-            "title": "Get free Coffee with every purchase of a Refurbished Machine",
-            "heading_tag": "tp-display-3-nocolor",
-            "content": "<p>Meet the <strong>German-engineered machine <\/strong>that grinds AND brews your <strong>coffee<\/strong> and<strong> espresso<\/strong> in one seamless step. What could be fresher than that?<\/p><p><strong>And for a limited time only: Get two free packs of fresh, whole bean coffee with your purchase.<\/strong><\/p>",
-            "link_text": "Claim your free coffee",
-            "link_url": "shopify:\/\/products\/the-tchibo-refurbished",
-            "background": "#f8f6f2",
-            "background_gradient": "",
-            "text_color": "#21292f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__0f22a51e-1b6a-4739-9a28-2211588d89ff-16759425297f688004-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "enable_parallax": true,
-        "spacing": "small"
-      }
-    },
     "64245853-03f6-4ffd-940c-d16a32e1a211": {
       "type": "featured-collection-variants",
       "settings": {
@@ -447,7 +409,6 @@
     "3172f82d-2ce2-4905-9304-a98127b134b4",
     "5741f30c-7503-45bb-ab0c-99c6b50354d6",
     "6f5a2534-05c3-49b1-88d6-71134b8a221c",
-    "0f22a51e-1b6a-4739-9a28-2211588d89ff",
     "64245853-03f6-4ffd-940c-d16a32e1a211",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
     "5f003099-ae5f-4c2a-a026-326fff501455",
