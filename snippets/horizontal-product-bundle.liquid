@@ -28,10 +28,12 @@ Supported variables
     <div class="v-stack gap-0.5">
       {%- if output_link == false -%}
         <span class="text-sm bold">{{ parent_product.title }}</span>
+      <span>{{ parent_product.price | money }}</span>
       {%- else -%}
         <a href="{{ parent_product.url }}" class="text-sm bold">
           <span class="reversed-link hover:show">{{ parent_product.title }}</span><br>
         </a>
+        <span>{{ parent_product.price | money }}</span>
       {%- endif -%}
     </div>
 
