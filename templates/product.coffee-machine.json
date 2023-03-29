@@ -86,18 +86,13 @@
           "settings": {
           }
         },
-        "22a89051-e093-4dc8-a563-57fc462d3b9a": {
-          "type": "offer",
-          "disabled": true,
+        "b1d585d9-a7a7-4d1b-aa7e-ee456ab14bae": {
+          "type": "bundle",
           "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "none",
-            "icon_width": 24,
-            "title": "Qualifies for free shipping",
-            "content": "<p>Free and fast delivery to your doorstep.<\/p>",
-            "background": "#f2e0b0",
-            "text_color": "#423d39"
+            "bundle_heading": "",
+            "subline": "",
+            "product1": "{{ block.settings.product2.metafields.pdp.crossselling_1.value }}",
+            "product2": "{{ block.settings.product1.metafields.pdp.crossselling_2.value }}"
           }
         },
         "ed4d99e6-1e63-49b1-8368-0749661d25ea": {
@@ -133,7 +128,7 @@
         "f91bf872-6346-4ab1-af7a-83ccef9dd188",
         "buy_buttons",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
-        "22a89051-e093-4dc8-a563-57fc462d3b9a",
+        "b1d585d9-a7a7-4d1b-aa7e-ee456ab14bae",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
         "29403830-c28e-45d8-a405-17d8aefec65a",
         "description"
