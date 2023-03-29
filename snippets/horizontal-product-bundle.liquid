@@ -67,8 +67,9 @@ Supported variables
       {%- else -%}
         <a href="{{ product.url }}" class="text-sm bold">
           <span class="reversed-link hover:show">{{ parent_product.title }}</span><br>
-          <span>{{ product.title }}</span>
         </a>
+      <span>{{ product.title }}</span>
+      <span>{{ product.price }}</span>
       {%- endif -%}
     </div>
 
