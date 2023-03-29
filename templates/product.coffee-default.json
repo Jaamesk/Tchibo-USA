@@ -117,6 +117,7 @@
         },
         "59b895b4-4d24-488a-8b38-ee910dec715a": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"flex-container\"><div class=\"innercontainer\"><img src=\"{{product.metafields.pdp.icon1.value.image | img_url:'125x' }}\"><\/div>\n<div class=\"innercontainer\"><img src=\"{{product.metafields.pdp.icon2.value.image | img_url:'150x' }}\"><\/div>\n<\/div>\n\n<style>\n.flex-container {\n  display: flex;\nalign-items: center;\n}\n<\/style>"
           }
