@@ -75,6 +75,15 @@
             "liquid": "<p class=\"tp-display-1\">\"It's like having a coffee shop in my kitchen\"<\/p><p class=\"tp-body\">- A happy The Tchibo customer<\/p>"
           }
         },
+        "28a3d6c6-3786-4e43-a93e-83208086064e": {
+          "type": "bundle",
+          "settings": {
+            "bundle_heading": "Essentials for your new machine:",
+            "subline": "",
+            "product1": "2-pack-15-oz-double-walled-glass-coffee-mugs-with-handle",
+            "product2": "durgol-descaler-4-2-fluid-ounces-pack-of-4"
+          }
+        },
         "22a89051-e093-4dc8-a563-57fc462d3b9a": {
           "type": "offer",
           "disabled": true,
@@ -121,6 +130,7 @@
         "buy_buttons",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
+        "28a3d6c6-3786-4e43-a93e-83208086064e",
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
         "29403830-c28e-45d8-a405-17d8aefec65a",
