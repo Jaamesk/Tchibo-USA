@@ -115,6 +115,12 @@
           "settings": {
           }
         },
+        "59b895b4-4d24-488a-8b38-ee910dec715a": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"flex-container\"><div class=\"innercontainer\"><img src=\"{{product.metafields.pdp.icon1.value.image | img_url:'125x' }}\"><\/div>\n<div class=\"innercontainer\"><img src=\"{{product.metafields.pdp.icon2.value.image | img_url:'150x' }}\"><\/div>\n<\/div>\n\n<style>\n.flex-container {\n  display: flex;\nalign-items: center;\n}\n<\/style>"
+          }
+        },
         "37866abc-190f-406b-8029-0f23ebea827f": {
           "type": "text",
           "settings": {
@@ -139,6 +145,7 @@
         "2203bc6d-362e-4c75-951f-caa9dd1e69c7",
         "13c7f244-2b9d-4cb9-9e10-08daece76034",
         "ff74cd0b-be49-4aae-9232-0db9c732eb44",
+        "59b895b4-4d24-488a-8b38-ee910dec715a",
         "37866abc-190f-406b-8029-0f23ebea827f"
       ],
       "settings": {
