@@ -2,11 +2,70 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "7cc3cf6a-79f4-4700-9980-637b076d68e4": {
+      "type": "rich-text",
+      "blocks": {
+        "bc9e8009-b731-436b-b0a9-985c67a18cff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tchibo_coffee_drinker.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "26be7c1f-a584-4f2c-904e-5f5adf0c85ce": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--15673689014478__7cc3cf6a-79f4-4700-9980-637b076d68e4-1680203099d228a8a6-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Tchibo Office Coffee",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15673689014478__7cc3cf6a-79f4-4700-9980-637b076d68e4-1680203099d228a8a6-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The Best Office Coffee Solutions for Small or Medium-Sized Offices",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15673689014478__7cc3cf6a-79f4-4700-9980-637b076d68e4-1680203099d228a8a6-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>With a range of high-quality coffee beans and state-of-the-art coffee machines, Tchibo has everything you need to keep your employees happy and energized throughout the workday. <\/p><p>Plus, our expert team is always on hand to provide personalized support and advice. <\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "bc9e8009-b731-436b-b0a9-985c67a18cff",
+        "26be7c1f-a584-4f2c-904e-5f5adf0c85ce",
+        "template--15673689014478__7cc3cf6a-79f4-4700-9980-637b076d68e4-1680203099d228a8a6-0",
+        "template--15673689014478__7cc3cf6a-79f4-4700-9980-637b076d68e4-1680203099d228a8a6-1",
+        "template--15673689014478__7cc3cf6a-79f4-4700-9980-637b076d68e4-1680203099d228a8a6-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7cc3cf6a-79f4-4700-9980-637b076d68e4"
   ]
 }
