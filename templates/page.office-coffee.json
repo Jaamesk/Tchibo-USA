@@ -354,6 +354,28 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "78d8b9f8-f29e-4d38-9547-5a1449abfe7b": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "subheading-style": "tp-overline-secondary",
+        "title": "Custom requests for your office coffee setup",
+        "heading_tag": "tp-display-3",
+        "content": "<p>Are you looking for personalized office coffee solutions that meet the unique needs of your small or medium sized business? Look no further than Tchibo! Our expert team is dedicated to providing high-quality coffee beans, state-of-the-art coffee machines, and personalized support and advice to ensure that your employees are energized and productive throughout the workday.<\/p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -363,6 +385,7 @@
     "39760eb5-ac5c-47bf-bbcd-fca74b8c9b09",
     "4b4ba0ed-cd15-4e0d-8080-0a4e8e92a1b7",
     "8c4fa2f3-063f-4538-a810-0518a49b188a",
-    "c9acd5ab-6823-45bb-85d6-375bb148d3c5"
+    "c9acd5ab-6823-45bb-85d6-375bb148d3c5",
+    "78d8b9f8-f29e-4d38-9547-5a1449abfe7b"
   ]
 }
