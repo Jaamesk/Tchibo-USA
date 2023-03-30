@@ -305,6 +305,58 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "9beac399-a501-4bf9-80f7-6578c2e2b483": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-0": {
+          "type": "item",
+          "settings": {
+            "title": "Question 1",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-1": {
+          "type": "item",
+          "settings": {
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-2": {
+          "type": "item",
+          "settings": {
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-0",
+        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-1",
+        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "subheading_style": "tp-overline-secondary",
+        "title": "",
+        "heading_style": "tp-display-5",
+        "content": "",
+        "font-style": "tp-body",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#f9f9f9",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f8f6f2",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -313,6 +365,7 @@
     "7f7d81a1-be29-49d3-8b9d-a16b3666497d",
     "39760eb5-ac5c-47bf-bbcd-fca74b8c9b09",
     "4b4ba0ed-cd15-4e0d-8080-0a4e8e92a1b7",
-    "8c4fa2f3-063f-4538-a810-0518a49b188a"
+    "8c4fa2f3-063f-4538-a810-0518a49b188a",
+    "9beac399-a501-4bf9-80f7-6578c2e2b483"
   ]
 }
