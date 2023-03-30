@@ -66,21 +66,10 @@
     "7f7d81a1-be29-49d3-8b9d-a16b3666497d": {
       "type": "featured-product",
       "blocks": {
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-0": {
-          "type": "vendor",
-          "settings": {
-            "font-style": "tp-overline-secondary"
-          }
-        },
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-1": {
           "type": "title",
           "settings": {
-            "heading_tag": "tp-display-5"
-          }
-        },
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-2": {
-          "type": "badges",
-          "settings": {
+            "heading_tag": "tp-display-3"
           }
         },
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-3": {
@@ -89,21 +78,15 @@
             "show_taxes_notice": false
           }
         },
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-4": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-5": {
           "type": "separator",
           "settings": {
           }
         },
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-6": {
-          "type": "description",
+        "e56b8c0d-6fd8-4de9-bdce-8e823a363a2b": {
+          "type": "text",
           "settings": {
-            "collapse_content": false
+            "text": "<p>Quench the coffee thirst of your employees with this office coffee starter set. It includes The Tchibo, our bean-to-brew, podless espresso machine, as well as three different European coffee blends for you to try.<\/p>"
           }
         },
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-7": {
@@ -131,28 +114,39 @@
             "payment_button_text_color": ""
           }
         },
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-10": {
-          "type": "pickup_availability",
+        "de6fe615-d8ff-4132-b3b0-b3a98bbc4cf8": {
+          "type": "payment_terms",
           "settings": {
+          }
+        },
+        "0671d2d7-8f91-4542-80e9-a528b1eb2c0f": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "title": "Free & Fast US Shipping",
+            "content": "<p>This bundle qualifies for free, super-fast delivery to your doorstep.<\/p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
           }
         }
       },
       "block_order": [
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-0",
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-1",
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-2",
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-3",
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-4",
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-5",
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-6",
+        "e56b8c0d-6fd8-4de9-bdce-8e823a363a2b",
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-7",
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-8",
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-9",
-        "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-10"
+        "de6fe615-d8ff-4132-b3b0-b3a98bbc4cf8",
+        "0671d2d7-8f91-4542-80e9-a528b1eb2c0f"
       ],
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "the-tchibo-office-coffee-bundle",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
