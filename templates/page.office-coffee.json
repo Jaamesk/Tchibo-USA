@@ -161,11 +161,41 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "4b4ba0ed-cd15-4e0d-8080-0a4e8e92a1b7": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "barista-espresso-whole-beans",
+          "milano-style-espresso-whole-beans",
+          "caffe-crema-intense-espresso-whole-beans"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "7cc3cf6a-79f4-4700-9980-637b076d68e4",
-    "7f7d81a1-be29-49d3-8b9d-a16b3666497d"
+    "7f7d81a1-be29-49d3-8b9d-a16b3666497d",
+    "4b4ba0ed-cd15-4e0d-8080-0a4e8e92a1b7"
   ]
 }
