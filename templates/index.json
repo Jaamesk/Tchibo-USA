@@ -1,41 +1,16 @@
 {
   "sections": {
-    "64eb14c2-b458-4317-9b68-a4bc77076acc": {
-      "type": "media-with-text",
-      "blocks": {
-        "b2831afa-b78d-465d-9d03-f0a4e12c443c": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/2baaeba40be34956b3cbb781331e600f.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "media_width": 60,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "What could be fresher than that?",
-            "font-style": "tp-overline-secondary",
-            "title": "The Tchibo",
-            "heading_tag": "tp-display-5-nocolor",
-            "content": "<p>Meet the machine that grinds AND brews your coffee in one seamless step.<\/p>",
-            "link_text": "Discover now",
-            "link_url": "shopify:\/\/products\/the-tchibo",
-            "background": "#f5ede5",
-            "background_gradient": "",
-            "text_color": "#21292f",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "b2831afa-b78d-465d-9d03-f0a4e12c443c"
-      ],
+    "3cb33c8f-b1f5-4bc5-9751-dace497ce653": {
+      "type": "custom-liquid-LP",
       "settings": {
         "full_width": true,
-        "enable_parallax": true,
-        "spacing": "none"
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "product-for-buy-button": "the-tchibo-bundle",
+        "liquid": "<div class=\"text-with-image-alt\">\n<div class=\"img-column-alt\">\n<video autoplay muted>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8b0bb4fdd56c436f8a5e2f2f758efb53.mp4\" type=\"video\/mp4\">\n<\/video>\n<\/div>\n<div class=\"text-column-alt\">\n<p class=\"tp-overline-secondary\">Single Serve espresso Machine<\/p>\n<h1 class=\"tp-display-4\">The Tchibo Brewer's Bundle<\/h1>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Bean-to-brew Coffee & Espresso Machine + 2 Whole Bean Coffees (17.6 oz. each)<\/p>\n{% render 'price-list', product: section.settings.product-for-buy-button %}\n<p class=\"tp-body\" style=\"padding-top:15px\">Meet the machine that grinds AND brews your coffee in one seamless step. What could be better than that?\n<\/p>\n<p class=\"tp-body\" style=\"padding:15px 0\">This bundle includes our revolutionary bean-to-brew coffee machine as well as a 17.6oz pack of Barista Espresso & Barista Milano Style each to get you started.\n<\/p>\n{% render 'buy-buttons', product: section.settings.product-for-buy-button, show_payment_button: true %}\n<p style=\"padding-top:15px\" class=\"tp-body\"><a href=\"\/products\/the-tchibo-bundle\"><u>See details<\/u><\/a><\/p>\n<\/div>\n<\/div>\n\n<style>\n.text-with-image-alt {\ndisplay:flex;\nalign-items: center;\njustify-content: space-between\n}\n.img-column-alt {\nwidth: 48%;\n}\n.text-column-alt {\nwidth: 48%;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image-alt {\nflex-direction:column;\n}\n.img-column-alt {\nwidth:100%;\n}\n.img-column-alt {\npadding-left: 0;\npadding-bottom: 20px;\n}\n.text-column-alt {\nwidth: 100%\n}\n}\n<\/style>",
+        "background": "#f5ede5",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "3172f82d-2ce2-4905-9304-a98127b134b4": {
@@ -405,7 +380,7 @@
     }
   },
   "order": [
-    "64eb14c2-b458-4317-9b68-a4bc77076acc",
+    "3cb33c8f-b1f5-4bc5-9751-dace497ce653",
     "3172f82d-2ce2-4905-9304-a98127b134b4",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "5741f30c-7503-45bb-ab0c-99c6b50354d6",
