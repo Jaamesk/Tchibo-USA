@@ -69,7 +69,7 @@
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-1": {
           "type": "title",
           "settings": {
-            "heading_tag": "tp-display-3"
+            "heading_tag": "tp-display-4"
           }
         },
         "template--15673689014478__7f7d81a1-be29-49d3-8b9d-a16b3666497d-1680203730b0c105ea-3": {
@@ -162,6 +162,47 @@
         "input_text_color": ""
       }
     },
+    "39760eb5-ac5c-47bf-bbcd-fca74b8c9b09": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15673689014478__39760eb5-ac5c-47bf-bbcd-fca74b8c9b09-1680206345149272bb-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Tchibo Office Coffee Selection",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15673689014478__39760eb5-ac5c-47bf-bbcd-fca74b8c9b09-1680206345149272bb-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Fresh Coffee for your pantry",
+            "heading_tag": "tp-display-4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15673689014478__39760eb5-ac5c-47bf-bbcd-fca74b8c9b09-1680206345149272bb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Choose from our world famous European coffee selection and delight all the coffee drinkers in your office. Save up to $129 when you buy our 35.2oz bags in bulk.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15673689014478__39760eb5-ac5c-47bf-bbcd-fca74b8c9b09-1680206345149272bb-0",
+        "template--15673689014478__39760eb5-ac5c-47bf-bbcd-fca74b8c9b09-1680206345149272bb-1",
+        "template--15673689014478__39760eb5-ac5c-47bf-bbcd-fca74b8c9b09-1680206345149272bb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "4b4ba0ed-cd15-4e0d-8080-0a4e8e92a1b7": {
       "type": "featured-collection",
       "settings": {
@@ -196,6 +237,7 @@
     "main",
     "7cc3cf6a-79f4-4700-9980-637b076d68e4",
     "7f7d81a1-be29-49d3-8b9d-a16b3666497d",
+    "39760eb5-ac5c-47bf-bbcd-fca74b8c9b09",
     "4b4ba0ed-cd15-4e0d-8080-0a4e8e92a1b7"
   ]
 }
