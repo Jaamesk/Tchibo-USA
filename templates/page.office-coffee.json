@@ -306,56 +306,53 @@
         "input_text_color": ""
       }
     },
-    "9beac399-a501-4bf9-80f7-6578c2e2b483": {
-      "type": "accordion-content",
+    "c9acd5ab-6823-45bb-85d6-375bb148d3c5": {
+      "type": "rich-text",
       "blocks": {
-        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-0": {
-          "type": "item",
+        "63dde7fc-1e67-442d-8bd6-a722bfd08a35": {
+          "type": "image",
           "settings": {
-            "title": "Question 1",
-            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+            "image": "shopify:\/\/shop_images\/Tchibo_Office_Coffee_Machine.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
           }
         },
-        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-1": {
-          "type": "item",
+        "15098965-f361-443b-8f55-9f2cc3937e78": {
+          "type": "divider",
           "settings": {
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
           }
         },
-        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-2": {
-          "type": "item",
+        "template--15673689014478__c9acd5ab-6823-45bb-85d6-375bb148d3c5-168020729012986cdb-1": {
+          "type": "heading",
           "settings": {
-            "title": "Question 3",
-            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+            "text": "How to set up your office coffee station",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15673689014478__c9acd5ab-6823-45bb-85d6-375bb148d3c5-168020729012986cdb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Setting up a coffee station for your office requires a few key products. First, you'll need a high-quality coffee machine, such as those offered by Tchibo.<\/p><p>You'll also need a steady supply of coffee beans, creamer, and sweeteners. Don't forget to stock up on cups, stirrers, and napkins. <\/p><p>With the right products, you can create a warm and welcoming coffee station that will keep your employees energized and productive throughout the workday.<\/p>",
+            "font-style": "tp-body"
           }
         }
       },
       "block_order": [
-        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-0",
-        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-1",
-        "template--15673689014478__9beac399-a501-4bf9-80f7-6578c2e2b483-16802069219f0db0db-2"
+        "63dde7fc-1e67-442d-8bd6-a722bfd08a35",
+        "15098965-f361-443b-8f55-9f2cc3937e78",
+        "template--15673689014478__c9acd5ab-6823-45bb-85d6-375bb148d3c5-168020729012986cdb-1",
+        "template--15673689014478__c9acd5ab-6823-45bb-85d6-375bb148d3c5-168020729012986cdb-2"
       ],
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "subheading_style": "tp-overline-secondary",
-        "title": "",
-        "heading_style": "tp-display-5",
-        "content": "",
-        "font-style": "tp-body",
-        "button_text": "",
-        "button_url": "",
+        "content_width": "small",
         "text_position": "start",
-        "background": "#f9f9f9",
+        "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "#f8f6f2",
-        "accordion_text_color": ""
+        "text_color": ""
       }
     }
   },
@@ -366,6 +363,6 @@
     "39760eb5-ac5c-47bf-bbcd-fca74b8c9b09",
     "4b4ba0ed-cd15-4e0d-8080-0a4e8e92a1b7",
     "8c4fa2f3-063f-4538-a810-0518a49b188a",
-    "9beac399-a501-4bf9-80f7-6578c2e2b483"
+    "c9acd5ab-6823-45bb-85d6-375bb148d3c5"
   ]
 }
