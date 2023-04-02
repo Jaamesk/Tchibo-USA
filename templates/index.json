@@ -52,88 +52,6 @@
         "text_color": ""
       }
     },
-    "5741f30c-7503-45bb-ab0c-99c6b50354d6": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"text-with-image\">\n<div class=\"text-column\">\n<p class=\"tp-overline-secondary\">The Tchibo Single Serve Coffee Machine<\/p>\n<h1 class=\"tp-display-4\">NEW coffee machines - back and ready to brew!<\/h1>\n<p class=\"tp-body\" style=\"padding-top:15px\">The wait is over.\nThe Tchibo, our bestselling automatic coffee & espresso machine is back in stock and ready to ship all over the USA to perk up your next cup.\n<\/p>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Plus 10% off for coffee lovers<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:10px\">Until March 31st, save 10% on The Tchibo when you sign up for our newsletter.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm your newsletter subscription. Then you will reveive your 10% discount.' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Get Discount', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n<\/div>\n<div class=\"img-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/The_Tchibo_Coffee_Machine_308.png?v=1673448815\">\n<\/div>\n<\/div>\n\n<style>\n.text-with-image {\ndisplay:flex;\nalign-items: center;\n}\n.img-column {\npadding-left:100px;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image {\nflex-direction:column;\n}\n.img-column {\nwidth:100%;\n}\n.img-column {\npadding-left: 0;\npadding-top: 20px;\n}\n}\n<\/style>",
-        "background": "#f5ede5",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "6f5a2534-05c3-49b1-88d6-71134b8a221c": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "LIMITED TIME OFFER",
-            "font-style": "tp-overline-secondary"
-          }
-        },
-        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Get free coffee with every purchase of The Tchibo: Refurbished & Inspected",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Meet the <strong>German-engineered machine <\/strong>that grinds AND brews your <strong>coffee<\/strong> and<strong> espresso<\/strong> in one seamless step. What could be fresher than that?<\/p><p><strong>And for a limited time only: Get two free packs of fresh, whole bean coffee with your purchase.<\/strong><\/p>",
-            "font-style": "tp-body"
-          }
-        },
-        "443fab52-e42c-4b99-a28b-4d3706f49b58": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Claim your free coffee",
-            "url": "shopify:\/\/products\/the-tchibo-refurbished",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "4c4bad42-d643-4a10-8a54-9c0238eb7b37": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "f855c339-86e7-482d-b726-96d267af1e4c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Refurbished-Banner-Cart_reduced.png",
-            "width_mode": "full_width",
-            "max_width": 700,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-0",
-        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-1",
-        "template--15631460925646__6f5a2534-05c3-49b1-88d6-71134b8a221c-16765641735b6f6a09-2",
-        "443fab52-e42c-4b99-a28b-4d3706f49b58",
-        "4c4bad42-d643-4a10-8a54-9c0238eb7b37",
-        "f855c339-86e7-482d-b726-96d267af1e4c"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "64245853-03f6-4ffd-940c-d16a32e1a211": {
       "type": "featured-collection-variants",
       "settings": {
@@ -383,8 +301,6 @@
     "3cb33c8f-b1f5-4bc5-9751-dace497ce653",
     "3172f82d-2ce2-4905-9304-a98127b134b4",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
-    "5741f30c-7503-45bb-ab0c-99c6b50354d6",
-    "6f5a2534-05c3-49b1-88d6-71134b8a221c",
     "64245853-03f6-4ffd-940c-d16a32e1a211",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
     "5f003099-ae5f-4c2a-a026-326fff501455",
