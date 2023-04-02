@@ -102,7 +102,7 @@ Supported variables
                       {%- endif -%}
                     {%- endif -%}
 
-                    {% render 'swatch' with 'color', allow_multiple: true, selected: filter_value.active, value: filter_value.label, name: filter_value.param_name, disabled: disabled, show_tooltip: true %}
+                    {% render 'swatch' with 'color', allow_multiple: true, selected: filter_value.active, value: filter_value.label, name: filter_value.param_name, disabled: disabled, show_tooltip: true, context: context %}
                   {%- endfor -%}
                 </div>
               {%- else -%}
