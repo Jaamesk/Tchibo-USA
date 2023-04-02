@@ -48,7 +48,7 @@ Supported variables
             {%- assign checked = false -%}
           {%- endif -%}
 
-          {%- render 'checkbox', type: 'radio', label: option.name, name: 'sort_by', value: option.value, checked: checked -%}
+          {%- render 'checkbox', type: 'radio', label: option.name, name: 'sort_by', value: option.value, checked: checked, context: context -%}
         {%- endfor -%}
       </div>
     {%- endcapture -%}
