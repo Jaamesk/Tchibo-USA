@@ -119,7 +119,7 @@ Supported variables
                     {%- endif -%}
 
                     {%- capture label -%}{{ filter_value.label }} {% if section.settings.show_filter_values_count %}({{ filter_value.count }}){% endif %}{%- endcapture -%}
-                    {%- render 'checkbox', label: label, name: filter_value.param_name, value: filter_value.value, checked: filter_value.active, disabled: disabled -%}
+                    {%- render 'checkbox', label: label, name: filter_value.param_name, value: filter_value.value, checked: filter_value.active, disabled: disabled, context: context -%}
                   {%- endfor -%}
                 </div>
               {%- endif -%}
