@@ -621,7 +621,7 @@
       "heading_apparition": "split_rotation",
       "color_swatch_style": "rectangle",
       "product_color_display": "swatch",
-      "cart_type": "drawer",
+      "cart_type": "page",
       "checkout_body_background_color": "#f2f2f2",
       "checkout_sidebar_background_color": "#ffffff",
       "checkout_accent_color": "#3c619e",
