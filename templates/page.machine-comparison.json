@@ -19,14 +19,14 @@
         "template--15675923890382__a573374e-36c0-44ab-b9a9-29fcdb56ab5e-1680684492b0666652-1": {
           "type": "heading",
           "settings": {
-            "text": "Choose your bundle",
+            "text": "Choose your perfect match",
             "heading_tag": "tp-display-5-nocolor"
           }
         },
         "template--15675923890382__a573374e-36c0-44ab-b9a9-29fcdb56ab5e-1680684492b0666652-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Compare our coffee machine bundles to find your perfect match<\/p>"
+            "content": "<p>Compare our coffee machine bundles to find your favorite!<\/p>"
           }
         }
       },
@@ -54,18 +54,19 @@
         "template--15675923890382__53816432-4159-4ff8-978b-60cdfc3f4eb7-1680684510d6d7f475-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Tchibo_Vollautomat_vorn_Logos_1000x1000px_55ac6bb4-b78b-48ff-a838-0db31150c2db.webp",
             "media_width": 50,
             "media_position": "end",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "font-style": "tp-overline-secondary",
-            "title": "Heading",
+            "title": "The Tchibo",
             "heading_tag": "tp-display-5-nocolor",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
+            "content": "<p><strong>$499.00<\/strong><\/p><p><\/p><ul><li>The Tchibo, edition 2023<\/li><li>Super automatic Espresso & Coffee machine with build-in burr grinder<\/li><li>Bean-To-Brew, Single Serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact Size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>",
+            "link_text": "See details",
+            "link_url": "shopify:\/\/products\/the-tchibo",
             "background": "#f9f9f9",
             "background_gradient": "",
             "text_color": "#21292f",
@@ -80,16 +81,16 @@
             "image": "shopify:\/\/shop_images\/TheTchiboBundle.png",
             "media_width": 50,
             "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "font-style": "tp-overline-secondary",
-            "title": "Heading",
+            "title": "The Tchibo - Brewer's Bundle",
             "heading_tag": "tp-display-5-nocolor",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
+            "content": "<p><strong>$499.00 - Includes Free Coffee!<\/strong><\/p><p><\/p><ul><li>The Tchibo, edition 2023 + 2 Whole Bean Coffees (17.6 oz. each)<\/li><li>Fully automatic coffee and espresso machine<\/li><li>Bean-to-brew, single serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>",
+            "link_text": "See details",
+            "link_url": "shopify:\/\/products\/the-tchibo-bundle",
             "background": "#f9f9f9",
             "background_gradient": "",
             "text_color": "#21292f",
@@ -101,18 +102,19 @@
         "635984c6-2b84-415c-b050-c420caf04460": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Tchibo_Vollautomat_3Packungen_1000x1000px.webp",
             "media_width": 50,
             "media_position": "end",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "font-style": "tp-overline-secondary",
-            "title": "Heading",
+            "title": "The Tchibo - Office Coffee Bundle",
             "heading_tag": "tp-display-5-nocolor",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "link_text": "",
-            "link_url": "",
+            "content": "<p><strong>$499.00 - Includes Free Coffee!<\/strong><\/p><p><\/p><ul><li>The Tchibo, edition 2023 + 2 Whole Bean Coffees (35.2oz each)<\/li><li>Fully automatic coffee and espresso machine<\/li><li>Bean-to-brew, single serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>",
+            "link_text": "see details",
+            "link_url": "shopify:\/\/products\/the-tchibo-office-coffee-bundle",
             "background": "#f9f9f9",
             "background_gradient": "",
             "text_color": "#21292f",
@@ -127,6 +129,9 @@
         "c6ce12de-51d0-4368-9e55-70e0b6239535",
         "635984c6-2b84-415c-b050-c420caf04460"
       ],
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
       "settings": {
         "full_width": false,
         "enable_parallax": true,
@@ -139,10 +144,10 @@
         "template--15675923890382__6e45f910-0d7c-4fb3-99df-9f14a55c65ad-16806845910d0da075-0": {
           "type": "headings",
           "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
-            "heading_4": "Heading 4",
+            "heading_1": "Machine",
+            "heading_2": "Coffee 1",
+            "heading_3": "Coffee 2",
+            "heading_4": "Coffee 3",
             "heading_5": "",
             "heading_6": "",
             "heading_7": "",
@@ -164,11 +169,11 @@
         "template--15675923890382__6e45f910-0d7c-4fb3-99df-9f14a55c65ad-16806845910d0da075-1": {
           "type": "values",
           "settings": {
-            "product": "",
-            "value_1": "<p>Yes<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>No<\/p>",
-            "value_4": "<p>No<\/p>",
+            "product": "the-tchibo",
+            "value_1": "<p>The Tchibo, edition 2023 <\/p>",
+            "value_2": "<p>-<\/p>",
+            "value_3": "<p>-<\/p>",
+            "value_4": "<p>-<\/p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -192,11 +197,39 @@
         "template--15675923890382__6e45f910-0d7c-4fb3-99df-9f14a55c65ad-16806845910d0da075-2": {
           "type": "values",
           "settings": {
-            "product": "",
-            "value_1": "<p>No<\/p>",
-            "value_2": "<p>Yes<\/p>",
-            "value_3": "<p>Yes<\/p>",
-            "value_4": "<p>No<\/p>",
+            "product": "the-tchibo-bundle",
+            "value_1": "<p>The Tchibo, edition 2023<\/p>",
+            "value_2": "<p>Barista Espresso Beans <br\/>17.6 oz.<\/p>",
+            "value_3": "<p>Milano Style Espresso Beans <br\/>17.6 oz.<\/p>",
+            "value_4": "<p>-<\/p>",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "2b8e6473-1b79-457c-9b49-f4decc747261": {
+          "type": "values",
+          "settings": {
+            "product": "the-tchibo-office-coffee-bundle",
+            "value_1": "<p>The Tchibo, edition 2023<\/p>",
+            "value_2": "<p>Barista Espresso Beans<br\/>35.2 oz.<\/p>",
+            "value_3": "<p>Milano Style Espresso Beans<br\/>35.2 oz.<\/p>",
+            "value_4": "<p>Caffé Crema Intense Beans<br\/>35.2 oz.<\/p>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -221,15 +254,16 @@
       "block_order": [
         "template--15675923890382__6e45f910-0d7c-4fb3-99df-9f14a55c65ad-16806845910d0da075-0",
         "template--15675923890382__6e45f910-0d7c-4fb3-99df-9f14a55c65ad-16806845910d0da075-1",
-        "template--15675923890382__6e45f910-0d7c-4fb3-99df-9f14a55c65ad-16806845910d0da075-2"
+        "template--15675923890382__6e45f910-0d7c-4fb3-99df-9f14a55c65ad-16806845910d0da075-2",
+        "2b8e6473-1b79-457c-9b49-f4decc747261"
       ],
       "settings": {
         "full_width": true,
-        "subheading": "Compare",
+        "subheading": "",
         "subheading-style": "tp-overline-secondary",
-        "title": "Product specification",
+        "title": "Compare our Coffee Machine Bundles",
         "heading_tag": "tp-display-5",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.<\/p>",
+        "content": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
