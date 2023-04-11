@@ -52,7 +52,7 @@
               {%- if section.settings.recommendations_title != blank or section.settings.products.count > 1 -%}
                 <div class="h-stack justify-between gap-4">
                   {%- if section.settings.recommendations_title != blank -%}
-                    <p>{{ section.settings.recommendations_title | escape }}</p>
+                    <p class="tp-display-1">{{ section.settings.recommendations_title | escape }}</p>
                   {%- endif -%}
 
                   {%- if section.settings.products.count > 1 -%}
