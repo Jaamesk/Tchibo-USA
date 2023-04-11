@@ -141,6 +141,29 @@
               "drawer_link_image": "show"
             }
           },
+          "d31cc14d-7f41-44e2-8b0f-e4fe6c7bddfe": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "",
+              "layout": "horizontal",
+              "submenu_style": "bold_heading",
+              "image_heading_1": "",
+              "image_link_1": "",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          },
           "424da406-5852-4886-bd5d-a058a48011c4": {
             "type": "mega_menu",
             "settings": {
@@ -168,6 +191,7 @@
         },
         "block_order": [
           "219e1dfb-66ac-4946-bc9a-901c55ab7236",
+          "d31cc14d-7f41-44e2-8b0f-e4fe6c7bddfe",
           "424da406-5852-4886-bd5d-a058a48011c4"
         ],
         "settings": {
@@ -199,7 +223,7 @@
           "show_cart_note": true,
           "show_shipping_text": true,
           "show_checkout_button": true,
-          "recommendations_title": "Coffees for your office",
+          "recommendations_title": "Try our coffees in your office",
           "products": [
             "big-box-coffee-sampler",
             "the-tchibo-office-coffee-bundle"
