@@ -44,6 +44,14 @@
           {%- endfor -%}
         </div>
 
+    {% unless cart.item_count < 1 %}
+      {% for item in cart.items %}
+        {% if item.product.metafields.pdp.crossselling_1 %}
+          {%- render 'horizontal-product-bundle', product: item.product.metafields.pdp.crossselling_1.first_available_variant, parent_product: item.product.metafields.pdp.crossselling_1, show_add_to_cart: true -%}
+          {% endif %}
+        {% endfor %}
+    {% endunless %}
+
         {%- if section.settings.products.count > 0 -%}
           <div class="cart-drawer__recommendations">
             <div class="v-stack gap-2.5 sm:gap-4">
