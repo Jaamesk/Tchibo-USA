@@ -199,9 +199,10 @@
           "show_cart_note": true,
           "show_shipping_text": true,
           "show_checkout_button": true,
-          "recommendations_title": "Trending this month",
+          "recommendations_title": "Coffees for your office",
           "products": [
-
+            "big-box-coffee-sampler",
+            "the-tchibo-office-coffee-bundle"
           ],
           "product_card_background": "#ffffff",
           "product_card_text_color": ""
