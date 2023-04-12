@@ -1,3 +1,7 @@
+#newsletter-drawer {
+  z-index:11;
+}
+
 #dummy-chat-button-iframe {
   z-index: 10!important;
 }
