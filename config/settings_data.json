@@ -373,14 +373,15 @@
       "newsletter-popup": {
         "type": "newsletter-popup",
         "settings": {
-          "enable": false,
-          "apparition_delay": 5,
-          "show_only_on_index": true,
+          "enable": true,
+          "apparition_delay": 9,
+          "show_only_on_index": false,
           "show_only_for_visitors": true,
           "show_only_once": true,
-          "title": "Signup for our newsletter",
+          "image": "shopify:\/\/shop_images\/MoodshootingPSPPart5_VML-_22_087_Barista.png",
+          "title": "Sign up for our coffee lover's newsletter",
           "button_text": "Subscribe",
-          "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+          "subtext": "Good brews and exclusive offers are on their way to your inbox."
         }
       },
       "static-newsletter": {
