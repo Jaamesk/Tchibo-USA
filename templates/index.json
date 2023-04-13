@@ -2,36 +2,82 @@
   "sections": {
     "cbe74029-d1ba-4f85-b0d6-a33bb376a5e6": {
       "type": "video",
-      "disabled": true,
       "blocks": {
         "template--15631460925646__cbe74029-d1ba-4f85-b0d6-a33bb376a5e6-1681390053c2b5228f-1": {
           "type": "heading",
           "settings": {
-            "text": "Video",
+            "text": "The freshest single-serve brew. European quality in every cup.",
             "heading_tag": "tp-display-4-nocolor"
           }
         },
-        "08f1ad0d-5977-4ebb-b529-a053febf2be9": {
+        "09f5257f-e68e-4e69-9dcf-ccc2b9187757": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "tp-display-2-nocolor"
+          }
+        },
+        "118be497-1632-4c94-b350-b3c05835451d": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.<\/p>"
+            "content": "<p>Discover our bean-to-brew coffee machine and bestselling coffees.<\/p>"
+          }
+        },
+        "b382805a-1454-478f-a42d-3820cb6f31d1": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Discover our Coffee Machine",
+            "url": "shopify:\/\/pages\/compare-our-machine-bundles",
+            "background": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "4cac81fc-9148-4f38-af4d-4209f31b8e30": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Browse our coffees",
+            "url": "shopify:\/\/collections\/all-coffee",
+            "background": "",
+            "text_color": "#ffffff"
           }
         }
       },
       "block_order": [
         "template--15631460925646__cbe74029-d1ba-4f85-b0d6-a33bb376a5e6-1681390053c2b5228f-1",
-        "08f1ad0d-5977-4ebb-b529-a053febf2be9"
+        "09f5257f-e68e-4e69-9dcf-ccc2b9187757",
+        "118be497-1632-4c94-b350-b3c05835451d",
+        "b382805a-1454-478f-a42d-3820cb6f31d1",
+        "4cac81fc-9148-4f38-af4d-4209f31b8e30"
+      ],
+      "custom_css": [
+        ".place-self-center {text-align: left !important;}"
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "autoplay": true,
-        "video_size": "auto",
+        "video_size": "lg",
         "video": "shopify:\/\/files\/videos\/2baaeba40be34956b3cbb781331e600f.mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "747c48b0-3d9e-4a1d-bae2-d5d41f608538": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p class=\"tp-display-2\" style=\"text-align:center;padding-top:15px;\">As seen in<\/p>\n<div class=\"press-mentions\">\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/1280px-BuzzFeed_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-stir_2_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-bloomberg_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-tea-coffee_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Forbes_logo_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<\/div>\n\n<style>\n.press-mentions {\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\npadding: 15px 20px;\n}\n.mention {\npadding: 0 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.press-mentions {\n}\n.mention {\npadding: 0 5px;\n}\n}\n<\/style>",
+        "background": "#f9f9f9",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "3cb33c8f-b1f5-4bc5-9751-dace497ce653": {
@@ -41,20 +87,8 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "product-for-buy-button": "the-tchibo-bundle",
-        "liquid": "<div class=\"text-with-image-alt\">\n<div class=\"img-column-alt\">\n<video autoplay muted loop>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8b0bb4fdd56c436f8a5e2f2f758efb53.mp4\" type=\"video\/mp4\">\n<\/video>\n<\/div>\n<div class=\"text-column-alt\">\n<p class=\"tp-overline-secondary\">Single Serve espresso Machine<\/p>\n<h1 class=\"tp-display-4\">The Tchibo Brewer's Bundle<\/h1>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Bean-to-brew Coffee & Espresso Machine + 2 Whole Bean Coffees (17.6 oz. each)<\/p>\n{% render 'price-list', product: section.settings.product-for-buy-button %}\n<p class=\"tp-body\" style=\"padding-top:15px\">Meet the machine that grinds AND brews your coffee in one seamless step. What could be better than that?\n<\/p>\n<p class=\"tp-body\" style=\"padding:15px 0\">This bundle includes our revolutionary bean-to-brew coffee machine as well as a 17.6oz pack of Barista Espresso & Barista Milano Style each to get you started.\n<\/p>\n{% render 'buy-buttons', product: section.settings.product-for-buy-button, show_payment_button: true %}\n<p style=\"padding-top:15px\" class=\"tp-body\"><a href=\"\/products\/the-tchibo-bundle\"><u>See details<\/u><\/a><\/p>\n<\/div>\n<\/div>\n\n<style>\n.text-with-image-alt {\ndisplay:flex;\nalign-items: center;\njustify-content: space-between\n}\n.img-column-alt {\nwidth: 48%;\n}\n.text-column-alt {\nwidth: 48%;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image-alt {\nflex-direction:column;\n}\n.img-column-alt {\nwidth:100%;\n}\n.img-column-alt {\npadding-left: 0;\npadding-bottom: 20px;\n}\n.text-column-alt {\nwidth: 100%\n}\n}\n<\/style>",
+        "liquid": "<div class=\"text-with-image-alt\">\n<div class=\"img-column-alt\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/TheTchiboBundle.png?v=1679327035\">\n<\/div>\n<div class=\"text-column-alt\">\n<p class=\"tp-overline-secondary\">Single Serve espresso Machine<\/p>\n<h1 class=\"tp-display-4\">The Tchibo Brewer's Bundle<\/h1>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Bean-to-brew Coffee & Espresso Machine + 2 Whole Bean Coffees (17.6 oz. each)<\/p>\n{% render 'price-list', product: section.settings.product-for-buy-button %}\n<p class=\"tp-body\" style=\"padding-top:15px\">Meet the machine that grinds AND brews your coffee in one seamless step. What could be better than that?\n<\/p>\n<p class=\"tp-body\" style=\"padding:15px 0\">This bundle includes our revolutionary bean-to-brew coffee machine as well as a 17.6oz pack of Barista Espresso & Barista Milano Style each to get you started.\n<\/p>\n{% render 'buy-buttons', product: section.settings.product-for-buy-button, show_payment_button: true %}\n<p style=\"padding-top:15px\" class=\"tp-body\"><a href=\"\/products\/the-tchibo-bundle\"><u>See details<\/u><\/a><\/p>\n<\/div>\n<\/div>\n\n<style>\n.text-with-image-alt {\ndisplay:flex;\nalign-items: center;\njustify-content: space-between\n}\n.img-column-alt {\nwidth: 48%;\n}\n.text-column-alt {\nwidth: 48%;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image-alt {\nflex-direction:column;\n}\n.img-column-alt {\nwidth:100%;\n}\n.img-column-alt {\npadding-left: 0;\npadding-bottom: 20px;\n}\n.text-column-alt {\nwidth: 100%\n}\n}\n<\/style>",
         "background": "#f5ede5",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "747c48b0-3d9e-4a1d-bae2-d5d41f608538": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p class=\"tp-display-3\" style=\"text-align:center;padding:15px 0;\">As seen in<\/p>\n<div class=\"press-mentions\">\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/1280px-BuzzFeed_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-stir_2_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-bloomberg_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/press-featured-callouts-tea-coffee_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<div class=\"mention\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Forbes_logo_1.png?v=1673439033\" width=\"150px\" height=\"auto\">\n<\/div>\n<\/div>\n\n<style>\n.press-mentions {\ndisplay:flex;\njustify-content:space-between;\nalign-items:center;\npadding: 30px 20px;\n}\n.mention {\npadding: 0 10px;\n}\n\n@media only screen and (max-width: 767px) {\n.press-mentions {\n}\n.mention {\npadding: 0 5px;\n}\n}\n<\/style>",
-        "background": "#f9f9f9",
         "background_gradient": "",
         "text_color": ""
       }
@@ -333,8 +367,8 @@
   },
   "order": [
     "cbe74029-d1ba-4f85-b0d6-a33bb376a5e6",
-    "3cb33c8f-b1f5-4bc5-9751-dace497ce653",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
+    "3cb33c8f-b1f5-4bc5-9751-dace497ce653",
     "3172f82d-2ce2-4905-9304-a98127b134b4",
     "64245853-03f6-4ffd-940c-d16a32e1a211",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",

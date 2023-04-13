@@ -194,6 +194,9 @@
           "d31cc14d-7f41-44e2-8b0f-e4fe6c7bddfe",
           "424da406-5852-4886-bd5d-a058a48011c4"
         ],
+        "custom_css": [
+
+        ],
         "settings": {
           "enable_sticky": true,
           "hide_on_scroll": false,
