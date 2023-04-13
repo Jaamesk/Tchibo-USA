@@ -1,5 +1,39 @@
 {
   "sections": {
+    "cbe74029-d1ba-4f85-b0d6-a33bb376a5e6": {
+      "type": "video",
+      "disabled": true,
+      "blocks": {
+        "template--15631460925646__cbe74029-d1ba-4f85-b0d6-a33bb376a5e6-1681390053c2b5228f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "tp-display-4-nocolor"
+          }
+        },
+        "08f1ad0d-5977-4ebb-b529-a053febf2be9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__cbe74029-d1ba-4f85-b0d6-a33bb376a5e6-1681390053c2b5228f-1",
+        "08f1ad0d-5977-4ebb-b529-a053febf2be9"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/2baaeba40be34956b3cbb781331e600f.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "3cb33c8f-b1f5-4bc5-9751-dace497ce653": {
       "type": "custom-liquid-LP",
       "settings": {
@@ -298,6 +332,7 @@
     }
   },
   "order": [
+    "cbe74029-d1ba-4f85-b0d6-a33bb376a5e6",
     "3cb33c8f-b1f5-4bc5-9751-dace497ce653",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "3172f82d-2ce2-4905-9304-a98127b134b4",
