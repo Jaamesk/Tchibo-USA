@@ -32,6 +32,12 @@
             "show_taxes_notice": false
           }
         },
+        "dbf467d8-afad-4041-af04-df0bed962dbd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign product_title = product.title %}\n\n<div class=\"toggle-wrapper\">\n{% for product in collections['machine-toggle'].products %}\n<a href=\"{{product.url}}\">\n<div class=\"toggle {% if product.title == product_title %} selected {%endif%}\">\n<div class=\"toggle-image\">\n<img src=\"{{product.featured_image | image_url: width: 80, height:  80}}\" width=\"100%\">\n<\/div>\n<div class=\"toggle-text\">\n<p>{{ product.title }}<\/p>\n<p>{{product.price | money}}<\/p>\n<\/div>\n<\/div>\n<\/a>\n{%endfor%}\n<\/div>\n\n<style>\n.toggle-wrapper {\ndisplay: flex;\n}\n\n.toggle {\ndisplay: flex;\npadding-right: 10px;\nwidth: 170px;\nalign-items:center;\nheight:80px;\n}\n\n.selected {\nbackground-color: #F8F6F2;\n}\n\n.toggle p {\nfont-size:11px;\n}\n\n@media only screen and (max-width: 767px) {\n.toggle-wrapper {\ndisplay: block;\n}\n.toggle {\nwidth: 100%;\n}\n.toggle-image {\npadding-right: 10px;\n}\n}\n<\/style>"
+          }
+        },
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
           "type": "text",
           "settings": {
@@ -123,6 +129,7 @@
         "008912c5-9fb4-477b-8390-0b3779560d26",
         "badges",
         "price",
+        "dbf467d8-afad-4041-af04-df0bed962dbd",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "separator",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",

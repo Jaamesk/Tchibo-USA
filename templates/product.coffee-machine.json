@@ -36,6 +36,12 @@
             "show_taxes_notice": false
           }
         },
+        "15fdee33-842c-4483-8942-b3414bfab439": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"toggle-wrapper\">\n{% for product in collections['machine-toggle'].products %}\n<a href=\"{{product.url}}\">\n<div class=\"toggle\">\n<img src=\"{{product.featured_image | image_url: width: 80, height:  80}}\">\n<div class=\"toggle-text\">\n<p>{{ product.title }}<\/p>\n<p>{{product.price | money}}<\/p>\n<\/div>\n<\/div>\n<\/a>\n{%endfor%}\n<\/div>\n\n<style>\n.toggle-wrapper {\ndisplay: flex;\njustify-content: space-between;\n}\n\n.toggle {\npadding-right: 10px;\nborder: 1px solid black\n}\n\n.toggle p {\nfont-size:11px;\n}\n<\/style>"
+          }
+        },
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
           "type": "text",
           "settings": {
@@ -120,6 +126,7 @@
         "41b16fd1-38c5-4f24-83ae-09a109dd1296",
         "badges",
         "price",
+        "15fdee33-842c-4483-8942-b3414bfab439",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
         "separator",
