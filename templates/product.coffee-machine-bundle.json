@@ -32,6 +32,12 @@
             "show_taxes_notice": false
           }
         },
+        "12f398a9-50ba-4e71-bdca-3f636d4b0239": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Choose your bundle:<\/strong><\/p>"
+          }
+        },
         "dbf467d8-afad-4041-af04-df0bed962dbd": {
           "type": "liquid",
           "settings": {
@@ -129,6 +135,7 @@
         "008912c5-9fb4-477b-8390-0b3779560d26",
         "badges",
         "price",
+        "12f398a9-50ba-4e71-bdca-3f636d4b0239",
         "dbf467d8-afad-4041-af04-df0bed962dbd",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
         "separator",
