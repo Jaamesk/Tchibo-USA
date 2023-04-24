@@ -190,7 +190,7 @@
         "template--15682417885390__60d64619-e230-4848-b376-caf7c0152f6b-16823200831ac2298f-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gm_rainforestalliance.webp",
+            "image": "shopify:\/\/shop_images\/fairtrade-globalesmodul.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -198,9 +198,9 @@
             "icon_width": 48,
             "subheading": "",
             "font-style": "tp-overline-secondary",
-            "title": "Rainforest Alliance Certified",
+            "title": "Fairtrade Certified",
             "heading_tag": "tp-display-2-nocolor",
-            "content": "<p>What does the certification of the \"Rainforest Alliance\" actually mean for our coffees? <\/p><p>The environmental organization advocates for the protection of sensitive ecosystems (such as the animal and plant world), the sustainable management of land areas (e.g. organic coffee cultivation), adequate living and working conditions for coffee farmers and their families.<\/p>",
+            "content": "<p>It is our responsibility to contribute to improving the living and working conditions of coffee farming families.<\/p><p>Fair trade stands for: Compliance with social, ecological and economic standards, stable minimum prices plus an additional Fairtrade premium for community projects, improved living and working conditions.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#f9f9f9",
