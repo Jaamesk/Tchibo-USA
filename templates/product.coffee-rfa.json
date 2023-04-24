@@ -191,7 +191,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/gm_rainforestalliance.webp",
-            "media_width": 40,
+            "media_width": 35,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
