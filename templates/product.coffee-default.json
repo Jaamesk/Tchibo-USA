@@ -28,7 +28,7 @@
         "5609a5b2-22df-450b-b140-bc90f2e6aeba": {
           "type": "text",
           "settings": {
-            "text": "<p>The coffee beans for this coffee are sourced from South America. The coffee is produced in Europe.<\/p>"
+            "text": "<p>{{ product.metafields.coffee_pdp.coffee_origin.value }}<\/p>"
           }
         },
         "a0fec0b2-b10d-4acf-9272-250e294b3f80": {
