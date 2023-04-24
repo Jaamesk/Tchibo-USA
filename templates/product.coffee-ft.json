@@ -190,7 +190,7 @@
         "template--15682417885390__60d64619-e230-4848-b376-caf7c0152f6b-16823200831ac2298f-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fairtrade-globalesmodul.webp",
+            "image": "shopify:\/\/shop_images\/image005.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -214,6 +214,9 @@
       },
       "block_order": [
         "template--15682417885390__60d64619-e230-4848-b376-caf7c0152f6b-16823200831ac2298f-0"
+      ],
+      "custom_css": [
+        "img {object-fit: contain; width: 80%;}"
       ],
       "settings": {
         "full_width": false,
