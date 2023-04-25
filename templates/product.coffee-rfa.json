@@ -191,7 +191,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/gm_rainforestalliance.webp",
-            "media_width": 35,
+            "media_width": 30,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
@@ -199,7 +199,7 @@
             "subheading": "",
             "font-style": "tp-overline-secondary",
             "title": "Rainforest Alliance Certified",
-            "heading_tag": "tp-display-2-nocolor",
+            "heading_tag": "tp-display-3-nocolor",
             "content": "<p>What does the certification of the \"Rainforest Alliance\" actually mean for our coffees? <\/p><p>The environmental organization advocates for the protection of sensitive ecosystems (such as the animal and plant world), the sustainable management of land areas (e.g. organic coffee cultivation), adequate living and working conditions for coffee farmers and their families.<\/p>",
             "link_text": "",
             "link_url": "",
