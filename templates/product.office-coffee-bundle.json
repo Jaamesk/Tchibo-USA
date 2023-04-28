@@ -32,6 +32,12 @@
             "show_taxes_notice": false
           }
         },
+        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-1\">\"It's like having a coffee shop in my kitchen\"<\/p><p class=\"tp-body\">- A happy The Tchibo customer<\/p>"
+          }
+        },
         "12f398a9-50ba-4e71-bdca-3f636d4b0239": {
           "type": "text",
           "settings": {
@@ -81,19 +87,13 @@
           "settings": {
           }
         },
-        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<p class=\"tp-display-1\">\"It's like having a coffee shop in my kitchen\"<\/p><p class=\"tp-body\">- A happy The Tchibo customer<\/p>"
-          }
-        },
         "28a3d6c6-3786-4e43-a93e-83208086064e": {
           "type": "bundle",
           "settings": {
-            "bundle_heading": "Essentials for your new machine:",
-            "subline": "",
-            "product1": "2-pack-15-oz-double-walled-glass-coffee-mugs-with-handle",
-            "product2": "durgol-descaler-4-2-fluid-ounces-pack-of-4"
+            "bundle_heading": "This weekend only: Enjoy a free bag of African Blue coffee",
+            "subline": "Discount applied automatically at checkout",
+            "product1": "privat-kaffee-african-blue-1",
+            "product2": ""
           }
         },
         "22a89051-e093-4dc8-a563-57fc462d3b9a": {
@@ -135,6 +135,7 @@
         "008912c5-9fb4-477b-8390-0b3779560d26",
         "badges",
         "price",
+        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
         "12f398a9-50ba-4e71-bdca-3f636d4b0239",
         "dbf467d8-afad-4041-af04-df0bed962dbd",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
@@ -143,7 +144,6 @@
         "f91bf872-6346-4ab1-af7a-83ccef9dd188",
         "buy_buttons",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
-        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
         "28a3d6c6-3786-4e43-a93e-83208086064e",
         "22a89051-e093-4dc8-a563-57fc462d3b9a",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
@@ -220,94 +220,6 @@
         "accordion_text_color": "#423d39"
       }
     },
-    "5fc121f7-165a-4cd2-a97b-eb5e4399bbff": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Included in this bundle",
-            "font-style": "tp-overline-secondary"
-          }
-        },
-        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Enjoy 2 Whole Bean Coffees (17.6 oz. each) with your new The Tchibo machine",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "c19ff7f8-31cc-4182-b29e-beecb411f76a": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The coffee beans for these coffees are sourced from South America. The coffee is produced in Europe.<\/p>",
-            "font-style": "tp-body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-0",
-        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-1",
-        "c19ff7f8-31cc-4182-b29e-beecb411f76a"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "4db969ec-2afb-488e-a3ae-92b6c3ac49a8": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BaristaEspressoBeans_17.6oz_302108ee-0f4c-440e-8057-7625c3f8a9b3.png",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "font-style": "tp-overline-secondary",
-            "title": "Barista Espresso Beans",
-            "heading_tag": "tp-display-3",
-            "content": "<p>If you like the taste of classic European espresso, you'll love this nutty, intense roast with hints of bittersweet chocolate.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shop-one-500-milano_a74af890-8a7c-478a-a758-b29413710cd1.png",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "font-style": "tp-overline-secondary",
-            "title": "Milano Style Espresso Beans",
-            "heading_tag": "tp-display-3",
-            "content": "<p>Subtle hints of dark chocolate and orange give this medium roast espresso the classic taste of northern Italy.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-0",
-        "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "#f9f9f9",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "1399e51d-b8b4-4a41-a3e7-87ba82b16e84": {
       "type": "rich-text",
       "disabled": true,
@@ -373,8 +285,6 @@
   "order": [
     "main",
     "10e8c8f5-b355-4419-a607-76bbbbb1569e",
-    "5fc121f7-165a-4cd2-a97b-eb5e4399bbff",
-    "4db969ec-2afb-488e-a3ae-92b6c3ac49a8",
     "1399e51d-b8b4-4a41-a3e7-87ba82b16e84",
     "167275105287410376"
   ]
