@@ -1,0 +1,381 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "tp-display-2"
+          }
+        },
+        "3276b1b6-a036-4b2c-af1b-f4c6df4658db": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span class=\"tp-display-1\">{{product.metafields.coffe_attributes.taste}}<\/span>"
+          }
+        },
+        "008912c5-9fb4-477b-8390-0b3779560d26": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.coffee_attributes.taste_product_page | metafield_tag }}<\/p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "12f398a9-50ba-4e71-bdca-3f636d4b0239": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Choose your bundle:<\/strong><\/p>"
+          }
+        },
+        "dbf467d8-afad-4041-af04-df0bed962dbd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign product_title = product.title %}\n\n<div class=\"toggle-wrapper\">\n{% for product in collections['machine-toggle'].products %}\n<a href=\"{{product.url}}\">\n<div class=\"toggle {% if product.title == product_title %} selected {%endif%}\">\n<div class=\"toggle-image\">\n<img src=\"{{product.featured_image | image_url: width: 80, height:  80}}\" width=\"100%\">\n<\/div>\n<div class=\"toggle-text\">\n<p>{{ product.title }}<\/p>\n<p>{{product.price | money}}<\/p>\n<\/div>\n<\/div>\n<\/a>\n{%endfor%}\n<\/div>\n\n<style>\n.toggle-wrapper {\ndisplay: flex;\n}\n\n.toggle {\ndisplay: flex;\npadding-right: 10px;\nwidth: 170px;\nalign-items:center;\nheight:80px;\n}\n\n.selected {\nbackground-color: #F8F6F2;\n}\n\n.toggle p {\nfont-size:11px;\n}\n\n@media only screen and (max-width: 767px) {\n.toggle-wrapper {\ndisplay: block;\n}\n.toggle {\nwidth: 100%;\n}\n.toggle-image {\npadding-right: 10px;\n}\n}\n<\/style>"
+          }
+        },
+        "aff268f6-e641-4f51-8316-ee6d78b7b8c6": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Fully automatic coffee and espresso machine<\/li><li>Bean-to-brew, single serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "df680b90-8c1f-4b29-8b9c-d4affb5864f0": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "f91bf872-6346-4ab1-af7a-83ccef9dd188": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.available == false %}\n<p class=\"tp-display-2\" style=\"margin-bottom:5px\">Don't miss out on restocks<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:5px\">Be the first to know when <strong>{{product.title}}<\/strong> is back in stock.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when we restock' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_machine\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n{% endif %}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-1\">\"It's like having a coffee shop in my kitchen\"<\/p><p class=\"tp-body\">- A happy The Tchibo customer<\/p>"
+          }
+        },
+        "28a3d6c6-3786-4e43-a93e-83208086064e": {
+          "type": "bundle",
+          "settings": {
+            "bundle_heading": "Essentials for your new machine:",
+            "subline": "",
+            "product1": "2-pack-15-oz-double-walled-glass-coffee-mugs-with-handle",
+            "product2": "durgol-descaler-4-2-fluid-ounces-pack-of-4"
+          }
+        },
+        "22a89051-e093-4dc8-a563-57fc462d3b9a": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "Qualifies for free shipping",
+            "content": "<p>Free and fast delivery to your doorstep.<\/p>",
+            "background": "#f2e0b0",
+            "text_color": "#423d39"
+          }
+        },
+        "ed4d99e6-1e63-49b1-8368-0749661d25ea": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "29403830-c28e-45d8-a405-17d8aefec65a": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-coffee-selection_100x100.png?v=1667550623\" class=\"pr-icon\">\n<span class=\"tp-body\">For espresso, regular and large coffees<\/span>\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-touch_100x100.png?v=1667550631\" class=\"pr-icon\">\n<span class=\"tp-body\">Intuitive touchscreen operation<\/span>\n<\/div>\n<div class =\"right-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-slim_100x100.png?v=1667550638\" class=\"pr-icon\">\n<span class=\"tp-body\">Slim and compact design\n<\/span>\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\n\n}\n\n.left-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.middle-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.right-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.pr-icon {\nwidth: 12%;\nmargin-right: 15px;\n}\n\n<\/style>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "3276b1b6-a036-4b2c-af1b-f4c6df4658db",
+        "008912c5-9fb4-477b-8390-0b3779560d26",
+        "badges",
+        "price",
+        "12f398a9-50ba-4e71-bdca-3f636d4b0239",
+        "dbf467d8-afad-4041-af04-df0bed962dbd",
+        "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
+        "separator",
+        "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
+        "f91bf872-6346-4ab1-af7a-83ccef9dd188",
+        "buy_buttons",
+        "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
+        "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
+        "28a3d6c6-3786-4e43-a93e-83208086064e",
+        "22a89051-e093-4dc8-a563-57fc462d3b9a",
+        "ed4d99e6-1e63-49b1-8368-0749661d25ea",
+        "29403830-c28e-45d8-a405-17d8aefec65a",
+        "description"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 45,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "10e8c8f5-b355-4419-a607-76bbbbb1569e": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-0": {
+          "type": "item",
+          "settings": {
+            "title": "Features & Specifications",
+            "content": "<ul><li>The Tchibo super automatic coffee and espresso machine<\/li><li>Bean-to-brew, single serving, fresh grinding coffee machine<\/li><li>Fresh coffee cup by cup<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact Size: (W) 7” (H) 12.4” (L) 15.6”<\/li><li>Pre-inspected & tested before shipment in the US<\/li><li>Easy to maintain by regularly using the Durgol Descaler<\/li><\/ul>"
+          }
+        },
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-1": {
+          "type": "item",
+          "settings": {
+            "title": "Care & Warranty",
+            "content": "<p>You can find detailed instructions on how to care for your Tchibo machine <a href=\"https:\/\/tchibo.us\/pages\/ownership-and-care\" target=\"_blank\" title=\"https:\/\/tchibo.us\/pages\/ownership-and-care\">here<\/a>.<\/p><p>The Tchibo also comes with a limited one-year warranty. You can read about it <a href=\"https:\/\/tchibo.us\/apps\/warranty\/registrants\/new\">here<\/a>. You can register for the warranty online. You will have to register within 30 days of purchase.<\/p><p><\/p>"
+          }
+        },
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-2": {
+          "type": "item",
+          "settings": {
+            "title": "Shipping & Delivery",
+            "content": "<p>Your Tchibo coffee machine will be delivered to your doorstep free of charge. <strong>More information about carrier, delivery speed etc. here.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-0",
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-1",
+        "template--15632636281038__10e8c8f5-b355-4419-a607-76bbbbb1569e-1671796977b5060c3d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Details",
+        "subheading_style": "tp-overline-secondary",
+        "title": "Find out more about the Tchibo",
+        "heading_style": "tp-display-3",
+        "content": "<p>Meet the German-engineered machine that grinds AND brews your coffee in one seamless step. What could be fresher than that?<\/p><p>Just pour in your whole beans. And hit “play.” This hi-touch technology brews your single serve coffee to your exact specifications. It’s sleek and streamlined – to fit comfortably on your counter. It is surprisingly affordable. And best of all, there are no plastic cups to end up in a landfill.<\/p>",
+        "font-style": "tp-body",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f8f6f2",
+        "accordion_text_color": "#423d39"
+      }
+    },
+    "5fc121f7-165a-4cd2-a97b-eb5e4399bbff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Included in this bundle",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Enjoy 2 Whole Bean Coffees (17.6 oz. each) with your new The Tchibo machine",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "c19ff7f8-31cc-4182-b29e-beecb411f76a": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The coffee beans for these coffees are sourced from South America. The coffee is produced in Europe.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-0",
+        "template--15669443920078__5fc121f7-165a-4cd2-a97b-eb5e4399bbff-1679393883083003ff-1",
+        "c19ff7f8-31cc-4182-b29e-beecb411f76a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4db969ec-2afb-488e-a3ae-92b6c3ac49a8": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BaristaEspressoBeans_17.6oz_302108ee-0f4c-440e-8057-7625c3f8a9b3.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "font-style": "tp-overline-secondary",
+            "title": "Barista Espresso Beans",
+            "heading_tag": "tp-display-3",
+            "content": "<p>If you like the taste of classic European espresso, you'll love this nutty, intense roast with hints of bittersweet chocolate.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop-one-500-milano_a74af890-8a7c-478a-a758-b29413710cd1.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "font-style": "tp-overline-secondary",
+            "title": "Milano Style Espresso Beans",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Subtle hints of dark chocolate and orange give this medium roast espresso the classic taste of northern Italy.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-0",
+        "template--15669443920078__4db969ec-2afb-488e-a3ae-92b6c3ac49a8-1679395447efa10924-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#f9f9f9",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "1399e51d-b8b4-4a41-a3e7-87ba82b16e84": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Product Reviews",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-1": {
+          "type": "heading",
+          "settings": {
+            "text": "See what our happy customers say",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-0",
+        "template--15632636281038__1399e51d-b8b4-4a41-a3e7-87ba82b16e84-167421310722eeeff2-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "167275105287410376": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "f68ffd82-458b-4f73-baac-8c322ba722a7": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "f68ffd82-458b-4f73-baac-8c322ba722a7"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "",
+        "review_header_text_color": "#21292f",
+        "review_button_background": "#e0bf78",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "10e8c8f5-b355-4419-a607-76bbbbb1569e",
+    "5fc121f7-165a-4cd2-a97b-eb5e4399bbff",
+    "4db969ec-2afb-488e-a3ae-92b6c3ac49a8",
+    "1399e51d-b8b4-4a41-a3e7-87ba82b16e84",
+    "167275105287410376"
+  ]
+}
