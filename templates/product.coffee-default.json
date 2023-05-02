@@ -87,6 +87,12 @@
             "product": "{{product}}"
           }
         },
+        "8bbe6ab4-7fcc-4576-a66b-73f7b402ee75": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please note: If your subscription order is under $49 we have to charge for shipping. <\/p>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -158,6 +164,7 @@
         "variant_picker",
         "quantity_selector",
         "3140a06d-52cf-47a4-aa71-0c43232cd905",
+        "8bbe6ab4-7fcc-4576-a66b-73f7b402ee75",
         "buy_buttons",
         "2203bc6d-362e-4c75-951f-caa9dd1e69c7",
         "48ada4d2-4a2f-485c-9e18-e90105dc8283",
