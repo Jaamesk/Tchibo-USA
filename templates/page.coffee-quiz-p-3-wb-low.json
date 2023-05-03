@@ -41,49 +41,40 @@
         "overlay_opacity": 30
       }
     },
-    "8aa76617-a06e-4e05-843b-1f18f1000dae": {
-      "type": "multi-column",
+    "e05e2902-ff6f-497d-977d-a574563be78b": {
+      "type": "media-with-text",
       "blocks": {
-        "template--15685410586830__8aa76617-a06e-4e05-843b-1f18f1000dae-16830987757e3676be-0": {
-          "type": "item",
+        "template--15685427495118__e05e2902-ff6f-497d-977d-a574563be78b-16831022727eea4523-0": {
+          "type": "image",
           "settings": {
-            "column_size": "2",
-            "title": "",
-            "heading_tag": "tp-display-3",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "font-style": "tp-overline-secondary",
+            "title": "Heading",
+            "heading_tag": "tp-display-5-nocolor",
             "content": "",
+            "link_text": "",
             "link_url": "",
-            "link_text": "1-3\/6",
-            "link_style": "button"
-          }
-        },
-        "template--15685410586830__8aa76617-a06e-4e05-843b-1f18f1000dae-16830987757e3676be-2": {
-          "type": "item",
-          "settings": {
-            "column_size": "2",
-            "title": "",
-            "heading_tag": "tp-display-3",
-            "content": "",
-            "link_url": "",
-            "link_text": "4-6\/6",
-            "link_style": "button"
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "template--15685410586830__8aa76617-a06e-4e05-843b-1f18f1000dae-16830987757e3676be-0",
-        "template--15685410586830__8aa76617-a06e-4e05-843b-1f18f1000dae-16830987757e3676be-2"
+        "template--15685427495118__e05e2902-ff6f-497d-977d-a574563be78b-16831022727eea4523-0"
       ],
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "How intense do you like your coffee?",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "full_width": false,
+        "enable_parallax": false,
+        "spacing": "medium"
       }
     },
     "a040673d-6bbd-48e3-8f54-47d3212901ab": {
@@ -92,7 +83,7 @@
         "template--15685419008206__a040673d-6bbd-48e3-8f54-47d3212901ab-1683098466e4049ce2-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Question 2\/2<\/p>",
+            "content": "<p>Results<\/p>",
             "font-style": "tp-body"
           }
         }
@@ -113,7 +104,7 @@
   "order": [
     "main",
     "38850083-07df-4a4e-978e-d56630b87ea3",
-    "8aa76617-a06e-4e05-843b-1f18f1000dae",
+    "e05e2902-ff6f-497d-977d-a574563be78b",
     "a040673d-6bbd-48e3-8f54-47d3212901ab"
   ]
 }
