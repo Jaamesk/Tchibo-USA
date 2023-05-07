@@ -231,7 +231,7 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/coffee_barista_Edition_1.png",
+            "image": "shopify:\/\/shop_images\/coffee-bean_1.png",
             "title": "Whole Bean Coffee",
             "heading_tag": "tp-display-2-nocolor",
             "link_url": "shopify:\/\/collections\/whole-bean-coffee",
