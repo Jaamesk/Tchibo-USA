@@ -450,23 +450,48 @@
         "text_color": ""
       }
     },
-    "35fcfe70-e8fa-4e06-a9f8-f8397765246d": {
+    "e271c933-a330-4cc0-bdd2-78fd6d5a5229": {
       "type": "rich-text",
       "blocks": {
-        "baac70cc-a7a5-444d-9bf4-ca9ec25acf7a": {
+        "975ab302-344f-4003-81e0-382f16529d8d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image006.jpg",
+            "image": "shopify:\/\/shop_images\/image005_1.jpg",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
           }
         },
-        "e5a98a8a-3575-4bed-a89a-395c60c1aab7": {
+        "3632096f-820e-4507-a38b-8fb77c799755": {
           "type": "divider",
           "settings": {
           }
         },
+        "9c84c2af-a56d-4d4b-9227-8600fc5392f1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Every spoonful of coffee gives great coffee taste with drip filter coffee machine, manual pour over preparation or with using French Press brewing method. Enjoy our great taste.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "975ab302-344f-4003-81e0-382f16529d8d",
+        "3632096f-820e-4507-a38b-8fb77c799755",
+        "9c84c2af-a56d-4d4b-9227-8600fc5392f1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "35fcfe70-e8fa-4e06-a9f8-f8397765246d": {
+      "type": "rich-text",
+      "blocks": {
         "e6a24730-5318-46ab-abde-fe8d08827057": {
           "type": "heading",
           "settings": {
@@ -493,14 +518,77 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "e5a98a8a-3575-4bed-a89a-395c60c1aab7": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "baac70cc-a7a5-444d-9bf4-ca9ec25acf7a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image006.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
-        "baac70cc-a7a5-444d-9bf4-ca9ec25acf7a",
-        "e5a98a8a-3575-4bed-a89a-395c60c1aab7",
         "e6a24730-5318-46ab-abde-fe8d08827057",
         "80a4d1fa-bc39-4831-8b3f-ac1de6341564",
-        "7902bc64-5b09-491c-b5ef-dcf1a7bb6dad"
+        "7902bc64-5b09-491c-b5ef-dcf1a7bb6dad",
+        "e5a98a8a-3575-4bed-a89a-395c60c1aab7",
+        "baac70cc-a7a5-444d-9bf4-ca9ec25acf7a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "634df24f-b540-4e89-9e3c-de213de7c13a": {
+      "type": "rich-text",
+      "blocks": {
+        "8b2f4b37-3238-463b-a31f-b757f9a4330c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image008.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "23603578-1a84-43dd-a823-b752348f6db8": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "5840efb0-bd1c-480b-8644-a4a6e84db9cc": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "4b375f0e-da6b-4537-add1-744dd7e1a27c": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fresh coffee flavour to encounter with Feine Milde.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "8b2f4b37-3238-463b-a31f-b757f9a4330c",
+        "23603578-1a84-43dd-a823-b752348f6db8",
+        "5840efb0-bd1c-480b-8644-a4a6e84db9cc",
+        "4b375f0e-da6b-4537-add1-744dd7e1a27c"
       ],
       "settings": {
         "full_width": true,
@@ -571,7 +659,9 @@
     "51411032-87d9-46d6-9453-5ffb33a61043",
     "af1635b8-f8cc-4373-97c9-589b87f7c171",
     "9f689737-9036-4f6c-b288-e9c80b8cce0a",
+    "e271c933-a330-4cc0-bdd2-78fd6d5a5229",
     "35fcfe70-e8fa-4e06-a9f8-f8397765246d",
+    "634df24f-b540-4e89-9e3c-de213de7c13a",
     "167275082992fb5773",
     "product-recommendations"
   ]
