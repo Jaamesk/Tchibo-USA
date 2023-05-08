@@ -208,31 +208,10 @@
     "419b0bfb-8c27-4b2c-9ab3-96697bc1a47d": {
       "type": "rich-text",
       "blocks": {
-        "a6113678-5354-498f-a4fe-b903f1ee691c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image010.jpg",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "9a0b3be9-cb53-4ecc-a03c-491d4753d9cb": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "Our bestselling Coffee in Germany",
-            "font-style": "tp-overline-secondary"
-          }
-        },
         "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-1": {
           "type": "heading",
           "settings": {
-            "text": "Discover Feine Milde",
+            "text": "Feine Milde",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -241,17 +220,30 @@
         "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Tchibo Feine Milde <\/strong>is a fine and naturally mild coffee with a unique taste. Feine Milde is composed of 100% Arabica beans from the finest growing areas of Brazil and the high altitudes of Central America, and subtly fruity Arabica beans from Papua New Guinea.<\/p>",
+            "content": "<p>Smooth roasted drip filter coffee with low intensity for every day coffee delight.<\/p>",
             "font-style": "tp-body"
+          }
+        },
+        "9a0b3be9-cb53-4ecc-a03c-491d4753d9cb": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a6113678-5354-498f-a4fe-b903f1ee691c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image007.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
           }
         }
       },
       "block_order": [
-        "a6113678-5354-498f-a4fe-b903f1ee691c",
-        "9a0b3be9-cb53-4ecc-a03c-491d4753d9cb",
-        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-0",
         "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-1",
-        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-2"
+        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-2",
+        "9a0b3be9-cb53-4ecc-a03c-491d4753d9cb",
+        "a6113678-5354-498f-a4fe-b903f1ee691c"
       ],
       "settings": {
         "full_width": true,
@@ -262,46 +254,45 @@
         "text_color": ""
       }
     },
-    "9d177f37-b5b9-4512-a6eb-d8294c863670": {
+    "0a8fbebb-45ec-4e95-ae9c-94c5e4cc0b92": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
-        "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-1": {
+        "0fee4c7e-8c3a-403b-97d1-631479a89b7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image002_2.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "f6d40bf0-73fe-4b5f-b313-e9b96b079701": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "7a010b86-d317-499c-8676-a169837fd378": {
           "type": "heading",
           "settings": {
-            "text": "This coffee is Fair Trade Certified™",
+            "text": "Feine Milde",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
         },
-        "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-2": {
+        "81efc6fa-c7fd-47f8-ac70-2253243f4061": {
           "type": "richtext",
           "settings": {
-            "content": "<p>With every sip of Fair Trade Certified™ coffee, you're a part of a bigger mission to improve the living and working conditions of farmers in coffee-producing countries now, and for future generations to come.<\/p>",
+            "content": "<p>Smooth roasted drip filter coffee with low intensity for every day coffee delight.<\/p>",
             "font-style": "tp-body"
-          }
-        },
-        "36b51b3a-fcae-4bd3-bf3a-f78eeb9b2f04": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "4a245fb8-b727-485d-9ef3-c819c266ad2a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tchibo-coffee-beans.webp",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
           }
         }
       },
       "block_order": [
-        "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-1",
-        "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-2",
-        "36b51b3a-fcae-4bd3-bf3a-f78eeb9b2f04",
-        "4a245fb8-b727-485d-9ef3-c819c266ad2a"
+        "0fee4c7e-8c3a-403b-97d1-631479a89b7f",
+        "f6d40bf0-73fe-4b5f-b313-e9b96b079701",
+        "7a010b86-d317-499c-8676-a169837fd378",
+        "81efc6fa-c7fd-47f8-ac70-2253243f4061"
       ],
       "settings": {
         "full_width": true,
@@ -368,7 +359,7 @@
   "order": [
     "main",
     "419b0bfb-8c27-4b2c-9ab3-96697bc1a47d",
-    "9d177f37-b5b9-4512-a6eb-d8294c863670",
+    "0a8fbebb-45ec-4e95-ae9c-94c5e4cc0b92",
     "167275082992fb5773",
     "product-recommendations"
   ]
