@@ -450,6 +450,67 @@
         "text_color": ""
       }
     },
+    "35fcfe70-e8fa-4e06-a9f8-f8397765246d": {
+      "type": "rich-text",
+      "blocks": {
+        "baac70cc-a7a5-444d-9bf4-ca9ec25acf7a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image006.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "e5a98a8a-3575-4bed-a89a-395c60c1aab7": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "e6a24730-5318-46ab-abde-fe8d08827057": {
+          "type": "heading",
+          "settings": {
+            "text": "Enjoy Feine Milde with Tchibo coffee mugs & gear",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "80a4d1fa-bc39-4831-8b3f-ac1de6341564": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Discover our range of mugs, travel mugs and coffee storage containers for the best coffee drinking experience.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "7902bc64-5b09-491c-b5ef-dcf1a7bb6dad": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Discover Mugs & Gear",
+            "url": "shopify:\/\/collections\/special-offers",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "baac70cc-a7a5-444d-9bf4-ca9ec25acf7a",
+        "e5a98a8a-3575-4bed-a89a-395c60c1aab7",
+        "e6a24730-5318-46ab-abde-fe8d08827057",
+        "80a4d1fa-bc39-4831-8b3f-ac1de6341564",
+        "7902bc64-5b09-491c-b5ef-dcf1a7bb6dad"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "167275082992fb5773": {
       "type": "apps",
       "blocks": {
@@ -510,6 +571,7 @@
     "51411032-87d9-46d6-9453-5ffb33a61043",
     "af1635b8-f8cc-4373-97c9-589b87f7c171",
     "9f689737-9036-4f6c-b288-e9c80b8cce0a",
+    "35fcfe70-e8fa-4e06-a9f8-f8397765246d",
     "167275082992fb5773",
     "product-recommendations"
   ]
