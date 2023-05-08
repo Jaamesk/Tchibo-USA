@@ -9,6 +9,12 @@
             "heading_tag": "tp-display-2"
           }
         },
+        "2de94242-5dcc-4e55-b944-2b34b4a1250a": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-1\">Double Pack - Each package contains 8.8 oz of ground coffee<\/p>"
+          }
+        },
         "dc5e01ab-9df4-4727-8c1e-337af0ddcad9": {
           "type": "liquid",
           "settings": {
@@ -99,12 +105,6 @@
             "product": "{{product}}"
           }
         },
-        "8bbe6ab4-7fcc-4576-a66b-73f7b402ee75": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Please note: If your subscription order is under $49 we have to charge for shipping. <\/p>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -164,6 +164,7 @@
       },
       "block_order": [
         "title",
+        "2de94242-5dcc-4e55-b944-2b34b4a1250a",
         "dc5e01ab-9df4-4727-8c1e-337af0ddcad9",
         "18c55f6f-390b-4710-a881-c15fb856270b",
         "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
@@ -178,7 +179,6 @@
         "variant_picker",
         "quantity_selector",
         "3140a06d-52cf-47a4-aa71-0c43232cd905",
-        "8bbe6ab4-7fcc-4576-a66b-73f7b402ee75",
         "buy_buttons",
         "2203bc6d-362e-4c75-951f-caa9dd1e69c7",
         "48ada4d2-4a2f-485c-9e18-e90105dc8283",
@@ -203,6 +203,63 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "419b0bfb-8c27-4b2c-9ab3-96697bc1a47d": {
+      "type": "rich-text",
+      "blocks": {
+        "a6113678-5354-498f-a4fe-b903f1ee691c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image010.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "9a0b3be9-cb53-4ecc-a03c-491d4753d9cb": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our bestselling Coffee in Germany",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Discover Feine Milde",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Tchibo Feine Milde <\/strong>is a fine and naturally mild coffee with a unique taste. Feine Milde is composed of 100% Arabica beans from the finest growing areas of Brazil and the high altitudes of Central America, and subtly fruity Arabica beans from Papua New Guinea.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "a6113678-5354-498f-a4fe-b903f1ee691c",
+        "9a0b3be9-cb53-4ecc-a03c-491d4753d9cb",
+        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-0",
+        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-1",
+        "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "9d177f37-b5b9-4512-a6eb-d8294c863670": {
@@ -310,6 +367,7 @@
   },
   "order": [
     "main",
+    "419b0bfb-8c27-4b2c-9ab3-96697bc1a47d",
     "9d177f37-b5b9-4512-a6eb-d8294c863670",
     "167275082992fb5773",
     "product-recommendations"
