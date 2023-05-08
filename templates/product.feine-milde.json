@@ -274,7 +274,7 @@
         "7a010b86-d317-499c-8676-a169837fd378": {
           "type": "heading",
           "settings": {
-            "text": "Feine Milde",
+            "text": "Choose your favorite way of making coffee",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -283,7 +283,7 @@
         "81efc6fa-c7fd-47f8-ac70-2253243f4061": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Smooth roasted drip filter coffee with low intensity for every day coffee delight.<\/p>",
+            "content": "<p>Easy to prepare in a drip filter machine, french press or pour over.<\/p>",
             "font-style": "tp-body"
           }
         }
