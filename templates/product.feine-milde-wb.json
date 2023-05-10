@@ -9,12 +9,6 @@
             "heading_tag": "tp-display-2"
           }
         },
-        "2de94242-5dcc-4e55-b944-2b34b4a1250a": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<p class=\"tp-display-1\">Double Pack - Each package contains 8.8 oz of ground coffee<\/p>"
-          }
-        },
         "dc5e01ab-9df4-4727-8c1e-337af0ddcad9": {
           "type": "liquid",
           "settings": {
@@ -164,7 +158,6 @@
       },
       "block_order": [
         "title",
-        "2de94242-5dcc-4e55-b944-2b34b4a1250a",
         "dc5e01ab-9df4-4727-8c1e-337af0ddcad9",
         "18c55f6f-390b-4710-a881-c15fb856270b",
         "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
@@ -256,6 +249,7 @@
     },
     "0a8fbebb-45ec-4e95-ae9c-94c5e4cc0b92": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "0fee4c7e-8c3a-403b-97d1-631479a89b7f": {
           "type": "image",
@@ -305,6 +299,7 @@
     },
     "51411032-87d9-46d6-9453-5ffb33a61043": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "98bcae5a-0e0a-4d41-9825-ebfd7a409d0b": {
           "type": "heading",
