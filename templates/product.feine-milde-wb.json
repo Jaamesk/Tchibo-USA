@@ -225,7 +225,7 @@
         "a6113678-5354-498f-a4fe-b903f1ee691c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image007.jpg",
+            "image": "shopify:\/\/shop_images\/image001_3.jpg",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -347,24 +347,24 @@
         "text_color": ""
       }
     },
-    "af1635b8-f8cc-4373-97c9-589b87f7c171": {
+    "d7c4045f-7326-4bcf-b942-3f07ee3f9f37": {
       "type": "rich-text",
       "blocks": {
-        "67cebabe-f7e7-46a7-b8d1-cb3db3888b0d": {
+        "f77d1aa3-d7a7-4683-a68d-a966ea218b25": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image003_4.jpg",
+            "image": "shopify:\/\/shop_images\/image002_3.jpg",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
           }
         },
-        "425f3f2f-2917-4ffc-9783-c04012ce1170": {
+        "323dd1cb-d56a-4f3b-b1e6-1a524e79fea7": {
           "type": "divider",
           "settings": {
           }
         },
-        "4d0e8179-6000-4140-b8f2-00556b54ee5c": {
+        "0e873d6a-bd66-4d90-83c8-c7a56fd4492b": {
           "type": "heading",
           "settings": {
             "text": "Coffee roaster with a history",
@@ -373,7 +373,7 @@
             "gradient": ""
           }
         },
-        "34629d13-76e1-410d-8798-8463ecba6d06": {
+        "70369294-ab25-4ce1-b57a-d457667fd304": {
           "type": "richtext",
           "settings": {
             "content": "<p>We have been roasting coffee since 1949 with years of experience and expertise in single blend roasting, sourcing best coffees world wide and dedicated to best coffee qualities.<\/p>",
@@ -382,10 +382,10 @@
         }
       },
       "block_order": [
-        "67cebabe-f7e7-46a7-b8d1-cb3db3888b0d",
-        "425f3f2f-2917-4ffc-9783-c04012ce1170",
-        "4d0e8179-6000-4140-b8f2-00556b54ee5c",
-        "34629d13-76e1-410d-8798-8463ecba6d06"
+        "f77d1aa3-d7a7-4683-a68d-a966ea218b25",
+        "323dd1cb-d56a-4f3b-b1e6-1a524e79fea7",
+        "0e873d6a-bd66-4d90-83c8-c7a56fd4492b",
+        "70369294-ab25-4ce1-b57a-d457667fd304"
       ],
       "settings": {
         "full_width": true,
@@ -484,84 +484,9 @@
         "text_color": ""
       }
     },
-    "35fcfe70-e8fa-4e06-a9f8-f8397765246d": {
-      "type": "rich-text",
-      "blocks": {
-        "e6a24730-5318-46ab-abde-fe8d08827057": {
-          "type": "heading",
-          "settings": {
-            "text": "Enjoy Feine Milde with Tchibo coffee mugs & gear",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "80a4d1fa-bc39-4831-8b3f-ac1de6341564": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Discover our range of mugs, travel mugs and coffee storage containers for the best coffee drinking experience.<\/p>",
-            "font-style": "tp-body"
-          }
-        },
-        "7902bc64-5b09-491c-b5ef-dcf1a7bb6dad": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Discover Mugs & Gear",
-            "url": "shopify:\/\/collections\/special-offers",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "e5a98a8a-3575-4bed-a89a-395c60c1aab7": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "baac70cc-a7a5-444d-9bf4-ca9ec25acf7a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image006.jpg",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "e6a24730-5318-46ab-abde-fe8d08827057",
-        "80a4d1fa-bc39-4831-8b3f-ac1de6341564",
-        "7902bc64-5b09-491c-b5ef-dcf1a7bb6dad",
-        "e5a98a8a-3575-4bed-a89a-395c60c1aab7",
-        "baac70cc-a7a5-444d-9bf4-ca9ec25acf7a"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "634df24f-b540-4e89-9e3c-de213de7c13a": {
       "type": "rich-text",
       "blocks": {
-        "8b2f4b37-3238-463b-a31f-b757f9a4330c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image008.jpg",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "23603578-1a84-43dd-a823-b752348f6db8": {
-          "type": "divider",
-          "settings": {
-          }
-        },
         "5840efb0-bd1c-480b-8644-a4a6e84db9cc": {
           "type": "heading",
           "settings": {
@@ -577,13 +502,27 @@
             "content": "<p>Fresh coffee flavour to encounter with Feine Milde.<\/p>",
             "font-style": "tp-body"
           }
+        },
+        "23603578-1a84-43dd-a823-b752348f6db8": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "8b2f4b37-3238-463b-a31f-b757f9a4330c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image008.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
-        "8b2f4b37-3238-463b-a31f-b757f9a4330c",
-        "23603578-1a84-43dd-a823-b752348f6db8",
         "5840efb0-bd1c-480b-8644-a4a6e84db9cc",
-        "4b375f0e-da6b-4537-add1-744dd7e1a27c"
+        "4b375f0e-da6b-4537-add1-744dd7e1a27c",
+        "23603578-1a84-43dd-a823-b752348f6db8",
+        "8b2f4b37-3238-463b-a31f-b757f9a4330c"
       ],
       "settings": {
         "full_width": true,
@@ -652,10 +591,9 @@
     "419b0bfb-8c27-4b2c-9ab3-96697bc1a47d",
     "0a8fbebb-45ec-4e95-ae9c-94c5e4cc0b92",
     "51411032-87d9-46d6-9453-5ffb33a61043",
-    "af1635b8-f8cc-4373-97c9-589b87f7c171",
+    "d7c4045f-7326-4bcf-b942-3f07ee3f9f37",
     "9f689737-9036-4f6c-b288-e9c80b8cce0a",
     "e271c933-a330-4cc0-bdd2-78fd6d5a5229",
-    "35fcfe70-e8fa-4e06-a9f8-f8397765246d",
     "634df24f-b540-4e89-9e3c-de213de7c13a",
     "167275082992fb5773",
     "product-recommendations"
