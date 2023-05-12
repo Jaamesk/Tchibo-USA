@@ -204,7 +204,7 @@
         "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-1": {
           "type": "heading",
           "settings": {
-            "text": "Feine Milde",
+            "text": "Our bestselling single origin coffee",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -213,7 +213,7 @@
         "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Smooth roasted drip filter coffee with low intensity for every day coffee delight.<\/p>",
+            "content": "<p>Single origin coffees air roasted, cold blended to smooth taste of Feine Milde coffee beans.<\/p>",
             "font-style": "tp-body"
           }
         },
