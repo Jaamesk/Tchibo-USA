@@ -41,12 +41,6 @@
           "settings": {
           }
         },
-        "29403830-c28e-45d8-a405-17d8aefec65a": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-coffee-selection_100x100.png?v=1667550623\" class=\"pr-icon\">\n<span class=\"tp-body\">For espresso, regular and large coffees<\/span>\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-touch_100x100.png?v=1667550631\" class=\"pr-icon\">\n<span class=\"tp-body\">Intuitive touchscreen operation<\/span>\n<\/div>\n<div class =\"right-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-slim_100x100.png?v=1667550638\" class=\"pr-icon\">\n<span class=\"tp-body\">Slim and compact design\n<\/span>\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\n\n}\n\n.left-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.middle-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.right-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.pr-icon {\nwidth: 12%;\nmargin-right: 15px;\n}\n\n<\/style>"
-          }
-        },
         "15fdee33-842c-4483-8942-b3414bfab439": {
           "type": "liquid",
           "settings": {
@@ -85,6 +79,12 @@
             "text": "<ul><li>The Tchibo, edition 2023<\/li><li>Super automatic espresso and coffee machine with built-in burr grinder  <\/li><li>Bean-To-Brew, Single Serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact Size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>"
           }
         },
+        "29403830-c28e-45d8-a405-17d8aefec65a": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"columns\">\n<div class=\"left-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-coffee-selection_100x100.png?v=1667550623\" class=\"pr-icon\">\n<span class=\"tp-body\">For espresso, regular and large coffees<\/span>\n<\/div>\n<div class=\"middle-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-touch_100x100.png?v=1667550631\" class=\"pr-icon\">\n<span class=\"tp-body\">Intuitive touchscreen operation<\/span>\n<\/div>\n<div class =\"right-column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/icon-slim_100x100.png?v=1667550638\" class=\"pr-icon\">\n<span class=\"tp-body\">Slim and compact design\n<\/span>\n<\/div>\n<\/div>\n\n<style>\n\n.columns {\n\n}\n\n.left-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.middle-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.right-column {\ndisplay: flex;\nalign-items: center;\n}\n\n.pr-icon {\nwidth: 12%;\nmargin-right: 15px;\n}\n\n<\/style>"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -120,13 +120,13 @@
         "badges",
         "price",
         "ed4d99e6-1e63-49b1-8368-0749661d25ea",
-        "29403830-c28e-45d8-a405-17d8aefec65a",
         "15fdee33-842c-4483-8942-b3414bfab439",
         "df680b90-8c1f-4b29-8b9c-d4affb5864f0",
         "buy_buttons",
         "3669a3d3-5ac8-48c4-971c-e3fbe0cfc188",
         "a111a5d3-4ecf-4410-a7bb-d57a71e28cc7",
         "aff268f6-e641-4f51-8316-ee6d78b7b8c6",
+        "29403830-c28e-45d8-a405-17d8aefec65a",
         "separator",
         "24e1f974-bdca-42cd-9b19-dfecfe95b460",
         "f91bf872-6346-4ab1-af7a-83ccef9dd188",
