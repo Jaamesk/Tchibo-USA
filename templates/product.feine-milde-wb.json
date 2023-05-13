@@ -69,7 +69,7 @@
         "149042a6-f5df-4b24-8599-559b69b8c2d5": {
           "type": "liquid",
           "settings": {
-            "liquid": "<span><b>This coffee is kosher and vegan:<\/b><\/span><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Kosher-removebg-preview.png?v=1683509517\" style=\"display:inline\" width=\"80px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/VEGAN.png?v=1683509571\" style=\"display:inline; margin-left:15px\" width=\"120px\">"
+            "liquid": "<span><b>This coffee is kosher and vegan:<\/b><\/span><br><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Kosher-removebg-preview.png?v=1683509517\" style=\"display:inline\" width=\"80px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/VEGAN.png?v=1683509571\" style=\"display:inline; margin-left:15px\" width=\"120px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/DE-Logo_germanquality_1000x1000px.png?v=1683995805\" style=\"display:inline; margin-left:15px\" width=\"80px\">"
           }
         },
         "separator": {
