@@ -198,6 +198,55 @@
         "input_text_color": ""
       }
     },
+    "d7c4045f-7326-4bcf-b942-3f07ee3f9f37": {
+      "type": "rich-text",
+      "blocks": {
+        "f77d1aa3-d7a7-4683-a68d-a966ea218b25": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image007.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "323dd1cb-d56a-4f3b-b1e6-1a524e79fea7": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "0e873d6a-bd66-4d90-83c8-c7a56fd4492b": {
+          "type": "heading",
+          "settings": {
+            "text": "Feine Milde",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "70369294-ab25-4ce1-b57a-d457667fd304": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Smooth roasted drip filter coffee with low intensity for every day coffee delight.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "f77d1aa3-d7a7-4683-a68d-a966ea218b25",
+        "323dd1cb-d56a-4f3b-b1e6-1a524e79fea7",
+        "0e873d6a-bd66-4d90-83c8-c7a56fd4492b",
+        "70369294-ab25-4ce1-b57a-d457667fd304"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "419b0bfb-8c27-4b2c-9ab3-96697bc1a47d": {
       "type": "rich-text",
       "blocks": {
@@ -347,10 +396,10 @@
         "text_color": ""
       }
     },
-    "d7c4045f-7326-4bcf-b942-3f07ee3f9f37": {
+    "a872eb4e-5a65-4eba-b379-439b155fae34": {
       "type": "rich-text",
       "blocks": {
-        "f77d1aa3-d7a7-4683-a68d-a966ea218b25": {
+        "d0dab7ae-3c9f-429d-8bd3-1f771b01a3f4": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/image002_3.jpg",
@@ -359,12 +408,12 @@
             "mobile_max_width": 400
           }
         },
-        "323dd1cb-d56a-4f3b-b1e6-1a524e79fea7": {
+        "01c9b908-b6cb-440a-be27-5ce602c0e4f2": {
           "type": "divider",
           "settings": {
           }
         },
-        "0e873d6a-bd66-4d90-83c8-c7a56fd4492b": {
+        "34547bec-e2e6-44dd-8c11-80007fc84314": {
           "type": "heading",
           "settings": {
             "text": "Coffee roaster with a history",
@@ -373,7 +422,7 @@
             "gradient": ""
           }
         },
-        "70369294-ab25-4ce1-b57a-d457667fd304": {
+        "691c642c-bffd-4b77-8414-c33e0ca756c8": {
           "type": "richtext",
           "settings": {
             "content": "<p>We have been roasting coffee since 1949 with years of experience and expertise in single blend roasting, sourcing best coffees world wide and dedicated to best coffee qualities.<\/p>",
@@ -382,10 +431,10 @@
         }
       },
       "block_order": [
-        "f77d1aa3-d7a7-4683-a68d-a966ea218b25",
-        "323dd1cb-d56a-4f3b-b1e6-1a524e79fea7",
-        "0e873d6a-bd66-4d90-83c8-c7a56fd4492b",
-        "70369294-ab25-4ce1-b57a-d457667fd304"
+        "d0dab7ae-3c9f-429d-8bd3-1f771b01a3f4",
+        "01c9b908-b6cb-440a-be27-5ce602c0e4f2",
+        "34547bec-e2e6-44dd-8c11-80007fc84314",
+        "691c642c-bffd-4b77-8414-c33e0ca756c8"
       ],
       "settings": {
         "full_width": true,
@@ -588,10 +637,11 @@
   },
   "order": [
     "main",
+    "d7c4045f-7326-4bcf-b942-3f07ee3f9f37",
     "419b0bfb-8c27-4b2c-9ab3-96697bc1a47d",
     "0a8fbebb-45ec-4e95-ae9c-94c5e4cc0b92",
     "51411032-87d9-46d6-9453-5ffb33a61043",
-    "d7c4045f-7326-4bcf-b942-3f07ee3f9f37",
+    "a872eb4e-5a65-4eba-b379-439b155fae34",
     "9f689737-9036-4f6c-b288-e9c80b8cce0a",
     "e271c933-a330-4cc0-bdd2-78fd6d5a5229",
     "634df24f-b540-4e89-9e3c-de213de7c13a",
