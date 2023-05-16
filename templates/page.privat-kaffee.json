@@ -350,6 +350,55 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "31e63c21-ce52-4512-b542-9d005271ddba": {
+      "type": "rich-text",
+      "blocks": {
+        "ac6b394f-1fff-40ac-977b-a33b2ea837f9": {
+          "type": "heading",
+          "settings": {
+            "text": "3rd Stop: Africa",
+            "heading_tag": "tp-display-4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "abd80158-0030-4fbb-9fc4-cfa4d4b1981b": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Last but not least, we cross the South Pacific and land in fascinating Africa. Our characterful African Blue is grown on the East African plateau - with the finest notes of blackcurrant.<br\/><br\/>In addition, this Rainforest Alliance-certified coffee supports our projects in Tanzania, which promote the next generation of future coffee farmers and provide them with important know-how for sustainable cultivation.<\/p><p><a href=\"\/products\/privat-kaffee-african-blue-1\" target=\"_blank\" title=\"Privat Kaffee African Blue\">Discover our African Blue Coffee<\/a><\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "8b67f9db-49f1-4184-89e3-dd962f3c3fad": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "3f590e6d-6141-4e4c-b850-ed371ecd2a5f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image006.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "ac6b394f-1fff-40ac-977b-a33b2ea837f9",
+        "abd80158-0030-4fbb-9fc4-cfa4d4b1981b",
+        "8b67f9db-49f1-4184-89e3-dd962f3c3fad",
+        "3f590e6d-6141-4e4c-b850-ed371ecd2a5f"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f8f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -361,6 +410,7 @@
     "82e14a10-2a51-4860-a670-653b3a8054fa",
     "f7f652b1-8814-4aff-9a48-3576face3336",
     "4dbcf397-6382-471e-aa70-5cdc1c39446d",
-    "e674f871-e134-4bec-8ddd-e5a3d93cd6a3"
+    "e674f871-e134-4bec-8ddd-e5a3d93cd6a3",
+    "31e63c21-ce52-4512-b542-9d005271ddba"
   ]
 }
