@@ -225,7 +225,7 @@
           "type": "heading",
           "settings": {
             "text": "Privat Kaffee - Where indulgence meets flavor",
-            "heading_tag": "tp-display-4",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
@@ -260,7 +260,7 @@
           "type": "heading",
           "settings": {
             "text": "1st Stop: Latin America",
-            "heading_tag": "tp-display-4",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
@@ -323,7 +323,7 @@
           "type": "heading",
           "settings": {
             "text": "2nd Stop: Brazil",
-            "heading_tag": "tp-display-4",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
@@ -358,7 +358,7 @@
           "type": "heading",
           "settings": {
             "text": "3rd Stop: Africa",
-            "heading_tag": "tp-display-4",
+            "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
