@@ -126,10 +126,10 @@
         "product_card_text_color": ""
       }
     },
-    "f7f652b1-8814-4aff-9a48-3576face3336": {
+    "a7c3a31c-d1ad-4002-8d78-5848224f2d31": {
       "type": "rich-text",
       "blocks": {
-        "a0872bbe-d0c7-4074-b38d-4e9e78acefc0": {
+        "a5554e08-ae86-4d8d-b24c-cc2a2ecec49d": {
           "type": "heading",
           "settings": {
             "text": "Ground Coffees",
@@ -138,19 +138,19 @@
             "gradient": ""
           }
         },
-        "b5011659-269e-4909-a4ef-36b9b891f954": {
+        "3008ba23-a721-40f6-b2e1-c30107869f1f": {
           "type": "richtext",
           "settings": {
             "content": "<p>Ideal for drip filter machines, pour over coffee or a french press. This will unlock all flavor varieties found in our Privat Kaffee.<\/p>",
             "font-style": "tp-body"
           }
         },
-        "40fb8b07-1c2e-47f0-8685-499034915b7d": {
+        "92557c97-c7ff-4e05-9555-ebcd2f0cc997": {
           "type": "divider",
           "settings": {
           }
         },
-        "f3d2142c-4da7-415c-b409-c14f4604d6ff": {
+        "c9fd1240-d78a-4b66-8471-9b4146614bda": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/image002_2.png",
@@ -161,10 +161,10 @@
         }
       },
       "block_order": [
-        "a0872bbe-d0c7-4074-b38d-4e9e78acefc0",
-        "b5011659-269e-4909-a4ef-36b9b891f954",
-        "40fb8b07-1c2e-47f0-8685-499034915b7d",
-        "f3d2142c-4da7-415c-b409-c14f4604d6ff"
+        "a5554e08-ae86-4d8d-b24c-cc2a2ecec49d",
+        "3008ba23-a721-40f6-b2e1-c30107869f1f",
+        "92557c97-c7ff-4e05-9555-ebcd2f0cc997",
+        "c9fd1240-d78a-4b66-8471-9b4146614bda"
       ],
       "settings": {
         "full_width": true,
@@ -203,6 +203,55 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "f7f652b1-8814-4aff-9a48-3576face3336": {
+      "type": "rich-text",
+      "blocks": {
+        "f3d2142c-4da7-415c-b409-c14f4604d6ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image011.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "40fb8b07-1c2e-47f0-8685-499034915b7d": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "a0872bbe-d0c7-4074-b38d-4e9e78acefc0": {
+          "type": "heading",
+          "settings": {
+            "text": "Privat Kaffee - Where indulgence meets flavor",
+            "heading_tag": "tp-display-4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "b5011659-269e-4909-a4ef-36b9b891f954": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Come with us on an aromatic voyage of discovery along the equator: Our Tchibo Privat coffees take you on a journey around the globe - from Africa to Latin America.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "f3d2142c-4da7-415c-b409-c14f4604d6ff",
+        "40fb8b07-1c2e-47f0-8685-499034915b7d",
+        "a0872bbe-d0c7-4074-b38d-4e9e78acefc0",
+        "b5011659-269e-4909-a4ef-36b9b891f954"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f8f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -210,7 +259,8 @@
     "547ce06a-1dc8-460d-92cc-7eb0ca7ee62c",
     "4012c88f-369a-4346-9c28-7af065e6c32a",
     "be456d82-7bde-41ef-b0a9-ee136ea84948",
-    "f7f652b1-8814-4aff-9a48-3576face3336",
-    "82e14a10-2a51-4860-a670-653b3a8054fa"
+    "a7c3a31c-d1ad-4002-8d78-5848224f2d31",
+    "82e14a10-2a51-4860-a670-653b3a8054fa",
+    "f7f652b1-8814-4aff-9a48-3576face3336"
   ]
 }
