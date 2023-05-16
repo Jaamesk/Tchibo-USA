@@ -126,6 +126,55 @@
         "product_card_text_color": ""
       }
     },
+    "f7f652b1-8814-4aff-9a48-3576face3336": {
+      "type": "rich-text",
+      "blocks": {
+        "a0872bbe-d0c7-4074-b38d-4e9e78acefc0": {
+          "type": "heading",
+          "settings": {
+            "text": "Whole Bean Coffees",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "b5011659-269e-4909-a4ef-36b9b891f954": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ideal for drip filter machines, pour over coffee or a french press. This will unlock all flavor varieties found in our Privat Kaffee.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "40fb8b07-1c2e-47f0-8685-499034915b7d": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "f3d2142c-4da7-415c-b409-c14f4604d6ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image002_2.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "a0872bbe-d0c7-4074-b38d-4e9e78acefc0",
+        "b5011659-269e-4909-a4ef-36b9b891f954",
+        "40fb8b07-1c2e-47f0-8685-499034915b7d",
+        "f3d2142c-4da7-415c-b409-c14f4604d6ff"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f8f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "82e14a10-2a51-4860-a670-653b3a8054fa": {
       "type": "featured-collection",
       "settings": {
@@ -161,6 +210,7 @@
     "547ce06a-1dc8-460d-92cc-7eb0ca7ee62c",
     "4012c88f-369a-4346-9c28-7af065e6c32a",
     "be456d82-7bde-41ef-b0a9-ee136ea84948",
+    "f7f652b1-8814-4aff-9a48-3576face3336",
     "82e14a10-2a51-4860-a670-653b3a8054fa"
   ]
 }
