@@ -256,6 +256,20 @@
     "4dbcf397-6382-471e-aa70-5cdc1c39446d": {
       "type": "rich-text",
       "blocks": {
+        "d65ead12-cfae-4210-9dc9-81f5cd5821ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image008_1.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "ba0c794c-aace-4024-aa7c-ea753251c9b4": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "fca8dae8-0613-4490-9c4c-bcf7be453436": {
           "type": "heading",
           "settings": {
@@ -271,27 +285,13 @@
             "content": "<p>¡Bienvenidos a América Latina! Our well-balanced Latin Grande offers you an aromatic round trip of a special kind. Here, every cup is a trip to the rugged cliffs of Guatemala, the green highlands of Brazil, or the mountainous growing regions of Honduras.<br\/><br\/>In addition to the Rainforest Alliance, we are committed to the empowerment & fair income of women, child protection and sustainable coffee cultivation in the Latin American growing regions.<\/p><p><a href=\"\/products\/privat-kaffee-latin-grande-1\" target=\"_blank\" title=\"Privat Kaffee Latin Grande\">Discover our Latin Grande Coffee<\/a><\/p>",
             "font-style": "tp-body"
           }
-        },
-        "ba0c794c-aace-4024-aa7c-ea753251c9b4": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "d65ead12-cfae-4210-9dc9-81f5cd5821ec": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image008_1.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
         }
       },
       "block_order": [
-        "fca8dae8-0613-4490-9c4c-bcf7be453436",
-        "f2763fae-f06f-4888-9e5f-1ee50557562d",
+        "d65ead12-cfae-4210-9dc9-81f5cd5821ec",
         "ba0c794c-aace-4024-aa7c-ea753251c9b4",
-        "d65ead12-cfae-4210-9dc9-81f5cd5821ec"
+        "fca8dae8-0613-4490-9c4c-bcf7be453436",
+        "f2763fae-f06f-4888-9e5f-1ee50557562d"
       ],
       "settings": {
         "full_width": true,
@@ -305,20 +305,6 @@
     "e674f871-e134-4bec-8ddd-e5a3d93cd6a3": {
       "type": "rich-text",
       "blocks": {
-        "3fef8eed-fc32-48d5-91d9-da8bf0e6f5c7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image011.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "2d00df54-d161-4f5d-96c8-207db3a450e7": {
-          "type": "divider",
-          "settings": {
-          }
-        },
         "cd9895be-b35e-4e43-8fea-120788509a19": {
           "type": "heading",
           "settings": {
@@ -334,13 +320,27 @@
             "content": "<p>Our next stop takes us to the sun-drenched slopes of the Brazilian highlands. This is where the fine Arabica beans of our Brazil Mild mature. The aroma-enhancing roasting process brings out its harmonious hazelnut note even better. Can you taste it too?<br\/><br\/>Together with our local partner organizations, we also support people here in environmentally friendly coffee cultivation, which is also Rainforest Alliance-certified, and are committed to preserving biodiversity.<\/p><p><a href=\"\/products\/privat-kaffee-brazil-mild-1\" target=\"_blank\" title=\"Privat Kaffee Brazil Mild\">Discover our Brazil Mild coffee<\/a><\/p>",
             "font-style": "tp-body"
           }
+        },
+        "2d00df54-d161-4f5d-96c8-207db3a450e7": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "3fef8eed-fc32-48d5-91d9-da8bf0e6f5c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image011.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
-        "3fef8eed-fc32-48d5-91d9-da8bf0e6f5c7",
-        "2d00df54-d161-4f5d-96c8-207db3a450e7",
         "cd9895be-b35e-4e43-8fea-120788509a19",
-        "da92734c-0954-4d39-9180-dda445e1a1d8"
+        "da92734c-0954-4d39-9180-dda445e1a1d8",
+        "2d00df54-d161-4f5d-96c8-207db3a450e7",
+        "3fef8eed-fc32-48d5-91d9-da8bf0e6f5c7"
       ],
       "settings": {
         "full_width": true,
@@ -354,6 +354,20 @@
     "31e63c21-ce52-4512-b542-9d005271ddba": {
       "type": "rich-text",
       "blocks": {
+        "3f590e6d-6141-4e4c-b850-ed371ecd2a5f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image006.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "8b67f9db-49f1-4184-89e3-dd962f3c3fad": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "ac6b394f-1fff-40ac-977b-a33b2ea837f9": {
           "type": "heading",
           "settings": {
@@ -369,27 +383,13 @@
             "content": "<p>Last but not least, we cross the South Pacific and land in fascinating Africa. Our characterful African Blue is grown on the East African plateau - with the finest notes of blackcurrant.<br\/><br\/>In addition, this Rainforest Alliance-certified coffee supports our projects in Tanzania, which promote the next generation of future coffee farmers and provide them with important know-how for sustainable cultivation.<\/p><p><a href=\"\/products\/privat-kaffee-african-blue-1\" target=\"_blank\" title=\"Privat Kaffee African Blue\">Discover our African Blue Coffee<\/a><\/p>",
             "font-style": "tp-body"
           }
-        },
-        "8b67f9db-49f1-4184-89e3-dd962f3c3fad": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "3f590e6d-6141-4e4c-b850-ed371ecd2a5f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image006.png",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
         }
       },
       "block_order": [
-        "ac6b394f-1fff-40ac-977b-a33b2ea837f9",
-        "abd80158-0030-4fbb-9fc4-cfa4d4b1981b",
+        "3f590e6d-6141-4e4c-b850-ed371ecd2a5f",
         "8b67f9db-49f1-4184-89e3-dd962f3c3fad",
-        "3f590e6d-6141-4e4c-b850-ed371ecd2a5f"
+        "ac6b394f-1fff-40ac-977b-a33b2ea837f9",
+        "abd80158-0030-4fbb-9fc4-cfa4d4b1981b"
       ],
       "settings": {
         "full_width": true,
