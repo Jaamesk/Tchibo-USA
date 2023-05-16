@@ -47,10 +47,120 @@
         "background": "#F2F2F2",
         "background_gradient": ""
       }
+    },
+    "4012c88f-369a-4346-9c28-7af065e6c32a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Whole Bean Coffees",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ideal for bean to cup coffee machines like <a href=\"\/products\/the-tchibo\" target=\"_blank\" title=\"The Tchibo\">The Tchibo<\/a>. Fresh & convenient preparation - excellent taste.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "e402bdad-bde6-4268-84e2-dc6259c24211": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "270b937e-7bf3-44e1-a4ab-4c4c86908812": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image009_1.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-1",
+        "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-2",
+        "e402bdad-bde6-4268-84e2-dc6259c24211",
+        "270b937e-7bf3-44e1-a4ab-4c4c86908812"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f8f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "be456d82-7bde-41ef-b0a9-ee136ea84948": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "privat-kaffee-african-blue-1",
+          "privat-kaffee-brazil-mild-1",
+          "privat-kaffee-latin-grande-1"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "82e14a10-2a51-4860-a670-653b3a8054fa": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "privat-kaffee-african-blue",
+          "privat-kaffee-brazil-mild",
+          "privat-kaffee-latin-grande"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Ground Coffees",
+        "content": "<p>Ideal for drip filter mach<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "547ce06a-1dc8-460d-92cc-7eb0ca7ee62c"
+    "547ce06a-1dc8-460d-92cc-7eb0ca7ee62c",
+    "4012c88f-369a-4346-9c28-7af065e6c32a",
+    "be456d82-7bde-41ef-b0a9-ee136ea84948",
+    "82e14a10-2a51-4860-a670-653b3a8054fa"
   ]
 }
