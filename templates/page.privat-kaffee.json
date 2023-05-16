@@ -252,6 +252,55 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "4dbcf397-6382-471e-aa70-5cdc1c39446d": {
+      "type": "rich-text",
+      "blocks": {
+        "fca8dae8-0613-4490-9c4c-bcf7be453436": {
+          "type": "heading",
+          "settings": {
+            "text": "1st Stop: Latin America",
+            "heading_tag": "tp-display-4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "f2763fae-f06f-4888-9e5f-1ee50557562d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>¡Bienvenidos a América Latina! Our well-balanced Latin Grande offers you an aromatic round trip of a special kind. Here, every cup is a trip to the rugged cliffs of Guatemala, the green highlands of Brazil, or the mountainous growing regions of Honduras.<br\/><br\/>In addition to the Rainforest Alliance, we are committed to the empowerment & fair income of women, child protection and sustainable coffee cultivation in the Latin American growing regions.<\/p><p><a href=\"\/products\/privat-kaffee-latin-grande-1\" target=\"_blank\" title=\"Privat Kaffee Latin Grande\">Check out our Latin Grande Coffee<\/a><\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "ba0c794c-aace-4024-aa7c-ea753251c9b4": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "d65ead12-cfae-4210-9dc9-81f5cd5821ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image008_1.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "fca8dae8-0613-4490-9c4c-bcf7be453436",
+        "f2763fae-f06f-4888-9e5f-1ee50557562d",
+        "ba0c794c-aace-4024-aa7c-ea753251c9b4",
+        "d65ead12-cfae-4210-9dc9-81f5cd5821ec"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f8f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -261,6 +310,7 @@
     "be456d82-7bde-41ef-b0a9-ee136ea84948",
     "a7c3a31c-d1ad-4002-8d78-5848224f2d31",
     "82e14a10-2a51-4860-a670-653b3a8054fa",
-    "f7f652b1-8814-4aff-9a48-3576face3336"
+    "f7f652b1-8814-4aff-9a48-3576face3336",
+    "4dbcf397-6382-471e-aa70-5cdc1c39446d"
   ]
 }
