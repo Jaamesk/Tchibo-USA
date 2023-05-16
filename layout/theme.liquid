@@ -20,7 +20,8 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
-    <meta name="facebook-domain-verification" content="6pjkvd1v6bsvpd8oem316ychu41mwp" />
+
+
     <link rel="canonical" href="{{ canonical_url }}">
 
     {%- if settings.favicon -%}
@@ -54,6 +55,8 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
     <script type="module" src="{{ 'sections.js' | asset_url }}"></script>
+
+        <meta name="facebook-domain-verification" content="6pjkvd1v6bsvpd8oem316ychu41mwp" />
 
     {{ content_for_header }}
 
