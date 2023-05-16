@@ -132,7 +132,7 @@
         "a0872bbe-d0c7-4074-b38d-4e9e78acefc0": {
           "type": "heading",
           "settings": {
-            "text": "Whole Bean Coffees",
+            "text": "Ground Coffees",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -191,8 +191,8 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Ground Coffees",
-        "content": "<p>Ideal for drip filter mach<\/p>",
+        "title": "",
+        "content": "",
         "link_url": "",
         "link_text": "",
         "background": "",
