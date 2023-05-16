@@ -422,7 +422,7 @@
         "56cd6274-e07c-438a-a6c4-bd67a8490c75": {
           "type": "liquid",
           "settings": {
-            "liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/image020.jpg?v=1684250938\" width=\"50px\">"
+            "liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/image020.jpg?v=1684250938\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/image019.png?v=1684250938\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/DE-Logo_germanquality_1000x1000px.png?v=1683995805\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Kosher-removebg-preview.png?v=1683509517\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/VEGAN.png?v=1683509571\" width=\"80px\" style=\"margin-top:0px; display: inline;\">"
           }
         },
         "236778b3-848d-4f7f-95b9-6863a69df8ca": {
@@ -451,7 +451,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "start",
-        "background": "",
+        "background": "#fff",
         "background_gradient": "",
         "text_color": ""
       }
