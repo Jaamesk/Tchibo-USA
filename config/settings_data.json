@@ -68,6 +68,7 @@
         "blocks": {
           "message": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "Now in Stock: 3 New Whole Bean Coffees",
               "url": "shopify:\/\/collections\/whole-bean-coffee"
@@ -75,6 +76,7 @@
           },
           "75c12c6c-655c-46a1-baa3-831c609bf032": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "Discover the roast that’s right for you",
               "url": "shopify:\/\/collections\/whole-bean-coffee"
