@@ -12,7 +12,7 @@
         "dc5e01ab-9df4-4727-8c1e-337af0ddcad9": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% if product.metafields.custom.similar_too != blank %}\n{% assign similarproduct = product.metafields.custom.similar_too.value %}\n<p class=\"tp-display-1\">Tastes like {{similarproduct.title}}<\/p>\n{% endif %}"
+            "liquid": "{% if product.metafields.custom.similar_too != blank %}\n{% assign similarproduct = product.metafields.custom.similar_too.value %}\n<p class=\"tp-display-1\">Similar to {{similarproduct.title}}<\/p>\n{% endif %}"
           }
         },
         "18c55f6f-390b-4710-a881-c15fb856270b": {
