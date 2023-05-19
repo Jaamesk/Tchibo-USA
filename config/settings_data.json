@@ -39,7 +39,7 @@
     "color_swatch_style": "square",
     "show_vendor": false,
     "show_secondary_image": false,
-    "show_quick_buy": false,
+    "show_quick_buy": true,
     "show_product_rating": false,
     "product_rating_mode": "rating",
     "show_discount": true,

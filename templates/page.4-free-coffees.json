@@ -153,7 +153,7 @@
             "column_size": "3",
             "title": "Add your favorite coffees to your cart",
             "heading_tag": "tp-display-3",
-            "content": "<p>Choose any four of our 500 gram (17.6 oz) coffees and add them to your cart along with The Tchibo coffee machine.<\/p>",
+            "content": "<p>Choose any four of our 1 kilogram (35.2 oz) coffees and add them to your cart along with The Tchibo coffee machine.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -285,6 +285,38 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "b165edc9-4944-440a-83e1-db23ed87917c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "barista-espresso-whole-beans",
+          "caffe-crema-intense-espresso-whole-beans",
+          "exclusive-light-roast-1",
+          "exclusive-medium-roast",
+          "gusto-tradizionale",
+          "milano-style-espresso-whole-beans"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Choose your coffee",
+        "content": "<p>Choose any four of these coffees for free with your The Tchibo purchase.<\/p>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -293,6 +325,7 @@
     "2608488f-4e38-4fb6-ab25-18801b35dadf",
     "74cf173a-cb7d-405a-841a-6f1948ad5860",
     "99e43eec-4405-48d2-b83c-09ae58e917bc",
-    "7a21f28b-2fed-483c-8014-bd0cbe4f8294"
+    "7a21f28b-2fed-483c-8014-bd0cbe4f8294",
+    "b165edc9-4944-440a-83e1-db23ed87917c"
   ]
 }
