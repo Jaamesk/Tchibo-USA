@@ -101,7 +101,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 <script>
 var userId = {{ customer.id }} || null; // Replace your_user_id with your own if available.
 window.hj('identify', userId, {
-    total_orders': {{ customer.orders_count }},
+    total_orders: {{ customer.orders_count }},
     total_spent: {{ customer.total_spent }},
     accepts_marketing: {{ customer.accepts_marketing }},
 });
