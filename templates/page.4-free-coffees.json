@@ -27,7 +27,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 10,
+            "overlay_opacity": 5,
             "background": "",
             "background_gradient": ""
           }
@@ -104,11 +104,175 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "74cf173a-cb7d-405a-841a-6f1948ad5860": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15690627416270__74cf173a-cb7d-405a-841a-6f1948ad5860-1684499725044b1abe-1": {
+          "type": "heading",
+          "settings": {
+            "text": "How to claim your 4 FREE BAGS OF COFFEE",
+            "heading_tag": "tp-display-4",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15690627416270__74cf173a-cb7d-405a-841a-6f1948ad5860-1684499725044b1abe-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "99e43eec-4405-48d2-b83c-09ae58e917bc": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15690627416270__99e43eec-4405-48d2-b83c-09ae58e917bc-16845005244bfc6672-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image009_1.jpg",
+            "column_size": "3",
+            "title": "Add The Tchibo to your Cart",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Our automatic bean-to-brew espresso and coffee machine puts freshly-brewed European coffee in your hands with 1 button tap.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15690627416270__99e43eec-4405-48d2-b83c-09ae58e917bc-16845005244bfc6672-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bild_Composing_500g_GanzeBohne.jpg",
+            "column_size": "3",
+            "title": "Add your favorite coffees to your cart",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Choose any four of our 500 gram (17.6 oz) coffees and add them to your cart along with The Tchibo coffee machine.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15690627416270__99e43eec-4405-48d2-b83c-09ae58e917bc-16845005244bfc6672-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image001_5.jpg",
+            "column_size": "3",
+            "title": "Get your free bags at checkout",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Check your Cart. The discount will be applied to each line item of your order. Check all of your selected coffees are free.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15690627416270__99e43eec-4405-48d2-b83c-09ae58e917bc-16845005244bfc6672-0",
+        "template--15690627416270__99e43eec-4405-48d2-b83c-09ae58e917bc-16845005244bfc6672-1",
+        "template--15690627416270__99e43eec-4405-48d2-b83c-09ae58e917bc-16845005244bfc6672-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7a21f28b-2fed-483c-8014-bd0cbe4f8294": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-1": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "tp-display-3"
+          }
+        },
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-2": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-3": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-4": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-5": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "918ea321-f548-4b4b-aa1a-9005b0116096": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-1\">\"It's like having a coffee shop in my kitchen\"<\/p><p class=\"tp-body\">- A happy The Tchibo customer<\/p>"
+          }
+        },
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-9": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-1",
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-2",
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-3",
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-4",
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-5",
+        "918ea321-f548-4b4b-aa1a-9005b0116096",
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-9"
+      ],
+      "settings": {
+        "full_width": true,
+        "product": "the-tchibo",
+        "desktop_media_width": 45,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "2421cfa6-8333-4362-9449-b8daad711fb9",
-    "2608488f-4e38-4fb6-ab25-18801b35dadf"
+    "2608488f-4e38-4fb6-ab25-18801b35dadf",
+    "74cf173a-cb7d-405a-841a-6f1948ad5860",
+    "99e43eec-4405-48d2-b83c-09ae58e917bc",
+    "7a21f28b-2fed-483c-8014-bd0cbe4f8294"
   ]
 }
