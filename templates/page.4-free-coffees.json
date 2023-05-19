@@ -19,13 +19,13 @@
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
             "subheading-style": "tp-overline-secondary",
-            "title": "",
+            "title": "4 free bags of coffee with your Tchibo machine",
             "heading_tag": "tp-display-2-nocolor",
-            "button_text": "",
+            "button_text": "Claim Now",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_background": "#c0a468",
+            "button_text_color": "#fff",
             "overlay_color": "#000000",
             "overlay_opacity": 5,
             "background": "",
@@ -125,6 +125,18 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5f974818-7317-4830-8b7f-a23e4a6c0338": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div id=\"claim\"><div><\/div><\/div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -324,6 +336,7 @@
     "2421cfa6-8333-4362-9449-b8daad711fb9",
     "2608488f-4e38-4fb6-ab25-18801b35dadf",
     "74cf173a-cb7d-405a-841a-6f1948ad5860",
+    "5f974818-7317-4830-8b7f-a23e4a6c0338",
     "99e43eec-4405-48d2-b83c-09ae58e917bc",
     "7a21f28b-2fed-483c-8014-bd0cbe4f8294",
     "b165edc9-4944-440a-83e1-db23ed87917c"
