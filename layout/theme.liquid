@@ -97,6 +97,16 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
+    <!-- Hotjar Identify API -->
+<script>
+var userId = {{ customer.id }} || null; // Replace your_user_id with your own if available.
+window.hj('identify', userId, {
+    'Total Orders': {{ customer.orders_count }},
+    'Total Spent': {{ customer.total_spent }},
+    'Accepts Marketing': "{{ customer.accepts_marketing }}",
+});
+</script>
+
 {% render 'gsf-conversion-pixels' %}
 </head>
 
