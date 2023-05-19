@@ -111,7 +111,7 @@
         "template--15690627416270__74cf173a-cb7d-405a-841a-6f1948ad5860-1684499725044b1abe-1": {
           "type": "heading",
           "settings": {
-            "text": "How to claim your 4 FREE BAGS OF COFFEE",
+            "text": "How to claim your 4 free bags of coffee",
             "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
@@ -200,6 +200,12 @@
             "heading_tag": "tp-display-3"
           }
         },
+        "505f5824-d9cb-4c35-bcff-585760433bee": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-2\">Bean-to-brew coffee and espresso maker<\/p>"
+          }
+        },
         "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-2": {
           "type": "badges",
           "settings": {
@@ -237,22 +243,36 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "98473185-1c6d-4980-b4b0-62546b41fc27": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "f60e3fd4-a7dd-4433-83d1-640a85240531": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Makes 2 oz, 6 oz and 8 oz coffees<\/li><li>Super automatic espresso and coffee machine with built-in burr grinder  <\/li><li>Bean-To-Brew, Single Serving<\/li><li>Boost button to increase coffee intensity<\/li><li>Elegant, intuitive LED panel with touchscreen operation<\/li><li>Compact Size: (W) 7” (H) 12.4” (L) 15.6”<\/li><\/ul>"
+          }
         }
       },
       "block_order": [
         "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-1",
+        "505f5824-d9cb-4c35-bcff-585760433bee",
         "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-2",
         "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-3",
         "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-4",
         "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-5",
         "918ea321-f548-4b4b-aa1a-9005b0116096",
-        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-9"
+        "template--15690627416270__7a21f28b-2fed-483c-8014-bd0cbe4f8294-1684500508d243be0b-9",
+        "98473185-1c6d-4980-b4b0-62546b41fc27",
+        "f60e3fd4-a7dd-4433-83d1-640a85240531"
       ],
       "settings": {
         "full_width": true,
         "product": "the-tchibo",
         "desktop_media_width": 45,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": true,
