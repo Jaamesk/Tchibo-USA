@@ -85,12 +85,6 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "e41ce306-989e-4102-a9e9-6fd13b2bb2f3": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{{ customer.id }}"
-          }
         }
       },
       "block_order": [
@@ -105,8 +99,7 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "e41ce306-989e-4102-a9e9-6fd13b2bb2f3"
+        "buy_buttons"
       ],
       "settings": {
         "full_width": true,
