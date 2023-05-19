@@ -13,7 +13,6 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1-Bild_Composing_500g_GanzeBohne_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/1-Bild_Composing_500g_GanzeBohne.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -44,7 +43,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
