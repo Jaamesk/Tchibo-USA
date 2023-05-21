@@ -17,11 +17,11 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "Tchibo Privat Kaffee",
+            "subheading": "Tchibo Italian Roasts",
             "subheading-style": "tp-overline-secondary",
-            "title": "Coffee that tastes as unique as its origin",
+            "title": "Enjoy the taste of Italian coffee",
             "heading_tag": "tp-display-4-nocolor",
-            "button_text": "Discover Privat Kaffee",
+            "button_text": "Discover our Italian Roasts",
             "button_link": "#coffees",
             "text_color": "#ffffff",
             "button_background": "#e0bf78",
@@ -54,7 +54,7 @@
         "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-1": {
           "type": "heading",
           "settings": {
-            "text": "Whole Bean Coffees",
+            "text": "Bring the taste of Italy to your home",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -63,7 +63,7 @@
         "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ideal for bean to cup coffee machines like <a href=\"\/products\/the-tchibo\" target=\"_blank\" title=\"The Tchibo\">The Tchibo<\/a>. Fresh & convenient preparation - excellent taste.<\/p>",
+            "content": "<p>These italian-inspired coffees are ideal for bean to cup coffee machines like <a href=\"\/products\/the-tchibo\" target=\"_blank\" title=\"The Tchibo\">The Tchibo<\/a>. Let your taste buds travel to Italy with a fresh, intense espresso or a traditional high-quality coffee.<\/p>",
             "font-style": "tp-body"
           }
         },
@@ -75,7 +75,7 @@
         "270b937e-7bf3-44e1-a4ab-4c4c86908812": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image009_1.jpg",
+            "image": "shopify:\/\/shop_images\/Mood_Preparation.jpg",
             "width_mode": "full_width",
             "max_width": 600,
             "mobile_max_width": 400
@@ -114,18 +114,19 @@
       "settings": {
         "collection": "",
         "products": [
-          "privat-kaffee-african-blue-1",
-          "privat-kaffee-brazil-mild-1",
-          "privat-kaffee-latin-grande-1"
+          "espresso-sicilia-style",
+          "milano-style-espresso-whole-beans",
+          "gusto-tradizionale",
+          "barista-caffe-crema"
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "products_count": 6,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "",
+        "title": "Our Italian roasts",
         "content": "",
         "link_url": "",
         "link_text": "",
