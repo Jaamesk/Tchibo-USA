@@ -177,7 +177,7 @@
           "type": "heading",
           "settings": {
             "text": "Our Coffee Brands",
-            "heading_tag": "tp-display-3",
+            "heading_tag": "tp-display-4",
             "text_color": "",
             "gradient": ""
           }
@@ -196,8 +196,8 @@
       ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "content_width": "large",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
