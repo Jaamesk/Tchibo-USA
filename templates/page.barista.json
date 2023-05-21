@@ -458,7 +458,7 @@
         "template--15689488662734__953e319c-f2b8-4084-b240-2a4fc233b7e4-1684245730831e9b5b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Not only are our range of Barista coffees slow roasted for great taste, they are also Rainforest Alliance certified, vegan and kosher. You get to enjoy all the quality with a clean conscience.<\/p>",
+            "content": "<p>Not only are our range of Barista ground coffees slow roasted for great taste, they are also Rainforest Alliance certified, vegan and kosher. You get to enjoy all the quality with a clean conscience.<\/p>",
             "font-style": "tp-body"
           }
         },
@@ -498,6 +498,75 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "24ea1f6e-feca-4e33-9c8b-c24af5bce55f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15690916298958__24ea1f6e-feca-4e33-9c8b-c24af5bce55f-16846654479426827f-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Whole Bean Coffees",
+            "font-style": "tp-overline-secondary"
+          }
+        },
+        "template--15690916298958__24ea1f6e-feca-4e33-9c8b-c24af5bce55f-16846654479426827f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Barista quality coffee for your Tchibo machine",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15690916298958__24ea1f6e-feca-4e33-9c8b-c24af5bce55f-16846654479426827f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you want to enjoy barista quality coffee in your The Tchibo bean to brew coffee machine, we have got you covered. Barista Espresso and Barista Caffè Crema are whole bean coffees that work perfectly with your Tchibo coffee machine.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15690916298958__24ea1f6e-feca-4e33-9c8b-c24af5bce55f-16846654479426827f-0",
+        "template--15690916298958__24ea1f6e-feca-4e33-9c8b-c24af5bce55f-16846654479426827f-1",
+        "template--15690916298958__24ea1f6e-feca-4e33-9c8b-c24af5bce55f-16846654479426827f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "63e73dee-c776-4395-a68a-dcd714e1bac9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "barista-caffe-crema",
+          "barista-espresso-whole-beans"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -511,6 +580,8 @@
     "38f9a080-43a4-4811-b5f6-daeca6c75c24",
     "da625b85-f27e-454c-a700-d3a757e70d68",
     "8dd37871-a56a-40e4-a285-8cbbbebfc68a",
-    "953e319c-f2b8-4084-b240-2a4fc233b7e4"
+    "953e319c-f2b8-4084-b240-2a4fc233b7e4",
+    "24ea1f6e-feca-4e33-9c8b-c24af5bce55f",
+    "63e73dee-c776-4395-a68a-dcd714e1bac9"
   ]
 }
