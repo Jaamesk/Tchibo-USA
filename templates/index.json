@@ -95,7 +95,7 @@
         "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Meet the <strong>German-engineered machine<\/strong> that grinds AND brews your <strong>coffee<\/strong> and <strong>espresso<\/strong> in one seamless step. <br\/><br\/>Experience the blend of style, sophistication, and superior performance with the \"The Tchibo\" <strong>coffee maker<\/strong>. It's more than a coffee maker; it's your personal barista. <br\/>It's not just about brewing coffee; it's about starting your day with an experience.<\/p>",
+            "content": "<p>Meet the <strong>German-engineered machine<\/strong> that grinds AND brews your <strong>coffee<\/strong> and <strong>espresso<\/strong> in one seamless step. <br\/><br\/>Experience the blend of style, sophistication, and superior performance with the \"The Tchibo\" <strong>coffee maker<\/strong>. It's more than a coffee maker, it's your personal barista. <br\/>It's not just about brewing coffee, it's about starting your day with an experience.<\/p>",
             "font-style": "tp-body"
           }
         },
