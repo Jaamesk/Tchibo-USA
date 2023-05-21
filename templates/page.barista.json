@@ -115,13 +115,19 @@
         "template--15690916298958__29682e04-ae0c-474a-8f9c-071477dfe66c-1684664810f041cd79-1": {
           "type": "title",
           "settings": {
-            "heading_tag": "tp-display-5"
+            "heading_tag": "tp-display-4"
+          }
+        },
+        "d3da502a-872c-41a3-a8c8-33fc9f347cd0": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-2\">GROUND COFFEE - MEDIUM ROAST<\/p>"
           }
         },
         "d5e79f49-3d55-4aec-8c91-abbe435917f3": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p class=\"tp-display-1\">0.55 lb - 8.8 oz bag | Ground coffee<\/p>"
+            "liquid": "<p class=\"tp-display-1\">0.55 lb - 8.8 oz bag<\/p>"
           }
         },
         "template--15690916298958__29682e04-ae0c-474a-8f9c-071477dfe66c-1684664810f041cd79-2": {
@@ -159,6 +165,7 @@
       },
       "block_order": [
         "template--15690916298958__29682e04-ae0c-474a-8f9c-071477dfe66c-1684664810f041cd79-1",
+        "d3da502a-872c-41a3-a8c8-33fc9f347cd0",
         "d5e79f49-3d55-4aec-8c91-abbe435917f3",
         "template--15690916298958__29682e04-ae0c-474a-8f9c-071477dfe66c-1684664810f041cd79-2",
         "template--15690916298958__29682e04-ae0c-474a-8f9c-071477dfe66c-1684664810f041cd79-3",
