@@ -48,13 +48,62 @@
         "background_gradient": ""
       }
     },
+    "9a05e710-311f-4ad3-bacb-598f76e19d21": {
+      "type": "rich-text",
+      "blocks": {
+        "697c6f9b-eab2-4038-83fb-7e65c0e2a59c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image004_3.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "9282f70b-431b-4f76-8a84-90c6b7788c54": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "e4f41be9-4db0-40ba-94a0-b88db14cf97f": {
+          "type": "heading",
+          "settings": {
+            "text": "Meet your new everyday coffee: Feine Milde",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "e9fd849b-aa55-4f5b-a2f8-0d821432ba5b": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Perk up every morning with the fresh, enticing aroma and mild, bright taste of European coffee. Feine Milde’s smooth profile with bursts of subtle flavor is expertly crafted to delight all coffee connoisseurs.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "697c6f9b-eab2-4038-83fb-7e65c0e2a59c",
+        "9282f70b-431b-4f76-8a84-90c6b7788c54",
+        "e4f41be9-4db0-40ba-94a0-b88db14cf97f",
+        "e9fd849b-aa55-4f5b-a2f8-0d821432ba5b"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f8f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "4012c88f-369a-4346-9c28-7af065e6c32a": {
       "type": "rich-text",
       "blocks": {
         "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-1": {
           "type": "heading",
           "settings": {
-            "text": "Whole Bean Coffees",
+            "text": "Benefit from over 70 years of European coffee tradition",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -63,7 +112,7 @@
         "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ideal for bean to cup coffee machines like <a href=\"\/products\/the-tchibo\" target=\"_blank\" title=\"The Tchibo\">The Tchibo<\/a>. Fresh & convenient preparation - excellent taste.<\/p>",
+            "content": "<p>We’ve been passionately roasting coffee for over 70 years, honing our craft and passing it down through generations to deliver the best-tasting and freshest whole bean and ground coffee right to your doorstep.<\/p>",
             "font-style": "tp-body"
           }
         },
@@ -75,7 +124,7 @@
         "270b937e-7bf3-44e1-a4ab-4c4c86908812": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image009_1.jpg",
+            "image": "shopify:\/\/shop_images\/21075513.jpg",
             "width_mode": "full_width",
             "max_width": 600,
             "mobile_max_width": 400
@@ -114,16 +163,15 @@
       "settings": {
         "collection": "",
         "products": [
-          "privat-kaffee-african-blue-1",
-          "privat-kaffee-brazil-mild-1",
-          "privat-kaffee-latin-grande-1"
+          "feine-milde-1",
+          "feine-milde"
         ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
-        "products_count": 6,
+        "products_count": 2,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 2,
         "subheading": "",
         "title": "",
         "content": "",
@@ -141,10 +189,24 @@
     "a7c3a31c-d1ad-4002-8d78-5848224f2d31": {
       "type": "rich-text",
       "blocks": {
+        "c9fd1240-d78a-4b66-8471-9b4146614bda": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image002_2.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "92557c97-c7ff-4e05-9555-ebcd2f0cc997": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "a5554e08-ae86-4d8d-b24c-cc2a2ecec49d": {
           "type": "heading",
           "settings": {
-            "text": "Ground Coffees",
+            "text": "Crafted for multiple brewing methods",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -153,255 +215,16 @@
         "3008ba23-a721-40f6-b2e1-c30107869f1f": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ideal for drip filter machines, pour over coffee or a french press. This will unlock all flavor varieties found in our Privat Kaffee.<\/p>",
+            "content": "<p>Feine Milde’s unbeatable versatility means you can brew it your way. Prepare a pot with your drip coffee machine, your favorite pour-over brewer, or a French press.<\/p>",
             "font-style": "tp-body"
-          }
-        },
-        "92557c97-c7ff-4e05-9555-ebcd2f0cc997": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "c9fd1240-d78a-4b66-8471-9b4146614bda": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image002_2.png",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
           }
         }
       },
       "block_order": [
-        "a5554e08-ae86-4d8d-b24c-cc2a2ecec49d",
-        "3008ba23-a721-40f6-b2e1-c30107869f1f",
+        "c9fd1240-d78a-4b66-8471-9b4146614bda",
         "92557c97-c7ff-4e05-9555-ebcd2f0cc997",
-        "c9fd1240-d78a-4b66-8471-9b4146614bda"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "#f8f6f2",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "82e14a10-2a51-4860-a670-653b3a8054fa": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "privat-kaffee-african-blue",
-          "privat-kaffee-brazil-mild",
-          "privat-kaffee-latin-grande"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "f7f652b1-8814-4aff-9a48-3576face3336": {
-      "type": "rich-text",
-      "blocks": {
-        "f3d2142c-4da7-415c-b409-c14f4604d6ff": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image003_5.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "40fb8b07-1c2e-47f0-8685-499034915b7d": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "a0872bbe-d0c7-4074-b38d-4e9e78acefc0": {
-          "type": "heading",
-          "settings": {
-            "text": "Privat Kaffee - Where indulgence meets flavor",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "b5011659-269e-4909-a4ef-36b9b891f954": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Come with us on an aromatic voyage of discovery along the equator: Our Tchibo Privat Kaffees take you on a journey around the globe - from Africa to Latin America.<\/p>",
-            "font-style": "tp-body"
-          }
-        }
-      },
-      "block_order": [
-        "f3d2142c-4da7-415c-b409-c14f4604d6ff",
-        "40fb8b07-1c2e-47f0-8685-499034915b7d",
-        "a0872bbe-d0c7-4074-b38d-4e9e78acefc0",
-        "b5011659-269e-4909-a4ef-36b9b891f954"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "#f8f6f2",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "4dbcf397-6382-471e-aa70-5cdc1c39446d": {
-      "type": "rich-text",
-      "blocks": {
-        "d65ead12-cfae-4210-9dc9-81f5cd5821ec": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image008_1.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "ba0c794c-aace-4024-aa7c-ea753251c9b4": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "fca8dae8-0613-4490-9c4c-bcf7be453436": {
-          "type": "heading",
-          "settings": {
-            "text": "1st Stop: Latin America",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "f2763fae-f06f-4888-9e5f-1ee50557562d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>¡Bienvenidos a América Latina! Our well-balanced Latin Grande offers you an aromatic round trip of a special kind. Here, every cup is a trip to the rugged cliffs of Guatemala, the green highlands of Brazil, or the mountainous growing regions of Honduras.<br\/><br\/>In addition to the Rainforest Alliance, we are committed to the empowerment & fair income of women, child protection and sustainable coffee cultivation in the Latin American growing regions.<\/p><p><a href=\"\/products\/privat-kaffee-latin-grande-1\" target=\"_blank\" title=\"Privat Kaffee Latin Grande\">Discover our Latin Grande Coffee<\/a><\/p>",
-            "font-style": "tp-body"
-          }
-        }
-      },
-      "block_order": [
-        "d65ead12-cfae-4210-9dc9-81f5cd5821ec",
-        "ba0c794c-aace-4024-aa7c-ea753251c9b4",
-        "fca8dae8-0613-4490-9c4c-bcf7be453436",
-        "f2763fae-f06f-4888-9e5f-1ee50557562d"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "#f8f6f2",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "e674f871-e134-4bec-8ddd-e5a3d93cd6a3": {
-      "type": "rich-text",
-      "blocks": {
-        "cd9895be-b35e-4e43-8fea-120788509a19": {
-          "type": "heading",
-          "settings": {
-            "text": "2nd Stop: Brazil",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "da92734c-0954-4d39-9180-dda445e1a1d8": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Our next stop takes us to the sun-drenched slopes of the Brazilian highlands. This is where the fine Arabica beans of our Brazil Mild mature. The aroma-enhancing roasting process brings out its harmonious hazelnut note even better. Can you taste it too?<br\/><br\/>Together with our local partner organizations, we also support people here in environmentally friendly coffee cultivation, which is also Rainforest Alliance-certified, and are committed to preserving biodiversity.<\/p><p><a href=\"\/products\/privat-kaffee-brazil-mild-1\" target=\"_blank\" title=\"Privat Kaffee Brazil Mild\">Discover our Brazil Mild coffee<\/a><\/p>",
-            "font-style": "tp-body"
-          }
-        },
-        "2d00df54-d161-4f5d-96c8-207db3a450e7": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "3fef8eed-fc32-48d5-91d9-da8bf0e6f5c7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image011.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "cd9895be-b35e-4e43-8fea-120788509a19",
-        "da92734c-0954-4d39-9180-dda445e1a1d8",
-        "2d00df54-d161-4f5d-96c8-207db3a450e7",
-        "3fef8eed-fc32-48d5-91d9-da8bf0e6f5c7"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "#f8f6f2",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "31e63c21-ce52-4512-b542-9d005271ddba": {
-      "type": "rich-text",
-      "blocks": {
-        "3f590e6d-6141-4e4c-b850-ed371ecd2a5f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image006.png",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "8b67f9db-49f1-4184-89e3-dd962f3c3fad": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "ac6b394f-1fff-40ac-977b-a33b2ea837f9": {
-          "type": "heading",
-          "settings": {
-            "text": "3rd Stop: Africa",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "abd80158-0030-4fbb-9fc4-cfa4d4b1981b": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Last but not least, we cross the South Pacific and land in fascinating Africa. Our characterful African Blue is grown on the East African plateau - with the finest notes of blackcurrant.<br\/><br\/>In addition, this Rainforest Alliance-certified coffee supports our projects in Tanzania, which promote the next generation of future coffee farmers and provide them with important know-how for sustainable cultivation.<\/p><p><a href=\"\/products\/privat-kaffee-african-blue-1\" target=\"_blank\" title=\"Privat Kaffee African Blue\">Discover our African Blue Coffee<\/a><\/p>",
-            "font-style": "tp-body"
-          }
-        }
-      },
-      "block_order": [
-        "3f590e6d-6141-4e4c-b850-ed371ecd2a5f",
-        "8b67f9db-49f1-4184-89e3-dd962f3c3fad",
-        "ac6b394f-1fff-40ac-977b-a33b2ea837f9",
-        "abd80158-0030-4fbb-9fc4-cfa4d4b1981b"
+        "a5554e08-ae86-4d8d-b24c-cc2a2ecec49d",
+        "3008ba23-a721-40f6-b2e1-c30107869f1f"
       ],
       "settings": {
         "full_width": true,
@@ -418,7 +241,7 @@
         "template--15689488662734__953e319c-f2b8-4084-b240-2a4fc233b7e4-1684245730831e9b5b-1": {
           "type": "heading",
           "settings": {
-            "text": "The finest coffees from all over the world - delivered to your doorstep.",
+            "text": "Savor maximum freshness in every cup ",
             "heading_tag": "tp-display-2",
             "text_color": "",
             "gradient": ""
@@ -427,14 +250,14 @@
         "template--15689488662734__953e319c-f2b8-4084-b240-2a4fc233b7e4-1684245730831e9b5b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Not only are our range of Privat Kaffee coffees slow roasted for great taste, they are also Rainforest Alliance certified, vegan and kosher. You get to enjoy all the quality with a clean conscience.<\/p>",
+            "content": "<p>Experience German quality coffee and taste. Plus, our Feine Milde is also Kosher and Vegan. The vacuum-sealed package ensures fresh taste in every cup you brew.<\/p>",
             "font-style": "tp-body"
           }
         },
         "56cd6274-e07c-438a-a6c4-bd67a8490c75": {
           "type": "liquid",
           "settings": {
-            "liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/image020.jpg?v=1684250938\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/image019.png?v=1684250938\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/DE-Logo_germanquality_1000x1000px.png?v=1683995805\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Kosher-removebg-preview.png?v=1683509517\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/VEGAN.png?v=1683509571\" width=\"80px\" style=\"margin-top:0px; display: inline;\">"
+            "liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Kosher-removebg-preview.png?v=1683509517\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/VEGAN.png?v=1683509571\" width=\"80px\" style=\"margin-top:0px; display: inline;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/DE-Logo_germanquality_1000x1000px.png?v=1683995805\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\">"
           }
         },
         "236778b3-848d-4f7f-95b9-6863a69df8ca": {
@@ -445,7 +268,7 @@
         "e9228fea-9d4a-48db-b0cf-d2ab9f32eaff": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image001_5.jpg",
+            "image": "shopify:\/\/shop_images\/image007_1.png",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -472,15 +295,11 @@
   "order": [
     "main",
     "547ce06a-1dc8-460d-92cc-7eb0ca7ee62c",
+    "9a05e710-311f-4ad3-bacb-598f76e19d21",
     "4012c88f-369a-4346-9c28-7af065e6c32a",
     "53f17e15-1afb-4119-af4b-5a5664633cab",
     "be456d82-7bde-41ef-b0a9-ee136ea84948",
     "a7c3a31c-d1ad-4002-8d78-5848224f2d31",
-    "82e14a10-2a51-4860-a670-653b3a8054fa",
-    "f7f652b1-8814-4aff-9a48-3576face3336",
-    "4dbcf397-6382-471e-aa70-5cdc1c39446d",
-    "e674f871-e134-4bec-8ddd-e5a3d93cd6a3",
-    "31e63c21-ce52-4512-b542-9d005271ddba",
     "953e319c-f2b8-4084-b240-2a4fc233b7e4"
   ]
 }
