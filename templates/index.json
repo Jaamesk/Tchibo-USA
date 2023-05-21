@@ -95,7 +95,7 @@
         "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Meet the <strong>German-engineered machine<\/strong> that grinds AND brews your <strong>coffee<\/strong> and <strong>espresso<\/strong> in one seamless step. <br\/><br\/>Experience the blend of style, sophistication, and superior performance with the \"The Tchibo\" <strong>coffee maker<\/strong>. It's more than a coffee maker, it's your personal barista. <br\/>It's not just about brewing coffee, it's about starting your day with an experience.<\/p>",
+            "content": "<p>Meet the <strong>German-engineered machine<\/strong> that grinds AND brews your <strong>coffee<\/strong> and <strong>espresso<\/strong> in one seamless step.<\/p>",
             "font-style": "tp-body"
           }
         },
@@ -107,7 +107,7 @@
         "f15127fd-ad78-4057-b9fb-55d32cd1c36b": {
           "type": "liquid",
           "settings": {
-            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c7442cc784ae40bf82a21e4d32322b41.mp4\" type=\"video\/mp4\">\n<\/video>"
+            "liquid": "<video width=\"auto\" controls poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/The_Tchibo_Coffee_Machine_308.png?v=1673448815\">\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c7442cc784ae40bf82a21e4d32322b41.mp4\" type=\"video\/mp4\">\n<\/video>"
           }
         }
       },
