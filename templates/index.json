@@ -121,7 +121,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "start",
-        "background": "#fff",
+        "background": "#f9f9f9",
         "background_gradient": "",
         "text_color": ""
       }
