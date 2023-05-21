@@ -80,6 +80,52 @@
         "text_color": ""
       }
     },
+    "5860739b-7fc8-4c60-9f0d-724fa45bbfe8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Make your home feel like a coffee shop.",
+            "heading_tag": "tp-display-4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Meet the <strong>German-engineered machine<\/strong> that grinds AND brews your <strong>coffee<\/strong> and <strong>espresso<\/strong> in one seamless step. <br\/><br\/>Experience the blend of style, sophistication, and superior performance with the \"The Tchibo\" <strong>coffee maker<\/strong>. It's more than a coffee maker; it's your personal barista. <br\/>It's not just about brewing coffee; it's about starting your day with an experience.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "dface3b7-894d-44e2-8f84-0be27ba0a693": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "f15127fd-ad78-4057-b9fb-55d32cd1c36b": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<video width=\"auto\" controls>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c7442cc784ae40bf82a21e4d32322b41.mp4\" type=\"video\/mp4\">\n<\/video>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-1",
+        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2",
+        "dface3b7-894d-44e2-8f84-0be27ba0a693",
+        "f15127fd-ad78-4057-b9fb-55d32cd1c36b"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#fff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "3cb33c8f-b1f5-4bc5-9751-dace497ce653": {
       "type": "custom-liquid-LP",
       "disabled": true,
@@ -111,8 +157,8 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "The Tchibo Bundles",
-        "content": "<p>Get your bean-to-brew coffee & espresso machine. Save money and get free coffee when you choose a bundle.<\/p>",
+        "title": "",
+        "content": "",
         "link_url": "",
         "link_text": "",
         "background": "",
@@ -122,6 +168,169 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "799468f5-485d-43e6-b2ba-ae576eab79c8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15631460925646__799468f5-485d-43e6-b2ba-ae576eab79c8-1684679449ddfa5d08-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Coffee Brands",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15631460925646__799468f5-485d-43e6-b2ba-ae576eab79c8-1684679449ddfa5d08-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We’ve been passionately roasting coffee for over 70 years, honing our craft and passing it down through generations to deliver the best-tasting and freshest whole bean and ground coffee right to your doorstep.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__799468f5-485d-43e6-b2ba-ae576eab79c8-1684679449ddfa5d08-1",
+        "template--15631460925646__799468f5-485d-43e6-b2ba-ae576eab79c8-1684679449ddfa5d08-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e5e9fc49-41d3-41e8-a77a-8c3d420f167c": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15631460925646__e5e9fc49-41d3-41e8-a77a-8c3d420f167c-16846799958240c2d8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/privat_kaffee_1.png",
+            "title": "Privat Kaffee",
+            "heading_tag": "tp-display-3-nocolor",
+            "link_url": "shopify:\/\/pages\/privat-kaffee",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#c0a468",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15631460925646__e5e9fc49-41d3-41e8-a77a-8c3d420f167c-16846799958240c2d8-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mood_Exclusive_medium_Roast.jpg",
+            "title": "Exclusive Coffee",
+            "heading_tag": "tp-display-3-nocolor",
+            "link_url": "shopify:\/\/collections\/exclusive-coffees",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15631460925646__e5e9fc49-41d3-41e8-a77a-8c3d420f167c-16846799958240c2d8-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FeineMilde_GB-Vaku_096_master-min_1.jpg",
+            "title": "Feine Milde",
+            "heading_tag": "tp-display-3-nocolor",
+            "link_url": "shopify:\/\/pages\/feine-milde",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "2beee40e-7a8d-4460-8493-2e1e0a47c16c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image004_1.jpg",
+            "title": "Barista Coffee",
+            "heading_tag": "tp-display-3-nocolor",
+            "link_url": "shopify:\/\/pages\/barista-coffees",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "464ed1ed-0500-44ad-b76d-513e7457a919": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bild_Composing_500g_GanzeBohne.jpg",
+            "title": "Italian Roasts",
+            "heading_tag": "tp-display-4-nocolor",
+            "link_url": "shopify:\/\/pages\/italian-roasts",
+            "link_text": "",
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__e5e9fc49-41d3-41e8-a77a-8c3d420f167c-16846799958240c2d8-0",
+        "template--15631460925646__e5e9fc49-41d3-41e8-a77a-8c3d420f167c-16846799958240c2d8-1",
+        "template--15631460925646__e5e9fc49-41d3-41e8-a77a-8c3d420f167c-16846799958240c2d8-2",
+        "2beee40e-7a8d-4460-8493-2e1e0a47c16c",
+        "464ed1ed-0500-44ad-b76d-513e7457a919"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "3172f82d-2ce2-4905-9304-a98127b134b4": {
@@ -341,8 +550,11 @@
   "order": [
     "cbe74029-d1ba-4f85-b0d6-a33bb376a5e6",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
+    "5860739b-7fc8-4c60-9f0d-724fa45bbfe8",
     "3cb33c8f-b1f5-4bc5-9751-dace497ce653",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
+    "799468f5-485d-43e6-b2ba-ae576eab79c8",
+    "e5e9fc49-41d3-41e8-a77a-8c3d420f167c",
     "3172f82d-2ce2-4905-9304-a98127b134b4",
     "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
