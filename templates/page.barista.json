@@ -274,6 +274,12 @@
             "liquid": "<p class=\"tp-display-1\">0.55 lb - 8.8 oz bag<\/p>"
           }
         },
+        "81253894-ee9f-4e51-8113-cbe1b5e018c9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.coffee_attributes.intensity != blank %}\n<div class=\"attribute-line\">\n<p class=\"tp-body bold attribute-title\">Intensity:<\/p>\n<div class=\"bohnen-icons\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 2 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 3 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 4 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 5 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 6 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<\/div>\n<\/div>\n{% endif %}\n\n<style>\n.attribute-line {\ndisplay: flex;\nmargin-bottom:10px;\nalign-items: center;\n}\n.attribute-title {\nmargin-right: 5px;\n}\n.bohnen-icons {\ndisplay:flex;\n}\n.bohne {\nmargin: 0 2px;\n}\n<\/style>"
+          }
+        },
         "62ed86b9-06e7-47b9-88a9-3b331c219694": {
           "type": "badges",
           "settings": {
@@ -311,6 +317,7 @@
         "742ca3b5-84d3-46fa-900f-641982d30c8c",
         "4c79f6ef-9528-466a-9d39-1de66e5ef00e",
         "74e9efff-3966-41cf-96dd-2ea22d652e2f",
+        "81253894-ee9f-4e51-8113-cbe1b5e018c9",
         "62ed86b9-06e7-47b9-88a9-3b331c219694",
         "f85f153e-fc4a-499a-b434-4914c76e947d",
         "410940b6-4861-4740-a981-b1c9607e1003",
