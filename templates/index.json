@@ -80,6 +80,50 @@
         "text_color": ""
       }
     },
+    "3cb33c8f-b1f5-4bc5-9751-dace497ce653": {
+      "type": "custom-liquid-LP",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "product-for-buy-button": "the-tchibo-bundle",
+        "liquid": "<div class=\"text-with-image-alt\">\n<div class=\"img-column-alt\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/TheTchiboBundle.png?v=1679327035\">\n<\/div>\n<div class=\"text-column-alt\">\n<p class=\"tp-overline-secondary\">Single Serve espresso Machine<\/p>\n<h1 class=\"tp-display-4\">The Tchibo Brewer's Bundle<\/h1>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Bean-to-brew Coffee & Espresso Machine + 2 Whole Bean Coffees (17.6 oz. each)<\/p>\n{% render 'price-list', product: section.settings.product-for-buy-button %}\n<p class=\"tp-body\" style=\"padding-top:15px\">Meet the machine that grinds AND brews your coffee in one seamless step. What could be better than that?\n<\/p>\n<p class=\"tp-body\" style=\"padding:15px 0\">This bundle includes our revolutionary bean-to-brew coffee machine as well as a 17.6oz pack of Barista Espresso & Barista Milano Style each to get you started.\n<\/p>\n{% render 'buy-buttons', product: section.settings.product-for-buy-button, show_payment_button: true %}\n<p style=\"padding-top:15px\" class=\"tp-body\"><a href=\"\/products\/the-tchibo-bundle\"><u>See details<\/u><\/a><\/p>\n<\/div>\n<\/div>\n\n<style>\n.text-with-image-alt {\ndisplay:flex;\nalign-items: center;\njustify-content: space-between\n}\n.img-column-alt {\nwidth: 48%;\n}\n.text-column-alt {\nwidth: 48%;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image-alt {\nflex-direction:column;\n}\n.img-column-alt {\nwidth:100%;\n}\n.img-column-alt {\npadding-left: 0;\npadding-bottom: 20px;\n}\n.text-column-alt {\nwidth: 100%\n}\n}\n<\/style>",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "87dd6f90-4510-478e-a9ee-7500266a1db6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "the-tchibo-bundle",
+          "the-tchibo-office-coffee-bundle",
+          "the-tchibo",
+          "the-tchibo-refurbished"
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "The Tchibo Bundles",
+        "content": "<p>Get your bean-to-brew coffee & espresso machine. Save money and get free coffee when you choose a bundle.<\/p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "3172f82d-2ce2-4905-9304-a98127b134b4": {
       "type": "featured-collection",
       "settings": {
@@ -95,77 +139,6 @@
         "products_per_row_desktop": 4,
         "subheading": "",
         "title": "Shop our bestsellers",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "3cb33c8f-b1f5-4bc5-9751-dace497ce653": {
-      "type": "custom-liquid-LP",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "product-for-buy-button": "the-tchibo-bundle",
-        "liquid": "<div class=\"text-with-image-alt\">\n<div class=\"img-column-alt\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/TheTchiboBundle.png?v=1679327035\">\n<\/div>\n<div class=\"text-column-alt\">\n<p class=\"tp-overline-secondary\">Single Serve espresso Machine<\/p>\n<h1 class=\"tp-display-4\">The Tchibo Brewer's Bundle<\/h1>\n<p class=\"tp-display-1\" style=\"margin:10px 0\">Bean-to-brew Coffee & Espresso Machine + 2 Whole Bean Coffees (17.6 oz. each)<\/p>\n{% render 'price-list', product: section.settings.product-for-buy-button %}\n<p class=\"tp-body\" style=\"padding-top:15px\">Meet the machine that grinds AND brews your coffee in one seamless step. What could be better than that?\n<\/p>\n<p class=\"tp-body\" style=\"padding:15px 0\">This bundle includes our revolutionary bean-to-brew coffee machine as well as a 17.6oz pack of Barista Espresso & Barista Milano Style each to get you started.\n<\/p>\n{% render 'buy-buttons', product: section.settings.product-for-buy-button, show_payment_button: true %}\n<p style=\"padding-top:15px\" class=\"tp-body\"><a href=\"\/products\/the-tchibo-bundle\"><u>See details<\/u><\/a><\/p>\n<\/div>\n<\/div>\n\n<style>\n.text-with-image-alt {\ndisplay:flex;\nalign-items: center;\njustify-content: space-between\n}\n.img-column-alt {\nwidth: 48%;\n}\n.text-column-alt {\nwidth: 48%;\n}\n\n@media only screen and (max-width: 767px) {\n.text-with-image-alt {\nflex-direction:column;\n}\n.img-column-alt {\nwidth:100%;\n}\n.img-column-alt {\npadding-left: 0;\npadding-bottom: 20px;\n}\n.text-column-alt {\nwidth: 100%\n}\n}\n<\/style>",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "64245853-03f6-4ffd-940c-d16a32e1a211": {
-      "type": "featured-collection-variants",
-      "settings": {
-        "collection": "all-coffee",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 40,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Our Coffees",
-        "content": "<p>Tchibo, the legendary European coffee, is now available in America. Our Röstmeisters have carefully chosen our finest flavors and recipes for you.<\/p>",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "87dd6f90-4510-478e-a9ee-7500266a1db6": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "the-tchibo-bundle",
-          "the-tchibo",
-          "the-tchibo-refurbished",
-          "french-press-36-oz-mirror-finish",
-          "french-press-17-oz-mirror-finish"
-        ],
-        "full_width": false,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Coffee Makers",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -368,10 +341,9 @@
   "order": [
     "cbe74029-d1ba-4f85-b0d6-a33bb376a5e6",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
-    "3172f82d-2ce2-4905-9304-a98127b134b4",
     "3cb33c8f-b1f5-4bc5-9751-dace497ce653",
-    "64245853-03f6-4ffd-940c-d16a32e1a211",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
+    "3172f82d-2ce2-4905-9304-a98127b134b4",
     "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a"
