@@ -9,6 +9,12 @@
             "heading_tag": "tp-display-2"
           }
         },
+        "7e58a7ed-f4d1-45c8-b70a-ca218994f70f": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-1\">17.6 oz of whole bean coffee\n<\/p>"
+          }
+        },
         "dc5e01ab-9df4-4727-8c1e-337af0ddcad9": {
           "type": "liquid",
           "settings": {
@@ -164,6 +170,7 @@
       },
       "block_order": [
         "title",
+        "7e58a7ed-f4d1-45c8-b70a-ca218994f70f",
         "dc5e01ab-9df4-4727-8c1e-337af0ddcad9",
         "18c55f6f-390b-4710-a881-c15fb856270b",
         "e86a8577-0852-4d00-9b4c-c8cc41324286",
