@@ -75,7 +75,7 @@
         "270b937e-7bf3-44e1-a4ab-4c4c86908812": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image002_3.png",
+            "image": "shopify:\/\/shop_images\/image008_2.jpg",
             "width_mode": "full_width",
             "max_width": 600,
             "mobile_max_width": 400
@@ -104,6 +104,19 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
         "html": "<div id=\"coffees\"><div><\/div><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "39bced92-b0f2-4bd7-8123-3958f42d09da": {
+      "type": "custom-liquid-LP",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "product-for-buy-button": "",
+        "liquid": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -189,6 +202,100 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "da625b85-f27e-454c-a700-d3a757e70d68": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15690916298958__da625b85-f27e-454c-a700-d3a757e70d68-16846654479426827f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The best ways to enjoy our Barista Coffees",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15690916298958__da625b85-f27e-454c-a700-d3a757e70d68-16846654479426827f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Barista classic and Barista intense are both ground coffees with unique tastes. This gives you the flexibility to enjoy them in your favorite coffee drinks. Here are some of the ways our Röstmeisters enjoy Barista coffees.<\/p>",
+            "font-style": "tp-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15690916298958__da625b85-f27e-454c-a700-d3a757e70d68-16846654479426827f-1",
+        "template--15690916298958__da625b85-f27e-454c-a700-d3a757e70d68-16846654479426827f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8dd37871-a56a-40e4-a285-8cbbbebfc68a": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15690916298958__8dd37871-a56a-40e4-a285-8cbbbebfc68a-1684665127db4d9bfc-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image011_1.jpg",
+            "column_size": "3",
+            "title": "Drip filter coffee",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15690916298958__8dd37871-a56a-40e4-a285-8cbbbebfc68a-1684665127db4d9bfc-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image001_3.png",
+            "column_size": "3",
+            "title": "Coffee cocktails",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15690916298958__8dd37871-a56a-40e4-a285-8cbbbebfc68a-1684665127db4d9bfc-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image006_2.jpg",
+            "column_size": "3",
+            "title": "Pour over coffee",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15690916298958__8dd37871-a56a-40e4-a285-8cbbbebfc68a-1684665127db4d9bfc-0",
+        "template--15690916298958__8dd37871-a56a-40e4-a285-8cbbbebfc68a-1684665127db4d9bfc-1",
+        "template--15690916298958__8dd37871-a56a-40e4-a285-8cbbbebfc68a-1684665127db4d9bfc-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "a7c3a31c-d1ad-4002-8d78-5848224f2d31": {
@@ -527,7 +634,10 @@
     "547ce06a-1dc8-460d-92cc-7eb0ca7ee62c",
     "4012c88f-369a-4346-9c28-7af065e6c32a",
     "53f17e15-1afb-4119-af4b-5a5664633cab",
+    "39bced92-b0f2-4bd7-8123-3958f42d09da",
     "29682e04-ae0c-474a-8f9c-071477dfe66c",
+    "da625b85-f27e-454c-a700-d3a757e70d68",
+    "8dd37871-a56a-40e4-a285-8cbbbebfc68a",
     "a7c3a31c-d1ad-4002-8d78-5848224f2d31",
     "82e14a10-2a51-4860-a670-653b3a8054fa",
     "f7f652b1-8814-4aff-9a48-3576face3336",
