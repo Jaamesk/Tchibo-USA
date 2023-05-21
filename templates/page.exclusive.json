@@ -6,48 +6,6 @@
       "settings": {
       }
     },
-    "547ce06a-1dc8-460d-92cc-7eb0ca7ee62c": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15689488662734__547ce06a-1dc8-460d-92cc-7eb0ca7ee62c-16842438932e02234f-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/privat_kaffee_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/image002_1_1.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "Tchibo Privat Kaffee",
-            "subheading-style": "tp-overline-secondary",
-            "title": "Coffee that tastes as unique as its origin",
-            "heading_tag": "tp-display-4-nocolor",
-            "button_text": "Discover Privat Kaffee",
-            "button_link": "#coffees",
-            "text_color": "#ffffff",
-            "button_background": "#e0bf78",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15689488662734__547ce06a-1dc8-460d-92cc-7eb0ca7ee62c-16842438932e02234f-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "fill",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
     "4012c88f-369a-4346-9c28-7af065e6c32a": {
       "type": "rich-text",
       "blocks": {
@@ -471,7 +429,6 @@
   },
   "order": [
     "main",
-    "547ce06a-1dc8-460d-92cc-7eb0ca7ee62c",
     "4012c88f-369a-4346-9c28-7af065e6c32a",
     "53f17e15-1afb-4119-af4b-5a5664633cab",
     "be456d82-7bde-41ef-b0a9-ee136ea84948",
