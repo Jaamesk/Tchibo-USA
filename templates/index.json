@@ -302,7 +302,7 @@
             "heading_tag": "tp-display-4-nocolor",
             "link_url": "shopify:\/\/pages\/italian-roasts",
             "link_text": "",
-            "mobile_text_position": "place-self-start-center text-center",
+            "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 4,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
