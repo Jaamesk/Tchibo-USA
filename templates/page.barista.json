@@ -12,14 +12,14 @@
         "template--15689488662734__547ce06a-1dc8-460d-92cc-7eb0ca7ee62c-16842438932e02234f-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image002_1_2_1.png",
-            "mobile_image": "shopify:\/\/shop_images\/image002_1_1.png",
+            "image": "shopify:\/\/shop_images\/image004_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/image004_1_1.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "Tchibo Privat Kaffee",
             "subheading-style": "tp-overline-secondary",
-            "title": "Coffee that tastes as unique as its origin",
+            "title": "Barista quality coffee in the comfort of your home",
             "heading_tag": "tp-display-4-nocolor",
             "button_text": "Discover Privat Kaffee",
             "button_link": "#coffees",
@@ -39,7 +39,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "image_size": "auto",
+        "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": false,
