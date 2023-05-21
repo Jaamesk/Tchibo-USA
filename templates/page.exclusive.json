@@ -12,7 +12,7 @@
         "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-1": {
           "type": "heading",
           "settings": {
-            "text": "Whole Bean Coffees",
+            "text": "Exclusive Medium Roast - Rich & chocolatey flavor",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -21,7 +21,7 @@
         "template--15689488662734__4012c88f-369a-4346-9c28-7af065e6c32a-1684245730831e9b5b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ideal for bean to cup coffee machines like <a href=\"\/products\/the-tchibo\" target=\"_blank\" title=\"The Tchibo\">The Tchibo<\/a>. Fresh & convenient preparation - excellent taste.<\/p>",
+            "content": "<p>This coffee is roasted for a longer period of time. That gives it it's more intense flavor with less acidity.<\/p>",
             "font-style": "tp-body"
           }
         },
@@ -33,7 +33,7 @@
         "270b937e-7bf3-44e1-a4ab-4c4c86908812": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image009_1.jpg",
+            "image": "shopify:\/\/shop_images\/Mood_Exclusive_medium_Roast.jpg",
             "width_mode": "full_width",
             "max_width": 600,
             "mobile_max_width": 400
@@ -72,16 +72,15 @@
       "settings": {
         "collection": "",
         "products": [
-          "privat-kaffee-african-blue-1",
-          "privat-kaffee-brazil-mild-1",
-          "privat-kaffee-latin-grande-1"
+          "exclusive-medium-roast",
+          "exclusive-medium-roast-1"
         ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
-        "products_count": 6,
+        "products_count": 2,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 2,
         "subheading": "",
         "title": "",
         "content": "",
