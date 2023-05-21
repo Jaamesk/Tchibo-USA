@@ -360,6 +360,45 @@
         "product_card_text_color": ""
       }
     },
+    "4069715c-831a-44c9-9c2c-1d4137fe67e4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15631460925646__4069715c-831a-44c9-9c2c-1d4137fe67e4-1684679449ddfa5d08-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Benefit from over 70 years of European coffee tradition",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15631460925646__4069715c-831a-44c9-9c2c-1d4137fe67e4-1684679449ddfa5d08-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Two entrepreneurs, Max Herz and his business partner Carl Tchiling Hiryan, formed a small mail order coffee company in 1949. The name “Tchibo” is actually a combination of Tchiling and Bohne, which means “bean.”<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "fdcd2632-9f08-4546-90f3-e6cf15b6e910": {
+          "type": "divider",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15631460925646__4069715c-831a-44c9-9c2c-1d4137fe67e4-1684679449ddfa5d08-1",
+        "template--15631460925646__4069715c-831a-44c9-9c2c-1d4137fe67e4-1684679449ddfa5d08-2",
+        "fdcd2632-9f08-4546-90f3-e6cf15b6e910"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f8f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "5f003099-ae5f-4c2a-a026-326fff501455": {
       "type": "rich-text",
       "blocks": {
@@ -556,6 +595,7 @@
     "799468f5-485d-43e6-b2ba-ae576eab79c8",
     "e5e9fc49-41d3-41e8-a77a-8c3d420f167c",
     "3172f82d-2ce2-4905-9304-a98127b134b4",
+    "4069715c-831a-44c9-9c2c-1d4137fe67e4",
     "5f003099-ae5f-4c2a-a026-326fff501455",
     "media-grid",
     "61fe0726-0c4b-4784-92c6-d9f5fd13e06a"
