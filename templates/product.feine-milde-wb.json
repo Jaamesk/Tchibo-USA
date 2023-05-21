@@ -25,6 +25,12 @@
             "stars_text_empty": "No reviews yet"
           }
         },
+        "e86a8577-0852-4d00-9b4c-c8cc41324286": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tchibo’s bestselling European roast is now available in the USA. Perk up your taste buds and awaken your senses with a mild, wonderfully light, and smooth European coffee.<\/p>"
+          }
+        },
         "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1": {
           "type": "text",
           "settings": {
@@ -160,6 +166,7 @@
         "title",
         "dc5e01ab-9df4-4727-8c1e-337af0ddcad9",
         "18c55f6f-390b-4710-a881-c15fb856270b",
+        "e86a8577-0852-4d00-9b4c-c8cc41324286",
         "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
         "5609a5b2-22df-450b-b140-bc90f2e6aeba",
         "a0fec0b2-b10d-4acf-9272-250e294b3f80",
@@ -218,7 +225,7 @@
         "0e873d6a-bd66-4d90-83c8-c7a56fd4492b": {
           "type": "heading",
           "settings": {
-            "text": "Feine Milde",
+            "text": "Meet your new everyday coffee: Feine Milde",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -227,7 +234,7 @@
         "70369294-ab25-4ce1-b57a-d457667fd304": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Smooth roasted drip filter coffee with low intensity for every day coffee delight.<\/p>",
+            "content": "<p>Perk up every morning with the fresh, enticing aroma and mild, bright taste of European coffee. Feine Milde’s smooth profile with bursts of subtle flavor is expertly crafted to delight all coffee connoisseurs.<\/p>",
             "font-style": "tp-body"
           }
         }
@@ -253,7 +260,7 @@
         "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-1": {
           "type": "heading",
           "settings": {
-            "text": "Our bestselling single origin coffee",
+            "text": "Discover our bestselling single-origin coffee",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -262,7 +269,7 @@
         "template--15686980894926__419b0bfb-8c27-4b2c-9ab3-96697bc1a47d-16835490705b4630fb-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Single origin coffees air roasted, cold blended to smooth taste of Feine Milde coffee beans.<\/p>",
+            "content": "<p>Experience the fresh taste and captivating aroma of our most-beloved European coffee at work, in your home, or on the go.<\/p>",
             "font-style": "tp-body"
           }
         },
@@ -416,7 +423,7 @@
         "34547bec-e2e6-44dd-8c11-80007fc84314": {
           "type": "heading",
           "settings": {
-            "text": "Coffee roaster with a history",
+            "text": "Benefit from over 70 years of European coffee tradition",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -425,7 +432,7 @@
         "691c642c-bffd-4b77-8414-c33e0ca756c8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We have been roasting coffee since 1949 with years of experience and expertise in single blend roasting, sourcing best coffees world wide and dedicated to best coffee qualities.<\/p>",
+            "content": "<p>We’ve been passionately roasting coffee for over 70 years, honing our craft and passing it down through generations to deliver the best-tasting and freshest whole bean and ground coffee right to your doorstep.<\/p>",
             "font-style": "tp-body"
           }
         }
@@ -451,7 +458,7 @@
         "74277c72-0707-4194-ab6d-152c6294eb17": {
           "type": "heading",
           "settings": {
-            "text": "Fresh coffee perfection",
+            "text": "Savor maximum freshness in every cup",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
@@ -460,7 +467,7 @@
         "21910630-9e37-40dd-9fde-37fcf8f6f3ac": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Smell the freshness in each Tchibo coffee bean.<\/p>",
+            "content": "<p>Each Feine Milde coffee is vacuum-sealed at peak quality and freshness to ensure the first cup of coffee is just as delicious as the last.<\/p>",
             "font-style": "tp-body"
           }
         },
@@ -511,10 +518,19 @@
           "settings": {
           }
         },
+        "b272b575-82a6-419c-8527-2a3f23d97e7a": {
+          "type": "heading",
+          "settings": {
+            "text": "Crafted for multiple brewing methods",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "9c84c2af-a56d-4d4b-9227-8600fc5392f1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Every spoonful of coffee gives great coffee taste with drip filter coffee machine, manual pour over preparation or with using French Press brewing method. Enjoy our great taste.<\/p>",
+            "content": "<p>Feine Milde’s unbeatable versatility means you can brew it your way. Prepare a pot with your drip coffee machine, your favorite pour-over brewer, or a French press.<\/p>",
             "font-style": "tp-body"
           }
         }
@@ -522,6 +538,7 @@
       "block_order": [
         "975ab302-344f-4003-81e0-382f16529d8d",
         "3632096f-820e-4507-a38b-8fb77c799755",
+        "b272b575-82a6-419c-8527-2a3f23d97e7a",
         "9c84c2af-a56d-4d4b-9227-8600fc5392f1"
       ],
       "settings": {
@@ -533,34 +550,45 @@
         "text_color": ""
       }
     },
-    "634df24f-b540-4e89-9e3c-de213de7c13a": {
+    "28fdc51a-a544-4ceb-b1a0-7606b8fe2d45": {
       "type": "rich-text",
       "blocks": {
-        "5840efb0-bd1c-480b-8644-a4a6e84db9cc": {
+        "b2b2c411-e0cb-40b0-8560-50ea6fde7478": {
           "type": "heading",
           "settings": {
-            "text": "",
+            "text": "Boost your experience with Tchibo coffee mugs & gear",
             "heading_tag": "tp-display-3",
             "text_color": "",
             "gradient": ""
           }
         },
-        "4b375f0e-da6b-4537-add1-744dd7e1a27c": {
+        "1ae04b79-3c28-4388-87eb-de258c3c6ba3": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Fresh coffee flavour to encounter with Feine Milde.<\/p>",
+            "content": "<p>Browse through our range of mugs (for both travel and home), air-tight containers, and coffee brewers to level up your coffee-drinking experience.<\/p>",
             "font-style": "tp-body"
           }
         },
-        "23603578-1a84-43dd-a823-b752348f6db8": {
+        "fcc218ab-9824-47e0-ae77-919d55c5c275": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Explore Mugs & Gear",
+            "url": "shopify:\/\/collections\/special-offers",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "e795f4d9-4aa9-4259-af43-e2eba3dfba20": {
           "type": "divider",
           "settings": {
           }
         },
-        "8b2f4b37-3238-463b-a31f-b757f9a4330c": {
+        "cce29d72-39f5-426d-9ae1-38684cd97483": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image008.jpg",
+            "image": "shopify:\/\/shop_images\/image006.jpg",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -568,10 +596,11 @@
         }
       },
       "block_order": [
-        "5840efb0-bd1c-480b-8644-a4a6e84db9cc",
-        "4b375f0e-da6b-4537-add1-744dd7e1a27c",
-        "23603578-1a84-43dd-a823-b752348f6db8",
-        "8b2f4b37-3238-463b-a31f-b757f9a4330c"
+        "b2b2c411-e0cb-40b0-8560-50ea6fde7478",
+        "1ae04b79-3c28-4388-87eb-de258c3c6ba3",
+        "fcc218ab-9824-47e0-ae77-919d55c5c275",
+        "e795f4d9-4aa9-4259-af43-e2eba3dfba20",
+        "cce29d72-39f5-426d-9ae1-38684cd97483"
       ],
       "settings": {
         "full_width": true,
@@ -644,7 +673,7 @@
     "a872eb4e-5a65-4eba-b379-439b155fae34",
     "9f689737-9036-4f6c-b288-e9c80b8cce0a",
     "e271c933-a330-4cc0-bdd2-78fd6d5a5229",
-    "634df24f-b540-4e89-9e3c-de213de7c13a",
+    "28fdc51a-a544-4ceb-b1a0-7606b8fe2d45",
     "167275082992fb5773",
     "product-recommendations"
   ]
