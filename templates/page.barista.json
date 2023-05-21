@@ -449,7 +449,7 @@
         "template--15689488662734__953e319c-f2b8-4084-b240-2a4fc233b7e4-1684245730831e9b5b-1": {
           "type": "heading",
           "settings": {
-            "text": "Good coffee for you - and our planet",
+            "text": "Good coffee from Germany's best coffeehouse.",
             "heading_tag": "tp-display-2",
             "text_color": "",
             "gradient": ""
@@ -458,14 +458,14 @@
         "template--15689488662734__953e319c-f2b8-4084-b240-2a4fc233b7e4-1684245730831e9b5b-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Not only are our range of Barista ground coffees slow roasted for great taste, they are also Rainforest Alliance certified, vegan and kosher. You get to enjoy all the quality with a clean conscience.<\/p>",
+            "content": "<p>Not only are our range of Barista ground coffees slow roasted for great taste, they are also vegan and kosher. You get to enjoy all the quality with a clean conscience.<\/p>",
             "font-style": "tp-body"
           }
         },
         "56cd6274-e07c-438a-a6c4-bd67a8490c75": {
           "type": "liquid",
           "settings": {
-            "liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/image020.jpg?v=1684250938\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/image019.png?v=1684250938\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/DE-Logo_germanquality_1000x1000px.png?v=1683995805\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Kosher-removebg-preview.png?v=1683509517\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/VEGAN.png?v=1683509571\" width=\"80px\" style=\"margin-top:0px; display: inline;\">"
+            "liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/image019.png?v=1684250938\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/DE-Logo_germanquality_1000x1000px.png?v=1683995805\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/Kosher-removebg-preview.png?v=1683509517\" width=\"80px\" style=\"margin-top:0px; display: inline;margin-right:5px\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/VEGAN.png?v=1683509571\" width=\"80px\" style=\"margin-top:0px; display: inline;\">"
           }
         },
         "236778b3-848d-4f7f-95b9-6863a69df8ca": {
