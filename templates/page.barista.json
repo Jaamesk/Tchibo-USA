@@ -204,6 +204,137 @@
         "input_text_color": ""
       }
     },
+    "32f1f4de-6678-41b2-8fbd-01d1f8f3a933": {
+      "type": "rich-text",
+      "blocks": {
+        "c6b4ba7f-7536-472d-9fc1-0e2e118731bd": {
+          "type": "heading",
+          "settings": {
+            "text": "Barista intense ground coffee",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "ddfc3b50-87cf-439a-bddc-a218adbc4d7e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our Barista intense coffee is slow roasted in traditional drums. This darker roast has a more intense, aromatic character than Barista classic.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "553a0c54-65b4-4382-a49d-20b89aea825f": {
+          "type": "divider",
+          "settings": {
+          }
+        },
+        "ff1dacbc-3c97-4550-af5f-574c6b08c3ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image007.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "c6b4ba7f-7536-472d-9fc1-0e2e118731bd",
+        "ddfc3b50-87cf-439a-bddc-a218adbc4d7e",
+        "553a0c54-65b4-4382-a49d-20b89aea825f",
+        "ff1dacbc-3c97-4550-af5f-574c6b08c3ec"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f8f6f2",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "38f9a080-43a4-4811-b5f6-daeca6c75c24": {
+      "type": "featured-product",
+      "blocks": {
+        "742ca3b5-84d3-46fa-900f-641982d30c8c": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "tp-display-4"
+          }
+        },
+        "4c79f6ef-9528-466a-9d39-1de66e5ef00e": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-2\">GROUND COFFEE - DARK ROAST<\/p>"
+          }
+        },
+        "74e9efff-3966-41cf-96dd-2ea22d652e2f": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"tp-display-1\">0.55 lb - 8.8 oz bag<\/p>"
+          }
+        },
+        "62ed86b9-06e7-47b9-88a9-3b331c219694": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "f85f153e-fc4a-499a-b434-4914c76e947d": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "410940b6-4861-4740-a981-b1c9607e1003": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "215a7160-8b84-4398-b0bf-2111c700d4c4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1c210d93-84b1-43b1-953a-21f0474ab68b": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "742ca3b5-84d3-46fa-900f-641982d30c8c",
+        "4c79f6ef-9528-466a-9d39-1de66e5ef00e",
+        "74e9efff-3966-41cf-96dd-2ea22d652e2f",
+        "62ed86b9-06e7-47b9-88a9-3b331c219694",
+        "f85f153e-fc4a-499a-b434-4914c76e947d",
+        "410940b6-4861-4740-a981-b1c9607e1003",
+        "215a7160-8b84-4398-b0bf-2111c700d4c4",
+        "1c210d93-84b1-43b1-953a-21f0474ab68b"
+      ],
+      "settings": {
+        "full_width": true,
+        "product": "barista-intense",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "da625b85-f27e-454c-a700-d3a757e70d68": {
       "type": "rich-text",
       "blocks": {
@@ -636,6 +767,8 @@
     "53f17e15-1afb-4119-af4b-5a5664633cab",
     "39bced92-b0f2-4bd7-8123-3958f42d09da",
     "29682e04-ae0c-474a-8f9c-071477dfe66c",
+    "32f1f4de-6678-41b2-8fbd-01d1f8f3a933",
+    "38f9a080-43a4-4811-b5f6-daeca6c75c24",
     "da625b85-f27e-454c-a700-d3a757e70d68",
     "8dd37871-a56a-40e4-a285-8cbbbebfc68a",
     "a7c3a31c-d1ad-4002-8d78-5848224f2d31",
