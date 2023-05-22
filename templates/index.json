@@ -99,6 +99,17 @@
             "font-style": "tp-body"
           }
         },
+        "f4e4bc04-5b32-4384-8b60-3f660e2efb15": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Shop The Tchibo",
+            "url": "shopify:\/\/collections\/shop-coffee-machine",
+            "background": "",
+            "text_color": ""
+          }
+        },
         "dface3b7-894d-44e2-8f84-0be27ba0a693": {
           "type": "divider",
           "settings": {
@@ -114,6 +125,7 @@
       "block_order": [
         "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-1",
         "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2",
+        "f4e4bc04-5b32-4384-8b60-3f660e2efb15",
         "dface3b7-894d-44e2-8f84-0be27ba0a693",
         "f15127fd-ad78-4057-b9fb-55d32cd1c36b"
       ],
@@ -157,7 +169,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "",
+        "title": "Tchibo machine bundles",
         "content": "",
         "link_url": "",
         "link_text": "",
