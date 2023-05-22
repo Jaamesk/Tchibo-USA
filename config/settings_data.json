@@ -28,6 +28,7 @@
     "product_on_sale_accent": "#ea5153",
     "product_sold_out_badge_background": "#e0bf78",
     "product_primary_badge_background": "#e0bf78",
+    "base_heading_style": "tp-display-4",
     "base-subheading-style": "tp-overline-secondary",
     "text_font": "inter_n4",
     "text_font_size_mobile": 16,
