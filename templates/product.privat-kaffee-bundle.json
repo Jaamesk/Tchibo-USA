@@ -21,10 +21,9 @@
             "show_taxes_notice": false
           }
         },
-        "8fd6b204-cfd8-4ec0-a108-754ae50a29a4": {
-          "type": "liquid",
+        "badges": {
+          "type": "badges",
           "settings": {
-            "liquid": "<p class=\"tp-display-1-regular\" style=\"color:red\">Limited time offer: <b>Expires Wednesday<\/b><\/p>"
           }
         },
         "18c55f6f-390b-4710-a881-c15fb856270b": {
@@ -60,11 +59,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "{% if product.metafields.coffee_attributes.intensity != blank %}\n<div class=\"attribute-line\">\n<p class=\"tp-body bold attribute-title\">Intensity:<\/p>\n<div class=\"bohnen-icons\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 2 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 3 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 4 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 5 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 6 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<\/div>\n<\/div>\n{% endif %}\n\n<style>\n.attribute-line {\ndisplay: flex;\nmargin-bottom:10px;\nalign-items: center;\n}\n.attribute-title {\nmargin-right: 5px;\n}\n.bohnen-icons {\ndisplay:flex;\n}\n.bohne {\nmargin: 0 2px;\n}\n<\/style>"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {
           }
         },
         "separator": {
@@ -118,13 +112,12 @@
         "title",
         "a7432eb1-44f9-4b79-84a2-e52d3f81543c",
         "price",
-        "8fd6b204-cfd8-4ec0-a108-754ae50a29a4",
+        "badges",
         "18c55f6f-390b-4710-a881-c15fb856270b",
         "02a54a97-5abc-47ee-ab4c-c1d4e097c093",
         "94a6bee0-0139-4db7-9079-13f18090fee9",
         "a0fec0b2-b10d-4acf-9272-250e294b3f80",
         "c236f393-25ac-4969-a29b-06d1a30e24e4",
-        "badges",
         "separator",
         "buy_buttons",
         "13c7f244-2b9d-4cb9-9e10-08daece76034",
