@@ -9,14 +9,21 @@
             "heading_tag": "tp-display-2"
           }
         },
-        "e48a00a0-6d74-4b71-8393-ca37166976a6": {
+        "a7432eb1-44f9-4b79-84a2-e52d3f81543c": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% if product.metafields.custom.similar_too != blank %}\n{% assign similarproduct = product.metafields.custom.similar_too.value %}\n<p class=\"tp-display-1\">Tastes like {{similarproduct.title}}<\/p>\n{% endif %}"
+            "liquid": "<p class=\"tp-display-1\">Three 8.8 oz. Privat Kaffee ground coffees<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
           }
         },
         "18c55f6f-390b-4710-a881-c15fb856270b": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
             "stars_fill_color": "#e0bf78",
             "star_size": 16,
@@ -25,22 +32,16 @@
             "stars_text_empty": "No reviews yet"
           }
         },
-        "2203bc6d-362e-4c75-951f-caa9dd1e69c7": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% if product.available == false %}\n<p class=\"tp-display-2\" style=\"margin-bottom:5px\">Don't miss out on restocks<\/p>\n<p class=\"tp-body\" style=\"margin-bottom:5px\">Be the first to know when <strong>{{product.title}}<\/strong> is back in stock.<\/p>\n    {%- form 'customer', id: 'newsletter-form-restock-machine', class: 'form' -%}\n      {%- if form.posted_successfully? -%}\n        {%- assign success_message = 'Success! Check your email to confirm you want to be notified when we restock' -%}\n        {%- render 'banner', content: success_message, status: 'success' -%}\n      {%- else -%}\n        {%- if form.errors -%}\n          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}\n          {%- render 'banner', content: error_message, status: 'error' -%}\n        {%- endif -%}\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter, restock_coffee\">\n\n        <div class=\"fieldset-with-submit\">\n          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}\n          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}\n          {%- render 'button', type: 'submit', content: 'Notify Me', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}\n        <\/div>\n      {%- endif -%}\n    {%- endform -%}\n{% endif %}"
-          }
-        },
-        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1": {
+        "02a54a97-5abc-47ee-ab4c-c1d4e097c093": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.coffee_attributes.taste_product_page | metafield_tag }}<\/p>"
+            "text": "<p>The finest coffees from all over the world in one bundle.<\/p><p>Not only are our range of Privat Kaffee coffees slow roasted for great taste, they are also Rainforest Alliance certified, vegan and kosher. You get to enjoy all the quality with a clean conscience.<\/p>"
           }
         },
-        "5609a5b2-22df-450b-b140-bc90f2e6aeba": {
+        "94a6bee0-0139-4db7-9079-13f18090fee9": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.coffee_pdp.coffee_origin.value }}<\/p>"
+            "text": "<p><strong>Brazil Mild<\/strong>: light roast, smooth and creamy, with hints of hazelnut<\/p><p><strong>African Blue<\/strong>: light roast with fruity notes of black currant<\/p><p><strong>Latin Grande<\/strong>: medium roast known for its balanced flavor and chocolate notes. (<em>Psst…this coffee is similar to Röst Frisch Morning Blend 👍 )<\/em><\/p>"
           }
         },
         "a0fec0b2-b10d-4acf-9272-250e294b3f80": {
@@ -55,54 +56,14 @@
             "liquid": "{% if product.metafields.coffee_attributes.intensity != blank %}\n<div class=\"attribute-line\">\n<p class=\"tp-body bold attribute-title\">Intensity:<\/p>\n<div class=\"bohnen-icons\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 2 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 3 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 4 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 5 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<img {% if product.metafields.coffee_attributes.intensity.value >= 6 %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_high.svg?v=1674723060\" {% else  %} src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/intensity_low.svg?v=1674723060\" {% endif %} width=\"15px\" class=\"bohne\">\n<\/div>\n<\/div>\n{% endif %}\n\n<style>\n.attribute-line {\ndisplay: flex;\nmargin-bottom:10px;\nalign-items: center;\n}\n.attribute-title {\nmargin-right: 5px;\n}\n.bohnen-icons {\ndisplay:flex;\n}\n.bohne {\nmargin: 0 2px;\n}\n<\/style>"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "disabled": true,
           "settings": {
           }
         },
         "separator": {
           "type": "separator",
           "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "3140a06d-52cf-47a4-aa71-0c43232cd905": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
-        "aeea8ba5-00e9-4b9a-b17f-5216290b675e": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Please note: If your subscription order is under $49 we have to charge for shipping.<\/p>"
           }
         },
         "buy_buttons": {
@@ -115,13 +76,10 @@
             "payment_button_text_color": ""
           }
         },
-        "48ada4d2-4a2f-485c-9e18-e90105dc8283": {
-          "type": "bundle",
+        "8fd6b204-cfd8-4ec0-a108-754ae50a29a4": {
+          "type": "liquid",
           "settings": {
-            "bundle_heading": "Cups for your coffee",
-            "subline": "",
-            "product1": "2-pack-15-oz-double-walled-glass-coffee-mugs-with-handle",
-            "product2": "black-yeti-20-oz"
+            "liquid": "<p class=\"tp-display-1-regular\" style=\"color:red\">Limited time offer: <b>Expires Wednesday<\/b><\/p>"
           }
         },
         "13c7f244-2b9d-4cb9-9e10-08daece76034": {
@@ -158,23 +116,17 @@
       },
       "block_order": [
         "title",
-        "e48a00a0-6d74-4b71-8393-ca37166976a6",
+        "a7432eb1-44f9-4b79-84a2-e52d3f81543c",
+        "price",
         "18c55f6f-390b-4710-a881-c15fb856270b",
-        "2203bc6d-362e-4c75-951f-caa9dd1e69c7",
-        "8a6d1c35-6105-45a6-9ef7-0574b4d8bee1",
-        "5609a5b2-22df-450b-b140-bc90f2e6aeba",
+        "02a54a97-5abc-47ee-ab4c-c1d4e097c093",
+        "94a6bee0-0139-4db7-9079-13f18090fee9",
         "a0fec0b2-b10d-4acf-9272-250e294b3f80",
         "c236f393-25ac-4969-a29b-06d1a30e24e4",
-        "price",
         "badges",
-        "payment_terms",
         "separator",
-        "variant_picker",
-        "quantity_selector",
-        "3140a06d-52cf-47a4-aa71-0c43232cd905",
-        "aeea8ba5-00e9-4b9a-b17f-5216290b675e",
         "buy_buttons",
-        "48ada4d2-4a2f-485c-9e18-e90105dc8283",
+        "8fd6b204-cfd8-4ec0-a108-754ae50a29a4",
         "13c7f244-2b9d-4cb9-9e10-08daece76034",
         "ff74cd0b-be49-4aae-9232-0db9c732eb44",
         "59b895b4-4d24-488a-8b38-ee910dec715a",
@@ -235,56 +187,6 @@
         "spacing": "small"
       }
     },
-    "9d177f37-b5b9-4512-a6eb-d8294c863670": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-1": {
-          "type": "heading",
-          "settings": {
-            "text": "This coffee is Fair Trade Certified™",
-            "heading_tag": "tp-display-3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>With every sip of Fair Trade Certified™ coffee, you're a part of a bigger mission to improve the living and working conditions of farmers in coffee-producing countries now, and for future generations to come.<\/p>",
-            "font-style": "tp-body"
-          }
-        },
-        "36b51b3a-fcae-4bd3-bf3a-f78eeb9b2f04": {
-          "type": "divider",
-          "settings": {
-          }
-        },
-        "4a245fb8-b727-485d-9ef3-c819c266ad2a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tchibo-coffee-beans.webp",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-1",
-        "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-2",
-        "36b51b3a-fcae-4bd3-bf3a-f78eeb9b2f04",
-        "4a245fb8-b727-485d-9ef3-c819c266ad2a"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "167275082992fb5773": {
       "type": "apps",
       "blocks": {
@@ -341,7 +243,6 @@
   "order": [
     "main",
     "60d64619-e230-4848-b376-caf7c0152f6b",
-    "9d177f37-b5b9-4512-a6eb-d8294c863670",
     "167275082992fb5773",
     "product-recommendations"
   ]
