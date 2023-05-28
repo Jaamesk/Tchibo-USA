@@ -150,6 +150,67 @@
         "input_text_color": ""
       }
     },
+    "bfacc12c-61f0-4f74-9413-f550c9cd1307": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15693002801358__bfacc12c-61f0-4f74-9413-f550c9cd1307-168528960905e87c1b-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BrazilMild_250g_2000x2000px_c2914e6a-9e35-4e5e-a2ab-45f4e6991e9d.png",
+            "column_size": "3",
+            "title": "Brazil Mild",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Our next stop takes us to the sun-drenched slopes of the Brazilian highlands. This is where the fine Arabica beans of our Brazil Mild mature.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15693002801358__bfacc12c-61f0-4f74-9413-f550c9cd1307-168528960905e87c1b-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AfricanBlue_250g_2000x2000px_474d14ef-f388-456e-8b40-b002c4875e3c.png",
+            "column_size": "3",
+            "title": "African Blue",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Our characterful African Blue is grown on the East African plateau - with the finest notes of blackcurrant.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15693002801358__bfacc12c-61f0-4f74-9413-f550c9cd1307-168528960905e87c1b-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LatinGrande_250g_2000x2000px_34385300-140b-43aa-9d3e-a2b9e3949cd3.png",
+            "column_size": "3",
+            "title": "Latin Grande",
+            "heading_tag": "tp-display-3",
+            "content": "<p>Every cup is a trip to the rugged cliffs of Guatemala, the green highlands of Brazil, or the mountainous growing regions of Honduras.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15693002801358__bfacc12c-61f0-4f74-9413-f550c9cd1307-168528960905e87c1b-1",
+        "template--15693002801358__bfacc12c-61f0-4f74-9413-f550c9cd1307-168528960905e87c1b-0",
+        "template--15693002801358__bfacc12c-61f0-4f74-9413-f550c9cd1307-168528960905e87c1b-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "60d64619-e230-4848-b376-caf7c0152f6b": {
       "type": "media-with-text",
       "blocks": {
@@ -189,6 +250,7 @@
     },
     "167275082992fb5773": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "ed0a33be-2aa1-4183-8107-e7ffbe3f087e": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
@@ -215,6 +277,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "recommendations_count": 3,
         "products": [
@@ -242,6 +305,7 @@
   },
   "order": [
     "main",
+    "bfacc12c-61f0-4f74-9413-f550c9cd1307",
     "60d64619-e230-4848-b376-caf7c0152f6b",
     "167275082992fb5773",
     "product-recommendations"
