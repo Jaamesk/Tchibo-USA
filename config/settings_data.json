@@ -93,10 +93,9 @@
           },
           "5bb9bb96-f701-4940-97a5-a8bea036ae28": {
             "type": "message",
-            "disabled": true,
             "settings": {
-              "text": "Announce something here",
-              "url": ""
+              "text": "LIMITED TIME OFFER: Three 8.8 oz Privat Kaffee ground coffees",
+              "url": "shopify:\/\/products\/privat-kaffee-ground-bundle"
             }
           }
         },
@@ -107,7 +106,7 @@
           "5bb9bb96-f701-4940-97a5-a8bea036ae28"
         ],
         "settings": {
-          "enable_sticky": false,
+          "enable_sticky": true,
           "text_size": "text-xs",
           "navigation_mode": "scrolling",
           "scrolling_speed": 15,

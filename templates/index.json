@@ -83,7 +83,68 @@
     "5860739b-7fc8-4c60-9f0d-724fa45bbfe8": {
       "type": "rich-text",
       "blocks": {
+        "aab4b63d-8117-4bef-b0f7-4b785a275454": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/privat_kaffee_1_256e5082-e978-4bf1-902e-cca8b722f1b0.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "dface3b7-894d-44e2-8f84-0be27ba0a693": {
+          "type": "divider",
+          "settings": {
+          }
+        },
         "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Meet our trio of Privat Kaffee stars",
+            "heading_tag": "tp-display-3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>African Blue<\/strong> - light roast with fruity notes of black currant<\/p><p><strong>Brazil Mild<\/strong> - light roast, smooth and creamy, with hints of hazelnut<\/p><p><strong>Latin Grande<\/strong> - medium roast known for its balanced flavor and chocolate notes. (<em>Psst…this coffee is similar to Röst Frisch Morning Blend 👍 )<\/em><\/p><p>Brew them in your preferred drip or filter coffee machine for an impeccable start to the day. Brew. Sip. Repeat.<\/p>",
+            "font-style": "tp-body"
+          }
+        },
+        "f4e4bc04-5b32-4384-8b60-3f660e2efb15": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Shop the Privat Kaffee Bundle",
+            "url": "shopify:\/\/products\/privat-kaffee-ground-bundle",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "aab4b63d-8117-4bef-b0f7-4b785a275454",
+        "dface3b7-894d-44e2-8f84-0be27ba0a693",
+        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-1",
+        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2",
+        "f4e4bc04-5b32-4384-8b60-3f660e2efb15"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f9f9f9",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4bdbca66-378c-4047-b374-363999ac3aa6": {
+      "type": "rich-text",
+      "blocks": {
+        "486f576e-cae7-479c-83a3-d1b52c544032": {
           "type": "heading",
           "settings": {
             "text": "The machine that makes you a barista",
@@ -92,14 +153,14 @@
             "gradient": ""
           }
         },
-        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2": {
+        "68556e5f-898b-45c5-8ca1-88f8a0cf2e6c": {
           "type": "richtext",
           "settings": {
             "content": "<p><strong>Fresh, aromatic European coffee now comes at the press of a button. <\/strong><\/p><p>Meet The Tchibo, the single-serve <a href=\"\/pages\/machines\" title=\"Coffee Machine - The revolutionary Bean-To-Brew, single serve coffee machine. No pods, no waste!\">coffee and espresso machine<\/a> that grinds and brews your coffee in one seamless step. <\/p><p>Backed by German technology and over 70 years of European coffee tradition, The Tchibo is a coffee shop on your countertop. <\/p><p>Just pour in your beans and press play. <\/p>",
             "font-style": "tp-body"
           }
         },
-        "f4e4bc04-5b32-4384-8b60-3f660e2efb15": {
+        "8e4fa711-6d51-46b3-9a50-8d871cbb02be": {
           "type": "button",
           "settings": {
             "style": "fill",
@@ -110,12 +171,12 @@
             "text_color": ""
           }
         },
-        "dface3b7-894d-44e2-8f84-0be27ba0a693": {
+        "0b529066-06df-4abe-b011-3caf410ef822": {
           "type": "divider",
           "settings": {
           }
         },
-        "f15127fd-ad78-4057-b9fb-55d32cd1c36b": {
+        "a0d48dd1-8cb8-42ee-b65c-52e48430a4a1": {
           "type": "liquid",
           "settings": {
             "liquid": "<video preload=\"none\" width=\"auto\" controls poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/9386\/9774\/files\/11_a0447cab-070d-401b-a0d7-715af490a72f.jpg?v=1684686842\">\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c7442cc784ae40bf82a21e4d32322b41.mp4\" type=\"video\/mp4\">\n<\/video>"
@@ -123,11 +184,11 @@
         }
       },
       "block_order": [
-        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-1",
-        "template--15631460925646__5860739b-7fc8-4c60-9f0d-724fa45bbfe8-1684679449ddfa5d08-2",
-        "f4e4bc04-5b32-4384-8b60-3f660e2efb15",
-        "dface3b7-894d-44e2-8f84-0be27ba0a693",
-        "f15127fd-ad78-4057-b9fb-55d32cd1c36b"
+        "486f576e-cae7-479c-83a3-d1b52c544032",
+        "68556e5f-898b-45c5-8ca1-88f8a0cf2e6c",
+        "8e4fa711-6d51-46b3-9a50-8d871cbb02be",
+        "0b529066-06df-4abe-b011-3caf410ef822",
+        "a0d48dd1-8cb8-42ee-b65c-52e48430a4a1"
       ],
       "settings": {
         "full_width": true,
@@ -609,6 +670,7 @@
     "cbe74029-d1ba-4f85-b0d6-a33bb376a5e6",
     "747c48b0-3d9e-4a1d-bae2-d5d41f608538",
     "5860739b-7fc8-4c60-9f0d-724fa45bbfe8",
+    "4bdbca66-378c-4047-b374-363999ac3aa6",
     "3cb33c8f-b1f5-4bc5-9751-dace497ce653",
     "87dd6f90-4510-478e-a9ee-7500266a1db6",
     "799468f5-485d-43e6-b2ba-ae576eab79c8",
