@@ -74,8 +74,8 @@
         <payment-terms class="product-info__payment-terms" form="{{ product_form_id }}" {{ block.shopify_attributes }}>
           {%- capture product_installment_form_id -%}product-installment-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
-          {%- form 'product', product, data-productid: product.id, id: product_installment_form_id -%}
-            <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+          {%- form 'product', product, id: product_installment_form_id -%}
+            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
             {{- form | payment_terms -}}
           {%- endform -%}
         </payment-terms>
@@ -179,7 +179,7 @@
                 {%- render 'input', type: 'text', label: block.settings.label, name: name, form: product_form_id, required: block.settings.required, maxlength: block.settings.max_length -%}
               {%- endif -%}
             {%- else -%}
-              {%- render 'checkbox', label: block.settings.label, name: name, form: product_form_id -%}
+              {%- render 'checkbox', label: block.settings.label, name: name, required: block.settings.required, form: product_form_id -%}
             {%- endif -%}
           </div>
         {%- endif -%}
@@ -209,7 +209,7 @@
 
         {%- if request.page_type != 'password' -%}
           <div class="product-info__buy-buttons" {{ block.shopify_attributes }}>
-            {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
+            {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, show_gift_card_recipient: block.settings.show_gift_card_recipient, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
           </div>
         {%- endif -%}
 
@@ -290,7 +290,6 @@
 
               {%- capture horizontal_products -%}
                 {%- for associated_product in recommendations.products -%}
-                  {{ associated_product }}
                   {%- render 'horizontal-product', product: associated_product, show_add_to_cart: true, background: block.settings.background, text_color: block.settings.text_color -%}
                 {%- endfor -%}
               {%- endcapture -%}
@@ -359,8 +358,8 @@
   {%- endcomment -%}
 
   {%- unless main_form_exists -%}
-    {%- form 'product', product, data-productid: product.id, id: product_form_id, hidden: true -%}
-      <input type="hidden" disabled name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+    {%- form 'product', product, id: product_form_id, hidden: true -%}
+      <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>
