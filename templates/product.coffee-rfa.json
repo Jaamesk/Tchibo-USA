@@ -121,7 +121,7 @@
             "bundle_heading": "Cups for your coffee",
             "subline": "",
             "product1": "2-pack-15-oz-double-walled-glass-coffee-mugs-with-handle",
-            "product2": "black-yeti-20-oz"
+            "product2": "yeti-20-oz"
           }
         },
         "13c7f244-2b9d-4cb9-9e10-08daece76034": {
@@ -237,7 +237,6 @@
     },
     "9d177f37-b5b9-4512-a6eb-d8294c863670": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15645188358350__9d177f37-b5b9-4512-a6eb-d8294c863670-1677496887534676c7-1": {
           "type": "heading",
@@ -276,6 +275,7 @@
         "36b51b3a-fcae-4bd3-bf3a-f78eeb9b2f04",
         "4a245fb8-b727-485d-9ef3-c819c266ad2a"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
